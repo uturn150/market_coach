@@ -1,0 +1,37 @@
+{
+  "name": "Fast swing (template) - more active [portfolio+regime] {'fast': 12, 'slow': 30, 'trail': 0.18}",
+  "costs": {
+    "order_type": "taker",
+    "taker_fee_bps": 26,
+    "half_spread_bps": 5,
+    "slippage_bps": 3
+  },
+  "risk": {
+    "trailing_stop_pct": 0.18,
+    "stop_loss_pct": 0.12
+  },
+  "rules": [
+    {
+      "when": {
+        "left": "sma:12",
+        "op": "cross_above",
+        "right": "sma:30"
+      },
+      "then": {
+        "action": "buy",
+        "size": "100%"
+      }
+    },
+    {
+      "when": {
+        "left": "sma:12",
+        "op": "cross_below",
+        "right": "sma:30"
+      },
+      "then": {
+        "action": "sell",
+        "size": "all"
+      }
+    }
+  ]
+}

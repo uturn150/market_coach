@@ -1,0 +1,7 @@
+marketcoach.twofound.cv {
+	basic_auth {
+		kierr $2a$14$2U23LF3zkwi.YfkwBiHdpuLs5NnNy4tTcaRER0DDESTgD2Ls2psmK
+	}
+	encode gzip
+	reverse_proxy 127.0.0.1:8015
+}

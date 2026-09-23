@@ -1,0 +1,18 @@
+{
+  "name": "Intraday momentum + trailing (maker/low-fee)",
+  "costs": {
+    "order_type": "maker",
+    "maker_fee_bps": 16,
+    "slippage_bps": 2
+  },
+  "risk": {
+    "trailing_stop_pct": 0.03,
+    "stop_loss_pct": 0.05
+  },
+  "rules": [
+    {"when": {"left": "price", "op": "cross_above", "right": "ema:12"},
+     "then": {"action": "buy", "size": "100%"}},
+    {"when": {"left": "price", "op": "cross_below", "right": "ema:20"},
+     "then": {"action": "sell", "size": "all"}}
+  ]
+}

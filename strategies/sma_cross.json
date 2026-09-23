@@ -1,0 +1,12 @@
+{
+  "name": "SMA 10/30 crossover",
+  "fee_bps": 50,
+  "slippage_bps": 5,
+  "risk": {"stop_loss_pct": 0.20},
+  "rules": [
+    {"when": {"left": "sma:10", "op": "cross_above", "right": "sma:30"},
+     "then": {"action": "buy", "size": "100%"}},
+    {"when": {"left": "sma:10", "op": "cross_below", "right": "sma:30"},
+     "then": {"action": "sell", "size": "all"}}
+  ]
+}

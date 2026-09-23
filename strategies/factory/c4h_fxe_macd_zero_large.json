@@ -1,0 +1,51 @@
+{
+  "name": "FACTORY EXPLORER macd_zero large 4h + F1",
+  "costs": {
+    "order_type": "taker",
+    "taker_fee_bps": 80.0,
+    "half_spread_bps": 5,
+    "slippage_bps": 3,
+    "maker_fee_bps": 40.0
+  },
+  "risk": {
+    "trailing_stop_pct": 0.2,
+    "stop_loss_pct": 0.12
+  },
+  "entry": {
+    "threshold": 2,
+    "size": "100%",
+    "signals": [
+      {
+        "name": "pos",
+        "when": {
+          "left": "macd_line:120:156",
+          "op": ">",
+          "right": 0
+        },
+        "weight": 1
+      },
+      {
+        "name": "trend",
+        "when": {
+          "left": "price",
+          "op": ">",
+          "right": "sma:900"
+        },
+        "weight": 1
+      }
+    ]
+  },
+  "rules": [
+    {
+      "when": {
+        "left": "macd_line:120:156",
+        "op": "cross_below",
+        "right": 0
+      },
+      "then": {
+        "action": "sell",
+        "size": "all"
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "SMA cross (template)",
+  "fee_bps": 50,
+  "slippage_bps": 5,
+  "params": {
+    "fast": [5, 8, 10, 15, 20, 30],
+    "slow": [30, 40, 50, 60, 80, 100, 150, 200],
+    "stop": [0.10, 0.15, 0.20, 0.30]
+  },
+  "constraints": ["fast < slow"],
+  "risk": {"stop_loss_pct": "{stop}"},
+  "rules": [
+    {"when": {"left": "sma:{fast}", "op": "cross_above", "right": "sma:{slow}"},
+     "then": {"action": "buy", "size": "100%"}},
+    {"when": {"left": "sma:{fast}", "op": "cross_below", "right": "sma:{slow}"},
+     "then": {"action": "sell", "size": "all"}}
+  ]
+}

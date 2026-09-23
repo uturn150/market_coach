@@ -1,0 +1,77 @@
+{
+  "name": "Multi-signal (template) [portfolio+regime] {'threshold': 4, 'roc_min': 0.03, 'vol_x': 2.0, 'donch': 20}",
+  "costs": {
+    "order_type": "taker",
+    "taker_fee_bps": 60,
+    "half_spread_bps": 5,
+    "slippage_bps": 3
+  },
+  "risk": {
+    "trailing_stop_pct": 0.2,
+    "stop_loss_pct": 0.12
+  },
+  "entry": {
+    "threshold": 4,
+    "size": "100%",
+    "signals": [
+      {
+        "name": "trend",
+        "when": {
+          "left": "sma:20",
+          "op": ">",
+          "right": "sma:50"
+        },
+        "weight": 1
+      },
+      {
+        "name": "breakout",
+        "when": {
+          "left": "price",
+          "op": ">",
+          "right": "donchian_high:20"
+        },
+        "weight": 1
+      },
+      {
+        "name": "momentum",
+        "when": {
+          "left": "roc:7",
+          "op": ">",
+          "right": 0.03
+        },
+        "weight": 1
+      },
+      {
+        "name": "volume",
+        "when": {
+          "left": "vol_ratio:20",
+          "op": ">",
+          "right": 2.0
+        },
+        "weight": 1
+      },
+      {
+        "name": "not_overbought",
+        "when": {
+          "left": "rsi:14",
+          "op": "<",
+          "right": 75
+        },
+        "weight": 1
+      }
+    ]
+  },
+  "rules": [
+    {
+      "when": {
+        "left": "sma:20",
+        "op": "cross_below",
+        "right": "sma:50"
+      },
+      "then": {
+        "action": "sell",
+        "size": "all"
+      }
+    }
+  ]
+}

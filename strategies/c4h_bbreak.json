@@ -1,0 +1,38 @@
+{
+  "name": "CHALLENGER 4H bbreak \u2014 must earn champion status independently",
+  "risk": {
+    "trailing_stop_pct": 0.15,
+    "stop_loss_pct": 0.12
+  },
+  "rules": [
+    {
+      "when": {
+        "left": "price",
+        "op": "cross_above",
+        "right": "bollinger_upper:80:3"
+      },
+      "then": {
+        "action": "buy",
+        "size": "100%"
+      }
+    },
+    {
+      "when": {
+        "left": "price",
+        "op": "cross_below",
+        "right": "bollinger_mid:80"
+      },
+      "then": {
+        "action": "sell",
+        "size": "all"
+      }
+    }
+  ],
+  "costs": {
+    "order_type": "taker",
+    "taker_fee_bps": 80.0,
+    "maker_fee_bps": 40.0,
+    "half_spread_bps": 5,
+    "slippage_bps": 3
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Trend-strength (ADX) daily — PROTOTYPE, pre-registered grid",
+  "costs": {"order_type": "taker", "taker_fee_bps": 80, "half_spread_bps": 5, "slippage_bps": 3, "maker_fee_bps": 40},
+  "risk": {"trailing_stop_pct": "{trail}", "stop_loss_pct": 0.12},
+  "params": {
+    "adx_n": [14, 20],
+    "adx_min": [20, 25, 30],
+    "fast": [20, 50],
+    "slow": [100, 150],
+    "trail": [0.15, 0.20]
+  },
+  "constraints": ["fast < slow"],
+  "entry": {
+    "threshold": 3,
+    "size": "100%",
+    "signals": [
+      {"name": "trend_up",   "when": {"left": "sma:{fast}", "op": ">", "right": "sma:{slow}"}, "weight": 1},
+      {"name": "strong",     "when": {"left": "adx:{adx_n}", "op": ">", "right": "{adx_min}"}, "weight": 1},
+      {"name": "above_fast", "when": {"left": "price", "op": ">", "right": "sma:{fast}"}, "weight": 1}
+    ]
+  },
+  "rules": [
+    {"when": {"left": "price", "op": "cross_below", "right": "sma:{fast}"},
+     "then": {"action": "sell", "size": "all"}}
+  ]
+}

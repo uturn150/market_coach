@@ -1,0 +1,12 @@
+{
+  "name": "RSI mean reversion 30/70",
+  "fee_bps": 50,
+  "slippage_bps": 5,
+  "risk": {"stop_loss_pct": 0.15, "take_profit_pct": 0.30},
+  "rules": [
+    {"when": {"left": "rsi:14", "op": "cross_below", "right": 30},
+     "then": {"action": "buy", "size": "100%"}},
+    {"when": {"left": "rsi:14", "op": "cross_above", "right": 70},
+     "then": {"action": "sell", "size": "all"}}
+  ]
+}

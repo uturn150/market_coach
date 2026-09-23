@@ -1,0 +1,36 @@
+{
+  "name": "Stochastic(14,3) %K/%D crossover [ARENA: hourly, maker/limit orders, experimental]",
+  "costs": {
+    "order_type": "maker",
+    "taker_fee_bps": 26,
+    "half_spread_bps": 5,
+    "slippage_bps": 3
+  },
+  "risk": {
+    "stop_loss_pct": 0.15
+  },
+  "rules": [
+    {
+      "when": {
+        "left": "stoch_k:14",
+        "op": "cross_above",
+        "right": "stoch_d:14:3"
+      },
+      "then": {
+        "action": "buy",
+        "size": "100%"
+      }
+    },
+    {
+      "when": {
+        "left": "stoch_k:14",
+        "op": "cross_below",
+        "right": "stoch_d:14:3"
+      },
+      "then": {
+        "action": "sell",
+        "size": "all"
+      }
+    }
+  ]
+}

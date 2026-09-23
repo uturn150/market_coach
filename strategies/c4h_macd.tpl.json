@@ -1,0 +1,57 @@
+{
+  "name": "4H MACD (template)",
+  "params": {
+    "fast": [
+      12,
+      24,
+      48
+    ],
+    "slow": [
+      26,
+      52,
+      104
+    ],
+    "signal": [
+      9,
+      18
+    ]
+  },
+  "constraints": [
+    "fast < slow"
+  ],
+  "risk": {
+    "stop_loss_pct": 0.15,
+    "trailing_stop_pct": 0.2
+  },
+  "rules": [
+    {
+      "when": {
+        "left": "macd_line:{fast}:{slow}",
+        "op": "cross_above",
+        "right": "macd_signal:{fast}:{slow}:{signal}"
+      },
+      "then": {
+        "action": "buy",
+        "size": "100%"
+      }
+    },
+    {
+      "when": {
+        "left": "macd_line:{fast}:{slow}",
+        "op": "cross_below",
+        "right": "macd_signal:{fast}:{slow}:{signal}"
+      },
+      "then": {
+        "action": "sell",
+        "size": "all"
+      }
+    }
+  ],
+  "costs": {
+    "order_type": "taker",
+    "taker_fee_bps": 80.0,
+    "maker_fee_bps": 40.0,
+    "half_spread_bps": 5,
+    "slippage_bps": 3
+  }
+}

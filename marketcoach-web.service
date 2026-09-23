@@ -1,0 +1,15 @@
+[Unit]
+Description=market_coach live dashboard (FastAPI, port 8015)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=kierr
+WorkingDirectory=/home/kierr/market_coach
+ExecStart=/home/kierr/market_coach/.venv/bin/uvicorn webapp:app --host 127.0.0.1 --port 8015
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

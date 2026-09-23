@@ -1,0 +1,38 @@
+{
+  "name": "RSI(10) mean-reversion, retuned for the 24-coin basket (oversold<25 buy / overbought>75 sell)",
+  "costs": {
+    "order_type": "taker",
+    "taker_fee_bps": 80.0,
+    "half_spread_bps": 5,
+    "slippage_bps": 3,
+    "maker_fee_bps": 40.0
+  },
+  "risk": {
+    "stop_loss_pct": 0.15,
+    "trailing_stop_pct": 0.2
+  },
+  "rules": [
+    {
+      "when": {
+        "left": "rsi:10",
+        "op": "cross_below",
+        "right": 25
+      },
+      "then": {
+        "action": "buy",
+        "size": "100%"
+      }
+    },
+    {
+      "when": {
+        "left": "rsi:10",
+        "op": "cross_above",
+        "right": 75
+      },
+      "then": {
+        "action": "sell",
+        "size": "all"
+      }
+    }
+  ]
+}

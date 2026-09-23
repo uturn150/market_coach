@@ -1,0 +1,15 @@
+{
+  "name": "Fast scalp (TAKER / market orders)",
+  "costs": {
+    "order_type": "taker",
+    "taker_fee_bps": 60,
+    "half_spread_bps": 5,
+    "slippage_bps": 3
+  },
+  "rules": [
+    {"when": {"left": "price", "op": "cross_above", "right": "ema:5"},
+     "then": {"action": "buy", "size": "100%"}},
+    {"when": {"left": "price", "op": "cross_below", "right": "ema:5"},
+     "then": {"action": "sell", "size": "all"}}
+  ]
+}

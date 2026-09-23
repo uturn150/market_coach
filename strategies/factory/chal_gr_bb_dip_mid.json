@@ -1,0 +1,51 @@
+{
+  "name": "GREEN CANDIDATE bb_dip mid + F1 (small take-profit, dip-buy in uptrend)",
+  "costs": {
+    "order_type": "taker",
+    "taker_fee_bps": 80.0,
+    "half_spread_bps": 5,
+    "slippage_bps": 3,
+    "maker_fee_bps": 40.0
+  },
+  "risk": {
+    "take_profit_pct": 0.03,
+    "stop_loss_pct": 0.1
+  },
+  "entry": {
+    "threshold": 2,
+    "size": "100%",
+    "signals": [
+      {
+        "name": "dip",
+        "when": {
+          "left": "price",
+          "op": "<",
+          "right": "bollinger_lower:20:1.5"
+        },
+        "weight": 1
+      },
+      {
+        "name": "trend",
+        "when": {
+          "left": "price",
+          "op": ">",
+          "right": "sma:100"
+        },
+        "weight": 1
+      }
+    ]
+  },
+  "rules": [
+    {
+      "when": {
+        "left": "price",
+        "op": "cross_above",
+        "right": "bollinger_mid:20"
+      },
+      "then": {
+        "action": "sell",
+        "size": "all"
+      }
+    }
+  ]
+}

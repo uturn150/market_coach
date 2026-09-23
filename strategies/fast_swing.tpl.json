@@ -1,0 +1,17 @@
+{
+  "name": "Fast swing (template) - more active",
+  "costs": {"order_type": "taker", "taker_fee_bps": 26, "half_spread_bps": 5, "slippage_bps": 3},
+  "params": {
+    "fast": [5, 8, 10, 12, 15],
+    "slow": [15, 20, 25, 30, 40],
+    "trail": [0.10, 0.15, 0.18]
+  },
+  "constraints": ["fast < slow"],
+  "risk": {"trailing_stop_pct": "{trail}", "stop_loss_pct": 0.12},
+  "rules": [
+    {"when": {"left": "sma:{fast}", "op": "cross_above", "right": "sma:{slow}"},
+     "then": {"action": "buy", "size": "100%"}},
+    {"when": {"left": "sma:{fast}", "op": "cross_below", "right": "sma:{slow}"},
+     "then": {"action": "sell", "size": "all"}}
+  ]
+}

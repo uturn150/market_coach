@@ -1,0 +1,78 @@
+{
+  "name": "CHALLENGER 4H multi \u2014 must earn champion status independently",
+  "risk": {
+    "trailing_stop_pct": 0.2,
+    "stop_loss_pct": 0.12
+  },
+  "entry": {
+    "threshold": 4,
+    "size": "100%",
+    "signals": [
+      {
+        "name": "trend",
+        "when": {
+          "left": "sma:60",
+          "op": ">",
+          "right": "sma:300"
+        },
+        "weight": 1
+      },
+      {
+        "name": "breakout",
+        "when": {
+          "left": "price",
+          "op": ">",
+          "right": "donchian_high:120"
+        },
+        "weight": 1
+      },
+      {
+        "name": "momentum",
+        "when": {
+          "left": "roc:42",
+          "op": ">",
+          "right": 0.06
+        },
+        "weight": 1
+      },
+      {
+        "name": "volume",
+        "when": {
+          "left": "vol_ratio:120",
+          "op": ">",
+          "right": 2.0
+        },
+        "weight": 1
+      },
+      {
+        "name": "not_overbought",
+        "when": {
+          "left": "rsi:42",
+          "op": "<",
+          "right": 75
+        },
+        "weight": 1
+      }
+    ]
+  },
+  "rules": [
+    {
+      "when": {
+        "left": "sma:60",
+        "op": "cross_below",
+        "right": "sma:300"
+      },
+      "then": {
+        "action": "sell",
+        "size": "all"
+      }
+    }
+  ],
+  "costs": {
+    "order_type": "taker",
+    "taker_fee_bps": 80.0,
+    "maker_fee_bps": 40.0,
+    "half_spread_bps": 5,
+    "slippage_bps": 3
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Trend-strength PROTOTYPE {'adx_n': 14, 'adx_min': 30, 'fast': 20, 'slow': 100, 'trail': 0.2}",
+  "costs": {
+    "order_type": "taker",
+    "taker_fee_bps": 80,
+    "half_spread_bps": 5,
+    "slippage_bps": 3,
+    "maker_fee_bps": 40
+  },
+  "risk": {
+    "trailing_stop_pct": 0.2,
+    "stop_loss_pct": 0.12
+  },
+  "entry": {
+    "threshold": 3,
+    "size": "100%",
+    "signals": [
+      {
+        "name": "trend_up",
+        "when": {
+          "left": "sma:20",
+          "op": ">",
+          "right": "sma:100"
+        },
+        "weight": 1
+      },
+      {
+        "name": "strong",
+        "when": {
+          "left": "adx:14",
+          "op": ">",
+          "right": 30
+        },
+        "weight": 1
+      },
+      {
+        "name": "above_fast",
+        "when": {
+          "left": "price",
+          "op": ">",
+          "right": "sma:20"
+        },
+        "weight": 1
+      }
+    ]
+  },
+  "rules": [
+    {
+      "when": {
+        "left": "price",
+        "op": "cross_below",
+        "right": "sma:20"
+      },
+      "then": {
+        "action": "sell",
+        "size": "all"
+      }
+    }
+  ]
+}

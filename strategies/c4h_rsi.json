@@ -1,0 +1,38 @@
+{
+  "name": "CHALLENGER 4H rsi \u2014 must earn champion status independently",
+  "risk": {
+    "stop_loss_pct": 0.15,
+    "trailing_stop_pct": 0.2
+  },
+  "rules": [
+    {
+      "when": {
+        "left": "rsi:14",
+        "op": "cross_below",
+        "right": 20
+      },
+      "then": {
+        "action": "buy",
+        "size": "100%"
+      }
+    },
+    {
+      "when": {
+        "left": "rsi:14",
+        "op": "cross_above",
+        "right": 80
+      },
+      "then": {
+        "action": "sell",
+        "size": "all"
+      }
+    }
+  ],
+  "costs": {
+    "order_type": "taker",
+    "taker_fee_bps": 80.0,
+    "maker_fee_bps": 40.0,
+    "half_spread_bps": 5,
+    "slippage_bps": 3
+  }
+}

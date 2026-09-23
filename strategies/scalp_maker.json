@@ -1,0 +1,14 @@
+{
+  "name": "Fast scalp (MAKER / limit orders)",
+  "costs": {
+    "order_type": "maker",
+    "maker_fee_bps": 25,
+    "slippage_bps": 3
+  },
+  "rules": [
+    {"when": {"left": "price", "op": "cross_above", "right": "ema:5"},
+     "then": {"action": "buy", "size": "100%"}},
+    {"when": {"left": "price", "op": "cross_below", "right": "ema:5"},
+     "then": {"action": "sell", "size": "all"}}
+  ]
+}

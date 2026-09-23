@@ -1,0 +1,53 @@
+{
+  "name": "4H CCI momentum (template)",
+  "params": {
+    "n": [
+      20,
+      40,
+      80
+    ],
+    "level": [
+      100,
+      150
+    ],
+    "trail": [
+      0.1,
+      0.15
+    ]
+  },
+  "risk": {
+    "trailing_stop_pct": "{trail}",
+    "stop_loss_pct": 0.12
+  },
+  "rules": [
+    {
+      "when": {
+        "left": "cci:{n}",
+        "op": "cross_above",
+        "right": "{level}"
+      },
+      "then": {
+        "action": "buy",
+        "size": "100%"
+      }
+    },
+    {
+      "when": {
+        "left": "cci:{n}",
+        "op": "cross_below",
+        "right": "-{level}"
+      },
+      "then": {
+        "action": "sell",
+        "size": "all"
+      }
+    }
+  ],
+  "costs": {
+    "order_type": "taker",
+    "taker_fee_bps": 80.0,
+    "maker_fee_bps": 40.0,
+    "half_spread_bps": 5,
+    "slippage_bps": 3
+  }
+}
