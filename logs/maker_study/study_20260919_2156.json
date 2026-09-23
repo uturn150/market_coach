@@ -1,0 +1,459 @@
+{
+ "bars": 26288,
+ "coins": [
+  "BTC-USD",
+  "ETH-USD",
+  "SOL-USD",
+  "ADA-USD",
+  "AVAX-USD",
+  "LINK-USD",
+  "LTC-USD",
+  "XRP-USD",
+  "DOT-USD",
+  "DOGE-USD",
+  "ATOM-USD",
+  "UNI-USD"
+ ],
+ "hold_return_pct": 79.5,
+ "cfg": {
+  "maker": 0.004,
+  "taker": 0.008,
+  "hs": 0.00023999999999999998,
+  "tt": 0.0001,
+  "slip": 5e-05
+ },
+ "rows": {
+  "arena_bollinger_breakout": {
+   "A": {
+    "trips": 3539,
+    "avg_net_pct": -0.216,
+    "pf": 0.85,
+    "return_pct": -45.9,
+    "exec": {}
+   },
+   "B": {
+    "trips": 3539,
+    "avg_net_pct": -1.305,
+    "pf": 0.41,
+    "return_pct": -97.7,
+    "exec": {}
+   },
+   "C": {
+    "trips": 3433,
+    "avg_net_pct": -0.569,
+    "pf": 0.65,
+    "return_pct": -80.4,
+    "exec": {
+     "buy_attempts": 3632,
+     "buy_fills": 3438,
+     "sell_attempts": 3433,
+     "sell_fills": 3264,
+     "sell_chased_taker": 168,
+     "buy_missed": 194,
+     "sell_urgent_taker": 1
+    }
+   }
+  },
+  "arena_bollinger_meanrev": {
+   "A": {
+    "trips": 3737,
+    "avg_net_pct": -0.474,
+    "pf": 0.64,
+    "return_pct": -80.6,
+    "exec": {}
+   },
+   "B": {
+    "trips": 3737,
+    "avg_net_pct": -1.561,
+    "pf": 0.2,
+    "return_pct": -99.4,
+    "exec": {}
+   },
+   "C": {
+    "trips": 3611,
+    "avg_net_pct": -0.782,
+    "pf": 0.48,
+    "return_pct": -92.0,
+    "exec": {
+     "buy_attempts": 3813,
+     "buy_fills": 3612,
+     "sell_attempts": 3611,
+     "sell_chased_taker": 209,
+     "sell_fills": 3330,
+     "buy_missed": 201,
+     "sell_urgent_taker": 72
+    }
+   }
+  },
+  "arena_cci_momentum": {
+   "A": {
+    "trips": 3696,
+    "avg_net_pct": -0.244,
+    "pf": 0.86,
+    "return_pct": -48.2,
+    "exec": {}
+   },
+   "B": {
+    "trips": 3696,
+    "avg_net_pct": -1.333,
+    "pf": 0.47,
+    "return_pct": -98.1,
+    "exec": {}
+   },
+   "C": {
+    "trips": 3590,
+    "avg_net_pct": -0.598,
+    "pf": 0.69,
+    "return_pct": -82.5,
+    "exec": {
+     "buy_attempts": 3855,
+     "buy_fills": 3600,
+     "sell_attempts": 3590,
+     "sell_fills": 3389,
+     "sell_chased_taker": 197,
+     "buy_missed": 255,
+     "sell_urgent_taker": 4
+    }
+   }
+  },
+  "arena_fast_swing": {
+   "A": {
+    "trips": 3479,
+    "avg_net_pct": -0.155,
+    "pf": 0.91,
+    "return_pct": -41.0,
+    "exec": {}
+   },
+   "B": {
+    "trips": 3479,
+    "avg_net_pct": -1.245,
+    "pf": 0.5,
+    "return_pct": -97.5,
+    "exec": {}
+   },
+   "C": {
+    "trips": 3242,
+    "avg_net_pct": -0.499,
+    "pf": 0.74,
+    "return_pct": -76.8,
+    "exec": {
+     "buy_attempts": 3490,
+     "buy_fills": 3252,
+     "sell_attempts": 3242,
+     "sell_chased_taker": 200,
+     "sell_fills": 3034,
+     "buy_missed": 238,
+     "sell_urgent_taker": 8
+    }
+   }
+  },
+  "arena_ichimoku_cloud": {
+   "A": {
+    "trips": 3575,
+    "avg_net_pct": -0.186,
+    "pf": 0.89,
+    "return_pct": -44.5,
+    "exec": {}
+   },
+   "B": {
+    "trips": 3575,
+    "avg_net_pct": -1.276,
+    "pf": 0.47,
+    "return_pct": -97.8,
+    "exec": {}
+   },
+   "C": {
+    "trips": 3294,
+    "avg_net_pct": -0.559,
+    "pf": 0.7,
+    "return_pct": -79.7,
+    "exec": {
+     "buy_attempts": 3606,
+     "buy_fills": 3303,
+     "sell_attempts": 3294,
+     "sell_fills": 3064,
+     "sell_chased_taker": 217,
+     "buy_missed": 303,
+     "sell_urgent_taker": 13
+    }
+   }
+  },
+  "arena_keltner_breakout": {
+   "A": {
+    "trips": 1042,
+    "avg_net_pct": 0.712,
+    "pf": 1.24,
+    "return_pct": 46.2,
+    "exec": {}
+   },
+   "B": {
+    "trips": 1042,
+    "avg_net_pct": -0.388,
+    "pf": 0.9,
+    "return_pct": -42.3,
+    "exec": {}
+   },
+   "C": {
+    "trips": 1030,
+    "avg_net_pct": 0.302,
+    "pf": 1.09,
+    "return_pct": 5.6,
+    "exec": {
+     "buy_attempts": 1113,
+     "buy_fills": 1042,
+     "sell_attempts": 1030,
+     "sell_fills": 978,
+     "sell_chased_taker": 42,
+     "buy_missed": 71,
+     "sell_urgent_taker": 10
+    }
+   }
+  },
+  "arena_macd_cross": {
+   "A": {
+    "trips": 7483,
+    "avg_net_pct": -0.466,
+    "pf": 0.68,
+    "return_pct": -95.5,
+    "exec": {}
+   },
+   "B": {
+    "trips": 7483,
+    "avg_net_pct": -1.553,
+    "pf": 0.31,
+    "return_pct": -100.0,
+    "exec": {}
+   },
+   "C": {
+    "trips": 7034,
+    "avg_net_pct": -0.792,
+    "pf": 0.53,
+    "return_pct": -99.2,
+    "exec": {
+     "buy_attempts": 7484,
+     "buy_fills": 7035,
+     "sell_attempts": 7034,
+     "sell_fills": 6658,
+     "sell_chased_taker": 376,
+     "buy_missed": 449
+    }
+   }
+  },
+  "arena_multi_signal": {
+   "A": {
+    "trips": 1302,
+    "avg_net_pct": 0.104,
+    "pf": 1.04,
+    "return_pct": 10.9,
+    "exec": {}
+   },
+   "B": {
+    "trips": 1302,
+    "avg_net_pct": -0.989,
+    "pf": 0.69,
+    "return_pct": -66.1,
+    "exec": {}
+   },
+   "C": {
+    "trips": 1287,
+    "avg_net_pct": -0.268,
+    "pf": 0.9,
+    "return_pct": -25.2,
+    "exec": {
+     "buy_attempts": 1399,
+     "buy_fills": 1296,
+     "sell_attempts": 1287,
+     "sell_fills": 1205,
+     "sell_chased_taker": 60,
+     "buy_missed": 103,
+     "sell_urgent_taker": 22
+    }
+   }
+  },
+  "arena_rsi_meanrev": {
+   "A": {
+    "trips": 804,
+    "avg_net_pct": -0.676,
+    "pf": 0.83,
+    "return_pct": -45.9,
+    "exec": {}
+   },
+   "B": {
+    "trips": 804,
+    "avg_net_pct": -1.761,
+    "pf": 0.6,
+    "return_pct": -73.9,
+    "exec": {}
+   },
+   "C": {
+    "trips": 793,
+    "avg_net_pct": -0.971,
+    "pf": 0.76,
+    "return_pct": -56.0,
+    "exec": {
+     "buy_attempts": 816,
+     "buy_fills": 793,
+     "sell_attempts": 793,
+     "sell_fills": 622,
+     "sell_urgent_taker": 149,
+     "buy_missed": 23,
+     "sell_chased_taker": 22
+    }
+   }
+  },
+  "arena_slow_swing": {
+   "A": {
+    "trips": 730,
+    "avg_net_pct": 0.657,
+    "pf": 1.19,
+    "return_pct": 8.1,
+    "exec": {}
+   },
+   "B": {
+    "trips": 730,
+    "avg_net_pct": -0.443,
+    "pf": 0.9,
+    "return_pct": -44.1,
+    "exec": {}
+   },
+   "C": {
+    "trips": 679,
+    "avg_net_pct": 0.446,
+    "pf": 1.12,
+    "return_pct": -2.2,
+    "exec": {
+     "buy_attempts": 742,
+     "buy_fills": 691,
+     "sell_attempts": 679,
+     "sell_fills": 544,
+     "buy_missed": 51,
+     "sell_chased_taker": 55,
+     "sell_urgent_taker": 80
+    }
+   }
+  },
+  "arena_smart_swing": {
+   "A": {
+    "trips": 2114,
+    "avg_net_pct": -0.15,
+    "pf": 0.93,
+    "return_pct": -29.0,
+    "exec": {}
+   },
+   "B": {
+    "trips": 2114,
+    "avg_net_pct": -1.241,
+    "pf": 0.58,
+    "return_pct": -89.5,
+    "exec": {}
+   },
+   "C": {
+    "trips": 1968,
+    "avg_net_pct": -0.427,
+    "pf": 0.82,
+    "return_pct": -52.8,
+    "exec": {
+     "buy_attempts": 2126,
+     "buy_missed": 146,
+     "buy_fills": 1980,
+     "sell_attempts": 1968,
+     "sell_fills": 1835,
+     "sell_chased_taker": 115,
+     "sell_urgent_taker": 18
+    }
+   }
+  },
+  "arena_stochastic_cross": {
+   "A": {
+    "trips": 39369,
+    "avg_net_pct": -0.555,
+    "pf": 0.35,
+    "return_pct": -100.0,
+    "exec": {}
+   },
+   "B": {
+    "trips": 18580,
+    "avg_net_pct": -1.635,
+    "pf": 0.08,
+    "return_pct": -100.0,
+    "exec": {}
+   },
+   "C": {
+    "trips": 34416,
+    "avg_net_pct": -0.898,
+    "pf": 0.21,
+    "return_pct": -100.0,
+    "exec": {
+     "buy_attempts": 39411,
+     "buy_fills": 37099,
+     "sell_attempts": 37094,
+     "sell_fills": 34911,
+     "buy_missed": 2312,
+     "sell_chased_taker": 2178,
+     "sell_urgent_taker": 5
+    }
+   }
+  },
+  "arena_turtle_donchian": {
+   "A": {
+    "trips": 1860,
+    "avg_net_pct": -0.002,
+    "pf": 1.0,
+    "return_pct": 4.2,
+    "exec": {}
+   },
+   "B": {
+    "trips": 1860,
+    "avg_net_pct": -1.094,
+    "pf": 0.6,
+    "return_pct": -79.8,
+    "exec": {}
+   },
+   "C": {
+    "trips": 1829,
+    "avg_net_pct": -0.375,
+    "pf": 0.83,
+    "return_pct": -38.6,
+    "exec": {
+     "buy_attempts": 1987,
+     "buy_fills": 1840,
+     "sell_attempts": 1829,
+     "sell_fills": 1760,
+     "buy_missed": 147,
+     "sell_chased_taker": 69
+    }
+   }
+  },
+  "arena_williams_r": {
+   "A": {
+    "trips": 4837,
+    "avg_net_pct": -0.623,
+    "pf": 0.6,
+    "return_pct": -93.2,
+    "exec": {}
+   },
+   "B": {
+    "trips": 4837,
+    "avg_net_pct": -1.708,
+    "pf": 0.25,
+    "return_pct": -99.9,
+    "exec": {}
+   },
+   "C": {
+    "trips": 4702,
+    "avg_net_pct": -0.918,
+    "pf": 0.48,
+    "return_pct": -97.7,
+    "exec": {
+     "buy_attempts": 4961,
+     "buy_fills": 4707,
+     "sell_attempts": 4702,
+     "sell_fills": 4369,
+     "buy_missed": 254,
+     "sell_chased_taker": 230,
+     "sell_urgent_taker": 103
+    }
+   }
+  }
+ }
+}

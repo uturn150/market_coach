@@ -1,0 +1,236 @@
+{
+  "account": "bot_dca_d3_mid12",
+  "kind": "bot_live",
+  "bot_kind": "dca",
+  "bot_params": {
+    "safety": 5,
+    "dev": 0.03,
+    "mult": 2.0,
+    "tp": 0.03,
+    "stop": 0.2,
+    "filter": "F1",
+    "breaker": 0.12,
+    "breaker_pause": 30
+  },
+  "coins": [
+    "BCH-USD",
+    "ALGO-USD",
+    "FIL-USD",
+    "NEAR-USD",
+    "APT-USD",
+    "ARB-USD",
+    "OP-USD",
+    "ICP-USD",
+    "ETC-USD",
+    "XLM-USD",
+    "AAVE-USD",
+    "SHIB-USD"
+  ],
+  "granularity": 86400,
+  "start_cash": 50.0,
+  "anchor_ts": 1789862400,
+  "paper": true,
+  "created": 1789926894,
+  "sleeves": {
+    "BCH-USD": {
+      "cash": 4.274997766040031,
+      "units": 0.0,
+      "last_px": 344.66,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "ALGO-USD": {
+      "cash": 4.274997766040031,
+      "units": 0.0,
+      "last_px": 0.11214,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "FIL-USD": {
+      "cash": 4.274997766040031,
+      "units": 0.0,
+      "last_px": 1.043,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "NEAR-USD": {
+      "cash": 4.274997766040031,
+      "units": 9.99999993922529e-09,
+      "last_px": 4.421,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": true,
+      "entry_px": 4.198428297222515
+    },
+    "APT-USD": {
+      "cash": 4.274997766040031,
+      "units": 0.0,
+      "last_px": 0.8291,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "ARB-USD": {
+      "cash": 4.274997766040031,
+      "units": 0.0,
+      "last_px": 0.2348,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "OP-USD": {
+      "cash": 4.274997766040031,
+      "units": 0.0,
+      "last_px": 0.1352,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "ICP-USD": {
+      "cash": 4.274997766040031,
+      "units": 0.0,
+      "last_px": 3.018,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "ETC-USD": {
+      "cash": 4.274997766040031,
+      "units": 0.0,
+      "last_px": 9.44,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "XLM-USD": {
+      "cash": 4.274997766040031,
+      "units": 0.0,
+      "last_px": 0.216284,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "AAVE-USD": {
+      "cash": 4.274997766040031,
+      "units": 0.0,
+      "last_px": 148.03,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "SHIB-USD": {
+      "cash": 4.274997766040031,
+      "units": 0.0,
+      "last_px": 6.11e-06,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    }
+  },
+  "fills": [
+    {
+      "ts": 1789948800,
+      "coin": "BCH-USD",
+      "side": "buy",
+      "price": 252.71326560000003,
+      "units": 0.03957104,
+      "notional": 10.080127755520932
+    },
+    {
+      "ts": 1789948800,
+      "coin": "ALGO-USD",
+      "side": "buy",
+      "price": 0.10881154620000001,
+      "units": 91.9033177,
+      "notional": 10.080143236645604
+    },
+    {
+      "ts": 1789948800,
+      "coin": "FIL-USD",
+      "side": "buy",
+      "price": 0.9452740500000001,
+      "units": 10.58201058,
+      "notional": 10.082923198084245
+    },
+    {
+      "ts": 1789948800,
+      "coin": "NEAR-USD",
+      "side": "buy",
+      "price": 4.165107531,
+      "units": 4.80180547,
+      "notional": 20.16003641449795
+    },
+    {
+      "ts": 1790035200,
+      "coin": "BCH-USD",
+      "side": "sell",
+      "price": 262.38,
+      "units": 0.03957104,
+      "proceeds": 10.3411188772992
+    },
+    {
+      "ts": 1790035200,
+      "coin": "ALGO-USD",
+      "side": "sell",
+      "price": 0.11297,
+      "units": 91.9033177,
+      "proceeds": 10.340788529366725
+    },
+    {
+      "ts": 1790035200,
+      "coin": "FIL-USD",
+      "side": "sell",
+      "price": 0.981,
+      "units": 10.58201058,
+      "proceeds": 10.33942856946408
+    },
+    {
+      "ts": 1790035200,
+      "coin": "NEAR-USD",
+      "side": "sell",
+      "price": 4.3244,
+      "units": 4.80180546,
+      "proceeds": 20.6818678210991
+    }
+  ],
+  "orders": [],
+  "halted": false,
+  "peak_equity": 51.46745428553626,
+  "last_tick": 1790141281,
+  "engine_stats": {
+    "limit_fills": 4,
+    "market_fills": 4,
+    "placed": 4,
+    "expired": 0,
+    "below_min": 0,
+    "dust_sell": 0
+  },
+  "kraken_rules": true,
+  "order_step": 10.0
+}

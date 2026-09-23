@@ -1,0 +1,73 @@
+{
+  "account": "smartx",
+  "strategy_path": "strategies/smart_swing.json",
+  "granularity": 86400,
+  "start_cash": 50.0,
+  "per_notional": 5.56,
+  "sleeves": {
+    "BTC-USD": {
+      "last_bar_ts": 1789430400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "ETH-USD": {
+      "last_bar_ts": 1789430400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "SOL-USD": {
+      "last_bar_ts": 1789430400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "AVAX-USD": {
+      "last_bar_ts": 1789430400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "LINK-USD": {
+      "last_bar_ts": 1789430400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "LTC-USD": {
+      "last_bar_ts": 1789430400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "DOGE-USD": {
+      "last_bar_ts": 1789430400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "DOT-USD": {
+      "last_bar_ts": 1789430400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "UNI-USD": {
+      "last_bar_ts": 1789430400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    }
+  },
+  "created": 1789528983
+}

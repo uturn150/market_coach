@@ -1,0 +1,222 @@
+{
+ "BTC-USD": {
+  "bars": 3300,
+  "start": "2017-09-08",
+  "years": 9.0
+ },
+ "ETH-USD": {
+  "bars": 3300,
+  "start": "2017-09-08",
+  "years": 9.0
+ },
+ "SOL-USD": {
+  "bars": 1923,
+  "start": "2021-06-17",
+  "years": 5.3
+ },
+ "ADA-USD": {
+  "bars": 2013,
+  "start": "2021-03-18",
+  "years": 5.5
+ },
+ "AVAX-USD": {
+  "bars": 1818,
+  "start": "2021-09-30",
+  "years": 5.0
+ },
+ "LINK-USD": {
+  "bars": 2643,
+  "start": "2019-06-27",
+  "years": 7.2
+ },
+ "LTC-USD": {
+  "bars": 3300,
+  "start": "2017-09-08",
+  "years": 9.0
+ },
+ "XRP-USD": {
+  "bars": 1166,
+  "start": "2023-07-13",
+  "years": 3.2
+ },
+ "DOT-USD": {
+  "bars": 1924,
+  "start": "2021-06-16",
+  "years": 5.3
+ },
+ "DOGE-USD": {
+  "bars": 1936,
+  "start": "2021-06-03",
+  "years": 5.3
+ },
+ "ATOM-USD": {
+  "bars": 2442,
+  "start": "2020-01-14",
+  "years": 6.7
+ },
+ "UNI-USD": {
+  "bars": 2196,
+  "start": "2020-09-17",
+  "years": 6.0
+ },
+ "BCH-USD": {
+  "bars": 3193,
+  "start": "2017-12-20",
+  "years": 8.7
+ },
+ "ALGO-USD": {
+  "bars": 2594,
+  "start": "2019-08-15",
+  "years": 7.1
+ },
+ "FIL-USD": {
+  "bars": 2113,
+  "start": "2020-12-09",
+  "years": 5.8
+ },
+ "NEAR-USD": {
+  "bars": 1482,
+  "start": "2022-09-01",
+  "years": 4.1
+ },
+ "APT-USD": {
+  "bars": 1434,
+  "start": "2022-10-19",
+  "years": 3.9
+ },
+ "ARB-USD": {
+  "bars": 1279,
+  "start": "2023-03-23",
+  "years": 3.5
+ },
+ "OP-USD": {
+  "bars": 1574,
+  "start": "2022-06-01",
+  "years": 4.3
+ },
+ "ICP-USD": {
+  "bars": 1961,
+  "start": "2021-05-10",
+  "years": 5.4
+ },
+ "ETC-USD": {
+  "bars": 2966,
+  "start": "2018-08-08",
+  "years": 8.1
+ },
+ "XLM-USD": {
+  "bars": 2748,
+  "start": "2019-03-14",
+  "years": 7.5
+ },
+ "AAVE-USD": {
+  "bars": 2107,
+  "start": "2020-12-15",
+  "years": 5.8
+ },
+ "SHIB-USD": {
+  "bars": 1839,
+  "start": "2021-09-09",
+  "years": 5.0
+ },
+ "SUI-USD": {
+  "bars": 1223,
+  "start": "2023-05-18",
+  "years": 3.3
+ },
+ "INJ-USD": {
+  "bars": 1463,
+  "start": "2022-09-20",
+  "years": 4.0
+ },
+ "RENDER-USD": {
+  "bars": 950,
+  "start": "2024-02-15",
+  "years": 2.6
+ },
+ "TIA-USD": {
+  "bars": 1056,
+  "start": "2023-11-01",
+  "years": 2.9
+ },
+ "SEI-USD": {
+  "bars": 1134,
+  "start": "2023-08-15",
+  "years": 3.1
+ },
+ "WLD-USD": {
+  "bars": 510,
+  "start": "2025-04-30",
+  "years": 1.4
+ },
+ "HBAR-USD": {
+  "bars": 1440,
+  "start": "2022-10-13",
+  "years": 3.9
+ },
+ "VET-USD": {
+  "bars": 1105,
+  "start": "2023-09-13",
+  "years": 3.0
+ },
+ "CRV-USD": {
+  "bars": 2007,
+  "start": "2021-03-25",
+  "years": 5.5
+ },
+ "GRT-USD": {
+  "bars": 2105,
+  "start": "2020-12-17",
+  "years": 5.8
+ },
+ "SAND-USD": {
+  "bars": 1580,
+  "start": "2022-05-26",
+  "years": 4.3
+ },
+ "MANA-USD": {
+  "bars": 1981,
+  "start": "2021-04-20",
+  "years": 5.4
+ },
+ "XTZ-USD": {
+  "bars": 2604,
+  "start": "2019-08-06",
+  "years": 7.1
+ },
+ "KAVA-USD": {
+  "bars": 1342,
+  "start": "2023-01-19",
+  "years": 3.7
+ },
+ "ZEC-USD": {
+  "bars": 2114,
+  "start": "2020-12-08",
+  "years": 5.8
+ },
+ "DASH-USD": {
+  "bars": 2562,
+  "start": "2019-09-17",
+  "years": 7.0
+ },
+ "COMP-USD": {
+  "bars": 2282,
+  "start": "2020-06-23",
+  "years": 6.2
+ },
+ "SNX-USD": {
+  "bars": 2107,
+  "start": "2020-12-15",
+  "years": 5.8
+ },
+ "BONK-USD": {
+  "bars": 1013,
+  "start": "2023-12-14",
+  "years": 2.8
+ },
+ "POL-USD": {
+  "bars": 748,
+  "start": "2024-09-04",
+  "years": 2.0
+ }
+}

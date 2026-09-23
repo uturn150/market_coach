@@ -1,0 +1,261 @@
+{
+  "account": "krakendemo_stoch",
+  "strategy_path": "strategies/stochastic_cross.json",
+  "granularity": 86400,
+  "start_cash": 50.0,
+  "sleeves": {
+    "BTC-USD": {
+      "cash": 2.288788538225483,
+      "units": 0.0,
+      "last_px": 86196.7,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0,
+      "pending_why": null,
+      "pending_px": 86196.7
+    },
+    "ETH-USD": {
+      "cash": 0.0,
+      "units": 0.0,
+      "last_px": 2753.25,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0,
+      "pending_why": null
+    },
+    "SOL-USD": {
+      "cash": -0.002000000000000668,
+      "units": 0.08345785244918752,
+      "last_px": 118.53,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 119.84492419200001,
+      "in_position": true,
+      "entry_px": 119.84492419200001,
+      "pending_why": null,
+      "pending_px": 118.87
+    },
+    "ADA-USD": {
+      "cash": 0.0,
+      "units": 0.0,
+      "last_px": 0.25415,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0,
+      "pending_why": null
+    },
+    "AVAX-USD": {
+      "cash": 0.8334999999999981,
+      "units": 0.0,
+      "last_px": 11.32,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0,
+      "pending_why": null
+    },
+    "LINK-USD": {
+      "cash": 0.0,
+      "units": 0.0,
+      "last_px": 13.03959,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0,
+      "pending_why": null
+    },
+    "LTC-USD": {
+      "cash": -0.002000000000000668,
+      "units": 0.15772074595604008,
+      "last_px": 62.97,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 63.415880640000005,
+      "in_position": true,
+      "entry_px": 63.415880640000005,
+      "pending_why": null,
+      "pending_px": 62.97
+    },
+    "XRP-USD": {
+      "cash": 4.1667,
+      "units": 0.0,
+      "last_px": 1.57231,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0,
+      "pending_why": null
+    },
+    "DOT-USD": {
+      "cash": -0.002000000000000668,
+      "units": 8.230160046984338,
+      "last_px": 1.2178,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 1.2178,
+      "in_position": true,
+      "entry_px": 1.21528620864,
+      "pending_why": null,
+      "pending_px": 1.2079
+    },
+    "DOGE-USD": {
+      "cash": 4.1667,
+      "units": 0.0,
+      "last_px": 0.1004158,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0,
+      "pending_why": null
+    },
+    "ATOM-USD": {
+      "cash": 4.1667,
+      "units": 0.0,
+      "last_px": 1.8447,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0,
+      "pending_why": null
+    },
+    "UNI-USD": {
+      "cash": 4.1667,
+      "units": 0.0,
+      "last_px": 10.2157,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0,
+      "pending_why": null,
+      "pending_px": 8.988
+    }
+  },
+  "created": 1789761705,
+  "regime_filter": true,
+  "max_drawdown": 0.25,
+  "halted": false,
+  "fills": [
+    {
+      "ts": 1789948800,
+      "coin": "BTC-USD",
+      "side": "buy",
+      "price": 86604.21738,
+      "notional": 10.002,
+      "units": 0.0001145743169074643,
+      "reason": "stoch_k:14 cross_above stoch_d:14:3",
+      "exec": {
+        "source": "book",
+        "signal_price": 86593.8,
+        "mid": 86586.85,
+        "expected_fill": 86586.9,
+        "sim_fill": 86604.21738,
+        "filled_fraction": 1.0,
+        "spread_cost_usd": 5.73e-06,
+        "slippage_cost_usd": 0.00198413,
+        "fee_usd": 0.07938095,
+        "total_exec_cost_usd": 0.08137081
+      }
+    },
+    {
+      "ts": 1789948800,
+      "coin": "SOL-USD",
+      "side": "buy",
+      "price": 118.893774,
+      "notional": 10.002,
+      "units": 0.08345785244918752,
+      "reason": "stoch_k:14 cross_above stoch_d:14:3",
+      "exec": {
+        "source": "book",
+        "signal_price": 118.87,
+        "mid": 118.86,
+        "expected_fill": 118.87,
+        "sim_fill": 118.893774,
+        "filled_fraction": 1.0,
+        "spread_cost_usd": 0.00083458,
+        "slippage_cost_usd": 0.00198413,
+        "fee_usd": 0.07938095,
+        "total_exec_cost_usd": 0.08219966
+      }
+    },
+    {
+      "ts": 1789948800,
+      "coin": "DOT-USD",
+      "side": "buy",
+      "price": 1.20564108,
+      "notional": 10.002,
+      "units": 8.230160046984338,
+      "reason": "stoch_k:14 cross_above stoch_d:14:3",
+      "exec": {
+        "source": "book",
+        "signal_price": 1.2079,
+        "mid": 1.20515,
+        "expected_fill": 1.2054,
+        "sim_fill": 1.20564108,
+        "filled_fraction": 1.0,
+        "spread_cost_usd": 0.00205754,
+        "slippage_cost_usd": 0.00198413,
+        "fee_usd": 0.07938095,
+        "total_exec_cost_usd": 0.08342262
+      }
+    },
+    {
+      "ts": 1790035200,
+      "coin": "BTC-USD",
+      "side": "sell",
+      "price": 86141.86818,
+      "units": 0.0001145743169074643,
+      "proceeds": 9.790688538225485,
+      "reason": "stoch_k:14 cross_below stoch_d:14:3",
+      "exec": {
+        "source": "book",
+        "signal_price": 86196.7,
+        "mid": 86159.15,
+        "expected_fill": 86159.1,
+        "sim_fill": 86141.86818,
+        "filled_fraction": 1.0,
+        "spread_cost_usd": 5.73e-06,
+        "slippage_cost_usd": 0.00197432,
+        "fee_usd": 0.07895717,
+        "total_exec_cost_usd": 0.08093722
+      }
+    },
+    {
+      "ts": 1790035200,
+      "coin": "LTC-USD",
+      "side": "buy",
+      "price": 62.91258,
+      "notional": 10.002,
+      "units": 0.15772074595604008,
+      "reason": "stoch_k:14 cross_above stoch_d:14:3",
+      "exec": {
+        "source": "book",
+        "signal_price": 62.97,
+        "mid": 62.885,
+        "expected_fill": 62.9,
+        "sim_fill": 62.91258,
+        "filled_fraction": 1.0,
+        "spread_cost_usd": 0.00236581,
+        "slippage_cost_usd": 0.00198413,
+        "fee_usd": 0.07938095,
+        "total_exec_cost_usd": 0.08373089
+      }
+    }
+  ],
+  "paper": true,
+  "peak_equity": 50.0004,
+  "pooled": true,
+  "order_step": 10.0,
+  "min_order": 10.0
+}

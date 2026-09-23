@@ -1,0 +1,3 @@
+# Could not auto-fetch: Live Algorithmic Trading with Python and Claude Code - Day 1: Multi Exchange Arbitrage
+# https://www.youtube.com/watch?v=_zfL3TPtLBA
+# Paste the transcript below, rename to _zfL3TPtLBA.txt

@@ -1,0 +1,354 @@
+{
+  "summary": {
+    "n_strategies": 10,
+    "strategies": [
+      "realpaper",
+      "krakenmulti",
+      "krakenfast",
+      "krakenslow",
+      "krakenmacd",
+      "krakenbbreak",
+      "krakenturtle",
+      "krakencci",
+      "krakenkeltner",
+      "krakenichimoku"
+    ],
+    "avg_pairwise_correlation": 0.81,
+    "high_correlation_pairs (>0.7)": [
+      [
+        "realpaper",
+        "krakenmulti",
+        0.85
+      ],
+      [
+        "realpaper",
+        "krakenfast",
+        0.84
+      ],
+      [
+        "realpaper",
+        "krakenbbreak",
+        0.8
+      ],
+      [
+        "realpaper",
+        "krakenturtle",
+        0.86
+      ],
+      [
+        "realpaper",
+        "krakencci",
+        0.83
+      ],
+      [
+        "realpaper",
+        "krakenkeltner",
+        0.89
+      ],
+      [
+        "realpaper",
+        "krakenichimoku",
+        0.85
+      ],
+      [
+        "krakenmulti",
+        "krakenfast",
+        0.88
+      ],
+      [
+        "krakenmulti",
+        "krakenslow",
+        0.74
+      ],
+      [
+        "krakenmulti",
+        "krakenbbreak",
+        0.88
+      ],
+      [
+        "krakenmulti",
+        "krakenturtle",
+        0.95
+      ],
+      [
+        "krakenmulti",
+        "krakencci",
+        0.88
+      ],
+      [
+        "krakenmulti",
+        "krakenkeltner",
+        0.94
+      ],
+      [
+        "krakenmulti",
+        "krakenichimoku",
+        0.87
+      ],
+      [
+        "krakenfast",
+        "krakenmacd",
+        0.71
+      ],
+      [
+        "krakenfast",
+        "krakenbbreak",
+        0.86
+      ],
+      [
+        "krakenfast",
+        "krakenturtle",
+        0.86
+      ],
+      [
+        "krakenfast",
+        "krakencci",
+        0.91
+      ],
+      [
+        "krakenfast",
+        "krakenkeltner",
+        0.88
+      ],
+      [
+        "krakenfast",
+        "krakenichimoku",
+        0.93
+      ],
+      [
+        "krakenslow",
+        "krakenturtle",
+        0.75
+      ],
+      [
+        "krakenslow",
+        "krakenkeltner",
+        0.75
+      ],
+      [
+        "krakenmacd",
+        "krakenbbreak",
+        0.76
+      ],
+      [
+        "krakenmacd",
+        "krakencci",
+        0.8
+      ],
+      [
+        "krakenmacd",
+        "krakenichimoku",
+        0.76
+      ],
+      [
+        "krakenbbreak",
+        "krakenturtle",
+        0.87
+      ],
+      [
+        "krakenbbreak",
+        "krakencci",
+        0.9
+      ],
+      [
+        "krakenbbreak",
+        "krakenkeltner",
+        0.88
+      ],
+      [
+        "krakenbbreak",
+        "krakenichimoku",
+        0.88
+      ],
+      [
+        "krakenturtle",
+        "krakencci",
+        0.86
+      ],
+      [
+        "krakenturtle",
+        "krakenkeltner",
+        0.95
+      ],
+      [
+        "krakenturtle",
+        "krakenichimoku",
+        0.85
+      ],
+      [
+        "krakencci",
+        "krakenkeltner",
+        0.89
+      ],
+      [
+        "krakencci",
+        "krakenichimoku",
+        0.93
+      ],
+      [
+        "krakenkeltner",
+        "krakenichimoku",
+        0.88
+      ]
+    ],
+    "max_ever_concurrent_positions_same_coin": 10,
+    "worst_concentration_coin": "BTC",
+    "coin_concentration_pct_of_all_position_bardays": {
+      "BTC": 6.6,
+      "ETH": 5.8,
+      "BCH": 5.1,
+      "SOL": 4.8,
+      "LTC": 4.7,
+      "DOGE": 4.5,
+      "LINK": 4.5,
+      "ETC": 4.4,
+      "ADA": 4.4,
+      "AVAX": 4.2,
+      "XLM": 4.2,
+      "AAVE": 4.1,
+      "DOT": 3.9,
+      "UNI": 3.9,
+      "SHIB": 3.9,
+      "NEAR": 3.8,
+      "APT": 3.6,
+      "OP": 3.5,
+      "ICP": 3.4,
+      "ATOM": 3.4,
+      "FIL": 3.4,
+      "XRP": 3.4,
+      "ALGO": 3.3,
+      "ARB": 3.2
+    },
+    "combined_portfolio_sharpe": 0.73,
+    "avg_individual_sharpe": 0.71,
+    "combined_portfolio_max_dd_pct": -34.6,
+    "avg_individual_max_dd_pct": -37.0,
+    "expected_max_dd_pct_if_truly_independent": -11.7,
+    "combined_final_equity": 718.51,
+    "combined_start_equity": 500.0,
+    "combined_return_pct": 43.7,
+    "verdict": "HIGH CORRELATION: these strategies are largely the same bet. Running all 10 is much closer to running one strategy at 10x size than to genuine diversification."
+  },
+  "correlation_matrix": {
+    "realpaper": {
+      "realpaper": 1.0,
+      "krakenmulti": 0.85,
+      "krakenfast": 0.84,
+      "krakenslow": 0.67,
+      "krakenmacd": 0.6,
+      "krakenbbreak": 0.8,
+      "krakenturtle": 0.86,
+      "krakencci": 0.83,
+      "krakenkeltner": 0.89,
+      "krakenichimoku": 0.85
+    },
+    "krakenmulti": {
+      "realpaper": 0.85,
+      "krakenmulti": 1.0,
+      "krakenfast": 0.88,
+      "krakenslow": 0.74,
+      "krakenmacd": 0.69,
+      "krakenbbreak": 0.88,
+      "krakenturtle": 0.95,
+      "krakencci": 0.88,
+      "krakenkeltner": 0.94,
+      "krakenichimoku": 0.87
+    },
+    "krakenfast": {
+      "realpaper": 0.84,
+      "krakenmulti": 0.88,
+      "krakenfast": 1.0,
+      "krakenslow": 0.66,
+      "krakenmacd": 0.71,
+      "krakenbbreak": 0.86,
+      "krakenturtle": 0.86,
+      "krakencci": 0.91,
+      "krakenkeltner": 0.88,
+      "krakenichimoku": 0.93
+    },
+    "krakenslow": {
+      "realpaper": 0.67,
+      "krakenmulti": 0.74,
+      "krakenfast": 0.66,
+      "krakenslow": 1.0,
+      "krakenmacd": 0.5,
+      "krakenbbreak": 0.64,
+      "krakenturtle": 0.75,
+      "krakencci": 0.63,
+      "krakenkeltner": 0.75,
+      "krakenichimoku": 0.67
+    },
+    "krakenmacd": {
+      "realpaper": 0.6,
+      "krakenmulti": 0.69,
+      "krakenfast": 0.71,
+      "krakenslow": 0.5,
+      "krakenmacd": 1.0,
+      "krakenbbreak": 0.76,
+      "krakenturtle": 0.67,
+      "krakencci": 0.8,
+      "krakenkeltner": 0.69,
+      "krakenichimoku": 0.76
+    },
+    "krakenbbreak": {
+      "realpaper": 0.8,
+      "krakenmulti": 0.88,
+      "krakenfast": 0.86,
+      "krakenslow": 0.64,
+      "krakenmacd": 0.76,
+      "krakenbbreak": 1.0,
+      "krakenturtle": 0.87,
+      "krakencci": 0.9,
+      "krakenkeltner": 0.88,
+      "krakenichimoku": 0.88
+    },
+    "krakenturtle": {
+      "realpaper": 0.86,
+      "krakenmulti": 0.95,
+      "krakenfast": 0.86,
+      "krakenslow": 0.75,
+      "krakenmacd": 0.67,
+      "krakenbbreak": 0.87,
+      "krakenturtle": 1.0,
+      "krakencci": 0.86,
+      "krakenkeltner": 0.95,
+      "krakenichimoku": 0.85
+    },
+    "krakencci": {
+      "realpaper": 0.83,
+      "krakenmulti": 0.88,
+      "krakenfast": 0.91,
+      "krakenslow": 0.63,
+      "krakenmacd": 0.8,
+      "krakenbbreak": 0.9,
+      "krakenturtle": 0.86,
+      "krakencci": 1.0,
+      "krakenkeltner": 0.89,
+      "krakenichimoku": 0.93
+    },
+    "krakenkeltner": {
+      "realpaper": 0.89,
+      "krakenmulti": 0.94,
+      "krakenfast": 0.88,
+      "krakenslow": 0.75,
+      "krakenmacd": 0.69,
+      "krakenbbreak": 0.88,
+      "krakenturtle": 0.95,
+      "krakencci": 0.89,
+      "krakenkeltner": 1.0,
+      "krakenichimoku": 0.88
+    },
+    "krakenichimoku": {
+      "realpaper": 0.85,
+      "krakenmulti": 0.87,
+      "krakenfast": 0.93,
+      "krakenslow": 0.67,
+      "krakenmacd": 0.76,
+      "krakenbbreak": 0.88,
+      "krakenturtle": 0.85,
+      "krakencci": 0.93,
+      "krakenkeltner": 0.88,
+      "krakenichimoku": 1.0
+    }
+  }
+}

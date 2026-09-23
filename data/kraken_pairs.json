@@ -1,0 +1,357 @@
+{
+ "t": 1790115181.9437912,
+ "pairs": {
+  "BTC-USD": {
+   "kraken_pair": "XXBTZUSD",
+   "ordermin": 5e-05,
+   "costmin": 0.5,
+   "lot_decimals": 8,
+   "pair_decimals": 1,
+   "tick_size": 0.1
+  },
+  "ETH-USD": {
+   "kraken_pair": "XETHZUSD",
+   "ordermin": 0.001,
+   "costmin": 0.5,
+   "lot_decimals": 8,
+   "pair_decimals": 2,
+   "tick_size": 0.01
+  },
+  "SOL-USD": {
+   "kraken_pair": "SOLUSD",
+   "ordermin": 0.06,
+   "costmin": 0.5,
+   "lot_decimals": 8,
+   "pair_decimals": 2,
+   "tick_size": 0.01
+  },
+  "ADA-USD": {
+   "kraken_pair": "ADAUSD",
+   "ordermin": 20.0,
+   "costmin": 0.5,
+   "lot_decimals": 8,
+   "pair_decimals": 6,
+   "tick_size": 1e-06
+  },
+  "AVAX-USD": {
+   "kraken_pair": "AVAXUSD",
+   "ordermin": 0.5,
+   "costmin": 0.5,
+   "lot_decimals": 8,
+   "pair_decimals": 3,
+   "tick_size": 0.001
+  },
+  "LINK-USD": {
+   "kraken_pair": "LINKUSD",
+   "ordermin": 0.55,
+   "costmin": 0.5,
+   "lot_decimals": 8,
+   "pair_decimals": 5,
+   "tick_size": 1e-05
+  },
+  "LTC-USD": {
+   "kraken_pair": "XLTCZUSD",
+   "ordermin": 0.1,
+   "costmin": 0.5,
+   "lot_decimals": 8,
+   "pair_decimals": 2,
+   "tick_size": 0.01
+  },
+  "XRP-USD": {
+   "kraken_pair": "XXRPZUSD",
+   "ordermin": 1.65,
+   "costmin": 0.5,
+   "lot_decimals": 8,
+   "pair_decimals": 5,
+   "tick_size": 1e-05
+  },
+  "DOT-USD": {
+   "kraken_pair": "DOTUSD",
+   "ordermin": 3.9,
+   "costmin": 0.5,
+   "lot_decimals": 8,
+   "pair_decimals": 4,
+   "tick_size": 0.0001
+  },
+  "DOGE-USD": {
+   "kraken_pair": "XDGUSD",
+   "ordermin": 50.0,
+   "costmin": 0.5,
+   "lot_decimals": 8,
+   "pair_decimals": 7,
+   "tick_size": 1e-07
+  },
+  "ATOM-USD": {
+   "kraken_pair": "ATOMUSD",
+   "ordermin": 3.5,
+   "costmin": 0.5,
+   "lot_decimals": 8,
+   "pair_decimals": 4,
+   "tick_size": 0.0001
+  },
+  "UNI-USD": {
+   "kraken_pair": "UNIUSD",
+   "ordermin": 1.5,
+   "costmin": 0.5,
+   "lot_decimals": 8,
+   "pair_decimals": 4,
+   "tick_size": 0.0001
+  },
+  "BCH-USD": {
+   "kraken_pair": "BCHUSD",
+   "ordermin": 0.01,
+   "costmin": 0.5,
+   "lot_decimals": 8,
+   "pair_decimals": 2,
+   "tick_size": 0.01
+  },
+  "ALGO-USD": {
+   "kraken_pair": "ALGOUSD",
+   "ordermin": 41.0,
+   "costmin": 0.5,
+   "lot_decimals": 8,
+   "pair_decimals": 5,
+   "tick_size": 1e-05
+  },
+  "FIL-USD": {
+   "kraken_pair": "FILUSD",
+   "ordermin": 7.0,
+   "costmin": 0.5,
+   "lot_decimals": 8,
+   "pair_decimals": 3,
+   "tick_size": 0.001
+  },
+  "NEAR-USD": {
+   "kraken_pair": "NEARUSD",
+   "ordermin": 4.0,
+   "costmin": 0.5,
+   "lot_decimals": 8,
+   "pair_decimals": 4,
+   "tick_size": 0.0001
+  },
+  "APT-USD": {
+   "kraken_pair": "APTUSD",
+   "ordermin": 9.0,
+   "costmin": 0.5,
+   "lot_decimals": 8,
+   "pair_decimals": 4,
+   "tick_size": 0.0001
+  },
+  "ARB-USD": {
+   "kraken_pair": "ARBUSD",
+   "ordermin": 50.0,
+   "costmin": 0.5,
+   "lot_decimals": 5,
+   "pair_decimals": 4,
+   "tick_size": 0.0001
+  },
+  "OP-USD": {
+   "kraken_pair": "OPUSD",
+   "ordermin": 50.0,
+   "costmin": 0.5,
+   "lot_decimals": 5,
+   "pair_decimals": 4,
+   "tick_size": 0.0001
+  },
+  "ICP-USD": {
+   "kraken_pair": "ICPUSD",
+   "ordermin": 2.0,
+   "costmin": 0.5,
+   "lot_decimals": 8,
+   "pair_decimals": 3,
+   "tick_size": 0.001
+  },
+  "ETC-USD": {
+   "kraken_pair": "XETCZUSD",
+   "ordermin": 0.7,
+   "costmin": 0.5,
+   "lot_decimals": 8,
+   "pair_decimals": 3,
+   "tick_size": 0.001
+  },
+  "XLM-USD": {
+   "kraken_pair": "XXLMZUSD",
+   "ordermin": 30.0,
+   "costmin": 0.5,
+   "lot_decimals": 8,
+   "pair_decimals": 6,
+   "tick_size": 1e-06
+  },
+  "AAVE-USD": {
+   "kraken_pair": "AAVEUSD",
+   "ordermin": 0.05,
+   "costmin": 0.5,
+   "lot_decimals": 8,
+   "pair_decimals": 2,
+   "tick_size": 0.01
+  },
+  "SHIB-USD": {
+   "kraken_pair": "SHIBUSD",
+   "ordermin": 770000.0,
+   "costmin": 0.5,
+   "lot_decimals": 5,
+   "pair_decimals": 9,
+   "tick_size": 1e-09
+  },
+  "SUI-USD": {
+   "kraken_pair": "SUIUSD",
+   "ordermin": 5.0,
+   "costmin": 0.5,
+   "lot_decimals": 5,
+   "pair_decimals": 4,
+   "tick_size": 0.0001
+  },
+  "INJ-USD": {
+   "kraken_pair": "INJUSD",
+   "ordermin": 1.0,
+   "costmin": 0.5,
+   "lot_decimals": 8,
+   "pair_decimals": 3,
+   "tick_size": 0.001
+  },
+  "RENDER-USD": {
+   "kraken_pair": "RENDERUSD",
+   "ordermin": 2.5,
+   "costmin": 0.5,
+   "lot_decimals": 5,
+   "pair_decimals": 3,
+   "tick_size": 0.001
+  },
+  "TIA-USD": {
+   "kraken_pair": "TIAUSD",
+   "ordermin": 15.0,
+   "costmin": 0.5,
+   "lot_decimals": 5,
+   "pair_decimals": 4,
+   "tick_size": 0.0001
+  },
+  "SEI-USD": {
+   "kraken_pair": "SEIUSD",
+   "ordermin": 100.0,
+   "costmin": 0.5,
+   "lot_decimals": 5,
+   "pair_decimals": 5,
+   "tick_size": 1e-05
+  },
+  "WLD-USD": {
+   "kraken_pair": "WLDUSD",
+   "ordermin": 11.0,
+   "costmin": 0.5,
+   "lot_decimals": 5,
+   "pair_decimals": 4,
+   "tick_size": 0.0001
+  },
+  "HBAR-USD": {
+   "kraken_pair": "HBARUSD",
+   "ordermin": 55.0,
+   "costmin": 0.5,
+   "lot_decimals": 5,
+   "pair_decimals": 5,
+   "tick_size": 1e-05
+  },
+  "VET-USD": {
+   "kraken_pair": "VETUSD",
+   "ordermin": 700.0,
+   "costmin": 0.5,
+   "lot_decimals": 5,
+   "pair_decimals": 6,
+   "tick_size": 1e-06
+  },
+  "CRV-USD": {
+   "kraken_pair": "CRVUSD",
+   "ordermin": 20.0,
+   "costmin": 0.5,
+   "lot_decimals": 8,
+   "pair_decimals": 5,
+   "tick_size": 1e-05
+  },
+  "GRT-USD": {
+   "kraken_pair": "GRTUSD",
+   "ordermin": 300.0,
+   "costmin": 0.5,
+   "lot_decimals": 8,
+   "pair_decimals": 5,
+   "tick_size": 1e-05
+  },
+  "SAND-USD": {
+   "kraken_pair": "SANDUSD",
+   "ordermin": 120.0,
+   "costmin": 0.5,
+   "lot_decimals": 8,
+   "pair_decimals": 4,
+   "tick_size": 0.0001
+  },
+  "MANA-USD": {
+   "kraken_pair": "MANAUSD",
+   "ordermin": 70.0,
+   "costmin": 0.5,
+   "lot_decimals": 8,
+   "pair_decimals": 5,
+   "tick_size": 1e-05
+  },
+  "XTZ-USD": {
+   "kraken_pair": "XTZUSD",
+   "ordermin": 13.0,
+   "costmin": 0.5,
+   "lot_decimals": 8,
+   "pair_decimals": 5,
+   "tick_size": 1e-05
+  },
+  "KAVA-USD": {
+   "kraken_pair": "KAVAUSD",
+   "ordermin": 100.0,
+   "costmin": 0.5,
+   "lot_decimals": 8,
+   "pair_decimals": 4,
+   "tick_size": 0.0001
+  },
+  "ZEC-USD": {
+   "kraken_pair": "XZECZUSD",
+   "ordermin": 0.01,
+   "costmin": 0.5,
+   "lot_decimals": 8,
+   "pair_decimals": 2,
+   "tick_size": 0.01
+  },
+  "DASH-USD": {
+   "kraken_pair": "DASHUSD",
+   "ordermin": 0.11,
+   "costmin": 0.5,
+   "lot_decimals": 8,
+   "pair_decimals": 3,
+   "tick_size": 0.001
+  },
+  "COMP-USD": {
+   "kraken_pair": "COMPUSD",
+   "ordermin": 0.25,
+   "costmin": 0.5,
+   "lot_decimals": 8,
+   "pair_decimals": 2,
+   "tick_size": 0.01
+  },
+  "SNX-USD": {
+   "kraken_pair": "SNXUSD",
+   "ordermin": 25.0,
+   "costmin": 0.5,
+   "lot_decimals": 8,
+   "pair_decimals": 4,
+   "tick_size": 0.0001
+  },
+  "BONK-USD": {
+   "kraken_pair": "BONKUSD",
+   "ordermin": 1500000.0,
+   "costmin": 0.5,
+   "lot_decimals": 5,
+   "pair_decimals": 9,
+   "tick_size": 1e-09
+  },
+  "POL-USD": {
+   "kraken_pair": "POLUSD",
+   "ordermin": 50.0,
+   "costmin": 0.5,
+   "lot_decimals": 5,
+   "pair_decimals": 5,
+   "tick_size": 1e-05
+  }
+ }
+}

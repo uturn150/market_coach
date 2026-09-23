@@ -1,0 +1,32 @@
+{
+ "SET_A tuned-9|bollingrid default (bb100/2std, 5 levels)": {
+  "ret": -0.09001996174159421,
+  "dd": -0.6874511913800285,
+  "trips": 30
+ },
+ "SET_A tuned-9|bollingrid wide (bb50/1.5std, 8 levels)": {
+  "ret": -7.085034170564375,
+  "dd": -7.746728056770946,
+  "trips": 582
+ },
+ "SET_A tuned-9|bollingrid tight (bb100/2std, 3 levels)": {
+  "ret": 0.012010257507544253,
+  "dd": -0.8773958066364829,
+  "trips": 25
+ },
+ "SET_B unseen-18|bollingrid default (bb100/2std, 5 levels)": {
+  "ret": 1.16919338403505,
+  "dd": -0.2126300054746233,
+  "trips": 160
+ },
+ "SET_B unseen-18|bollingrid wide (bb50/1.5std, 8 levels)": {
+  "ret": -8.24890545477185,
+  "dd": -8.612627157194098,
+  "trips": 1543
+ },
+ "SET_B unseen-18|bollingrid tight (bb100/2std, 3 levels)": {
+  "ret": 0.8946258355522207,
+  "dd": -0.49673702103966155,
+  "trips": 124
+ }
+}

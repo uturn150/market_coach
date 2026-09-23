@@ -1,0 +1,404 @@
+"""Moon funnel routed through Kraken: SAME breakout triggers, correlation-aware
+selection, and volatility-based sizing as moon_portfolio.py, but priced off the
+real connected account instead of the internal simulator. Mirrors
+kraken_portfolio.py's safety model exactly: `paper` is baked into the account's
+own saved state (never inferred from key presence), buy sizing always uses a
+real Kraken ticker price, and the exact volume Kraken's own conversion produces
+is the single number used for both the (possible) order and local bookkeeping.
+"""
+import json, os, time
+from . import kraken_data as data, moon, journal, risk, alerts, paper_exec
+from .broker_kraken import Kraken, to_kraken_pair
+
+STATE_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "paper_state")
+
+CORRELATION_THRESHOLD = 0.75
+
+DEFAULTS = {
+    "max_positions": 4,
+    "trailing_stop_pct": 0.20,
+    "stop_loss_pct": 0.15,
+    "max_drawdown": 0.30,
+    "fee_bps": 60, "half_spread_bps": 5, "slippage_bps": 3,
+    "moon_cfg": {},
+    # Profit-taking ladder: sell a slice of the ORIGINAL position size at each
+    # gain milestone, locking in progressive gains while letting a real runner
+    # keep riding on what's left. Levels are fractional gains (0.60 = +60%);
+    # sells are fractions of the position's size AT ENTRY, not of what remains,
+    # so the five sells add up to a real, fixed 60% of the original stake sold
+    # off by the time all levels fire, with 40% still free to run indefinitely.
+    "profit_ladder_levels": [0.60, 1.20, 3.00, 6.00, 10.00],
+    "profit_ladder_sells": [0.15, 0.15, 0.10, 0.10, 0.10],
+    # Daily realized-loss cap: a gentler, self-resetting cousin of the circuit
+    # breaker. The circuit breaker measures total EQUITY drawdown and reacts by
+    # liquidating everything + a manual reset. This instead tracks money
+    # actually LOST on closed trades today, and on breach just pauses NEW
+    # entries for a cooldown — existing positions keep running their own
+    # stops/ladder untouched, and it resumes on its own once the day rolls over
+    # or the pause window elapses.
+    "daily_loss_cap_usd": 5.0,
+    "loss_pause_minutes": 30,
+}
+
+
+def _path(account):
+    return os.path.join(STATE_DIR, f"{account}.kraken_moon.json")
+
+
+def load(account):
+    with open(_path(account)) as f:
+        return json.load(f)
+
+
+def _save(state):
+    os.makedirs(STATE_DIR, exist_ok=True)
+    with open(_path(state["account"]), "w") as f:
+        json.dump(state, f, indent=2)
+
+
+def _rate(state):
+    return (state["fee_bps"] + state["half_spread_bps"] + state["slippage_bps"]) / 10_000.0
+
+
+def _today():
+    return time.strftime("%Y-%m-%d", time.gmtime())
+
+
+def _record_realized(state, product, sell_units, avg_cost, proceeds):
+    """Track today's realized losses for the daily loss cap. Only losing sells
+    count — the profit ladder's sells are gains and never add to this."""
+    cost_basis = sell_units * avg_cost
+    pnl = proceeds - cost_basis
+    if pnl < 0:
+        state["loss_today_usd"] = state.get("loss_today_usd", 0.0) + (-pnl)
+    return pnl
+
+
+def open_account(account, coins, cash=50.0, granularity=86400, paper=True, **cfg):
+    coins = [c for c in coins if to_kraken_pair(c if "-" in c else f"{c}-USD")]
+    products = [c if "-" in c else f"{c}-USD" for c in coins]
+    state = {"account": account, "coins": products, "granularity": granularity,
+             "start_cash": float(cash), "cash": float(cash), "positions": {},
+             "last_close_ts": 0, "fills": [], "peak_equity": float(cash), "halted": False,
+             "paper": bool(paper), "created": int(time.time()),
+             "loss_today_usd": 0.0, "loss_day": _today(), "paused_until": 0.0,
+             **DEFAULTS}
+    state.update({k: v for k, v in cfg.items() if k in DEFAULTS})
+    _save(state)
+    broker = Kraken(dry_run=paper)
+    mode = "PAPER — real account connected for prices, orders simulated only" if paper else \
+        ("!!! LIVE — REAL MONEY !!!" if broker.live else "DRY-RUN (no keys)")
+    print(f"Opened Kraken moon funnel '{account}': ${cash:.2f}, up to {state['max_positions']} "
+          f"positions across {len(products)} coins  [{mode}]")
+    return state
+
+
+def tick(account, now=None, verbose=True):
+    state = load(account)
+    gran = state["granularity"]
+    now = now or int(time.time())
+    rate = _rate(state)
+    trail, stop = state["trailing_stop_pct"], state["stop_loss_pct"]
+    K = state["max_positions"]
+    per = state["start_cash"] / K
+    broker = Kraken(dry_run=state.get("paper", True))
+
+    # broker.live only means "keys exist" — the real question is whether THIS
+    # account will place real orders, which is broker.dry_run (from the
+    # account's own saved `paper` flag). Warning on the wrong condition here
+    # would print a false REAL-MONEY alarm on a completely safe paper account.
+    if not broker.dry_run and verbose:
+        print("!!! LIVE MODE — this tick can place REAL orders with REAL money !!!")
+
+    # Day rollover: today's realized-loss tally resets with a new UTC day,
+    # exactly like the old bot's convention this was borrowed from.
+    if state.get("loss_day") != _today():
+        state["loss_day"] = _today()
+        state["loss_today_usd"] = 0.0
+
+    evals, price, latest = {}, {}, 0
+    coin_bars = {}
+    for product in state["coins"]:
+        try:
+            bars = data.fetch_recent(product, gran)
+        except Exception:
+            continue
+        closed = [b for b in bars if b.ts + gran <= now]
+        if len(closed) < 30:
+            continue
+        coin_bars[product] = closed
+        price[product] = closed[-1].close
+        latest = max(latest, closed[-1].ts)
+        evals[product] = moon.evaluate(closed, state["moon_cfg"])
+        time.sleep(0.12)
+
+    coin_vols = {p: risk.realized_vol(b) for p, b in coin_bars.items()}
+    vol_weights = risk.vol_target_weights(coin_vols)
+
+    if latest <= state["last_close_ts"]:
+        # No NEW closed bar this hour on daily bars — nothing to trade on, but
+        # still record a heartbeat. Without this, only ~1 of every ~24 hourly
+        # cron runs ever reached the journal.log("tick",...) below (it sat
+        # after this early return), so the leaderboard's equity history for
+        # this account was effectively blind for 23 hours out of 24 — a real
+        # monitoring gap, found by checking "is this actually firing."
+        # This is also the branch that fires on ~23 of every 24 hourly cron
+        # runs, so it's the one that most needs live prices for held coins —
+        # `price` here is still each coin's last CLOSED bar (stale by up to
+        # ~24h), which would otherwise journal a misleading equity number for
+        # anything actually held.
+        for c in state["positions"]:
+            try:
+                live_px = broker.ticker_price(c)
+                if live_px:
+                    price[c] = live_px
+            except Exception:
+                pass
+        heartbeat_eq = state["cash"] + sum(p["units"] * price.get(c, p["avg_cost"])
+                                           for c, p in state["positions"].items())
+        journal.log(account, "tick", equity=round(heartbeat_eq, 2),
+                    holding=len(state["positions"]), halted=state.get("halted", False),
+                    paper=state.get("paper", True), heartbeat=True)
+        if verbose:
+            _status(state, price, broker)
+        return state
+
+    # 1) manage existing positions — profit ladder first (partial, position
+    #    stays open), then trailing/hard stop (full exit) on what's left.
+    ladder_levels = state.get("profit_ladder_levels", [])
+    ladder_sells = state.get("profit_ladder_sells", [])
+    for product in list(state["positions"]):
+        pos = state["positions"][product]
+        px = price.get(product)
+        if px is None:
+            continue
+        pos["peak"] = max(pos.get("peak", 0.0), px) or px
+        pos.setdefault("original_units", pos["units"])
+        pos.setdefault("ladder_hit", [])
+        chg = px / pos["avg_cost"] - 1
+
+        # Profit ladder: a big single jump can clear more than one level in the
+        # same tick (a real pump doesn't wait for us) — fire every newly-crossed
+        # level, not just the first.
+        for i, level in enumerate(ladder_levels):
+            if i in pos["ladder_hit"] or chg < level:
+                continue
+            frac = ladder_sells[i] if i < len(ladder_sells) else 0.0
+            sell_units = min(pos["original_units"] * frac, pos["units"])
+            if sell_units <= 0:
+                pos["ladder_hit"].append(i)
+                continue
+            # Realistic fill: walk Kraken's real order book, charge the real taker fee.
+            sim = paper_exec.simulate_market_sell(broker, product, sell_units, signal_price=px)
+            sold = sim.get("filled_units", 0.0)
+            if sold <= 0:
+                continue  # nothing obtainable now; level stays un-hit and retries next tick
+            broker.market_order(product, "sell", sold)
+            proceeds = sim["net_proceeds_usd"]
+            ex = paper_exec.exec_fields(sim)
+            pnl = _record_realized(state, product, sold, pos["avg_cost"], proceeds)
+            state["cash"] += proceeds
+            pos["units"] -= sold
+            if sold >= sell_units * 0.999:
+                pos["ladder_hit"].append(i)
+            state["fills"].append({"ts": latest, "coin": product, "side": "sell",
+                                   "price": sim["sim_fill"], "units": sold,
+                                   "reason": f"profit_ladder_{int(level*100)}pct", "exec": ex})
+            journal.log(account, "ladder_sell", coin=product, level_pct=round(level * 100, 0),
+                        units=round(sold, 8), proceeds=round(proceeds, 2),
+                        pnl=round(pnl, 2), live=broker.live, **ex)
+            alerts.notify(f"market_coach: {account} took profit on {product}" +
+                         (" (REAL)" if broker.live else " (paper)"),
+                         f"+{level*100:.0f}% milestone: sold {frac:.0%} of original stake "
+                         f"(${proceeds:.2f}), {pos['units']:.6f} still riding",
+                         priority="default", tags=["moneybag"])
+        if product not in state["positions"]:
+            continue  # a ladder sell can't fully close a position, but be safe
+        pos = state["positions"][product]
+        if pos["units"] <= 1e-10:
+            del state["positions"][product]
+            continue
+
+        hit_trail = pos["peak"] > 0 and px <= pos["peak"] * (1 - trail)
+        if hit_trail or chg <= -stop:
+            sim = paper_exec.simulate_market_sell(broker, product, pos["units"], signal_price=px)
+            sold = sim.get("filled_units", 0.0)
+            if sold <= 0:
+                continue  # thin book: keep the position, the stop condition persists and retries
+            broker.market_order(product, "sell", sold)
+            proceeds = sim["net_proceeds_usd"]
+            ex = paper_exec.exec_fields(sim)
+            _record_realized(state, product, sold, pos["avg_cost"], proceeds)
+            state["cash"] += proceeds
+            reason = "trailing_stop" if hit_trail else "hard_stop"
+            state["fills"].append({"ts": latest, "coin": product, "side": "sell",
+                                   "price": sim["sim_fill"], "units": sold, "reason": reason, "exec": ex})
+            journal.log(account, "exit", coin=product, price=round(sim["sim_fill"], 4), reason=reason,
+                        pnl_pct=round(chg * 100, 1), live=broker.live, **ex)
+            pos["units"] -= sold
+            if pos["units"] > 1e-10:
+                continue  # partial fill: remainder stays open and is retried next tick
+            alerts.notify(f"market_coach: {account} SOLD {product}" +
+                         (" (REAL)" if broker.live else " (paper)"),
+                         f"{reason}, {chg*100:+.1f}%", priority="high", tags=["moneybag"])
+            del state["positions"][product]
+
+    # Daily loss cap: pause NEW entries (existing positions keep running their
+    # own exits normally) once today's realized losses breach the cap. If the
+    # loss stays at/above the cap once a pause window elapses, this naturally
+    # re-triggers (another pause_minutes, another alert) rather than quietly
+    # reopening the door — the loss doesn't reset until the day rolls over, so
+    # neither should the caution.
+    if (state.get("loss_today_usd", 0.0) >= state.get("daily_loss_cap_usd", 5.0)
+            and now >= state.get("paused_until", 0.0)):
+        pause_min = state.get("loss_pause_minutes", 30)
+        state["paused_until"] = now + pause_min * 60
+        journal.log(account, "loss_cap_pause", loss_today_usd=round(state["loss_today_usd"], 2),
+                    pause_minutes=pause_min)
+        alerts.notify(f"market_coach: {account} daily loss cap hit",
+                     f"Realized losses today: ${state['loss_today_usd']:.2f}. Pausing new "
+                     f"entries for {pause_min} min — existing positions keep running normally.",
+                     priority="high", tags=["warning"])
+
+    # 2) funnel free cash into the top mooning coins, correlation-gated
+    free = K - len(state["positions"])
+    can_buy = not state.get("halted") and now >= state.get("paused_until", 0.0)
+    if free > 0 and can_buy:
+        candidates = [(p, ev) for p, ev in evals.items()
+                      if ev and ev["is_mooning"] and p not in state["positions"]]
+        candidates.sort(key=lambda t: t[1]["score"], reverse=True)
+
+        active_returns = [risk.daily_returns(coin_bars[c])[-40:]
+                          for c in state["positions"] if c in coin_bars]
+        filled = 0
+        for product, ev in candidates:
+            if filled >= free:
+                break
+            cand_returns = risk.daily_returns(coin_bars[product])[-40:] if product in coin_bars else []
+            max_corr = risk.max_correlation_to_held(cand_returns, active_returns)
+            if max_corr > CORRELATION_THRESHOLD:
+                journal.log(account, "skipped_correlated", coin=product, score=ev["score"],
+                            max_corr=round(max_corr, 2))
+                continue
+            vmult = vol_weights.get(product, 1.0)
+            spend = min(per * vmult, state["cash"])
+            if spend < 1.0:
+                break
+            sim = paper_exec.simulate_market_buy(broker, product, spend, signal_price=price[product])
+            units = sim.get("filled_units", 0.0)
+            if units <= 0:
+                continue
+            broker.market_order(product, "buy", units)
+            spend = sim["total_cost_usd"]  # fee included; a thin book may spend less
+            ex = paper_exec.exec_fields(sim)
+            avg_cost = spend / units
+            state["cash"] -= spend
+            state["positions"][product] = {"units": units, "avg_cost": avg_cost, "peak": avg_cost}
+            state["fills"].append({"ts": latest, "coin": product, "side": "buy",
+                                   "price": sim["sim_fill"], "units": units, "exec": ex,
+                                   "reason": f"breakout+momentum({ev['roc']*100:.0f}%)"
+                                             f"+volume({ev['vol_ratio']:.1f}x), score {ev['score']}"})
+            journal.log(account, "funnel_buy", coin=product, price=round(price[product], 4),
+                        score=ev["score"], roc=round(ev["roc"], 3), vol_ratio=round(ev["vol_ratio"], 2),
+                        max_corr=round(max_corr, 2), vol_mult=round(vmult, 2), live=broker.live, **ex)
+            alerts.notify(f"market_coach: {account} caught {product}" +
+                         (" (REAL)" if broker.live else " (paper)"),
+                         f"score {ev['score']}, +{ev['roc']*100:.1f}% momentum, "
+                         f"${spend:.2f} in (vol-sized {vmult:.0%})", priority="default", tags=["rocket"])
+            active_returns.append(cand_returns)
+            filled += 1
+
+    state["last_close_ts"] = latest
+    # Refresh held coins' prices to live ticker values before computing equity/
+    # drawdown — `price` up to here is each coin's last CLOSED bar (fine for
+    # deciding signals, but stale by up to ~24h on daily granularity). Using
+    # it for the circuit breaker's drawdown check or the journaled equity that
+    # feeds the leaderboard could show a real-looking loss/gain that's really
+    # just yesterday's close vs today's actual price.
+    for c in state["positions"]:
+        try:
+            live_px = broker.ticker_price(c)
+            if live_px:
+                price[c] = live_px
+        except Exception:
+            pass
+    equity = state["cash"] + sum(p["units"] * price.get(c, p["avg_cost"])
+                                 for c, p in state["positions"].items())
+    state["peak_equity"] = max(state.get("peak_equity", state["start_cash"]), equity)
+    dd = equity / state["peak_equity"] - 1 if state["peak_equity"] else 0
+    if not state.get("halted") and dd <= -state.get("max_drawdown", 0.30):
+        for c in list(state["positions"]):
+            px = price.get(c) or state["positions"][c]["avg_cost"]
+            units_c = state["positions"][c]["units"]
+            sim = paper_exec.simulate_market_sell(broker, c, units_c, signal_price=px)
+            sold = sim.get("filled_units", 0.0)
+            if sold > 0:
+                broker.market_order(c, "sell", sold)
+            proceeds = sim["net_proceeds_usd"] if sold > 0 else 0.0
+            if units_c - sold > 1e-12:  # a breaker must exit everything: close the rest at the flat rate
+                proceeds += (units_c - sold) * px * (1 - rate)
+            state["cash"] += proceeds
+            journal.log(account, "kraken_fill", coin=c, side="sell", reason="circuit_breaker",
+                        proceeds=round(proceeds, 2), live=broker.live,
+                        **(paper_exec.exec_fields(sim) if sold > 0 else {}))
+            del state["positions"][c]
+        state["halted"] = True
+        journal.log(account, "circuit_breaker", drawdown=round(dd * 100, 1), live=broker.live,
+                    note="liquidated all moons, halted")
+        alerts.notify(f"market_coach: {account} circuit breaker TRIPPED" +
+                     (" (REAL MONEY)" if broker.live else " (paper)"),
+                     f"Drawdown {dd*100:.1f}% breached limit. Liquidated everything. "
+                     f"Run: python3 kraken_moon.py reset {account}",
+                     priority="urgent", tags=["rotating_light"])
+
+    journal.log(account, "tick", equity=round(equity, 2), holding=len(state["positions"]),
+                halted=state.get("halted", False), paper=state.get("paper", True))
+    _save(state)
+    if verbose:
+        _status(state, price, broker)
+    return state
+
+
+def reset_breaker(account):
+    state = load(account)
+    state["halted"] = False
+    eq = state["cash"] + sum(p["units"] * p["avg_cost"] for p in state["positions"].values())
+    state["peak_equity"] = max(eq, state["start_cash"])
+    _save(state)
+    journal.log(account, "reset", note="kraken moon circuit breaker re-armed")
+    print(f"[{account}] circuit breaker reset; funnel resumes.")
+
+
+def _status(state, price=None, broker=None):
+    # `price` here is each coin's last CLOSED bar (could be up to ~24h stale on
+    # daily granularity) — fine for deciding signals, but showing pnl% against
+    # it right after a live-priced buy can print a misleading swing that isn't
+    # real (e.g. "-15%" on a position opened seconds ago). Prefer a fresh live
+    # ticker price for anything actually held, since that's cheap (only held
+    # positions, typically 0-4 coins) and is what the position's avg_cost was
+    # actually computed from.
+    price = dict(price or {})
+    if broker is not None:
+        for c in state["positions"]:
+            try:
+                live_px = broker.ticker_price(c)
+                if live_px:
+                    price[c] = live_px
+            except Exception:
+                pass
+    eq = state["cash"] + sum(p["units"] * price.get(c, p["avg_cost"])
+                             for c, p in state["positions"].items())
+    ret = eq / state["start_cash"] - 1
+    is_paper = state.get("paper", True)
+    mode = ("PAPER (real account connected)" if (broker and broker.live) else "PAPER") \
+        if is_paper else "!!! LIVE !!!"
+    held = ", ".join(f"{c}({(price.get(c, p['avg_cost'])/p['avg_cost']-1)*100:+.0f}%)"
+                     for c, p in state["positions"].items())
+    print(f"[{state['account']}] [{mode}] equity ${eq:,.2f} ({ret*100:+.1f}%)  "
+          f"holding {len(state['positions'])}/{state['max_positions']}: {held or 'all cash'}")
+    now = time.time()
+    paused_left = state.get("paused_until", 0.0) - now
+    loss_note = f"  loss today: ${state.get('loss_today_usd', 0.0):.2f}"
+    if paused_left > 0:
+        loss_note += f"  [ENTRIES PAUSED {paused_left/60:.0f}m more]"
+    print(f"  {loss_note}")

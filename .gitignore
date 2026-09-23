@@ -1,23 +1,16 @@
-!research_inbox/.gitkeep
+# Secrets and credentials only — everything else (paper_state/, data/, reference_code/, logs/) is now tracked.
 *.keys.json
-*.log
-*.nonce
-*.pyc
-.balance_cache.json
-.kraken_nonce
-.pytest_cache/
-.venv/
-__pycache__/
-alert.keys.json
-cache/
-data/
 kraken.keys.json
-logs/
-paper_state/
-paper_state/*.alpaca.json
-reference_code/
+alert.keys.json
 research.keys.json
-research_inbox/*.txt
-strategies/*.optimized.*.json
 webapp_password.txt
 webapp_password_hash.txt
+.kraken_nonce
+*.nonce
+.balance_cache.json
+
+# Python / environment (not project data)
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/

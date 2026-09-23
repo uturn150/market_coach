@@ -1,0 +1,63 @@
+# Progress 2026-09-20
+
+- Market: TRENDING_UP, F1 filter ON.
+- Fleet: 72 paper accounts, combined return -0.23%.
+- Live evidence: 50 closed paper trips, mean net -2.6%/trip.
+- Graduation: 112 stage passes, 0 eligible for human review.
+- Closest account: realpaper (6 passes; failing OUT_OF_SAMPLE).
+- Learner: hypotheses {'avoid_SIDEWAYS': 'SUPPORTED', 'avoid_HIGH_VOLATILITY': 'REFUTED', 'avoid_SIDEWAYS_and_HIGH_VOLATILITY': 'SUPPORTED', 'market_filter_F1': 'SUPPORTED'}; 0 live restrictions, 1 live failures.
+- Live green (green_candidates): 1 days of history so far (needs 30).
+- Live green (champions): 3 days of history so far (needs 30).
+- A/B (challenger vs parent, same live period):
+    chal_realpaper_1: +0.00% vs realpaper +0.00% over 0.6d
+    chal_krakenrsi_1: +0.00% vs krakenrsi +0.00% over 0.6d
+    chal_krakenfast_1: +0.00% vs krakenfast +0.00% over 0.6d
+    chal_krakenichimoku_1: +0.00% vs krakenichimoku -0.12% over 0.6d
+    chal_krakenturtle_1: +0.00% vs krakenturtle -0.20% over 0.6d
+    chal_krakenmulti_1: +0.00% vs krakenmulti -0.32% over 0.6d
+    chal_krakenfast_2: +0.00% vs krakenfast +0.00% over 0.4d
+    chal_krakenichimoku_2: +0.00% vs krakenichimoku +0.00% over 0.4d
+    chal_realpaper_2: +0.00% vs realpaper +0.00% over 0.4d
+    chal_krakencci_1: +0.00% vs krakencci +0.00% over 0.4d
+# Progress 2026-09-21
+
+- Market: TRENDING_UP, F1 filter ON.
+- Fleet: 84 paper accounts, combined return +0.26% (+0.49% vs 2026-09-20).
+- Live evidence: 84 closed paper trips, mean net -1.642%/trip (+0.96% vs 2026-09-20).
+- Graduation: 227 stage passes (+115 vs 2026-09-20), 0 eligible for human review.
+- Closest account: krakenturtle (7 passes; failing OUT_OF_SAMPLE).
+- Learner: hypotheses {'avoid_SIDEWAYS': 'SUPPORTED', 'avoid_HIGH_VOLATILITY': 'REFUTED', 'avoid_SIDEWAYS_and_HIGH_VOLATILITY': 'REFUTED', 'market_filter_F1': 'SUPPORTED'}; 0 live restrictions, 1 live failures.
+- Live green (green_candidates): 2 days of history so far (needs 30).
+- Live green (champions): 4 days of history so far (needs 30).
+- A/B (challenger vs parent, same live period):
+    chal_realpaper_1: +0.00% vs realpaper +0.00% over 1.6d
+    chal_krakenrsi_1: +0.00% vs krakenrsi +0.00% over 1.6d
+    chal_krakenfast_1: +0.00% vs krakenfast +0.00% over 1.6d
+    chal_krakenichimoku_1: -0.28% vs krakenichimoku +0.34% over 1.6d
+    chal_krakenturtle_1: -0.20% vs krakenturtle +0.42% over 1.6d
+    chal_krakenmulti_1: -0.74% vs krakenmulti +0.66% over 1.6d
+    chal_krakenfast_2: +0.00% vs krakenfast +0.00% over 1.4d
+    chal_krakenichimoku_2: +0.00% vs krakenichimoku +0.46% over 1.4d
+    chal_realpaper_2: +0.00% vs realpaper +0.00% over 1.4d
+    chal_krakencci_1: +0.00% vs krakencci +0.34% over 1.4d
+# Progress 2026-09-22
+
+- Market: TRENDING_UP, F1 filter ON.
+- Fleet: 86 paper accounts, combined return +0.74% (+0.48% vs 2026-09-21).
+- Live evidence: 138 closed paper trips, mean net -0.085%/trip (+1.56% vs 2026-09-21).
+- Graduation: 240 stage passes (+13 vs 2026-09-21), 0 eligible for human review.
+- Closest account: krakenslow (7 passes; failing nothing yet).
+- Learner: hypotheses {'avoid_SIDEWAYS': 'SUPPORTED', 'avoid_HIGH_VOLATILITY': 'REFUTED', 'avoid_SIDEWAYS_and_HIGH_VOLATILITY': 'REFUTED', 'market_filter_F1': 'SUPPORTED'}; 0 live restrictions, 1 live failures.
+- Live green (green_candidates): 3 days of history so far (needs 30).
+- Live green (champions): 5 days of history so far (needs 30).
+- A/B (challenger vs parent, same live period):
+    chal_realpaper_1: +0.00% vs realpaper +0.00% over 2.6d
+    chal_krakenrsi_1: +0.00% vs krakenrsi +0.00% over 2.6d
+    chal_krakenfast_1: -0.46% vs krakenfast -0.48% over 2.6d
+    chal_krakenichimoku_1: +0.16% vs krakenichimoku +1.34% over 2.6d
+    chal_krakenturtle_1: -0.02% vs krakenturtle +1.28% over 2.6d
+    chal_krakenmulti_1: +0.50% vs krakenmulti +2.58% over 2.6d
+    chal_krakenfast_2: -0.58% vs krakenfast -0.48% over 2.4d
+    chal_krakenichimoku_2: -0.24% vs krakenichimoku +1.46% over 2.4d
+    chal_realpaper_2: +0.00% vs realpaper +0.00% over 2.4d
+    chal_krakencci_1: -0.60% vs krakencci +2.73% over 2.4d

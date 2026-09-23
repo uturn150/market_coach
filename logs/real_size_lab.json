@@ -1,0 +1,977 @@
+{
+ "bot_dca_SO5_d3_F1": [
+  {
+   "balance": 100,
+   "ideal_ret": 5.4326088117156335,
+   "real_ret": 0.0,
+   "rejected": 792,
+   "placed": 0,
+   "trips_real": 0,
+   "trips_ideal": 300
+  },
+  {
+   "balance": 500,
+   "ideal_ret": 5.432608811715811,
+   "real_ret": 0.0,
+   "rejected": 792,
+   "placed": 0,
+   "trips_real": 0,
+   "trips_ideal": 300
+  },
+  {
+   "balance": 1000,
+   "ideal_ret": 5.432608811715811,
+   "real_ret": 0.0,
+   "rejected": 792,
+   "placed": 0,
+   "trips_real": 0,
+   "trips_ideal": 300
+  },
+  {
+   "balance": 2500,
+   "ideal_ret": 5.432608811716078,
+   "real_ret": 1.166683345642494,
+   "rejected": 638,
+   "placed": 527,
+   "trips_real": 63,
+   "trips_ideal": 300
+  },
+  {
+   "balance": 5000,
+   "ideal_ret": 5.432608811716078,
+   "real_ret": 2.5091298414309016,
+   "rejected": 224,
+   "placed": 1102,
+   "trips_real": 134,
+   "trips_ideal": 300
+  },
+  {
+   "balance": 10000,
+   "ideal_ret": 5.432608811716078,
+   "real_ret": 4.1716612059347735,
+   "rejected": 8,
+   "placed": 1414,
+   "trips_real": 181,
+   "trips_ideal": 300
+  },
+  {
+   "balance": 25000,
+   "ideal_ret": 5.4326088117159665,
+   "real_ret": 4.686409120348567,
+   "rejected": 4,
+   "placed": 1724,
+   "trips_real": 222,
+   "trips_ideal": 300
+  }
+ ],
+ "bot_dca_SO5_d5_F1": [
+  {
+   "balance": 100,
+   "ideal_ret": 3.346929348619687,
+   "real_ret": 0.0,
+   "rejected": 792,
+   "placed": 0,
+   "trips_real": 0,
+   "trips_ideal": 277
+  },
+  {
+   "balance": 500,
+   "ideal_ret": 3.3469293486197538,
+   "real_ret": 0.0,
+   "rejected": 792,
+   "placed": 0,
+   "trips_real": 0,
+   "trips_ideal": 277
+  },
+  {
+   "balance": 1000,
+   "ideal_ret": 3.3469293486197538,
+   "real_ret": 0.0,
+   "rejected": 792,
+   "placed": 0,
+   "trips_real": 0,
+   "trips_ideal": 277
+  },
+  {
+   "balance": 2500,
+   "ideal_ret": 3.3469293486195983,
+   "real_ret": 0.6247718420145043,
+   "rejected": 638,
+   "placed": 481,
+   "trips_real": 61,
+   "trips_ideal": 277
+  },
+  {
+   "balance": 5000,
+   "ideal_ret": 3.3469293486195983,
+   "real_ret": 1.376510335238823,
+   "rejected": 232,
+   "placed": 1105,
+   "trips_real": 145,
+   "trips_ideal": 277
+  },
+  {
+   "balance": 10000,
+   "ideal_ret": 3.3469293486195983,
+   "real_ret": 2.31550683977666,
+   "rejected": 8,
+   "placed": 1293,
+   "trips_real": 174,
+   "trips_ideal": 277
+  },
+  {
+   "balance": 25000,
+   "ideal_ret": 3.346929348619865,
+   "real_ret": 2.008784312940781,
+   "rejected": 6,
+   "placed": 1125,
+   "trips_real": 152,
+   "trips_ideal": 277
+  }
+ ],
+ "bot_dca_d3_large12": [
+  {
+   "balance": 100,
+   "ideal_ret": 7.226744206161251,
+   "real_ret": 0.0,
+   "rejected": 1056,
+   "placed": 0,
+   "trips_real": 0,
+   "trips_ideal": 435
+  },
+  {
+   "balance": 500,
+   "ideal_ret": 7.226744206161362,
+   "real_ret": 0.0,
+   "rejected": 1056,
+   "placed": 0,
+   "trips_real": 0,
+   "trips_ideal": 435
+  },
+  {
+   "balance": 1000,
+   "ideal_ret": 7.226744206161362,
+   "real_ret": 0.0,
+   "rejected": 1056,
+   "placed": 0,
+   "trips_real": 0,
+   "trips_ideal": 435
+  },
+  {
+   "balance": 2500,
+   "ideal_ret": 7.22674420616094,
+   "real_ret": 0.45339338359406955,
+   "rejected": 967,
+   "placed": 216,
+   "trips_real": 27,
+   "trips_ideal": 435
+  },
+  {
+   "balance": 5000,
+   "ideal_ret": 7.22674420616094,
+   "real_ret": 1.458456250961948,
+   "rejected": 663,
+   "placed": 875,
+   "trips_real": 111,
+   "trips_ideal": 435
+  },
+  {
+   "balance": 10000,
+   "ideal_ret": 7.22674420616094,
+   "real_ret": 1.8335929648385374,
+   "rejected": 154,
+   "placed": 1394,
+   "trips_real": 178,
+   "trips_ideal": 435
+  },
+  {
+   "balance": 25000,
+   "ideal_ret": 7.226744206161206,
+   "real_ret": 4.554579976520201,
+   "rejected": 6,
+   "placed": 1717,
+   "trips_real": 226,
+   "trips_ideal": 435
+  }
+ ],
+ "bot_dca_d3_mid12": [
+  {
+   "balance": 100,
+   "ideal_ret": -19.35974539442843,
+   "real_ret": 0.0,
+   "rejected": 4320,
+   "placed": 0,
+   "trips_real": 0,
+   "trips_ideal": 1591
+  },
+  {
+   "balance": 500,
+   "ideal_ret": -19.359745394427975,
+   "real_ret": 0.0,
+   "rejected": 4320,
+   "placed": 0,
+   "trips_real": 0,
+   "trips_ideal": 1591
+  },
+  {
+   "balance": 1000,
+   "ideal_ret": -19.359745394427975,
+   "real_ret": 0.0,
+   "rejected": 4320,
+   "placed": 0,
+   "trips_real": 0,
+   "trips_ideal": 1591
+  },
+  {
+   "balance": 2500,
+   "ideal_ret": -19.359745394427797,
+   "real_ret": -1.2677600489943819,
+   "rejected": 3866,
+   "placed": 281,
+   "trips_real": 36,
+   "trips_ideal": 1591
+  },
+  {
+   "balance": 5000,
+   "ideal_ret": -19.359745394427797,
+   "real_ret": 4.920899568040205,
+   "rejected": 2369,
+   "placed": 1562,
+   "trips_real": 215,
+   "trips_ideal": 1591
+  },
+  {
+   "balance": 10000,
+   "ideal_ret": -19.359745394427797,
+   "real_ret": -2.5835965477807643,
+   "rejected": 1124,
+   "placed": 1684,
+   "trips_real": 231,
+   "trips_ideal": 1591
+  },
+  {
+   "balance": 25000,
+   "ideal_ret": -19.359745394428884,
+   "real_ret": 1.1975494514021356,
+   "rejected": 390,
+   "placed": 1572,
+   "trips_real": 210,
+   "trips_ideal": 1591
+  }
+ ],
+ "bot_dca_d3_new20": [
+  {
+   "balance": 100,
+   "ideal_ret": -20.85437182564175,
+   "real_ret": 0.0,
+   "rejected": 2620,
+   "placed": 0,
+   "trips_real": 0,
+   "trips_ideal": 746
+  },
+  {
+   "balance": 500,
+   "ideal_ret": -20.854371825641216,
+   "real_ret": 0.0,
+   "rejected": 2620,
+   "placed": 0,
+   "trips_real": 0,
+   "trips_ideal": 746
+  },
+  {
+   "balance": 1000,
+   "ideal_ret": -20.854371825641216,
+   "real_ret": 0.0,
+   "rejected": 2620,
+   "placed": 0,
+   "trips_real": 0,
+   "trips_ideal": 746
+  },
+  {
+   "balance": 2500,
+   "ideal_ret": -20.854371825641582,
+   "real_ret": 0.0,
+   "rejected": 2620,
+   "placed": 0,
+   "trips_real": 0,
+   "trips_ideal": 746
+  },
+  {
+   "balance": 5000,
+   "ideal_ret": -20.854371825641582,
+   "real_ret": 1.458644769537587,
+   "rejected": 1937,
+   "placed": 1155,
+   "trips_real": 153,
+   "trips_ideal": 746
+  },
+  {
+   "balance": 10000,
+   "ideal_ret": -20.854371825641582,
+   "real_ret": -2.797824310706598,
+   "rejected": 328,
+   "placed": 2342,
+   "trips_real": 314,
+   "trips_ideal": 746
+  },
+  {
+   "balance": 25000,
+   "ideal_ret": -20.85437182564189,
+   "real_ret": -18.690240070738064,
+   "rejected": 14,
+   "placed": 2049,
+   "trips_real": 273,
+   "trips_ideal": 746
+  }
+ ],
+ "bot_dca_d5_large12": [
+  {
+   "balance": 100,
+   "ideal_ret": 4.302581145314455,
+   "real_ret": 0.0,
+   "rejected": 1056,
+   "placed": 0,
+   "trips_real": 0,
+   "trips_ideal": 410
+  },
+  {
+   "balance": 500,
+   "ideal_ret": 4.302581145314077,
+   "real_ret": 0.0,
+   "rejected": 1056,
+   "placed": 0,
+   "trips_real": 0,
+   "trips_ideal": 410
+  },
+  {
+   "balance": 1000,
+   "ideal_ret": 4.302581145314077,
+   "real_ret": 0.0,
+   "rejected": 1056,
+   "placed": 0,
+   "trips_real": 0,
+   "trips_ideal": 410
+  },
+  {
+   "balance": 2500,
+   "ideal_ret": 4.302581145314455,
+   "real_ret": 0.28534644254734065,
+   "rejected": 981,
+   "placed": 265,
+   "trips_real": 33,
+   "trips_ideal": 410
+  },
+  {
+   "balance": 5000,
+   "ideal_ret": 4.302581145314455,
+   "real_ret": 0.9170957716409189,
+   "rejected": 662,
+   "placed": 911,
+   "trips_real": 114,
+   "trips_ideal": 410
+  },
+  {
+   "balance": 10000,
+   "ideal_ret": 4.302581145314455,
+   "real_ret": 1.7742330391132821,
+   "rejected": 127,
+   "placed": 1459,
+   "trips_real": 187,
+   "trips_ideal": 410
+  },
+  {
+   "balance": 25000,
+   "ideal_ret": 4.302581145313833,
+   "real_ret": 2.639340872682827,
+   "rejected": 6,
+   "placed": 2053,
+   "trips_real": 271,
+   "trips_ideal": 410
+  }
+ ],
+ "bot_dca_d5_mid12": [
+  {
+   "balance": 100,
+   "ideal_ret": -6.569826934872413,
+   "real_ret": 0.0,
+   "rejected": 4320,
+   "placed": 0,
+   "trips_real": 0,
+   "trips_ideal": 1432
+  },
+  {
+   "balance": 500,
+   "ideal_ret": -6.569826934872724,
+   "real_ret": 0.0,
+   "rejected": 4320,
+   "placed": 0,
+   "trips_real": 0,
+   "trips_ideal": 1432
+  },
+  {
+   "balance": 1000,
+   "ideal_ret": -6.569826934872724,
+   "real_ret": 0.0,
+   "rejected": 4320,
+   "placed": 0,
+   "trips_real": 0,
+   "trips_ideal": 1432
+  },
+  {
+   "balance": 2500,
+   "ideal_ret": -6.569826934872869,
+   "real_ret": 0.38957524050897696,
+   "rejected": 4173,
+   "placed": 267,
+   "trips_real": 34,
+   "trips_ideal": 1432
+  },
+  {
+   "balance": 5000,
+   "ideal_ret": -6.569826934872869,
+   "real_ret": 2.6955498417364554,
+   "rejected": 2410,
+   "placed": 2411,
+   "trips_real": 326,
+   "trips_ideal": 1432
+  },
+  {
+   "balance": 10000,
+   "ideal_ret": -6.569826934872869,
+   "real_ret": 1.814060050757793,
+   "rejected": 1183,
+   "placed": 1754,
+   "trips_real": 247,
+   "trips_ideal": 1432
+  },
+  {
+   "balance": 25000,
+   "ideal_ret": -6.56982693487228,
+   "real_ret": 5.519483414080262,
+   "rejected": 371,
+   "placed": 2199,
+   "trips_real": 312,
+   "trips_ideal": 1432
+  }
+ ],
+ "bot_dca_d5_new20": [
+  {
+   "balance": 100,
+   "ideal_ret": -16.196977087630195,
+   "real_ret": 0.0,
+   "rejected": 2620,
+   "placed": 0,
+   "trips_real": 0,
+   "trips_ideal": 723
+  },
+  {
+   "balance": 500,
+   "ideal_ret": -16.196977087631158,
+   "real_ret": 0.0,
+   "rejected": 2620,
+   "placed": 0,
+   "trips_real": 0,
+   "trips_ideal": 723
+  },
+  {
+   "balance": 1000,
+   "ideal_ret": -16.196977087631158,
+   "real_ret": 0.0,
+   "rejected": 2620,
+   "placed": 0,
+   "trips_real": 0,
+   "trips_ideal": 723
+  },
+  {
+   "balance": 2500,
+   "ideal_ret": -16.196977087630493,
+   "real_ret": 0.0,
+   "rejected": 2620,
+   "placed": 0,
+   "trips_real": 0,
+   "trips_ideal": 723
+  },
+  {
+   "balance": 5000,
+   "ideal_ret": -16.196977087630493,
+   "real_ret": 1.3524450678966016,
+   "rejected": 2087,
+   "placed": 1287,
+   "trips_real": 178,
+   "trips_ideal": 723
+  },
+  {
+   "balance": 10000,
+   "ideal_ret": -16.196977087630493,
+   "real_ret": -1.392838509742833,
+   "rejected": 308,
+   "placed": 2635,
+   "trips_real": 356,
+   "trips_ideal": 723
+  },
+  {
+   "balance": 25000,
+   "ideal_ret": -16.196977087630728,
+   "real_ret": -12.649212085017192,
+   "rejected": 6,
+   "placed": 2373,
+   "trips_real": 323,
+   "trips_ideal": 723
+  }
+ ],
+ "bot_dcaad_large12": [
+  {
+   "balance": 100,
+   "ideal_ret": 4.302581145314455,
+   "real_ret": 0.0,
+   "rejected": 1056,
+   "placed": 0,
+   "trips_real": 0,
+   "trips_ideal": 410
+  },
+  {
+   "balance": 500,
+   "ideal_ret": 4.302581145314077,
+   "real_ret": 0.0,
+   "rejected": 1056,
+   "placed": 0,
+   "trips_real": 0,
+   "trips_ideal": 410
+  },
+  {
+   "balance": 1000,
+   "ideal_ret": 4.302581145314077,
+   "real_ret": 0.0,
+   "rejected": 1056,
+   "placed": 0,
+   "trips_real": 0,
+   "trips_ideal": 410
+  },
+  {
+   "balance": 2500,
+   "ideal_ret": 4.302581145314455,
+   "real_ret": 0.28534644254734065,
+   "rejected": 981,
+   "placed": 265,
+   "trips_real": 33,
+   "trips_ideal": 410
+  },
+  {
+   "balance": 5000,
+   "ideal_ret": 4.302581145314455,
+   "real_ret": 0.9170957716409189,
+   "rejected": 662,
+   "placed": 911,
+   "trips_real": 114,
+   "trips_ideal": 410
+  },
+  {
+   "balance": 10000,
+   "ideal_ret": 4.302581145314455,
+   "real_ret": 1.7742330391132821,
+   "rejected": 127,
+   "placed": 1459,
+   "trips_real": 187,
+   "trips_ideal": 410
+  },
+  {
+   "balance": 25000,
+   "ideal_ret": 4.302581145313833,
+   "real_ret": 2.639340872682827,
+   "rejected": 6,
+   "placed": 2053,
+   "trips_real": 271,
+   "trips_ideal": 410
+  }
+ ],
+ "bot_dcaad_mid12": [
+  {
+   "balance": 100,
+   "ideal_ret": -6.569826934872413,
+   "real_ret": 0.0,
+   "rejected": 4320,
+   "placed": 0,
+   "trips_real": 0,
+   "trips_ideal": 1432
+  },
+  {
+   "balance": 500,
+   "ideal_ret": -6.569826934872724,
+   "real_ret": 0.0,
+   "rejected": 4320,
+   "placed": 0,
+   "trips_real": 0,
+   "trips_ideal": 1432
+  },
+  {
+   "balance": 1000,
+   "ideal_ret": -6.569826934872724,
+   "real_ret": 0.0,
+   "rejected": 4320,
+   "placed": 0,
+   "trips_real": 0,
+   "trips_ideal": 1432
+  },
+  {
+   "balance": 2500,
+   "ideal_ret": -6.569826934872869,
+   "real_ret": 0.38957524050897696,
+   "rejected": 4173,
+   "placed": 267,
+   "trips_real": 34,
+   "trips_ideal": 1432
+  },
+  {
+   "balance": 5000,
+   "ideal_ret": -6.569826934872869,
+   "real_ret": 2.6955498417364554,
+   "rejected": 2410,
+   "placed": 2411,
+   "trips_real": 326,
+   "trips_ideal": 1432
+  },
+  {
+   "balance": 10000,
+   "ideal_ret": -6.569826934872869,
+   "real_ret": 1.814060050757793,
+   "rejected": 1183,
+   "placed": 1754,
+   "trips_real": 247,
+   "trips_ideal": 1432
+  },
+  {
+   "balance": 25000,
+   "ideal_ret": -6.56982693487228,
+   "real_ret": 5.519483414080262,
+   "rejected": 371,
+   "placed": 2199,
+   "trips_real": 312,
+   "trips_ideal": 1432
+  }
+ ],
+ "bot_grid_L4_s6_F1": [
+  {
+   "balance": 100,
+   "ideal_ret": 3.9180345513920356,
+   "real_ret": 0.0,
+   "rejected": 2424,
+   "placed": 16,
+   "trips_real": 0,
+   "trips_ideal": 97
+  },
+  {
+   "balance": 500,
+   "ideal_ret": 3.9180345513917247,
+   "real_ret": 3.962516043910602,
+   "rejected": 4,
+   "placed": 289,
+   "trips_real": 78,
+   "trips_ideal": 97
+  },
+  {
+   "balance": 1000,
+   "ideal_ret": 3.9180345513917247,
+   "real_ret": 5.08146703094563,
+   "rejected": 2,
+   "placed": 303,
+   "trips_real": 86,
+   "trips_ideal": 97
+  },
+  {
+   "balance": 2500,
+   "ideal_ret": 3.9180345513923465,
+   "real_ret": 5.163778420538212,
+   "rejected": 2,
+   "placed": 289,
+   "trips_real": 85,
+   "trips_ideal": 97
+  },
+  {
+   "balance": 5000,
+   "ideal_ret": 3.9180345513923465,
+   "real_ret": 5.118473984269412,
+   "rejected": 2,
+   "placed": 307,
+   "trips_real": 86,
+   "trips_ideal": 97
+  },
+  {
+   "balance": 10000,
+   "ideal_ret": 3.9180345513923465,
+   "real_ret": 6.243820393717381,
+   "rejected": 4,
+   "placed": 237,
+   "trips_real": 74,
+   "trips_ideal": 97
+  },
+  {
+   "balance": 25000,
+   "ideal_ret": 3.9180345513915915,
+   "real_ret": 5.311561318673852,
+   "rejected": 2,
+   "placed": 282,
+   "trips_real": 86,
+   "trips_ideal": 97
+  }
+ ],
+ "bot_grid_L8_s6_F1": [
+  {
+   "balance": 100,
+   "ideal_ret": 3.1293212824631933,
+   "real_ret": 0.0,
+   "rejected": 5630,
+   "placed": 10,
+   "trips_real": 0,
+   "trips_ideal": 112
+  },
+  {
+   "balance": 500,
+   "ideal_ret": 3.1293212824626604,
+   "real_ret": 0.3786287582594028,
+   "rejected": 325,
+   "placed": 232,
+   "trips_real": 20,
+   "trips_ideal": 112
+  },
+  {
+   "balance": 1000,
+   "ideal_ret": 3.1293212824626604,
+   "real_ret": 2.844188402162784,
+   "rejected": 4,
+   "placed": 413,
+   "trips_real": 88,
+   "trips_ideal": 112
+  },
+  {
+   "balance": 2500,
+   "ideal_ret": 3.129321282463282,
+   "real_ret": 3.2952203771900557,
+   "rejected": 2,
+   "placed": 395,
+   "trips_real": 94,
+   "trips_ideal": 112
+  },
+  {
+   "balance": 5000,
+   "ideal_ret": 3.129321282463282,
+   "real_ret": 3.2204921639499284,
+   "rejected": 2,
+   "placed": 387,
+   "trips_real": 90,
+   "trips_ideal": 112
+  },
+  {
+   "balance": 10000,
+   "ideal_ret": 3.129321282463282,
+   "real_ret": 3.189838112746357,
+   "rejected": 1,
+   "placed": 473,
+   "trips_real": 104,
+   "trips_ideal": 112
+  },
+  {
+   "balance": 25000,
+   "ideal_ret": 3.3997488708039203,
+   "real_ret": 3.107886360305967,
+   "rejected": 3,
+   "placed": 383,
+   "trips_real": 85,
+   "trips_ideal": 112
+  }
+ ],
+ "bot_grid_L8_s6_large12": [
+  {
+   "balance": 100,
+   "ideal_ret": 1.9669133378196868,
+   "real_ret": 0.0,
+   "rejected": 7901,
+   "placed": 3,
+   "trips_real": 0,
+   "trips_ideal": 161
+  },
+  {
+   "balance": 500,
+   "ideal_ret": 1.966913337820153,
+   "real_ret": 0.15635790396633098,
+   "rejected": 2057,
+   "placed": 218,
+   "trips_real": 16,
+   "trips_ideal": 161
+  },
+  {
+   "balance": 1000,
+   "ideal_ret": 1.966913337820153,
+   "real_ret": 2.33705752866189,
+   "rejected": 44,
+   "placed": 373,
+   "trips_real": 71,
+   "trips_ideal": 161
+  },
+  {
+   "balance": 2500,
+   "ideal_ret": 1.966913337820242,
+   "real_ret": 2.5951873334673747,
+   "rejected": 3,
+   "placed": 506,
+   "trips_real": 129,
+   "trips_ideal": 161
+  },
+  {
+   "balance": 5000,
+   "ideal_ret": 1.966913337820242,
+   "real_ret": 2.4891554749602918,
+   "rejected": 3,
+   "placed": 561,
+   "trips_real": 132,
+   "trips_ideal": 161
+  },
+  {
+   "balance": 10000,
+   "ideal_ret": 1.966913337820242,
+   "real_ret": 2.1347040247592375,
+   "rejected": 3,
+   "placed": 541,
+   "trips_real": 130,
+   "trips_ideal": 161
+  },
+  {
+   "balance": 25000,
+   "ideal_ret": 1.9669133378197534,
+   "real_ret": 3.048728756449015,
+   "rejected": 1,
+   "placed": 594,
+   "trips_real": 147,
+   "trips_ideal": 161
+  }
+ ],
+ "bot_quick27_active": [
+  {
+   "balance": 100,
+   "ideal_ret": -3.9457085569101213,
+   "real_ret": 0.0,
+   "rejected": 19440,
+   "placed": 0,
+   "trips_real": 0,
+   "trips_ideal": 3799
+  },
+  {
+   "balance": 500,
+   "ideal_ret": -3.9457085569121197,
+   "real_ret": 0.0,
+   "rejected": 19440,
+   "placed": 0,
+   "trips_real": 0,
+   "trips_ideal": 3799
+  },
+  {
+   "balance": 1000,
+   "ideal_ret": -3.9457085569121197,
+   "real_ret": 0.0,
+   "rejected": 19440,
+   "placed": 0,
+   "trips_real": 0,
+   "trips_ideal": 3799
+  },
+  {
+   "balance": 2500,
+   "ideal_ret": -3.9457085569093775,
+   "real_ret": 0.029557776898414545,
+   "rejected": 18721,
+   "placed": 127,
+   "trips_real": 16,
+   "trips_ideal": 3799
+  },
+  {
+   "balance": 5000,
+   "ideal_ret": -3.9457085569093775,
+   "real_ret": -0.8062985464991623,
+   "rejected": 17816,
+   "placed": 1160,
+   "trips_real": 142,
+   "trips_ideal": 3799
+  },
+  {
+   "balance": 10000,
+   "ideal_ret": -3.9457085569093775,
+   "real_ret": -0.17408850987999935,
+   "rejected": 12485,
+   "placed": 5014,
+   "trips_real": 618,
+   "trips_ideal": 3799
+  },
+  {
+   "balance": 25000,
+   "ideal_ret": -3.9457085569078454,
+   "real_ret": 1.954829774654887,
+   "rejected": 3488,
+   "placed": 7101,
+   "trips_real": 875,
+   "trips_ideal": 3799
+  }
+ ],
+ "bot_quick27_f1": [
+  {
+   "balance": 100,
+   "ideal_ret": 5.770954415438534,
+   "real_ret": 0.0,
+   "rejected": 2376,
+   "placed": 0,
+   "trips_real": 0,
+   "trips_ideal": 1006
+  },
+  {
+   "balance": 500,
+   "ideal_ret": 5.770954415437601,
+   "real_ret": 0.0,
+   "rejected": 2376,
+   "placed": 0,
+   "trips_real": 0,
+   "trips_ideal": 1006
+  },
+  {
+   "balance": 1000,
+   "ideal_ret": 5.770954415437601,
+   "real_ret": 0.0,
+   "rejected": 2376,
+   "placed": 0,
+   "trips_real": 0,
+   "trips_ideal": 1006
+  },
+  {
+   "balance": 2500,
+   "ideal_ret": 5.770954415437024,
+   "real_ret": 0.022255116221980842,
+   "rejected": 2289,
+   "placed": 29,
+   "trips_real": 4,
+   "trips_ideal": 1006
+  },
+  {
+   "balance": 5000,
+   "ideal_ret": 5.770954415437024,
+   "real_ret": 0.3004248544233423,
+   "rejected": 2221,
+   "placed": 527,
+   "trips_real": 66,
+   "trips_ideal": 1006
+  },
+  {
+   "balance": 10000,
+   "ideal_ret": 5.770954415437024,
+   "real_ret": 1.061268400937898,
+   "rejected": 1921,
+   "placed": 1559,
+   "trips_real": 183,
+   "trips_ideal": 1006
+  },
+  {
+   "balance": 25000,
+   "ideal_ret": 5.770954415438223,
+   "real_ret": 2.488842453906437,
+   "rejected": 645,
+   "placed": 4221,
+   "trips_real": 490,
+   "trips_ideal": 1006
+  }
+ ]
+}

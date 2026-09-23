@@ -1,0 +1,44 @@
+== grid search on SET_A tuned-9, 2024-01..2025-08 ==
+move>=0.020 vol>=3x trail=0.010: avg/coin  -90.49% trips  1811 win  10.7% [10s]
+move>=0.020 vol>=3x trail=0.020: avg/coin  -86.97% trips  1578 win  18.4% [1s]
+move>=0.020 vol>=3x trail=0.035: avg/coin  -82.44% trips  1447 win  24.7% [1s]
+move>=0.020 vol>=6x trail=0.010: avg/coin  -73.61% trips   819 win  12.2% [1s]
+move>=0.020 vol>=6x trail=0.020: avg/coin  -70.04% trips   780 win  19.0% [1s]
+move>=0.020 vol>=6x trail=0.035: avg/coin  -63.47% trips   755 win  25.6% [1s]
+move>=0.020 vol>=10x trail=0.010: avg/coin  -43.19% trips   334 win  12.9% [1s]
+move>=0.020 vol>=10x trail=0.020: avg/coin  -41.47% trips   328 win  19.8% [1s]
+move>=0.020 vol>=10x trail=0.035: avg/coin  -35.70% trips   324 win  26.9% [1s]
+move>=0.035 vol>=3x trail=0.010: avg/coin  -45.44% trips   370 win  14.9% [1s]
+move>=0.035 vol>=3x trail=0.020: avg/coin  -34.43% trips   312 win  24.7% [1s]
+move>=0.035 vol>=3x trail=0.035: avg/coin  -18.62% trips   286 win  36.0% [1s]
+move>=0.035 vol>=6x trail=0.010: avg/coin  -25.70% trips   169 win  17.2% [1s]
+move>=0.035 vol>=6x trail=0.020: avg/coin  -19.73% trips   161 win  26.1% [1s]
+move>=0.035 vol>=6x trail=0.035: avg/coin  -10.08% trips   154 win  36.4% [1s]
+move>=0.035 vol>=10x trail=0.010: avg/coin   -8.95% trips    66 win  19.7% [1s]
+move>=0.035 vol>=10x trail=0.020: avg/coin   -7.99% trips    65 win  27.7% [1s]
+move>=0.035 vol>=10x trail=0.035: avg/coin   -2.86% trips    64 win  37.5% [1s]
+move>=0.050 vol>=3x trail=0.010: avg/coin  -20.52% trips   134 win  15.7% [1s]
+move>=0.050 vol>=3x trail=0.020: avg/coin  -15.57% trips   110 win  24.5% [1s]
+move>=0.050 vol>=3x trail=0.035: avg/coin   -8.46% trips   102 win  36.3% [1s]
+move>=0.050 vol>=6x trail=0.010: avg/coin  -10.42% trips    57 win  15.8% [1s]
+move>=0.050 vol>=6x trail=0.020: avg/coin   -6.78% trips    53 win  24.5% [1s]
+move>=0.050 vol>=6x trail=0.035: avg/coin   -3.30% trips    51 win  39.2% [1s]
+move>=0.050 vol>=10x trail=0.010: avg/coin   -1.45% trips    18 win  33.3% [1s]
+move>=0.050 vol>=10x trail=0.020: avg/coin   -0.89% trips    18 win  33.3% [1s]
+move>=0.050 vol>=10x trail=0.035: avg/coin   +1.16% trips    17 win  52.9% [1s]
+move>=0.080 vol>=3x trail=0.010: avg/coin   -1.50% trips    26 win  30.8% [1s]
+move>=0.080 vol>=3x trail=0.020: avg/coin   -1.39% trips    18 win  38.9% [1s]
+move>=0.080 vol>=3x trail=0.035: avg/coin   -2.06% trips    17 win  47.1% [1s]
+move>=0.080 vol>=6x trail=0.010: avg/coin   -1.20% trips    12 win  16.7% [1s]
+move>=0.080 vol>=6x trail=0.020: avg/coin   -0.17% trips     9 win  33.3% [1s]
+move>=0.080 vol>=6x trail=0.035: avg/coin   -1.09% trips     8 win  37.5% [1s]
+move>=0.080 vol>=10x trail=0.010: avg/coin   +0.59% trips     5 win  40.0% [1s]
+move>=0.080 vol>=10x trail=0.020: avg/coin   +0.73% trips     5 win  60.0% [1s]
+move>=0.080 vol>=10x trail=0.035: avg/coin   +0.89% trips     4 win  75.0% [1s]
+
+== validating top 5 on SET_A held-out (2025-09..now) and SET_B unseen-18 (2024-01..now) ==
+cfg {'entry_move': 0.05, 'vol_mult': 10, 'trail': 0.035, 'avg_ret_pct': 1.16, 'trips': 17, 'win_pct': 52.9}: held-out(9tuned,recent)   -1.50%/4trips win0% | unseen(18)  -17.17%/163trips win20%
+cfg {'entry_move': 0.08, 'vol_mult': 10, 'trail': 0.035, 'avg_ret_pct': 0.89, 'trips': 4, 'win_pct': 75.0}: held-out(9tuned,recent)   +0.00%/0trips win0% | unseen(18)   -1.72%/29trips win21%
+cfg {'entry_move': 0.08, 'vol_mult': 10, 'trail': 0.02, 'avg_ret_pct': 0.73, 'trips': 5, 'win_pct': 60.0}: held-out(9tuned,recent)   +0.00%/0trips win0% | unseen(18)   -2.68%/29trips win14%
+cfg {'entry_move': 0.08, 'vol_mult': 10, 'trail': 0.01, 'avg_ret_pct': 0.59, 'trips': 5, 'win_pct': 40.0}: held-out(9tuned,recent)   +0.00%/0trips win0% | unseen(18)   -2.57%/30trips win13%
+cfg {'entry_move': 0.08, 'vol_mult': 6, 'trail': 0.02, 'avg_ret_pct': -0.17, 'trips': 9, 'win_pct': 33.3}: held-out(9tuned,recent)   +0.00%/0trips win0% | unseen(18)   -9.45%/78trips win14%

@@ -1,0 +1,14 @@
+{
+  "account": "btcswing",
+  "strategy_path": "strategies/swing_btc.json",
+  "source": "BTC-USD",
+  "granularity": 86400,
+  "cash": 50.0,
+  "units": 0.0,
+  "avg_cost": 0.0,
+  "last_bar_ts": 1789430400,
+  "pending": null,
+  "fills": [],
+  "created": 1789517658,
+  "start_cash": 50.0
+}

@@ -1,0 +1,340 @@
+{
+  "account": "bot_dca_d3_new20",
+  "kind": "bot_live",
+  "bot_kind": "dca",
+  "bot_params": {
+    "safety": 5,
+    "dev": 0.03,
+    "mult": 2.0,
+    "tp": 0.03,
+    "stop": 0.2,
+    "filter": "F1",
+    "breaker": 0.12,
+    "breaker_pause": 30
+  },
+  "coins": [
+    "SUI-USD",
+    "INJ-USD",
+    "RENDER-USD",
+    "TIA-USD",
+    "SEI-USD",
+    "WLD-USD",
+    "HBAR-USD",
+    "VET-USD",
+    "CRV-USD",
+    "GRT-USD",
+    "SAND-USD",
+    "MANA-USD",
+    "XTZ-USD",
+    "KAVA-USD",
+    "ZEC-USD",
+    "DASH-USD",
+    "COMP-USD",
+    "SNX-USD",
+    "BONK-USD",
+    "POL-USD"
+  ],
+  "granularity": 86400,
+  "start_cash": 50.0,
+  "anchor_ts": 1789862400,
+  "paper": true,
+  "created": 1789926894,
+  "sleeves": {
+    "SUI-USD": {
+      "cash": 2.565279522023034,
+      "units": 0.0,
+      "last_px": 1.024,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "INJ-USD": {
+      "cash": 2.565279522023034,
+      "units": 0.0,
+      "last_px": 7.908,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "RENDER-USD": {
+      "cash": 2.565279522023034,
+      "units": 0.0,
+      "last_px": 1.85,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "TIA-USD": {
+      "cash": 2.565279522023034,
+      "units": 0.0,
+      "last_px": 0.5214,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "SEI-USD": {
+      "cash": 2.565279522023034,
+      "units": 0.0,
+      "last_px": 0.0615,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "WLD-USD": {
+      "cash": 2.565279522023034,
+      "units": 0.0,
+      "last_px": 0.471,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "HBAR-USD": {
+      "cash": 2.565279522023034,
+      "units": 0.0,
+      "last_px": 0.09911,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "VET-USD": {
+      "cash": 2.565279522023034,
+      "units": 0.0,
+      "last_px": 0.009285,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "CRV-USD": {
+      "cash": 2.565279522023034,
+      "units": 0.0,
+      "last_px": 0.36386,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "GRT-USD": {
+      "cash": 2.565279522023034,
+      "units": 0.0,
+      "last_px": 0.02543,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "SAND-USD": {
+      "cash": 2.565279522023034,
+      "units": 0.0,
+      "last_px": 0.0432,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "MANA-USD": {
+      "cash": 2.565279522023034,
+      "units": 0.0,
+      "last_px": 0.08828,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "XTZ-USD": {
+      "cash": 2.565279522023034,
+      "units": 0.0,
+      "last_px": 0.34714,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "KAVA-USD": {
+      "cash": 2.565279522023034,
+      "units": 0.0,
+      "last_px": 0.0704,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "ZEC-USD": {
+      "cash": 2.565279522023034,
+      "units": 0.0,
+      "last_px": 1629.92,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "DASH-USD": {
+      "cash": 2.565279522023034,
+      "units": 0.0,
+      "last_px": 64.187,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "COMP-USD": {
+      "cash": 2.565279522023034,
+      "units": 0.0,
+      "last_px": 23.24,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "SNX-USD": {
+      "cash": 2.565279522023034,
+      "units": 0.0,
+      "last_px": 0.2463,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "BONK-USD": {
+      "cash": 2.565279522023034,
+      "units": 0.0,
+      "last_px": 3.623e-06,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "POL-USD": {
+      "cash": 2.565279522023034,
+      "units": 0.0,
+      "last_px": 0.10977,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    }
+  },
+  "fills": [
+    {
+      "ts": 1789948800,
+      "coin": "SUI-USD",
+      "side": "buy",
+      "price": 0.8971601010000001,
+      "units": 11.14578,
+      "notional": 10.079545503407973
+    },
+    {
+      "ts": 1789948800,
+      "coin": "INJ-USD",
+      "side": "buy",
+      "price": 7.784256780000001,
+      "units": 1.28468653,
+      "notional": 10.080332469977792
+    },
+    {
+      "ts": 1789948800,
+      "coin": "RENDER-USD",
+      "side": "buy",
+      "price": 1.7325022800000003,
+      "units": 5.77034,
+      "notional": 10.077104224026204
+    },
+    {
+      "ts": 1789948800,
+      "coin": "TIA-USD",
+      "side": "buy",
+      "price": 0.4189214520000001,
+      "units": 23.87204,
+      "notional": 10.080513736274098
+    },
+    {
+      "ts": 1789948800,
+      "coin": "SEI-USD",
+      "side": "buy",
+      "price": 0.053405483100000005,
+      "units": 187.23085,
+      "notional": 10.079147227437424
+    },
+    {
+      "ts": 1790035200,
+      "coin": "SUI-USD",
+      "side": "sell",
+      "price": 0.9315,
+      "units": 11.14578,
+      "proceeds": 10.340764893720001
+    },
+    {
+      "ts": 1790035200,
+      "coin": "INJ-USD",
+      "side": "sell",
+      "price": 8.082,
+      "units": 1.28468653,
+      "proceeds": 10.341305189318161
+    },
+    {
+      "ts": 1790035200,
+      "coin": "RENDER-USD",
+      "side": "sell",
+      "price": 1.799,
+      "units": 5.77034,
+      "proceeds": 10.33931829336
+    },
+    {
+      "ts": 1790035200,
+      "coin": "TIA-USD",
+      "side": "sell",
+      "price": 0.4349,
+      "units": 23.87204,
+      "proceeds": 10.340422395216
+    },
+    {
+      "ts": 1790035200,
+      "coin": "SEI-USD",
+      "side": "sell",
+      "price": 0.05545,
+      "units": 187.23085,
+      "proceeds": 10.34042282997
+    }
+  ],
+  "orders": [],
+  "halted": false,
+  "peak_equity": 53.727984545586516,
+  "last_tick": 1790141401,
+  "engine_stats": {
+    "limit_fills": 5,
+    "market_fills": 5,
+    "placed": 5,
+    "expired": 0,
+    "below_min": 0,
+    "dust_sell": 0
+  },
+  "kraken_rules": true,
+  "order_step": 10.0
+}

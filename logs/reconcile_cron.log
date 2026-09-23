@@ -1,0 +1,352 @@
+
+Reconciling 'realpaper' vs its own backtest replay since 2026-09-18 (2.4 days live)
+
+coin        live buys  backtest buys  verdict
+------------------------------------------------------------
+BTC-USD             0              0  match
+ETH-USD             0              0  match
+SOL-USD             0              0  match
+ADA-USD             0              0  match
+AVAX-USD            0              0  match
+LINK-USD            0              0  match
+LTC-USD             0              0  match
+XRP-USD             0              0  match
+DOT-USD             0              0  match
+DOGE-USD            0              0  match
+ATOM-USD            0              0  match
+UNI-USD             0              0  match
+BCH-USD             0              0  match
+ALGO-USD            0              0  match
+FIL-USD             0              0  match
+NEAR-USD            0              0  match
+APT-USD             0              0  match
+ARB-USD             0              0  match
+OP-USD              0              0  match
+ICP-USD             0              0  match
+ETC-USD             0              0  match
+XLM-USD             0              0  match
+AAVE-USD            0              0  match
+SHIB-USD            0              0  match
+------------------------------------------------------------
+All coins match their backtest replay over this window. Paper trading is behaving exactly as its validated backtest predicted (note: vol/correlation sizing can still change how MUCH was bought each time without changing the trade count — that's expected).
+
+
+Reconciling 'krakenmulti' vs its own backtest replay since 2026-09-18 (2.4 days live)
+
+coin        live buys  backtest buys  verdict
+------------------------------------------------------------
+BTC-USD             0              0  match
+ETH-USD             1              0  live AHEAD
+SOL-USD             1              0  live AHEAD
+ADA-USD             1              1  match
+AVAX-USD            1              0  live AHEAD
+LINK-USD            0              0  match
+LTC-USD             1              0  live AHEAD
+XRP-USD             0              0  match
+DOT-USD             0              0  match
+DOGE-USD            0              0  match
+ATOM-USD            0              0  match
+UNI-USD             1              0  live AHEAD
+BCH-USD             1              1  match
+ALGO-USD            1              1  match
+FIL-USD             1              0  live AHEAD
+NEAR-USD            1              0  live AHEAD
+APT-USD             1              1  match
+ARB-USD             1              0  live AHEAD
+OP-USD              1              1  match
+ICP-USD             0              0  match
+ETC-USD             0              0  match
+XLM-USD             1              0  live AHEAD
+AAVE-USD            1              0  live AHEAD
+SHIB-USD            0              1  live BEHIND
+------------------------------------------------------------
+11 coin(s) diverge from the backtest replay. Before assuming decay, check: a missed/failed cron tick (see paper_state/*.log), the circuit breaker having halted new buys (see logs/<account>.jsonl for 'circuit_breaker'), or a real bug in the live tick logic. A genuine, unexplained divergence after ruling those out IS a real signal to re-examine whether the edge still holds.
+
+
+Reconciling 'krakenfast' vs its own backtest replay since 2026-09-18 (2.4 days live)
+
+coin        live buys  backtest buys  verdict
+------------------------------------------------------------
+BTC-USD             0              0  match
+ETH-USD             0              0  match
+SOL-USD             0              0  match
+ADA-USD             0              0  match
+AVAX-USD            0              0  match
+LINK-USD            0              0  match
+LTC-USD             0              0  match
+XRP-USD             0              0  match
+DOT-USD             0              0  match
+DOGE-USD            0              0  match
+ATOM-USD            0              0  match
+UNI-USD             0              0  match
+BCH-USD             0              0  match
+ALGO-USD            0              0  match
+FIL-USD             0              0  match
+NEAR-USD            0              0  match
+APT-USD             0              0  match
+ARB-USD             0              0  match
+OP-USD              0              0  match
+ICP-USD             0              0  match
+ETC-USD             0              0  match
+XLM-USD             0              0  match
+AAVE-USD            0              0  match
+SHIB-USD            0              0  match
+------------------------------------------------------------
+All coins match their backtest replay over this window. Paper trading is behaving exactly as its validated backtest predicted (note: vol/correlation sizing can still change how MUCH was bought each time without changing the trade count — that's expected).
+
+
+Reconciling 'krakenslow' vs its own backtest replay since 2026-09-18 (2.4 days live)
+
+coin        live buys  backtest buys  verdict
+------------------------------------------------------------
+BTC-USD             0              0  match
+ETH-USD             0              0  match
+SOL-USD             0              0  match
+ADA-USD             1              1  match
+AVAX-USD            0              0  match
+LINK-USD            0              0  match
+LTC-USD             0              0  match
+XRP-USD             0              0  match
+DOT-USD             0              0  match
+DOGE-USD            0              0  match
+ATOM-USD            0              0  match
+UNI-USD             0              0  match
+BCH-USD             0              0  match
+ALGO-USD            0              0  match
+FIL-USD             0              0  match
+NEAR-USD            0              0  match
+APT-USD             0              0  match
+ARB-USD             0              0  match
+OP-USD              0              0  match
+ICP-USD             0              0  match
+ETC-USD             0              0  match
+XLM-USD             0              0  match
+AAVE-USD            0              0  match
+SHIB-USD            0              0  match
+------------------------------------------------------------
+All coins match their backtest replay over this window. Paper trading is behaving exactly as its validated backtest predicted (note: vol/correlation sizing can still change how MUCH was bought each time without changing the trade count — that's expected).
+
+
+Reconciling 'krakenrsi' vs its own backtest replay since 2026-09-18 (2.4 days live)
+
+coin        live buys  backtest buys  verdict
+------------------------------------------------------------
+BTC-USD             0              0  match
+ETH-USD             0              0  match
+SOL-USD             0              0  match
+ADA-USD             0              0  match
+AVAX-USD            0              0  match
+LINK-USD            0              0  match
+LTC-USD             0              0  match
+XRP-USD             0              0  match
+DOT-USD             0              0  match
+DOGE-USD            0              0  match
+ATOM-USD            0              0  match
+UNI-USD             0              0  match
+BCH-USD             0              0  match
+ALGO-USD            0              0  match
+FIL-USD             0              0  match
+NEAR-USD            0              0  match
+APT-USD             0              0  match
+ARB-USD             0              0  match
+OP-USD              0              0  match
+ICP-USD             0              0  match
+ETC-USD             0              0  match
+XLM-USD             0              0  match
+AAVE-USD            0              0  match
+SHIB-USD            0              0  match
+------------------------------------------------------------
+All coins match their backtest replay over this window. Paper trading is behaving exactly as its validated backtest predicted (note: vol/correlation sizing can still change how MUCH was bought each time without changing the trade count — that's expected).
+
+
+Reconciling 'krakenmacd' vs its own backtest replay since 2026-09-18 (2.4 days live)
+
+coin        live buys  backtest buys  verdict
+------------------------------------------------------------
+BTC-USD             0              0  match
+ETH-USD             0              1  live BEHIND
+SOL-USD             0              1  live BEHIND
+ADA-USD             0              1  live BEHIND
+AVAX-USD            1              1  match
+LINK-USD            0              0  match
+LTC-USD             1              1  match
+XRP-USD             0              0  match
+DOT-USD             1              1  match
+DOGE-USD            0              0  match
+ATOM-USD            0              1  live BEHIND
+UNI-USD             0              0  match
+BCH-USD             0              1  live BEHIND
+ALGO-USD            0              1  live BEHIND
+FIL-USD             0              0  match
+NEAR-USD            0              0  match
+APT-USD             1              1  match
+ARB-USD             0              0  match
+OP-USD              1              1  match
+ICP-USD             0              1  live BEHIND
+ETC-USD             0              1  live BEHIND
+XLM-USD             1              1  match
+AAVE-USD            0              1  live BEHIND
+SHIB-USD            0              1  live BEHIND
+------------------------------------------------------------
+10 coin(s) diverge from the backtest replay. Before assuming decay, check: a missed/failed cron tick (see paper_state/*.log), the circuit breaker having halted new buys (see logs/<account>.jsonl for 'circuit_breaker'), or a real bug in the live tick logic. A genuine, unexplained divergence after ruling those out IS a real signal to re-examine whether the edge still holds.
+
+
+Reconciling 'krakenbbreak' vs its own backtest replay since 2026-09-18 (2.4 days live)
+
+coin        live buys  backtest buys  verdict
+------------------------------------------------------------
+BTC-USD             0              0  match
+ETH-USD             1              1  match
+SOL-USD             1              1  match
+ADA-USD             0              0  match
+AVAX-USD            1              1  match
+LINK-USD            0              0  match
+LTC-USD             1              1  match
+XRP-USD             0              0  match
+DOT-USD             0              0  match
+DOGE-USD            0              0  match
+ATOM-USD            0              0  match
+UNI-USD             0              0  match
+BCH-USD             0              0  match
+ALGO-USD            1              1  match
+FIL-USD             0              0  match
+NEAR-USD            0              0  match
+APT-USD             1              1  match
+ARB-USD             1              1  match
+OP-USD              1              1  match
+ICP-USD             0              0  match
+ETC-USD             1              1  match
+XLM-USD             1              1  match
+AAVE-USD            1              1  match
+SHIB-USD            0              0  match
+------------------------------------------------------------
+All coins match their backtest replay over this window. Paper trading is behaving exactly as its validated backtest predicted (note: vol/correlation sizing can still change how MUCH was bought each time without changing the trade count — that's expected).
+
+
+Reconciling 'krakenturtle' vs its own backtest replay since 2026-09-18 (2.4 days live)
+
+coin        live buys  backtest buys  verdict
+------------------------------------------------------------
+BTC-USD             0              0  match
+ETH-USD             1              0  live AHEAD
+SOL-USD             1              1  match
+ADA-USD             0              0  match
+AVAX-USD            1              0  live AHEAD
+LINK-USD            0              0  match
+LTC-USD             1              0  live AHEAD
+XRP-USD             0              0  match
+DOT-USD             0              0  match
+DOGE-USD            0              0  match
+ATOM-USD            0              0  match
+UNI-USD             0              0  match
+BCH-USD             0              0  match
+ALGO-USD            1              0  live AHEAD
+FIL-USD             1              0  live AHEAD
+NEAR-USD            1              0  live AHEAD
+APT-USD             1              0  live AHEAD
+ARB-USD             1              1  match
+OP-USD              1              1  match
+ICP-USD             0              0  match
+ETC-USD             0              0  match
+XLM-USD             0              0  match
+AAVE-USD            0              0  match
+SHIB-USD            0              0  match
+------------------------------------------------------------
+7 coin(s) diverge from the backtest replay. Before assuming decay, check: a missed/failed cron tick (see paper_state/*.log), the circuit breaker having halted new buys (see logs/<account>.jsonl for 'circuit_breaker'), or a real bug in the live tick logic. A genuine, unexplained divergence after ruling those out IS a real signal to re-examine whether the edge still holds.
+
+
+Reconciling 'krakencci' vs its own backtest replay since 2026-09-18 (2.4 days live)
+
+coin        live buys  backtest buys  verdict
+------------------------------------------------------------
+BTC-USD             1              1  match
+ETH-USD             1              1  match
+SOL-USD             1              1  match
+ADA-USD             1              1  match
+AVAX-USD            1              0  live AHEAD
+LINK-USD            1              0  live AHEAD
+LTC-USD             1              0  live AHEAD
+XRP-USD             0              0  match
+DOT-USD             0              0  match
+DOGE-USD            0              0  match
+ATOM-USD            0              0  match
+UNI-USD             0              0  match
+BCH-USD             0              0  match
+ALGO-USD            1              0  live AHEAD
+FIL-USD             1              0  live AHEAD
+NEAR-USD            0              0  match
+APT-USD             1              1  match
+ARB-USD             0              0  match
+OP-USD              1              1  match
+ICP-USD             0              0  match
+ETC-USD             1              0  live AHEAD
+XLM-USD             1              0  live AHEAD
+AAVE-USD            1              1  match
+SHIB-USD            1              1  match
+------------------------------------------------------------
+7 coin(s) diverge from the backtest replay. Before assuming decay, check: a missed/failed cron tick (see paper_state/*.log), the circuit breaker having halted new buys (see logs/<account>.jsonl for 'circuit_breaker'), or a real bug in the live tick logic. A genuine, unexplained divergence after ruling those out IS a real signal to re-examine whether the edge still holds.
+
+
+Reconciling 'krakenkeltner' vs its own backtest replay since 2026-09-18 (2.5 days live)
+
+coin        live buys  backtest buys  verdict
+------------------------------------------------------------
+BTC-USD             0              0  match
+ETH-USD             0              0  match
+SOL-USD             1              0  live AHEAD
+ADA-USD             0              0  match
+AVAX-USD            1              0  live AHEAD
+LINK-USD            0              0  match
+LTC-USD             1              0  live AHEAD
+XRP-USD             0              0  match
+DOT-USD             0              0  match
+DOGE-USD            0              0  match
+ATOM-USD            0              0  match
+UNI-USD             0              0  match
+BCH-USD             0              0  match
+ALGO-USD            0              0  match
+FIL-USD             0              0  match
+NEAR-USD            0              0  match
+APT-USD             1              1  match
+ARB-USD             0              1  live BEHIND
+OP-USD              1              1  match
+ICP-USD             0              0  match
+ETC-USD             0              0  match
+XLM-USD             0              0  match
+AAVE-USD            0              0  match
+SHIB-USD            0              0  match
+------------------------------------------------------------
+4 coin(s) diverge from the backtest replay. Before assuming decay, check: a missed/failed cron tick (see paper_state/*.log), the circuit breaker having halted new buys (see logs/<account>.jsonl for 'circuit_breaker'), or a real bug in the live tick logic. A genuine, unexplained divergence after ruling those out IS a real signal to re-examine whether the edge still holds.
+
+
+Reconciling 'krakenichimoku' vs its own backtest replay since 2026-09-18 (2.5 days live)
+
+coin        live buys  backtest buys  verdict
+------------------------------------------------------------
+BTC-USD             0              0  match
+ETH-USD             0              0  match
+SOL-USD             1              1  match
+ADA-USD             1              1  match
+AVAX-USD            1              0  live AHEAD
+LINK-USD            0              0  match
+LTC-USD             1              1  match
+XRP-USD             0              0  match
+DOT-USD             0              0  match
+DOGE-USD            0              0  match
+ATOM-USD            0              0  match
+UNI-USD             0              0  match
+BCH-USD             0              0  match
+ALGO-USD            1              1  match
+FIL-USD             0              0  match
+NEAR-USD            0              0  match
+APT-USD             0              0  match
+ARB-USD             0              0  match
+OP-USD              1              1  match
+ICP-USD             0              0  match
+ETC-USD             0              0  match
+XLM-USD             1              1  match
+AAVE-USD            0              0  match
+SHIB-USD            0              0  match
+------------------------------------------------------------
+1 coin(s) diverge from the backtest replay. Before assuming decay, check: a missed/failed cron tick (see paper_state/*.log), the circuit breaker having halted new buys (see logs/<account>.jsonl for 'circuit_breaker'), or a real bug in the live tick logic. A genuine, unexplained divergence after ruling those out IS a real signal to re-examine whether the edge still holds.
+

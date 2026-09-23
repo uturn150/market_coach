@@ -1,0 +1,67 @@
+Search found 17 candidate videos.
+  [inbox] analyzed 0rzXU-BlKCg (4037 chars)
+  [inbox] analyzed 18gFA91BAy4.needs_paste (208 chars)
+  [inbox] analyzed Lsh0W35hwiQ.needs_paste (203 chars)
+  [inbox] analyzed m_hL0kTqyek.needs_paste (219 chars)
+  [inbox] analyzed MH8Q6lUysdE.needs_paste (207 chars)
+
+Run complete: 0 auto-fetched+analyzed, 3 blocked (stubs in research_inbox/ for manual paste), 5 from inbox.
+
+=== Research digest (last 1d, 1 videos) ===
+
+I Doubled My $10k Trading Account
+  Creator shares rules learned from backtesting 2000+ strategies; heavy product promotion.
+    idea [data]: min_trade_count — Require >=100 trades in backtest before trusting results
+    idea [risk]: max_drawdown_cap — Reject strategies with backtest max drawdown above 20%
+    idea [entry]: profit_factor_floor — Require profit factor > 1.1 minimum, prefer >1.5
+    idea [exit]: beat_buy_hold — Strategy must beat buy-and-hold benchmark on the same asset/period
+    idea [entry]: trend_following_bias — Trend-following strategies are easier to trade live than mean-reversion
+    idea [data]: avoid_multi_timeframe — Avoid multi-timeframe/multi-take-profit strategies; prone to lookahead bias
+    idea [fees]: fees_and_slippage — Always backtest with real fees; overestimate slippage
+    idea [risk]: diversify_bots — Run multiple uncorrelated strategies/coins/timeframes so one covers another's drawdown
+    idea [risk]: auto_kill_switch — Build a watcher that disables a strategy showing signs of decay before losses compound
+    RED FLAG: Unverified self-reported '$10k doubled in 12 months' claim
+    RED FLAG: Promotes paid community (Skool) and third-party tools (TradingKit/TriggerTrade)
+    RED FLAG: No out-of-sample/walk-forward testing mentioned in the 2-hour AI strategy hunt step
+
+9 concrete ideas, 3 red flags surfaced. Nothing auto-applied — review and, if worth testing, build a strategy template and run it through optimize.py like any other candidate.
+Search found 17 candidate videos.
+  [inbox] analyzed U3dh428l0U0.needs_paste (222 chars)
+  [inbox] analyzed rEGiBNVcmUM.needs_paste (216 chars)
+  [inbox] analyzed PZ068_q4kug.needs_paste (218 chars)
+
+Run complete: 0 auto-fetched+analyzed, 3 blocked (stubs in research_inbox/ for manual paste), 3 from inbox.
+No analyzed findings in this window.
+Search found 17 candidate videos.
+  [inbox] analyzed Bg3NuMJFUDI.needs_paste (209 chars)
+
+Run complete: 0 auto-fetched+analyzed, 3 blocked (stubs in research_inbox/ for manual paste), 1 from inbox.
+No analyzed findings in this window.
+Search found 18 candidate videos.
+  [inbox] analyzed MmotUf1G51g.needs_paste (225 chars)
+  [inbox] analyzed YhgkUoAS_YI.needs_paste (204 chars)
+  [inbox] analyzed AKVIXF0Fb3E.needs_paste (223 chars)
+  [inbox] analyzed BkyXazKsOWk.needs_paste (211 chars)
+  [inbox] analyzed XzskUhzPnUg.needs_paste (220 chars)
+  [inbox] analyzed Kcp2x9O1ZCo.needs_paste (222 chars)
+
+Run complete: 0 auto-fetched+analyzed, 3 blocked (stubs in research_inbox/ for manual paste), 6 from inbox.
+No analyzed findings in this window.
+Search found 16 candidate videos.
+  [inbox] analyzed cPP4KZPZrBs.needs_paste (205 chars)
+  [inbox] analyzed rKkN8bHlD_g.needs_paste (210 chars)
+  [inbox] analyzed YWo_brZlQuM.needs_paste (209 chars)
+
+Run complete: 0 auto-fetched+analyzed, 3 blocked (stubs in research_inbox/ for manual paste), 3 from inbox.
+No analyzed findings in this window.
+Search found 17 candidate videos.
+
+Run complete: 0 auto-fetched+analyzed, 3 blocked (stubs in research_inbox/ for manual paste), 0 from inbox.
+No analyzed findings in this window.
+Search found 19 candidate videos.
+  [inbox] analyzed _zfL3TPtLBA.needs_paste (213 chars)
+  [inbox] analyzed culAo0nDyrY.needs_paste (207 chars)
+  [inbox] analyzed VrvNUyzBwXs.needs_paste (208 chars)
+
+Run complete: 0 auto-fetched+analyzed, 3 blocked (stubs in research_inbox/ for manual paste), 3 from inbox.
+No analyzed findings in this window.

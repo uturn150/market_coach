@@ -1,0 +1,399 @@
+{
+  "account": "bot_quick27_active",
+  "kind": "bot_live",
+  "bot_kind": "dca",
+  "bot_params": {
+    "safety": 6,
+    "dev": 0.05,
+    "mult": 1.8,
+    "tp": 0.02,
+    "stop": 0.25,
+    "filter": "none",
+    "base_limit": 0.002,
+    "breaker": 0.15,
+    "breaker_pause": 30
+  },
+  "coins": [
+    "BTC-USD",
+    "ETH-USD",
+    "SOL-USD",
+    "ADA-USD",
+    "AVAX-USD",
+    "LINK-USD",
+    "LTC-USD",
+    "DOT-USD",
+    "DOGE-USD",
+    "ATOM-USD",
+    "UNI-USD",
+    "BCH-USD",
+    "ALGO-USD",
+    "FIL-USD",
+    "ICP-USD",
+    "ETC-USD",
+    "XLM-USD",
+    "AAVE-USD",
+    "SHIB-USD",
+    "CRV-USD",
+    "GRT-USD",
+    "MANA-USD",
+    "XTZ-USD",
+    "ZEC-USD",
+    "DASH-USD",
+    "COMP-USD",
+    "SNX-USD"
+  ],
+  "granularity": 86400,
+  "start_cash": 50.0,
+  "anchor_ts": 1789948800,
+  "paper": true,
+  "created": 1789970940,
+  "sleeves": {
+    "BTC-USD": {
+      "cash": 0.36445465410347083,
+      "units": 0.00011571,
+      "last_px": 86196.7,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": true,
+      "entry_px": 86766.2824
+    },
+    "ETH-USD": {
+      "cash": 0.36445465410347083,
+      "units": 0.00360973,
+      "last_px": 2753.25,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": true,
+      "entry_px": 2781.37116
+    },
+    "SOL-USD": {
+      "cash": 0.36445465410347083,
+      "units": 0.0842957,
+      "last_px": 118.53,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": true,
+      "entry_px": 119.10452000000002
+    },
+    "ADA-USD": {
+      "cash": 0.36445465410347083,
+      "units": 40.83416022,
+      "last_px": 0.25415,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": true,
+      "entry_px": 0.24587257199999998
+    },
+    "AVAX-USD": {
+      "cash": 0.36445465410347083,
+      "units": 0.0,
+      "last_px": 11.32,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "LINK-USD": {
+      "cash": 0.36445465410347083,
+      "units": 0.0,
+      "last_px": 13.03959,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "LTC-USD": {
+      "cash": 0.36445465410347083,
+      "units": 0.0,
+      "last_px": 62.97,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "DOT-USD": {
+      "cash": 0.36445465410347083,
+      "units": 0.0,
+      "last_px": 1.2178,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "DOGE-USD": {
+      "cash": 0.36445465410347083,
+      "units": 0.0,
+      "last_px": 0.1004158,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "ATOM-USD": {
+      "cash": 0.36445465410347083,
+      "units": 0.0,
+      "last_px": 1.8447,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "UNI-USD": {
+      "cash": 0.36445465410347083,
+      "units": 0.0,
+      "last_px": 10.2157,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "BCH-USD": {
+      "cash": 0.36445465410347083,
+      "units": 0.0,
+      "last_px": 344.66,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "ALGO-USD": {
+      "cash": 0.36445465410347083,
+      "units": 0.0,
+      "last_px": 0.11214,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "FIL-USD": {
+      "cash": 0.36445465410347083,
+      "units": 0.0,
+      "last_px": 1.043,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "ICP-USD": {
+      "cash": 0.36445465410347083,
+      "units": 0.0,
+      "last_px": 3.018,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "ETC-USD": {
+      "cash": 0.36445465410347083,
+      "units": 0.0,
+      "last_px": 9.44,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "XLM-USD": {
+      "cash": 0.36445465410347083,
+      "units": 0.0,
+      "last_px": 0.216284,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "AAVE-USD": {
+      "cash": 0.36445465410347083,
+      "units": 0.0,
+      "last_px": 148.03,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "SHIB-USD": {
+      "cash": 0.36445465410347083,
+      "units": 0.0,
+      "last_px": 6.11e-06,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "CRV-USD": {
+      "cash": 0.36445465410347083,
+      "units": 0.0,
+      "last_px": 0.36386,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "GRT-USD": {
+      "cash": 0.36445465410347083,
+      "units": 0.0,
+      "last_px": 0.02543,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "MANA-USD": {
+      "cash": 0.36445465410347083,
+      "units": 0.0,
+      "last_px": 0.08828,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "XTZ-USD": {
+      "cash": 0.36445465410347083,
+      "units": 0.0,
+      "last_px": 0.34714,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "ZEC-USD": {
+      "cash": 0.36445465410347083,
+      "units": 0.0,
+      "last_px": 1629.92,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "DASH-USD": {
+      "cash": 0.36445465410347083,
+      "units": 0.0,
+      "last_px": 64.187,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "COMP-USD": {
+      "cash": 0.36445465410347083,
+      "units": 0.0,
+      "last_px": 23.24,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "SNX-USD": {
+      "cash": 0.36445465410347083,
+      "units": 0.0,
+      "last_px": 0.2463,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    }
+  },
+  "fills": [
+    {
+      "ts": 1790035200,
+      "coin": "BTC-USD",
+      "side": "buy",
+      "price": 86420.6,
+      "units": 0.00011571,
+      "notional": 10.039726536504
+    },
+    {
+      "ts": 1790035200,
+      "coin": "ETH-USD",
+      "side": "buy",
+      "price": 2770.29,
+      "units": 0.00360973,
+      "notional": 10.0399989173868
+    },
+    {
+      "ts": 1790035200,
+      "coin": "SOL-USD",
+      "side": "buy",
+      "price": 118.63,
+      "units": 0.0842957,
+      "notional": 10.039998886564002
+    },
+    {
+      "ts": 1790035200,
+      "coin": "ADA-USD",
+      "side": "buy",
+      "price": 0.244893,
+      "units": 40.83416022,
+      "notional": 10.039999998751485
+    }
+  ],
+  "orders": [
+    {
+      "coin": "BTC-USD",
+      "side": "sell",
+      "price": 88501.6,
+      "units": 0.00011571,
+      "tag": "tp"
+    },
+    {
+      "coin": "ETH-USD",
+      "side": "sell",
+      "price": 2837.0,
+      "units": 0.00360973,
+      "tag": "tp"
+    },
+    {
+      "coin": "SOL-USD",
+      "side": "sell",
+      "price": 121.49,
+      "units": 0.0842957,
+      "tag": "tp"
+    },
+    {
+      "coin": "ADA-USD",
+      "side": "sell",
+      "price": 0.25079,
+      "units": 40.83416022,
+      "tag": "tp"
+    }
+  ],
+  "halted": false,
+  "peak_equity": 50.12215608120672,
+  "last_tick": 1790142003,
+  "engine_stats": {
+    "limit_fills": 4,
+    "market_fills": 0,
+    "placed": 8,
+    "expired": 0,
+    "below_min": 0,
+    "dust_sell": 0
+  },
+  "kraken_rules": true,
+  "order_step": 10.0
+}

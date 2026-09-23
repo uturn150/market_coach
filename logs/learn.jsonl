@@ -1,0 +1,1 @@
+{"t": 1789529783, "iso": "2026-09-16 03:36:23", "event": "check", "template": "Swing trend (daily, fee-survivable)", "source": "BTC-USD", "best_params": {"fast": 30, "slow": 80, "stop": 0.15}, "oos_excess": -0.1687, "oos_return": -0.4483, "robust_frac": 0.4, "verdict": "no_edge"}

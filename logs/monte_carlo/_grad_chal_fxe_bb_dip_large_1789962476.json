@@ -1,0 +1,52 @@
+{
+  "strategy": "paper_state/_grad_chal_fxe_bb_dip_large.json",
+  "n_real_trades": 91,
+  "distribution": {
+    "n_sims": 2000,
+    "median_return_pct": 1.18,
+    "p5_return_pct": -5.75,
+    "p95_return_pct": 8.37,
+    "median_max_drawdown_pct": -1.7,
+    "p5_max_drawdown_pct": -6.5,
+    "probability_of_losing_money": 0.389,
+    "probability_of_underperforming_hold": 0.0,
+    "buy_hold_return_pct": -12.91
+  },
+  "stress_scenarios": {
+    "baseline_real_fee": {
+      "fee_gate_pass": false,
+      "edge_gate_pass": true,
+      "out_excess_pct": 61.4,
+      "n_in": 68
+    },
+    "fees_1.5x": {
+      "fee_gate_pass": false,
+      "edge_gate_pass": true,
+      "out_excess_pct": 60.6,
+      "n_in": 68
+    },
+    "fees_2x": {
+      "fee_gate_pass": false,
+      "edge_gate_pass": true,
+      "out_excess_pct": 59.9,
+      "n_in": 68
+    },
+    "spread_slippage_2x": {
+      "fee_gate_pass": false,
+      "edge_gate_pass": true,
+      "out_excess_pct": 61.2,
+      "n_in": 68
+    },
+    "params_tighter": {
+      "fee_gate_pass": false,
+      "edge_gate_pass": true,
+      "out_excess_pct": 61.8,
+      "n_in": 80
+    },
+    "params_looser": {
+      "result": "no trades"
+    }
+  },
+  "stress_scenarios_passed": "0/6",
+  "verdict": "FRAGILE: bad-tail outcomes are severe or common; only 0/6 stress scenarios still clear both gates"
+}

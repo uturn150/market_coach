@@ -1,0 +1,5 @@
+A/B equity: equal $1,000.77, invvol $1,000.77, chameleon $1,000.77, overlay $1,000.77  (59 bots)
+{"chameleon": {"TRENDING_UP": {"trend": 0.81606787426539, "mean": 0.18393212573461}, "TRENDING_DOWN": {"mean": 1.0}, "SIDEWAYS": {"mean": 1.0}, "HIGH_VOLATILITY": {"trend": 0.39256330484937335, "mean": 0.6074366951506266}}, "overlay": {"TRENDING_UP": 1.0, "TRENDING_DOWN": 0.0, "SIDEWAYS": 0.0, "HIGH_VOLATILITY": 1.0}}
+A/B equity: equal $1,000.77, invvol $1,000.77, chameleon $1,000.77, overlay $1,000.77  (59 bots)
+A/B equity: equal $1,010.14, invvol $1,010.14, chameleon $1,007.51, overlay $1,010.14  (62 bots)
+A/B equity: equal $1,013.83, invvol $1,013.83, chameleon $1,014.66, overlay $1,013.83  (64 bots)

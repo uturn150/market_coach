@@ -1,0 +1,135 @@
+
+bot_dca_SO5_d3_F1 (dca, 9 coins)
+  $   100: ideal   +5.43% ( 300 trips) | REAL-RULES   +0.00% (   0 trips), rejected   792 of   792 orders
+  $   500: ideal   +5.43% ( 300 trips) | REAL-RULES   +0.00% (   0 trips), rejected   792 of   792 orders
+  $ 1,000: ideal   +5.43% ( 300 trips) | REAL-RULES   +0.00% (   0 trips), rejected   792 of   792 orders
+  $ 2,500: ideal   +5.43% ( 300 trips) | REAL-RULES   +1.17% (  63 trips), rejected   638 of  1165 orders
+  $ 5,000: ideal   +5.43% ( 300 trips) | REAL-RULES   +2.51% ( 134 trips), rejected   224 of  1326 orders
+  $10,000: ideal   +5.43% ( 300 trips) | REAL-RULES   +4.17% ( 181 trips), rejected     8 of  1422 orders
+  $25,000: ideal   +5.43% ( 300 trips) | REAL-RULES   +4.69% ( 222 trips), rejected     4 of  1728 orders
+
+bot_dca_SO5_d5_F1 (dca, 9 coins)
+  $   100: ideal   +3.35% ( 277 trips) | REAL-RULES   +0.00% (   0 trips), rejected   792 of   792 orders
+  $   500: ideal   +3.35% ( 277 trips) | REAL-RULES   +0.00% (   0 trips), rejected   792 of   792 orders
+  $ 1,000: ideal   +3.35% ( 277 trips) | REAL-RULES   +0.00% (   0 trips), rejected   792 of   792 orders
+  $ 2,500: ideal   +3.35% ( 277 trips) | REAL-RULES   +0.62% (  61 trips), rejected   638 of  1119 orders
+  $ 5,000: ideal   +3.35% ( 277 trips) | REAL-RULES   +1.38% ( 145 trips), rejected   232 of  1337 orders
+  $10,000: ideal   +3.35% ( 277 trips) | REAL-RULES   +2.32% ( 174 trips), rejected     8 of  1301 orders
+  $25,000: ideal   +3.35% ( 277 trips) | REAL-RULES   +2.01% ( 152 trips), rejected     6 of  1131 orders
+
+bot_dca_d3_large12 (dca, 12 coins)
+  $   100: ideal   +7.23% ( 435 trips) | REAL-RULES   +0.00% (   0 trips), rejected  1056 of  1056 orders
+  $   500: ideal   +7.23% ( 435 trips) | REAL-RULES   +0.00% (   0 trips), rejected  1056 of  1056 orders
+  $ 1,000: ideal   +7.23% ( 435 trips) | REAL-RULES   +0.00% (   0 trips), rejected  1056 of  1056 orders
+  $ 2,500: ideal   +7.23% ( 435 trips) | REAL-RULES   +0.45% (  27 trips), rejected   967 of  1183 orders
+  $ 5,000: ideal   +7.23% ( 435 trips) | REAL-RULES   +1.46% ( 111 trips), rejected   663 of  1538 orders
+  $10,000: ideal   +7.23% ( 435 trips) | REAL-RULES   +1.83% ( 178 trips), rejected   154 of  1548 orders
+  $25,000: ideal   +7.23% ( 435 trips) | REAL-RULES   +4.55% ( 226 trips), rejected     6 of  1723 orders
+
+bot_dca_d3_mid12 (dca, 12 coins)
+  $   100: ideal  -19.36% (1591 trips) | REAL-RULES   +0.00% (   0 trips), rejected  4320 of  4320 orders
+  $   500: ideal  -19.36% (1591 trips) | REAL-RULES   +0.00% (   0 trips), rejected  4320 of  4320 orders
+  $ 1,000: ideal  -19.36% (1591 trips) | REAL-RULES   +0.00% (   0 trips), rejected  4320 of  4320 orders
+  $ 2,500: ideal  -19.36% (1591 trips) | REAL-RULES   -1.27% (  36 trips), rejected  3866 of  4147 orders
+  $ 5,000: ideal  -19.36% (1591 trips) | REAL-RULES   +4.92% ( 215 trips), rejected  2369 of  3931 orders
+  $10,000: ideal  -19.36% (1591 trips) | REAL-RULES   -2.58% ( 231 trips), rejected  1124 of  2808 orders
+  $25,000: ideal  -19.36% (1591 trips) | REAL-RULES   +1.20% ( 210 trips), rejected   390 of  1962 orders
+
+bot_dca_d3_new20 (dca, 20 coins)
+  $   100: ideal  -20.85% ( 746 trips) | REAL-RULES   +0.00% (   0 trips), rejected  2620 of  2620 orders
+  $   500: ideal  -20.85% ( 746 trips) | REAL-RULES   +0.00% (   0 trips), rejected  2620 of  2620 orders
+  $ 1,000: ideal  -20.85% ( 746 trips) | REAL-RULES   +0.00% (   0 trips), rejected  2620 of  2620 orders
+  $ 2,500: ideal  -20.85% ( 746 trips) | REAL-RULES   +0.00% (   0 trips), rejected  2620 of  2620 orders
+  $ 5,000: ideal  -20.85% ( 746 trips) | REAL-RULES   +1.46% ( 153 trips), rejected  1937 of  3092 orders
+  $10,000: ideal  -20.85% ( 746 trips) | REAL-RULES   -2.80% ( 314 trips), rejected   328 of  2670 orders
+  $25,000: ideal  -20.85% ( 746 trips) | REAL-RULES  -18.69% ( 273 trips), rejected    14 of  2063 orders
+
+bot_dca_d5_large12 (dca, 12 coins)
+  $   100: ideal   +4.30% ( 410 trips) | REAL-RULES   +0.00% (   0 trips), rejected  1056 of  1056 orders
+  $   500: ideal   +4.30% ( 410 trips) | REAL-RULES   +0.00% (   0 trips), rejected  1056 of  1056 orders
+  $ 1,000: ideal   +4.30% ( 410 trips) | REAL-RULES   +0.00% (   0 trips), rejected  1056 of  1056 orders
+  $ 2,500: ideal   +4.30% ( 410 trips) | REAL-RULES   +0.29% (  33 trips), rejected   981 of  1246 orders
+  $ 5,000: ideal   +4.30% ( 410 trips) | REAL-RULES   +0.92% ( 114 trips), rejected   662 of  1573 orders
+  $10,000: ideal   +4.30% ( 410 trips) | REAL-RULES   +1.77% ( 187 trips), rejected   127 of  1586 orders
+  $25,000: ideal   +4.30% ( 410 trips) | REAL-RULES   +2.64% ( 271 trips), rejected     6 of  2059 orders
+
+bot_dca_d5_mid12 (dca, 12 coins)
+  $   100: ideal   -6.57% (1432 trips) | REAL-RULES   +0.00% (   0 trips), rejected  4320 of  4320 orders
+  $   500: ideal   -6.57% (1432 trips) | REAL-RULES   +0.00% (   0 trips), rejected  4320 of  4320 orders
+  $ 1,000: ideal   -6.57% (1432 trips) | REAL-RULES   +0.00% (   0 trips), rejected  4320 of  4320 orders
+  $ 2,500: ideal   -6.57% (1432 trips) | REAL-RULES   +0.39% (  34 trips), rejected  4173 of  4440 orders
+  $ 5,000: ideal   -6.57% (1432 trips) | REAL-RULES   +2.70% ( 326 trips), rejected  2410 of  4821 orders
+  $10,000: ideal   -6.57% (1432 trips) | REAL-RULES   +1.81% ( 247 trips), rejected  1183 of  2937 orders
+  $25,000: ideal   -6.57% (1432 trips) | REAL-RULES   +5.52% ( 312 trips), rejected   371 of  2570 orders
+
+bot_dca_d5_new20 (dca, 20 coins)
+  $   100: ideal  -16.20% ( 723 trips) | REAL-RULES   +0.00% (   0 trips), rejected  2620 of  2620 orders
+  $   500: ideal  -16.20% ( 723 trips) | REAL-RULES   +0.00% (   0 trips), rejected  2620 of  2620 orders
+  $ 1,000: ideal  -16.20% ( 723 trips) | REAL-RULES   +0.00% (   0 trips), rejected  2620 of  2620 orders
+  $ 2,500: ideal  -16.20% ( 723 trips) | REAL-RULES   +0.00% (   0 trips), rejected  2620 of  2620 orders
+  $ 5,000: ideal  -16.20% ( 723 trips) | REAL-RULES   +1.35% ( 178 trips), rejected  2087 of  3374 orders
+  $10,000: ideal  -16.20% ( 723 trips) | REAL-RULES   -1.39% ( 356 trips), rejected   308 of  2943 orders
+  $25,000: ideal  -16.20% ( 723 trips) | REAL-RULES  -12.65% ( 323 trips), rejected     6 of  2379 orders
+
+bot_dcaad_large12 (dca_adaptive, 12 coins)
+  $   100: ideal   +4.30% ( 410 trips) | REAL-RULES   +0.00% (   0 trips), rejected  1056 of  1056 orders
+  $   500: ideal   +4.30% ( 410 trips) | REAL-RULES   +0.00% (   0 trips), rejected  1056 of  1056 orders
+  $ 1,000: ideal   +4.30% ( 410 trips) | REAL-RULES   +0.00% (   0 trips), rejected  1056 of  1056 orders
+  $ 2,500: ideal   +4.30% ( 410 trips) | REAL-RULES   +0.29% (  33 trips), rejected   981 of  1246 orders
+  $ 5,000: ideal   +4.30% ( 410 trips) | REAL-RULES   +0.92% ( 114 trips), rejected   662 of  1573 orders
+  $10,000: ideal   +4.30% ( 410 trips) | REAL-RULES   +1.77% ( 187 trips), rejected   127 of  1586 orders
+  $25,000: ideal   +4.30% ( 410 trips) | REAL-RULES   +2.64% ( 271 trips), rejected     6 of  2059 orders
+
+bot_dcaad_mid12 (dca_adaptive, 12 coins)
+  $   100: ideal   -6.57% (1432 trips) | REAL-RULES   +0.00% (   0 trips), rejected  4320 of  4320 orders
+  $   500: ideal   -6.57% (1432 trips) | REAL-RULES   +0.00% (   0 trips), rejected  4320 of  4320 orders
+  $ 1,000: ideal   -6.57% (1432 trips) | REAL-RULES   +0.00% (   0 trips), rejected  4320 of  4320 orders
+  $ 2,500: ideal   -6.57% (1432 trips) | REAL-RULES   +0.39% (  34 trips), rejected  4173 of  4440 orders
+  $ 5,000: ideal   -6.57% (1432 trips) | REAL-RULES   +2.70% ( 326 trips), rejected  2410 of  4821 orders
+  $10,000: ideal   -6.57% (1432 trips) | REAL-RULES   +1.81% ( 247 trips), rejected  1183 of  2937 orders
+  $25,000: ideal   -6.57% (1432 trips) | REAL-RULES   +5.52% ( 312 trips), rejected   371 of  2570 orders
+
+bot_grid_L4_s6_F1 (grid, 9 coins)
+  $   100: ideal   +3.92% (  97 trips) | REAL-RULES   +0.00% (   0 trips), rejected  2424 of  2440 orders
+  $   500: ideal   +3.92% (  97 trips) | REAL-RULES   +3.96% (  78 trips), rejected     4 of   293 orders
+  $ 1,000: ideal   +3.92% (  97 trips) | REAL-RULES   +5.08% (  86 trips), rejected     2 of   305 orders
+  $ 2,500: ideal   +3.92% (  97 trips) | REAL-RULES   +5.16% (  85 trips), rejected     2 of   291 orders
+  $ 5,000: ideal   +3.92% (  97 trips) | REAL-RULES   +5.12% (  86 trips), rejected     2 of   309 orders
+  $10,000: ideal   +3.92% (  97 trips) | REAL-RULES   +6.24% (  74 trips), rejected     4 of   241 orders
+  $25,000: ideal   +3.92% (  97 trips) | REAL-RULES   +5.31% (  86 trips), rejected     2 of   284 orders
+
+bot_grid_L8_s6_F1 (grid, 9 coins)
+  $   100: ideal   +3.13% ( 112 trips) | REAL-RULES   +0.00% (   0 trips), rejected  5630 of  5640 orders
+  $   500: ideal   +3.13% ( 112 trips) | REAL-RULES   +0.38% (  20 trips), rejected   325 of   557 orders
+  $ 1,000: ideal   +3.13% ( 112 trips) | REAL-RULES   +2.84% (  88 trips), rejected     4 of   417 orders
+  $ 2,500: ideal   +3.13% ( 112 trips) | REAL-RULES   +3.30% (  94 trips), rejected     2 of   397 orders
+  $ 5,000: ideal   +3.13% ( 112 trips) | REAL-RULES   +3.22% (  90 trips), rejected     2 of   389 orders
+  $10,000: ideal   +3.13% ( 112 trips) | REAL-RULES   +3.19% ( 104 trips), rejected     1 of   474 orders
+  $25,000: ideal   +3.40% ( 112 trips) | REAL-RULES   +3.11% (  85 trips), rejected     3 of   386 orders
+
+bot_grid_L8_s6_large12 (grid, 12 coins)
+  $   100: ideal   +1.97% ( 161 trips) | REAL-RULES   +0.00% (   0 trips), rejected  7901 of  7904 orders
+  $   500: ideal   +1.97% ( 161 trips) | REAL-RULES   +0.16% (  16 trips), rejected  2057 of  2275 orders
+  $ 1,000: ideal   +1.97% ( 161 trips) | REAL-RULES   +2.34% (  71 trips), rejected    44 of   417 orders
+  $ 2,500: ideal   +1.97% ( 161 trips) | REAL-RULES   +2.60% ( 129 trips), rejected     3 of   509 orders
+  $ 5,000: ideal   +1.97% ( 161 trips) | REAL-RULES   +2.49% ( 132 trips), rejected     3 of   564 orders
+  $10,000: ideal   +1.97% ( 161 trips) | REAL-RULES   +2.13% ( 130 trips), rejected     3 of   544 orders
+  $25,000: ideal   +1.97% ( 161 trips) | REAL-RULES   +3.05% ( 147 trips), rejected     1 of   595 orders
+
+bot_quick27_active (dca, 27 coins)
+  $   100: ideal   -3.95% (3799 trips) | REAL-RULES   +0.00% (   0 trips), rejected 19440 of 19440 orders
+  $   500: ideal   -3.95% (3799 trips) | REAL-RULES   +0.00% (   0 trips), rejected 19440 of 19440 orders
+  $ 1,000: ideal   -3.95% (3799 trips) | REAL-RULES   +0.00% (   0 trips), rejected 19440 of 19440 orders
+  $ 2,500: ideal   -3.95% (3799 trips) | REAL-RULES   +0.03% (  16 trips), rejected 18721 of 18848 orders
+  $ 5,000: ideal   -3.95% (3799 trips) | REAL-RULES   -0.81% ( 142 trips), rejected 17816 of 18976 orders
+  $10,000: ideal   -3.95% (3799 trips) | REAL-RULES   -0.17% ( 618 trips), rejected 12485 of 17499 orders
+  $25,000: ideal   -3.95% (3799 trips) | REAL-RULES   +1.95% ( 875 trips), rejected  3488 of 10589 orders
+
+bot_quick27_f1 (dca, 27 coins)
+  $   100: ideal   +5.77% (1006 trips) | REAL-RULES   +0.00% (   0 trips), rejected  2376 of  2376 orders
+  $   500: ideal   +5.77% (1006 trips) | REAL-RULES   +0.00% (   0 trips), rejected  2376 of  2376 orders
+  $ 1,000: ideal   +5.77% (1006 trips) | REAL-RULES   +0.00% (   0 trips), rejected  2376 of  2376 orders
+  $ 2,500: ideal   +5.77% (1006 trips) | REAL-RULES   +0.02% (   4 trips), rejected  2289 of  2318 orders
+  $ 5,000: ideal   +5.77% (1006 trips) | REAL-RULES   +0.30% (  66 trips), rejected  2221 of  2748 orders
+  $10,000: ideal   +5.77% (1006 trips) | REAL-RULES   +1.06% ( 183 trips), rejected  1921 of  3480 orders
+  $25,000: ideal   +5.77% (1006 trips) | REAL-RULES   +2.49% ( 490 trips), rejected   645 of  4866 orders

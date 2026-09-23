@@ -1,0 +1,45 @@
+== grid search: SET_A tuned-9, 2021-10..2024-12 ==
+lookback  12h vol>=1.3x trail=0.030: avg/coin  -99.66% trips  3082 win  24.3% [14s]
+lookback  12h vol>=1.3x trail=0.050: avg/coin  -98.43% trips  2176 win  27.6% [0s]
+lookback  12h vol>=1.3x trail=0.080: avg/coin  -93.98% trips  1486 win  33.0% [0s]
+lookback  12h vol>=1.8x trail=0.030: avg/coin  -98.24% trips  2433 win  25.9% [0s]
+lookback  12h vol>=1.8x trail=0.050: avg/coin  -96.13% trips  1806 win  28.9% [0s]
+lookback  12h vol>=1.8x trail=0.080: avg/coin  -87.64% trips  1269 win  34.4% [0s]
+lookback  12h vol>=2.5x trail=0.030: avg/coin  -93.91% trips  1753 win  26.1% [0s]
+lookback  12h vol>=2.5x trail=0.050: avg/coin  -90.30% trips  1369 win  29.1% [0s]
+lookback  12h vol>=2.5x trail=0.080: avg/coin  -78.45% trips  1021 win  33.6% [0s]
+lookback  24h vol>=1.3x trail=0.030: avg/coin  -99.09% trips  2512 win  23.7% [0s]
+lookback  24h vol>=1.3x trail=0.050: avg/coin  -97.53% trips  1841 win  27.5% [0s]
+lookback  24h vol>=1.3x trail=0.080: avg/coin  -89.07% trips  1288 win  34.2% [0s]
+lookback  24h vol>=1.8x trail=0.030: avg/coin  -97.10% trips  2076 win  25.3% [0s]
+lookback  24h vol>=1.8x trail=0.050: avg/coin  -93.02% trips  1562 win  29.3% [0s]
+lookback  24h vol>=1.8x trail=0.080: avg/coin  -80.83% trips  1124 win  35.1% [0s]
+lookback  24h vol>=2.5x trail=0.030: avg/coin  -91.99% trips  1565 win  24.7% [0s]
+lookback  24h vol>=2.5x trail=0.050: avg/coin  -85.36% trips  1228 win  29.0% [0s]
+lookback  24h vol>=2.5x trail=0.080: avg/coin  -71.78% trips   934 win  34.2% [0s]
+lookback  48h vol>=1.3x trail=0.030: avg/coin  -96.05% trips  1918 win  23.9% [0s]
+lookback  48h vol>=1.3x trail=0.050: avg/coin  -92.30% trips  1429 win  27.2% [0s]
+lookback  48h vol>=1.3x trail=0.080: avg/coin  -85.62% trips  1068 win  32.3% [0s]
+lookback  48h vol>=1.8x trail=0.030: avg/coin  -93.29% trips  1671 win  24.5% [0s]
+lookback  48h vol>=1.8x trail=0.050: avg/coin  -88.39% trips  1279 win  27.9% [0s]
+lookback  48h vol>=1.8x trail=0.080: avg/coin  -83.12% trips   984 win  32.0% [0s]
+lookback  48h vol>=2.5x trail=0.030: avg/coin  -87.47% trips  1315 win  24.6% [0s]
+lookback  48h vol>=2.5x trail=0.050: avg/coin  -78.99% trips  1045 win  28.3% [0s]
+lookback  48h vol>=2.5x trail=0.080: avg/coin  -73.17% trips   838 win  32.5% [0s]
+lookback  72h vol>=1.3x trail=0.030: avg/coin  -92.95% trips  1595 win  23.6% [0s]
+lookback  72h vol>=1.3x trail=0.050: avg/coin  -88.40% trips  1209 win  26.5% [0s]
+lookback  72h vol>=1.3x trail=0.080: avg/coin  -83.31% trips   935 win  31.4% [0s]
+lookback  72h vol>=1.8x trail=0.030: avg/coin  -87.72% trips  1397 win  24.5% [0s]
+lookback  72h vol>=1.8x trail=0.050: avg/coin  -81.89% trips  1091 win  27.5% [0s]
+lookback  72h vol>=1.8x trail=0.080: avg/coin  -77.23% trips   860 win  32.7% [0s]
+lookback  72h vol>=2.5x trail=0.030: avg/coin  -81.25% trips  1127 win  25.1% [0s]
+lookback  72h vol>=2.5x trail=0.050: avg/coin  -72.16% trips   910 win  28.4% [0s]
+lookback  72h vol>=2.5x trail=0.080: avg/coin  -64.21% trips   745 win  33.7% [0s]
+
+== validating top 6: SET_A held-out (2025-01..now) | SET_B unseen-18 (2021-10..now) ==
+cfg {'lookback': 72, 'vol_mult': 2.5, 'trail': 0.08, 'avg_ret_pct': -64.21, 'trips': 745, 'win_pct': 33.7}: held-out(9,recent)  -60.64%/393trips win30% | unseen(18,5y)  -92.29%/2414trips win30%
+cfg {'lookback': 24, 'vol_mult': 2.5, 'trail': 0.08, 'avg_ret_pct': -71.78, 'trips': 934, 'win_pct': 34.2}: held-out(9,recent)  -71.75%/512trips win30% | unseen(18,5y)  -97.28%/3277trips win30%
+cfg {'lookback': 72, 'vol_mult': 2.5, 'trail': 0.05, 'avg_ret_pct': -72.16, 'trips': 910, 'win_pct': 28.4}: held-out(9,recent)  -57.66%/467trips win28% | unseen(18,5y)  -94.07%/2954trips win27%
+cfg {'lookback': 48, 'vol_mult': 2.5, 'trail': 0.08, 'avg_ret_pct': -73.17, 'trips': 838, 'win_pct': 32.5}: held-out(9,recent)  -60.73%/431trips win32% | unseen(18,5y)  -94.29%/2762trips win30%
+cfg {'lookback': 72, 'vol_mult': 1.8, 'trail': 0.08, 'avg_ret_pct': -77.23, 'trips': 860, 'win_pct': 32.7}: held-out(9,recent)  -69.89%/449trips win29% | unseen(18,5y)  -94.22%/2745trips win30%
+cfg {'lookback': 12, 'vol_mult': 2.5, 'trail': 0.08, 'avg_ret_pct': -78.45, 'trips': 1021, 'win_pct': 33.6}: held-out(9,recent)  -77.86%/569trips win30% | unseen(18,5y)  -98.04%/3705trips win30%

@@ -1,0 +1,178 @@
+{
+  "pool_cash": 500.0,
+  "n_strategies": 10,
+  "n_sleeves": 240,
+  "period": [
+    "2023-07-13",
+    "2026-09-19"
+  ],
+  "final_equity": 1019.61,
+  "total_return_pct": 103.9,
+  "sharpe": 0.94,
+  "max_drawdown_pct": -38.2,
+  "exposure": {
+    "avg_invested_pct": 21.6,
+    "max_invested_pct": 99.4,
+    "avg_open_positions": 48.2,
+    "max_open_positions": 211,
+    "days_fully_in_cash_pct": 38.5
+  },
+  "coin_concentration": {
+    "avg_share_top5_pct": {
+      "BTC-USD": 12.2,
+      "ETH-USD": 7.7,
+      "AAVE-USD": 6.7,
+      "BCH-USD": 5.9,
+      "LTC-USD": 4.7
+    },
+    "largest_single_coin_pct_of_equity": 13.3,
+    "largest_single_coin": "XLM"
+  },
+  "family_concentration_avg_share_pct": {
+    "momentum oscillator": 32.8,
+    "composite": 20.0,
+    "MA-crossover trend": 19.4,
+    "volatility breakout": 17.4,
+    "channel breakout": 10.4
+  },
+  "cross_strategy": {
+    "avg_return_correlation": 0.84,
+    "avg_drawdown_correlation": 0.89,
+    "avg_open_position_correlation": 0.74,
+    "effective_independent_strategies": 1.17
+  },
+  "pnl_by_strategy_realized_usd": {
+    "realpaper": 48.63,
+    "krakenmulti": 48.77,
+    "krakenfast": 55.93,
+    "krakenslow": 18.28,
+    "krakenmacd": 7.99,
+    "krakenbbreak": 56.2,
+    "krakenturtle": 44.36,
+    "krakencci": 43.03,
+    "krakenkeltner": 51.8,
+    "krakenichimoku": 55.87
+  },
+  "pnl_by_coin_realized_usd": {
+    "XLM": 84.04,
+    "XRP": 74.02,
+    "ALGO": 54.95,
+    "DOGE": 49.66,
+    "AVAX": 44.93,
+    "NEAR": 39.35,
+    "ADA": 28.1,
+    "SHIB": 24.71,
+    "SOL": 24.27,
+    "UNI": 17.09,
+    "ETH": 16.37,
+    "ARB": 14.68,
+    "BTC": 12.25,
+    "BCH": 9.82,
+    "ICP": 9.47,
+    "DOT": 7.32,
+    "LINK": 3.24,
+    "AAVE": 1.86,
+    "FIL": 0.54,
+    "ATOM": -5.72,
+    "LTC": -11.87,
+    "ETC": -13.74,
+    "OP": -26.79,
+    "APT": -27.68
+  },
+  "fees_paid_usd": 187.5,
+  "fees_as_pct_of_start": 37.5,
+  "entries": 2818,
+  "blocked_by_cash": 0,
+  "vetoed_by_risk_manager": 120,
+  "individual_strategy_stats": {
+    "realpaper": {
+      "return_pct": 114.9,
+      "max_dd_pct": -30.8
+    },
+    "krakenmulti": {
+      "return_pct": 139.4,
+      "max_dd_pct": -41.0
+    },
+    "krakenfast": {
+      "return_pct": 123.5,
+      "max_dd_pct": -34.5
+    },
+    "krakenslow": {
+      "return_pct": 47.5,
+      "max_dd_pct": -31.0
+    },
+    "krakenmacd": {
+      "return_pct": 21.6,
+      "max_dd_pct": -63.9
+    },
+    "krakenbbreak": {
+      "return_pct": 122.6,
+      "max_dd_pct": -35.9
+    },
+    "krakenturtle": {
+      "return_pct": 109.9,
+      "max_dd_pct": -44.3
+    },
+    "krakencci": {
+      "return_pct": 107.3,
+      "max_dd_pct": -42.3
+    },
+    "krakenkeltner": {
+      "return_pct": 128.8,
+      "max_dd_pct": -37.5
+    },
+    "krakenichimoku": {
+      "return_pct": 123.7,
+      "max_dd_pct": -40.1
+    }
+  },
+  "first_half": {
+    "return_pct": 129.7,
+    "max_dd_pct": -33.4
+  },
+  "second_half": {
+    "return_pct": -11.3,
+    "max_dd_pct": -27.3
+  },
+  "risk_manager": {
+    "events": {
+      "DRAWDOWN_BREAKER": 3,
+      "REARMED": 3
+    },
+    "entries_limited_by": {
+      "drawdown_halt": 120
+    },
+    "event_log": [
+      {
+        "type": "DRAWDOWN_BREAKER",
+        "bar": 378,
+        "drawdown_pct": -25.2
+      },
+      {
+        "type": "REARMED",
+        "bar": 408,
+        "equity": 798.33
+      },
+      {
+        "type": "DRAWDOWN_BREAKER",
+        "bar": 600,
+        "drawdown_pct": -25.0
+      },
+      {
+        "type": "REARMED",
+        "bar": 630,
+        "equity": 1105.5
+      },
+      {
+        "type": "DRAWDOWN_BREAKER",
+        "bar": 820,
+        "drawdown_pct": -25.4
+      },
+      {
+        "type": "REARMED",
+        "bar": 850,
+        "equity": 933.41
+      }
+    ]
+  }
+}

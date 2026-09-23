@@ -1,0 +1,214 @@
+[
+ {
+  "key": "{\"coins\": [\"BCH-USD\", \"BTC-USD\", \"ETH-USD\"], \"donch\": 15, \"family\": \"multi\", \"filter\": \"F1",
+  "future_med": 9.4,
+  "unseen_med": 8.3,
+  "future_dd": 34.7,
+  "unseen_worst_dd": 57.9,
+  "is_current": true,
+  "coins": [
+   "BCH-USD",
+   "BTC-USD",
+   "ETH-USD"
+  ]
+ },
+ {
+  "key": "{\"coins\": [\"BCH-USD\", \"BTC-USD\", \"ETH-USD\"], \"donch\": 15, \"family\": \"multi\", \"filter\": \"F1",
+  "future_med": 8.2,
+  "unseen_med": 8.2,
+  "future_dd": 31.2,
+  "unseen_worst_dd": 61.6,
+  "is_current": false,
+  "coins": [
+   "BCH-USD",
+   "BTC-USD",
+   "ETH-USD"
+  ]
+ },
+ {
+  "key": "{\"coins\": [\"BTC-USD\", \"ETH-USD\", \"LINK-USD\"], \"donch\": 15, \"family\": \"multi\", \"filter\": \"F",
+  "future_med": -4.0,
+  "unseen_med": 8.2,
+  "future_dd": 34.1,
+  "unseen_worst_dd": 61.6,
+  "is_current": false,
+  "coins": [
+   "BTC-USD",
+   "ETH-USD",
+   "LINK-USD"
+  ]
+ },
+ {
+  "key": "{\"coins\": [\"BTC-USD\", \"ETH-USD\", \"LINK-USD\"], \"donch\": 20, \"family\": \"multi\", \"filter\": \"F",
+  "future_med": 3.5,
+  "unseen_med": 5.1,
+  "future_dd": 32.6,
+  "unseen_worst_dd": 63.1,
+  "is_current": false,
+  "coins": [
+   "BTC-USD",
+   "ETH-USD",
+   "LINK-USD"
+  ]
+ },
+ {
+  "key": "{\"coins\": [\"BCH-USD\", \"BTC-USD\", \"LINK-USD\"], \"donch\": 15, \"family\": \"multi\", \"filter\": \"F",
+  "future_med": 14.7,
+  "unseen_med": 10.5,
+  "future_dd": 24.0,
+  "unseen_worst_dd": 47.0,
+  "is_current": false,
+  "coins": [
+   "BCH-USD",
+   "BTC-USD",
+   "LINK-USD"
+  ]
+ },
+ {
+  "key": "{\"coins\": [\"BCH-USD\", \"BTC-USD\", \"ETH-USD\"], \"family\": \"keltner\", \"filter\": \"F0\", \"kel_mul",
+  "future_med": -2.2,
+  "unseen_med": 3.7,
+  "future_dd": 22.9,
+  "unseen_worst_dd": 49.3,
+  "is_current": false,
+  "coins": [
+   "BCH-USD",
+   "BTC-USD",
+   "ETH-USD"
+  ]
+ },
+ {
+  "key": "{\"coins\": [\"BCH-USD\", \"BTC-USD\", \"ETH-USD\"], \"donch\": 15, \"family\": \"multi\", \"filter\": \"F1",
+  "future_med": 5.6,
+  "unseen_med": -2.1,
+  "future_dd": 26.1,
+  "unseen_worst_dd": 53.2,
+  "is_current": false,
+  "coins": [
+   "BCH-USD",
+   "BTC-USD",
+   "ETH-USD"
+  ]
+ },
+ {
+  "key": "{\"coins\": [\"BCH-USD\", \"BTC-USD\", \"ETH-USD\", \"LTC-USD\"], \"family\": \"keltner\", \"filter\": \"F0",
+  "future_med": 1.5,
+  "unseen_med": 0.0,
+  "future_dd": 9.4,
+  "unseen_worst_dd": 26.9,
+  "is_current": false,
+  "coins": [
+   "BCH-USD",
+   "BTC-USD",
+   "ETH-USD",
+   "LTC-USD"
+  ]
+ },
+ {
+  "key": "{\"coins\": [\"BTC-USD\", \"ETH-USD\", \"LINK-USD\"], \"donch\": 20, \"family\": \"multi\", \"filter\": \"F",
+  "future_med": -2.0,
+  "unseen_med": -6.5,
+  "future_dd": 30.6,
+  "unseen_worst_dd": 65.2,
+  "is_current": false,
+  "coins": [
+   "BTC-USD",
+   "ETH-USD",
+   "LINK-USD"
+  ]
+ },
+ {
+  "key": "{\"coins\": [\"BCH-USD\", \"BTC-USD\", \"ETH-USD\"], \"donch\": 15, \"family\": \"multi\", \"filter\": \"F0",
+  "future_med": -16.4,
+  "unseen_med": -16.6,
+  "future_dd": 38.6,
+  "unseen_worst_dd": 73.0,
+  "is_current": false,
+  "coins": [
+   "BCH-USD",
+   "BTC-USD",
+   "ETH-USD"
+  ]
+ },
+ {
+  "key": "{\"coins\": [\"BCH-USD\", \"ETH-USD\", \"LTC-USD\"], \"family\": \"sma\", \"fast\": 10, \"filter\": \"F0\", ",
+  "future_med": -2.4,
+  "unseen_med": -5.0,
+  "future_dd": 14.9,
+  "unseen_worst_dd": 34.7,
+  "is_current": false,
+  "coins": [
+   "BCH-USD",
+   "ETH-USD",
+   "LTC-USD"
+  ]
+ },
+ {
+  "key": "{\"coins\": [\"BCH-USD\", \"BTC-USD\", \"ETH-USD\", \"LINK-USD\"], \"donch\": 30, \"family\": \"multi\", \"",
+  "future_med": 3.2,
+  "unseen_med": 7.6,
+  "future_dd": 16.1,
+  "unseen_worst_dd": 29.9,
+  "is_current": false,
+  "coins": [
+   "BCH-USD",
+   "BTC-USD",
+   "ETH-USD",
+   "LINK-USD"
+  ]
+ },
+ {
+  "key": "{\"coins\": [\"BTC-USD\", \"ETH-USD\", \"LINK-USD\", \"LTC-USD\"], \"entry_n\": 20, \"exit_n\": 20, \"fam",
+  "future_med": 1.7,
+  "unseen_med": 16.0,
+  "future_dd": 28.1,
+  "unseen_worst_dd": 41.4,
+  "is_current": false,
+  "coins": [
+   "BTC-USD",
+   "ETH-USD",
+   "LINK-USD",
+   "LTC-USD"
+  ]
+ },
+ {
+  "key": "{\"coins\": [\"BCH-USD\", \"BTC-USD\", \"ETH-USD\"], \"family\": \"sma\", \"fast\": 10, \"filter\": \"F0\", ",
+  "future_med": -2.3,
+  "unseen_med": -1.0,
+  "future_dd": 11.9,
+  "unseen_worst_dd": 34.9,
+  "is_current": false,
+  "coins": [
+   "BCH-USD",
+   "BTC-USD",
+   "ETH-USD"
+  ]
+ },
+ {
+  "key": "{\"coins\": [\"BCH-USD\", \"BTC-USD\", \"ETH-USD\"], \"family\": \"sma\", \"fast\": 10, \"filter\": \"F0\", ",
+  "future_med": -0.3,
+  "unseen_med": -0.9,
+  "future_dd": 15.1,
+  "unseen_worst_dd": 35.3,
+  "is_current": false,
+  "coins": [
+   "BCH-USD",
+   "BTC-USD",
+   "ETH-USD"
+  ]
+ },
+ {
+  "key": "{\"coins\": [\"BCH-USD\", \"BTC-USD\", \"ETH-USD\", \"LTC-USD\"], \"family\": \"sma\", \"fast\": 10, \"filt",
+  "future_med": 11.0,
+  "unseen_med": 9.2,
+  "future_dd": 23.9,
+  "unseen_worst_dd": 32.3,
+  "is_current": false,
+  "coins": [
+   "BCH-USD",
+   "BTC-USD",
+   "ETH-USD",
+   "LTC-USD"
+  ]
+ }
+]

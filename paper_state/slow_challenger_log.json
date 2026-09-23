@@ -1,0 +1,82 @@
+{
+ "decisions": [
+  {
+   "iso": "2026-09-22 06:06",
+   "decision": "WOULD DEPLOY",
+   "account": "slow50_challenger_b",
+   "spec_path": "strategies/slow50_challenger_b.json",
+   "genome": {
+    "family": "multi",
+    "entry_n": 40,
+    "exit_n": 10,
+    "kel_n": 20,
+    "kel_mult": 2.5,
+    "fast": 20,
+    "slow": 200,
+    "threshold": 3,
+    "roc_min": 0.08,
+    "vol_x": 2.0,
+    "donch": 30,
+    "trail": 0.2,
+    "stop": null,
+    "filter": "F1",
+    "ncoins": 3,
+    "size_mode": "full",
+    "maker": false,
+    "coins": [
+     "BTC-USD",
+     "ETH-USD",
+     "XLM-USD"
+    ]
+   },
+   "validation": {
+    "val": -0.05,
+    "future_score": -10.13,
+    "unseen_score": 10.08,
+    "future_dd": 28.4,
+    "unseen_worst_dd": 41.9,
+    "future_med": 31.9,
+    "unseen_med": 59.6
+   }
+  },
+  {
+   "iso": "2026-09-22 06:07",
+   "decision": "DEPLOY",
+   "account": "slow50_challenger_b",
+   "spec_path": "strategies/slow50_challenger_b.json",
+   "genome": {
+    "family": "multi",
+    "entry_n": 40,
+    "exit_n": 10,
+    "kel_n": 20,
+    "kel_mult": 2.5,
+    "fast": 20,
+    "slow": 200,
+    "threshold": 3,
+    "roc_min": 0.08,
+    "vol_x": 2.0,
+    "donch": 30,
+    "trail": 0.2,
+    "stop": null,
+    "filter": "F1",
+    "ncoins": 3,
+    "size_mode": "full",
+    "maker": false,
+    "coins": [
+     "BTC-USD",
+     "ETH-USD",
+     "XLM-USD"
+    ]
+   },
+   "validation": {
+    "val": -0.05,
+    "future_score": -10.13,
+    "unseen_score": 10.08,
+    "future_dd": 28.4,
+    "unseen_worst_dd": 41.9,
+    "future_med": 31.9,
+    "unseen_med": 59.6
+   }
+  }
+ ]
+}

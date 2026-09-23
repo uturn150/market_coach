@@ -1,0 +1,4 @@
+{"t": 1789529709, "iso": "2026-09-16 03:35:09", "event": "open", "cash": 50.0, "coins": 30, "max_positions": 4}
+{"t": 1789529714, "iso": "2026-09-16 03:35:14", "event": "tick", "equity": 50.0, "cash": 50.0, "holding": 0}
+{"t": 1789537136, "iso": "2026-09-16 05:38:56", "event": "open", "cash": 50.0, "coins": 30, "max_positions": 4}
+{"t": 1789539173, "iso": "2026-09-16 06:12:53", "event": "tick", "equity": 50.0, "cash": 50.0, "holding": 0, "halted": false}

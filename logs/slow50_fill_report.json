@@ -1,0 +1,146 @@
+{
+ "latest": {
+  "t": 1790058302,
+  "iso": "2026-09-22 06:25 UTC",
+  "fee_taker_pct": 0.8,
+  "assumed_round_trip_pct": 1.76,
+  "measured_round_trip_pct_range": [
+   1.627,
+   1.72
+  ],
+  "maker_round_trip_pct_if_filled": 0.8,
+  "min_order_usd": 10.0,
+  "coins": [
+   {
+    "coin": "BCH-USD",
+    "mid": 264.29499999999996,
+    "half_spread_bps": 3.22,
+    "sizes": [
+     {
+      "notional": 7.0,
+      "buy_filled_pct": 100.0,
+      "sell_filled_pct": 100.0,
+      "buy_slip_bps": 1.98,
+      "sell_slip_bps": 1.98,
+      "fee_usd": 0.1111,
+      "round_trip_cost_pct": 1.69,
+      "breakeven_move_pct": 1.69
+     },
+     {
+      "notional": 17.0,
+      "buy_filled_pct": 100.0,
+      "sell_filled_pct": 100.0,
+      "buy_slip_bps": 1.98,
+      "sell_slip_bps": 1.98,
+      "fee_usd": 0.2697,
+      "round_trip_cost_pct": 1.72,
+      "breakeven_move_pct": 1.72
+     },
+     {
+      "notional": 50.0,
+      "buy_filled_pct": 100.0,
+      "sell_filled_pct": 100.0,
+      "buy_slip_bps": 1.98,
+      "sell_slip_bps": 1.98,
+      "fee_usd": 0.7933,
+      "round_trip_cost_pct": 1.72,
+      "breakeven_move_pct": 1.72
+     }
+    ]
+   },
+   {
+    "coin": "BTC-USD",
+    "mid": 85250.05,
+    "half_spread_bps": 0.01,
+    "sizes": [
+     {
+      "notional": 7.0,
+      "buy_filled_pct": 100.0,
+      "sell_filled_pct": 100.0,
+      "buy_slip_bps": 1.98,
+      "sell_slip_bps": 1.98,
+      "fee_usd": 0.1111,
+      "round_trip_cost_pct": 1.627,
+      "breakeven_move_pct": 1.627
+     },
+     {
+      "notional": 17.0,
+      "buy_filled_pct": 100.0,
+      "sell_filled_pct": 100.0,
+      "buy_slip_bps": 1.98,
+      "sell_slip_bps": 1.98,
+      "fee_usd": 0.2698,
+      "round_trip_cost_pct": 1.627,
+      "breakeven_move_pct": 1.627
+     },
+     {
+      "notional": 50.0,
+      "buy_filled_pct": 100.0,
+      "sell_filled_pct": 100.0,
+      "buy_slip_bps": 1.98,
+      "sell_slip_bps": 1.98,
+      "fee_usd": 0.7937,
+      "round_trip_cost_pct": 1.627,
+      "breakeven_move_pct": 1.627
+     }
+    ]
+   },
+   {
+    "coin": "ETH-USD",
+    "mid": 2725.545,
+    "half_spread_bps": 0.02,
+    "sizes": [
+     {
+      "notional": 7.0,
+      "buy_filled_pct": 100.0,
+      "sell_filled_pct": 100.0,
+      "buy_slip_bps": 1.98,
+      "sell_slip_bps": 1.98,
+      "fee_usd": 0.1111,
+      "round_trip_cost_pct": 1.627,
+      "breakeven_move_pct": 1.627
+     },
+     {
+      "notional": 17.0,
+      "buy_filled_pct": 100.0,
+      "sell_filled_pct": 100.0,
+      "buy_slip_bps": 1.98,
+      "sell_slip_bps": 1.98,
+      "fee_usd": 0.2698,
+      "round_trip_cost_pct": 1.627,
+      "breakeven_move_pct": 1.627
+     },
+     {
+      "notional": 50.0,
+      "buy_filled_pct": 100.0,
+      "sell_filled_pct": 100.0,
+      "buy_slip_bps": 1.98,
+      "sell_slip_bps": 1.98,
+      "fee_usd": 0.7936,
+      "round_trip_cost_pct": 1.627,
+      "breakeven_move_pct": 1.627
+     }
+    ]
+   }
+  ],
+  "slow50_fills": 3,
+  "slow50_equity_note": "3 fills recorded",
+  "verdict": "Measured round-trip cost 1.63%\u20131.72% vs 1.76% assumed in backtests. Backtests are CONSERVATIVE for these liquid coins. A trade must gain about that much before it earns anything; a limit (maker) entry+exit would cost ~0.80% if it fills, but may not fill."
+ },
+ "history": [
+  {
+   "t": 1790023805,
+   "range": [
+    1.627,
+    1.689
+   ]
+  },
+  {
+   "t": 1790058302,
+   "range": [
+    1.627,
+    1.72
+   ]
+  }
+ ]
+}

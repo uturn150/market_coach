@@ -1,0 +1,10 @@
+
+== SET_A tuned-9: 9 coins, 5.0y, real fees, F1 filter ==
+bollingrid default (bb100/2std, 5 levels)    -0.1% dd   -0.7% (   30 trips) [17s]
+bollingrid wide (bb50/1.5std, 8 levels)     -7.1% dd   -7.7% (  582 trips) [27s]
+bollingrid tight (bb100/2std, 3 levels)     +0.0% dd   -0.9% (   25 trips) [17s]
+
+== SET_B unseen-18: 18 coins, 5.0y, real fees, F1 filter ==
+bollingrid default (bb100/2std, 5 levels)    +1.2% dd   -0.2% (  160 trips) [28s]
+bollingrid wide (bb50/1.5std, 8 levels)     -8.2% dd   -8.6% ( 1543 trips) [52s]
+bollingrid tight (bb100/2std, 3 levels)     +0.9% dd   -0.5% (  124 trips) [28s]

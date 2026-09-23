@@ -1,0 +1,48 @@
+{
+  "family": "macd",
+  "granularity": "4h",
+  "candidates": 16,
+  "survivors": 1,
+  "rejections": {
+    "FEE BLEED": 15
+  },
+  "fee_gate": "PASS",
+  "edge_gate": "PASS",
+  "paper_sample": 0,
+  "status": "REJECTED",
+  "params": {
+    "fast": 48,
+    "slow": 104,
+    "signal": 18
+  },
+  "pf_in": 1.49,
+  "n_in": 875,
+  "out_excess_pct": 23.4,
+  "robust_family": false,
+  "walk_forward": "PASS",
+  "walk_forward_detail": {
+    "strategy": "strategies/c4h_macd.json",
+    "n_windows": 5,
+    "windows_beating_hold": 4,
+    "pct_windows_beating_hold": 80.0,
+    "median_excess_pct": 3.89,
+    "best_window_excess_pct": 38.9,
+    "worst_window_excess_pct": -28.16,
+    "windows_beating_regime_hold": 3,
+    "pct_windows_beating_regime_hold": 60.0,
+    "median_excess_vs_regime_hold_pct": 5.79,
+    "worst_window_drawdown_pct": -25.4,
+    "total_round_trips_across_windows": 481,
+    "sample_ok": true,
+    "verdict": "MOSTLY PERSISTS: beats hold in 4/5 windows"
+  },
+  "beats_regime_timed_hold": true,
+  "robustness": "FAIL",
+  "robustness_detail": {
+    "p5_return_pct": -35.06,
+    "loss_prob": 0.512,
+    "stress_passed": "3/6"
+  },
+  "account": "c4h_macd",
+  "rejection": "OVERFIT: only 1/16 candidates survived \u2014 a lone survivor is not a robust family"
+}

@@ -1,0 +1,46 @@
+{
+  "family": "multi",
+  "granularity": "4h",
+  "candidates": 16,
+  "survivors": 16,
+  "rejections": {},
+  "fee_gate": "PASS",
+  "edge_gate": "PASS",
+  "paper_sample": 0,
+  "status": "CHALLENGER",
+  "params": {
+    "threshold": 4,
+    "roc_min": 0.06,
+    "vol_x": 2.0,
+    "donch": 120
+  },
+  "pf_in": 2.99,
+  "n_in": 236,
+  "out_excess_pct": 43.6,
+  "robust_family": true,
+  "walk_forward": "PASS",
+  "walk_forward_detail": {
+    "strategy": "strategies/c4h_multi.json",
+    "n_windows": 5,
+    "windows_beating_hold": 3,
+    "pct_windows_beating_hold": 60.0,
+    "median_excess_pct": 23.16,
+    "best_window_excess_pct": 45.05,
+    "worst_window_excess_pct": -10.22,
+    "windows_beating_regime_hold": 2,
+    "pct_windows_beating_regime_hold": 40.0,
+    "median_excess_vs_regime_hold_pct": -0.0,
+    "worst_window_drawdown_pct": -22.5,
+    "total_round_trips_across_windows": 107,
+    "sample_ok": true,
+    "verdict": "MOSTLY PERSISTS: beats hold in 3/5 windows"
+  },
+  "beats_regime_timed_hold": true,
+  "robustness": "PASS",
+  "robustness_detail": {
+    "p5_return_pct": 38.42,
+    "loss_prob": 0.002,
+    "stress_passed": "6/6"
+  },
+  "account": "c4h_multi"
+}

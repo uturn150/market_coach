@@ -1,0 +1,288 @@
+{
+ "coins": 8,
+ "bars": 900,
+ "neutral_sizing": true,
+ "per_coin": {
+  "BTC-USD": {
+   "bt_trades": 12,
+   "live_trades": 12,
+   "bt_final": 4.4128,
+   "live_final": 4.4126,
+   "first_bt": [
+    [
+     53,
+     "buy"
+    ],
+    [
+     83,
+     "sell"
+    ],
+    [
+     117,
+     "buy"
+    ]
+   ],
+   "first_live": [
+    [
+     53,
+     "buy"
+    ],
+    [
+     83,
+     "sell"
+    ],
+    [
+     117,
+     "buy"
+    ]
+   ]
+  },
+  "ETH-USD": {
+   "bt_trades": 8,
+   "live_trades": 8,
+   "bt_final": 6.033,
+   "live_final": 6.0323,
+   "first_bt": [
+    [
+     53,
+     "buy"
+    ],
+    [
+     87,
+     "sell"
+    ],
+    [
+     121,
+     "buy"
+    ]
+   ],
+   "first_live": [
+    [
+     53,
+     "buy"
+    ],
+    [
+     87,
+     "sell"
+    ],
+    [
+     121,
+     "buy"
+    ]
+   ]
+  },
+  "SOL-USD": {
+   "bt_trades": 11,
+   "live_trades": 11,
+   "bt_final": 3.9425,
+   "live_final": 3.9429,
+   "first_bt": [
+    [
+     110,
+     "buy"
+    ],
+    [
+     122,
+     "sell"
+    ],
+    [
+     179,
+     "buy"
+    ]
+   ],
+   "first_live": [
+    [
+     110,
+     "buy"
+    ],
+    [
+     122,
+     "sell"
+    ],
+    [
+     179,
+     "buy"
+    ]
+   ]
+  },
+  "ADA-USD": {
+   "bt_trades": 14,
+   "live_trades": 14,
+   "bt_final": 7.0084,
+   "live_final": 7.0165,
+   "first_bt": [
+    [
+     61,
+     "buy"
+    ],
+    [
+     66,
+     "sell"
+    ],
+    [
+     113,
+     "buy"
+    ]
+   ],
+   "first_live": [
+    [
+     61,
+     "buy"
+    ],
+    [
+     66,
+     "sell"
+    ],
+    [
+     113,
+     "buy"
+    ]
+   ]
+  },
+  "AVAX-USD": {
+   "bt_trades": 11,
+   "live_trades": 11,
+   "bt_final": 5.9497,
+   "live_final": 5.7061,
+   "first_bt": [
+    [
+     58,
+     "buy"
+    ],
+    [
+     70,
+     "sell"
+    ],
+    [
+     118,
+     "buy"
+    ]
+   ],
+   "first_live": [
+    [
+     58,
+     "buy"
+    ],
+    [
+     70,
+     "sell"
+    ],
+    [
+     118,
+     "buy"
+    ]
+   ]
+  },
+  "LINK-USD": {
+   "bt_trades": 14,
+   "live_trades": 14,
+   "bt_final": 5.7744,
+   "live_final": 5.772,
+   "first_bt": [
+    [
+     52,
+     "buy"
+    ],
+    [
+     70,
+     "sell"
+    ],
+    [
+     203,
+     "buy"
+    ]
+   ],
+   "first_live": [
+    [
+     52,
+     "buy"
+    ],
+    [
+     70,
+     "sell"
+    ],
+    [
+     203,
+     "buy"
+    ]
+   ]
+  },
+  "LTC-USD": {
+   "bt_trades": 9,
+   "live_trades": 9,
+   "bt_final": 5.5784,
+   "live_final": 5.5792,
+   "first_bt": [
+    [
+     57,
+     "buy"
+    ],
+    [
+     71,
+     "sell"
+    ],
+    [
+     296,
+     "buy"
+    ]
+   ],
+   "first_live": [
+    [
+     57,
+     "buy"
+    ],
+    [
+     71,
+     "sell"
+    ],
+    [
+     296,
+     "buy"
+    ]
+   ]
+  },
+  "XRP-USD": {
+   "bt_trades": 14,
+   "live_trades": 14,
+   "bt_final": 9.6821,
+   "live_final": 10.3421,
+   "first_bt": [
+    [
+     58,
+     "buy"
+    ],
+    [
+     69,
+     "sell"
+    ],
+    [
+     109,
+     "buy"
+    ]
+   ],
+   "first_live": [
+    [
+     58,
+     "buy"
+    ],
+    [
+     69,
+     "sell"
+    ],
+    [
+     109,
+     "buy"
+    ]
+   ]
+  }
+ },
+ "bt_fills": 93,
+ "live_fills": 93,
+ "lag_bars_hist": {
+  "-25": 1,
+  "-1": 1,
+  "0": 91
+ },
+ "bt_equity": 48.381,
+ "live_equity": 48.804
+}

@@ -1,0 +1,2580 @@
+{
+  "generated": "2026-09-22 03:49:04",
+  "note": "REPORT ONLY. Nothing here enables real trading; a human decides.",
+  "not_gradable": {
+    "krakenmoon": "funnel architecture has no backtest harness in this framework"
+  },
+  "excluded_by_design": "arena_* and krakendemo* (experimental / known fee-failing)",
+  "accounts": {
+    "realpaper": {
+      "kind": "champion",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +52.5% after real costs, 229 trips, PF 1.91"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "FAIL",
+          "detail": "held-out return -2.1%, 64 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 155 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "PASS",
+          "detail": "held-out excess +51.2% vs hold, +31.7% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "PASS",
+          "detail": "beats hold 3/6 windows (median +5.4%), beats regime-hold 3/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "PASS",
+          "detail": "p5 +9.1%, P(loss) 2%, stress 6/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PASS",
+          "detail": "20 unseen coins: net +44.6%, PF 1.59, +58.1pts vs regime-hold, 18/20 coins beat it (131 trips)"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PENDING",
+          "detail": "0/10 fills with real order-book execution records"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 86400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "OUT_OF_SAMPLE"
+      ]
+    },
+    "krakenmulti": {
+      "kind": "champion",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +89.6% after real costs, 270 trips, PF 1.86"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "PASS",
+          "detail": "held-out return +0.3%, 86 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 179 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "PASS",
+          "detail": "held-out excess +53.6% vs hold, +34.1% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "FAIL",
+          "detail": "beats hold 2/6 windows (median -2.3%), beats regime-hold 3/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "PASS",
+          "detail": "p5 +19.0%, P(loss) 1%, stress 6/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PASS",
+          "detail": "20 unseen coins: net +77.8%, PF 1.53, +91.3pts vs regime-hold, 20/20 coins beat it (183 trips)"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PASS",
+          "detail": "17 book-priced fills, 0 fallback, avg exec cost $0.0214"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 86400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "WALK_FORWARD"
+      ]
+    },
+    "krakenfast": {
+      "kind": "champion",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +87.4% after real costs, 360 trips, PF 1.82"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "FAIL",
+          "detail": "held-out return -9.2%, 111 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 241 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "PASS",
+          "detail": "held-out excess +44.1% vs hold, +24.6% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "FAIL",
+          "detail": "beats hold 2/6 windows (median -6.0%), beats regime-hold 3/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "PASS",
+          "detail": "p5 +20.6%, P(loss) 1%, stress 6/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PASS",
+          "detail": "20 unseen coins: net +3.3%, PF 1.1, +16.7pts vs regime-hold, 15/20 coins beat it (220 trips)"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PENDING",
+          "detail": "3/10 fills with real order-book execution records"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 86400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "OUT_OF_SAMPLE",
+        "WALK_FORWARD"
+      ]
+    },
+    "krakenslow": {
+      "kind": "champion",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +55.6% after real costs, 84 trips, PF 3.30"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "PASS",
+          "detail": "held-out return +1.5%, 16 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 59 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "PASS",
+          "detail": "held-out excess +54.8% vs hold, +35.3% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "PASS",
+          "detail": "beats hold 3/6 windows (median +10.4%), beats regime-hold 3/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "PASS",
+          "detail": "p5 +16.1%, P(loss) 0%, stress 6/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PASS",
+          "detail": "20 unseen coins: net +20.4%, PF 2.26, +33.8pts vs regime-hold, 18/20 coins beat it (50 trips)"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PENDING",
+          "detail": "3/10 fills with real order-book execution records"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 86400,
+      "status": "ACCUMULATING_EVIDENCE",
+      "blocking": [
+        "LIVE_PAPER_EXECUTION",
+        "LIVE_PAPER_SAMPLE",
+        "PORTFOLIO_CHECK"
+      ]
+    },
+    "krakenrsi": {
+      "kind": "champion",
+      "stages": {
+        "HISTORICAL": {
+          "status": "FAIL",
+          "detail": "net -12.5% after real costs, 120 trips, PF 0.70"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "FAIL",
+          "detail": "held-out return -7.1%, 34 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "FAIL",
+          "detail": "avg net trade <= 0 at 80.0bps taker, 79 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "PASS",
+          "detail": "held-out excess +46.2% vs hold, +26.7% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "PASS",
+          "detail": "beats hold 3/6 windows (median +2.5%), beats regime-hold 3/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "FAIL",
+          "detail": "p5 -28.2%, P(loss) 94%, stress 0/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "FAIL",
+          "detail": "20 unseen coins: net -12.3%, PF 0.71, +1.1pts vs regime-hold, 16/20 coins beat it (91 trips)"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "FAIL",
+          "detail": "flagged needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 86400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "HISTORICAL",
+        "OUT_OF_SAMPLE",
+        "FEE_GATE",
+        "MONTE_CARLO",
+        "HOLDOUT_COINS",
+        "LIVE_PAPER_EXECUTION"
+      ]
+    },
+    "krakenmacd": {
+      "kind": "champion",
+      "stages": {
+        "HISTORICAL": {
+          "status": "FAIL",
+          "detail": "net -15.3% after real costs, 769 trips, PF 1.14"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "FAIL",
+          "detail": "held-out return -34.5%, 240 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 487 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "FAIL",
+          "detail": "held-out excess +18.8% vs hold, -0.7% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "FAIL",
+          "detail": "beats hold 2/6 windows (median -16.0%), beats regime-hold 2/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "FAIL",
+          "detail": "p5 -37.7%, P(loss) 41%, stress 6/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "FAIL",
+          "detail": "20 unseen coins: net -9.8%, PF 1.08, +3.6pts vs regime-hold, 13/20 coins beat it (460 trips)"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "FAIL",
+          "detail": "flagged needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 86400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "HISTORICAL",
+        "OUT_OF_SAMPLE",
+        "WALK_FORWARD",
+        "EDGE_GATE",
+        "MONTE_CARLO",
+        "HOLDOUT_COINS",
+        "LIVE_PAPER_EXECUTION"
+      ]
+    },
+    "krakenbbreak": {
+      "kind": "champion",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +96.0% after real costs, 414 trips, PF 1.80"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "PASS",
+          "detail": "held-out return +1.1%, 130 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 280 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "PASS",
+          "detail": "held-out excess +54.4% vs hold, +34.9% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "FAIL",
+          "detail": "beats hold 2/6 windows (median -1.5%), beats regime-hold 3/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "PASS",
+          "detail": "p5 +24.9%, P(loss) 0%, stress 5/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PASS",
+          "detail": "20 unseen coins: net +81.6%, PF 1.71, +95.0pts vs regime-hold, 18/20 coins beat it (244 trips)"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PASS",
+          "detail": "14 book-priced fills, 0 fallback, avg exec cost $0.0289"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 86400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "WALK_FORWARD"
+      ]
+    },
+    "krakenturtle": {
+      "kind": "champion",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +82.5% after real costs, 211 trips, PF 2.18"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "FAIL",
+          "detail": "held-out return -9.4%, 69 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 136 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "PASS",
+          "detail": "held-out excess +43.9% vs hold, +24.4% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "PASS",
+          "detail": "beats hold 3/6 windows (median +3.9%), beats regime-hold 3/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "PASS",
+          "detail": "p5 +23.9%, P(loss) 0%, stress 6/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PASS",
+          "detail": "20 unseen coins: net +65.1%, PF 1.78, +78.5pts vs regime-hold, 17/20 coins beat it (123 trips)"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PASS",
+          "detail": "13 book-priced fills, 0 fallback, avg exec cost $0.0294"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 86400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "OUT_OF_SAMPLE"
+      ]
+    },
+    "krakencci": {
+      "kind": "champion",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +75.1% after real costs, 445 trips, PF 1.50"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "FAIL",
+          "detail": "held-out return -7.0%, 144 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 294 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "PASS",
+          "detail": "held-out excess +46.3% vs hold, +26.8% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "FAIL",
+          "detail": "beats hold 2/6 windows (median -5.0%), beats regime-hold 2/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "PASS",
+          "detail": "p5 +1.3%, P(loss) 5%, stress 6/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PASS",
+          "detail": "20 unseen coins: net +59.7%, PF 1.5, +73.1pts vs regime-hold, 19/20 coins beat it (267 trips)"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PASS",
+          "detail": "17 book-priced fills, 0 fallback, avg exec cost $0.0219"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 86400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "OUT_OF_SAMPLE",
+        "WALK_FORWARD"
+      ]
+    },
+    "krakenkeltner": {
+      "kind": "champion",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +84.3% after real costs, 198 trips, PF 2.13"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "FAIL",
+          "detail": "held-out return -1.3%, 65 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 129 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "PASS",
+          "detail": "held-out excess +52.0% vs hold, +32.5% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "FAIL",
+          "detail": "beats hold 2/6 windows (median -0.3%), beats regime-hold 3/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "PASS",
+          "detail": "p5 +28.7%, P(loss) 0%, stress 6/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PASS",
+          "detail": "20 unseen coins: net +71.7%, PF 1.94, +85.1pts vs regime-hold, 18/20 coins beat it (120 trips)"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PENDING",
+          "detail": "9/10 fills with real order-book execution records"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 86400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "OUT_OF_SAMPLE",
+        "WALK_FORWARD"
+      ]
+    },
+    "krakenichimoku": {
+      "kind": "champion",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +68.1% after real costs, 372 trips, PF 1.75"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "FAIL",
+          "detail": "held-out return -5.0%, 101 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 262 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "PASS",
+          "detail": "held-out excess +48.3% vs hold, +28.8% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "FAIL",
+          "detail": "beats hold 2/6 windows (median -5.9%), beats regime-hold 3/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "PASS",
+          "detail": "p5 +19.7%, P(loss) 1%, stress 6/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PASS",
+          "detail": "20 unseen coins: net +4.1%, PF 1.16, +17.5pts vs regime-hold, 15/20 coins beat it (215 trips)"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PENDING",
+          "detail": "8/10 fills with real order-book execution records"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 86400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "OUT_OF_SAMPLE",
+        "WALK_FORWARD"
+      ]
+    },
+    "c4h_bbreak": {
+      "kind": "4h challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +58.9% after real costs, 333 trips, PF 1.81"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "FAIL",
+          "detail": "held-out return -4.2%, 55 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 256 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "FAIL",
+          "detail": "held-out excess +32.0% vs hold, -12.5% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "PASS",
+          "detail": "beats hold 3/5 windows (median +17.0%), beats regime-hold 3/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "PASS",
+          "detail": "p5 +14.6%, P(loss) 0%, stress 6/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PENDING",
+          "detail": "hold-out coin test not built for 4h strategies yet"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PENDING",
+          "detail": "8/10 fills with real order-book execution records"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 14400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "OUT_OF_SAMPLE",
+        "EDGE_GATE"
+      ]
+    },
+    "c4h_cci": {
+      "kind": "4h challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "FAIL",
+          "detail": "net -9.4% after real costs, 648 trips, PF 1.14"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "FAIL",
+          "detail": "held-out return -31.1%, 142 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 493 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "FAIL",
+          "detail": "held-out excess +5.1% vs hold, -39.4% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "PASS",
+          "detail": "beats hold 3/5 windows (median +3.3%), beats regime-hold 2/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "FAIL",
+          "detail": "p5 -29.5%, P(loss) 36%, stress 5/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PENDING",
+          "detail": "hold-out coin test not built for 4h strategies yet"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PASS",
+          "detail": "12 book-priced fills, 0 fallback, avg exec cost $0.0143"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 14400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "HISTORICAL",
+        "OUT_OF_SAMPLE",
+        "EDGE_GATE",
+        "MONTE_CARLO"
+      ]
+    },
+    "c4h_cci_f1": {
+      "kind": "4h challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "FAIL",
+          "detail": "net -9.4% after real costs, 648 trips, PF 1.14"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "FAIL",
+          "detail": "held-out return -31.1%, 142 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 493 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "FAIL",
+          "detail": "held-out excess +5.1% vs hold, -39.4% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "PASS",
+          "detail": "beats hold 3/5 windows (median +3.3%), beats regime-hold 2/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "FAIL",
+          "detail": "p5 -29.5%, P(loss) 36%, stress 5/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PENDING",
+          "detail": "hold-out coin test not built for 4h strategies yet"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PASS",
+          "detail": "11 book-priced fills, 0 fallback, avg exec cost $0.0145"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 14400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "HISTORICAL",
+        "OUT_OF_SAMPLE",
+        "EDGE_GATE",
+        "MONTE_CARLO"
+      ]
+    },
+    "c4h_fxe_ema_trend_mid": {
+      "kind": "4h challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "FAIL",
+          "detail": "net -50.8% after real costs, 772 trips, PF 0.80"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "FAIL",
+          "detail": "held-out return -4.7%, 66 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 574 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "FAIL",
+          "detail": "held-out excess +36.0% vs hold, -9.5% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "PASS",
+          "detail": "beats hold 3/5 windows (median +8.8%), beats regime-hold 2/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "FAIL",
+          "detail": "p5 -67.6%, P(loss) 98%, stress 0/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PENDING",
+          "detail": "hold-out coin test not built for 4h strategies yet"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PASS",
+          "detail": "12 book-priced fills, 0 fallback, avg exec cost $0.0304"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 14400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "HISTORICAL",
+        "OUT_OF_SAMPLE",
+        "EDGE_GATE",
+        "MONTE_CARLO"
+      ]
+    },
+    "c4h_fxe_macd_zero_large": {
+      "kind": "4h challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +11.6% after real costs, 180 trips, PF 1.23"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "FAIL",
+          "detail": "held-out return +16.4%, 4 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 133 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "PASS",
+          "detail": "held-out excess +48.1% vs hold, +4.6% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "PASS",
+          "detail": "beats hold 3/5 windows (median +23.2%), beats regime-hold 2/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "FAIL",
+          "detail": "p5 -28.3%, P(loss) 38%, stress 6/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PENDING",
+          "detail": "hold-out coin test not built for 4h strategies yet"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PENDING",
+          "detail": "0/10 fills with real order-book execution records"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 14400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "OUT_OF_SAMPLE",
+        "MONTE_CARLO"
+      ]
+    },
+    "c4h_fxe_macd_zero_mid": {
+      "kind": "4h challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "FAIL",
+          "detail": "net -10.5% after real costs, 191 trips, PF 1.10"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "FAIL",
+          "detail": "held-out return +12.7%, 10 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 142 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "PASS",
+          "detail": "held-out excess +53.4% vs hold, +7.9% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "PASS",
+          "detail": "beats hold 3/5 windows (median +23.2%), beats regime-hold 2/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "FAIL",
+          "detail": "p5 -29.1%, P(loss) 43%, stress 6/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PENDING",
+          "detail": "hold-out coin test not built for 4h strategies yet"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PENDING",
+          "detail": "0/10 fills with real order-book execution records"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 14400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "HISTORICAL",
+        "OUT_OF_SAMPLE",
+        "MONTE_CARLO"
+      ]
+    },
+    "c4h_fxe_rsi_trend_mid": {
+      "kind": "4h challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +32.5% after real costs, 79 trips, PF 1.77"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "FAIL",
+          "detail": "held-out return -7.7%, 17 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 52 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "FAIL",
+          "detail": "held-out excess +33.0% vs hold, -12.5% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "PASS",
+          "detail": "beats hold 3/5 windows (median +19.8%), beats regime-hold 2/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "PASS",
+          "detail": "p5 +2.2%, P(loss) 4%, stress 6/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PENDING",
+          "detail": "hold-out coin test not built for 4h strategies yet"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PENDING",
+          "detail": "2/10 fills with real order-book execution records"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 14400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "OUT_OF_SAMPLE",
+        "EDGE_GATE"
+      ]
+    },
+    "c4h_ichimoku": {
+      "kind": "4h challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "FAIL",
+          "detail": "net -18.3% after real costs, 780 trips, PF 1.05"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "FAIL",
+          "detail": "held-out return -26.3%, 175 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 581 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "FAIL",
+          "detail": "held-out excess +9.9% vs hold, -34.6% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "FAIL",
+          "detail": "beats hold 2/5 windows (median -1.4%), beats regime-hold 2/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "FAIL",
+          "detail": "p5 -37.1%, P(loss) 57%, stress 5/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PENDING",
+          "detail": "hold-out coin test not built for 4h strategies yet"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PENDING",
+          "detail": "5/10 fills with real order-book execution records"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 14400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "HISTORICAL",
+        "OUT_OF_SAMPLE",
+        "WALK_FORWARD",
+        "EDGE_GATE",
+        "MONTE_CARLO"
+      ]
+    },
+    "c4h_keltner": {
+      "kind": "4h challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +45.7% after real costs, 337 trips, PF 1.62"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "FAIL",
+          "detail": "held-out return -6.4%, 74 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 256 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "FAIL",
+          "detail": "held-out excess +29.8% vs hold, -14.7% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "PASS",
+          "detail": "beats hold 3/5 windows (median +22.5%), beats regime-hold 2/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "PASS",
+          "detail": "p5 +9.4%, P(loss) 2%, stress 6/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PENDING",
+          "detail": "hold-out coin test not built for 4h strategies yet"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PASS",
+          "detail": "13 book-priced fills, 0 fallback, avg exec cost $0.0187"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 14400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "OUT_OF_SAMPLE",
+        "EDGE_GATE"
+      ]
+    },
+    "c4h_keltner_f1": {
+      "kind": "4h challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +45.7% after real costs, 337 trips, PF 1.62"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "FAIL",
+          "detail": "held-out return -6.4%, 74 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 256 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "FAIL",
+          "detail": "held-out excess +29.8% vs hold, -14.7% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "PASS",
+          "detail": "beats hold 3/5 windows (median +22.5%), beats regime-hold 2/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "PASS",
+          "detail": "p5 +9.4%, P(loss) 2%, stress 6/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PENDING",
+          "detail": "hold-out coin test not built for 4h strategies yet"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PASS",
+          "detail": "10 book-priced fills, 0 fallback, avg exec cost $0.0202"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 14400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "OUT_OF_SAMPLE",
+        "EDGE_GATE"
+      ]
+    },
+    "c4h_macd": {
+      "kind": "4h challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "FAIL",
+          "detail": "net -15.6% after real costs, 1108 trips, PF 1.08"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "FAIL",
+          "detail": "held-out return -12.8%, 200 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 875 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "FAIL",
+          "detail": "held-out excess +23.4% vs hold, -21.1% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "PASS",
+          "detail": "beats hold 4/5 windows (median +3.9%), beats regime-hold 3/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "FAIL",
+          "detail": "p5 -34.7%, P(loss) 51%, stress 3/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PENDING",
+          "detail": "hold-out coin test not built for 4h strategies yet"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "FAIL",
+          "detail": "flagged needs_revalidation (OVERFIT: only 1/16 candidates survived \u2014 a lone survivor is not a robust family)"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 14400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "HISTORICAL",
+        "OUT_OF_SAMPLE",
+        "EDGE_GATE",
+        "MONTE_CARLO",
+        "LIVE_PAPER_EXECUTION"
+      ]
+    },
+    "c4h_multi": {
+      "kind": "4h challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +110.9% after real costs, 310 trips, PF 2.08"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "PASS",
+          "detail": "held-out return +7.4%, 48 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 236 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "FAIL",
+          "detail": "held-out excess +43.6% vs hold, -0.9% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "PASS",
+          "detail": "beats hold 3/5 windows (median +23.2%), beats regime-hold 2/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "PASS",
+          "detail": "p5 +38.8%, P(loss) 0%, stress 6/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PENDING",
+          "detail": "hold-out coin test not built for 4h strategies yet"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PASS",
+          "detail": "24 book-priced fills, 0 fallback, avg exec cost $0.0138"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 14400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "EDGE_GATE"
+      ]
+    },
+    "c4h_multi_f1": {
+      "kind": "4h challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +110.9% after real costs, 310 trips, PF 2.08"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "PASS",
+          "detail": "held-out return +7.4%, 48 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 236 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "FAIL",
+          "detail": "held-out excess +43.6% vs hold, -0.9% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "PASS",
+          "detail": "beats hold 3/5 windows (median +23.2%), beats regime-hold 2/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "PASS",
+          "detail": "p5 +38.8%, P(loss) 0%, stress 6/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PENDING",
+          "detail": "hold-out coin test not built for 4h strategies yet"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PASS",
+          "detail": "22 book-priced fills, 0 fallback, avg exec cost $0.0136"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 14400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "EDGE_GATE"
+      ]
+    },
+    "c4h_rsi": {
+      "kind": "4h challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "FAIL",
+          "detail": "net -2.7% after real costs, 122 trips, PF 0.92"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "FAIL",
+          "detail": "held-out return -14.7%, 23 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 91 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "FAIL",
+          "detail": "held-out excess +21.5% vs hold, -23.0% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "PASS",
+          "detail": "beats hold 3/5 windows (median +17.1%), beats regime-hold 3/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "FAIL",
+          "detail": "p5 -17.4%, P(loss) 66%, stress 2/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PENDING",
+          "detail": "hold-out coin test not built for 4h strategies yet"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "FAIL",
+          "detail": "flagged needs_revalidation (OVERFIT: only 1/9 candidates survived \u2014 a lone survivor is not a robust family)"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 14400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "HISTORICAL",
+        "OUT_OF_SAMPLE",
+        "EDGE_GATE",
+        "MONTE_CARLO",
+        "LIVE_PAPER_EXECUTION"
+      ]
+    },
+    "c4h_sma": {
+      "kind": "4h challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +12.2% after real costs, 252 trips, PF 1.24"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "FAIL",
+          "detail": "held-out return -11.0%, 45 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 174 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "FAIL",
+          "detail": "held-out excess +25.2% vs hold, -19.3% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "PASS",
+          "detail": "beats hold 3/5 windows (median +26.3%), beats regime-hold 2/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "FAIL",
+          "detail": "p5 -16.6%, P(loss) 29%, stress 6/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PENDING",
+          "detail": "hold-out coin test not built for 4h strategies yet"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PENDING",
+          "detail": "0/10 fills with real order-book execution records"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 14400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "OUT_OF_SAMPLE",
+        "EDGE_GATE",
+        "MONTE_CARLO"
+      ]
+    },
+    "c4h_sma_f1": {
+      "kind": "4h challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +12.2% after real costs, 252 trips, PF 1.24"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "FAIL",
+          "detail": "held-out return -11.0%, 45 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 174 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "FAIL",
+          "detail": "held-out excess +25.2% vs hold, -19.3% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "PASS",
+          "detail": "beats hold 3/5 windows (median +26.3%), beats regime-hold 2/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "FAIL",
+          "detail": "p5 -16.6%, P(loss) 29%, stress 6/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PENDING",
+          "detail": "hold-out coin test not built for 4h strategies yet"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PENDING",
+          "detail": "0/10 fills with real order-book execution records"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 14400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "OUT_OF_SAMPLE",
+        "EDGE_GATE",
+        "MONTE_CARLO"
+      ]
+    },
+    "c4h_turtle": {
+      "kind": "4h challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +123.0% after real costs, 196 trips, PF 2.72"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "PASS",
+          "detail": "held-out return +3.3%, 26 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 147 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "FAIL",
+          "detail": "held-out excess +39.5% vs hold, -5.0% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "PASS",
+          "detail": "beats hold 3/5 windows (median +26.6%), beats regime-hold 2/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "PASS",
+          "detail": "p5 +53.8%, P(loss) 0%, stress 6/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PENDING",
+          "detail": "hold-out coin test not built for 4h strategies yet"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PASS",
+          "detail": "15 book-priced fills, 0 fallback, avg exec cost $0.0185"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 14400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "EDGE_GATE"
+      ]
+    },
+    "chal_fxe_bb_dip_large": {
+      "kind": "learner challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +1.7% after real costs, 46 trips, PF 1.17"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "FAIL",
+          "detail": "held-out return +3.2%, 9 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 35 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "PASS",
+          "detail": "held-out excess +53.9% vs hold, +14.4% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "PASS",
+          "detail": "beats hold 3/6 windows (median +10.4%), beats regime-hold 3/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "FAIL",
+          "detail": "p5 -5.7%, P(loss) 42%, stress 0/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PASS",
+          "detail": "20 unseen coins: net +1.1%, PF 1.14, +11.2pts vs regime-hold, 17/20 coins beat it (40 trips)"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PENDING",
+          "detail": "0/10 fills with real order-book execution records"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 86400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "OUT_OF_SAMPLE",
+        "MONTE_CARLO"
+      ]
+    },
+    "chal_fxe_macd_zero_mid": {
+      "kind": "learner challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +62.3% after real costs, 194 trips, PF 1.48"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "FAIL",
+          "detail": "held-out return -0.3%, 37 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 148 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "PASS",
+          "detail": "held-out excess +55.6% vs hold, +33.0% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "PASS",
+          "detail": "beats hold 3/6 windows (median +10.4%), beats regime-hold 3/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "FAIL",
+          "detail": "p5 -3.2%, P(loss) 7%, stress 6/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PASS",
+          "detail": "20 unseen coins: net +95.0%, PF 1.49, +108.4pts vs regime-hold, 19/20 coins beat it (225 trips)"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PASS",
+          "detail": "11 book-priced fills, 0 fallback, avg exec cost $0.0295"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 86400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "OUT_OF_SAMPLE",
+        "MONTE_CARLO"
+      ]
+    },
+    "chal_fxe_willr_pullback_large": {
+      "kind": "learner challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +16.2% after real costs, 56 trips, PF 1.72"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "PASS",
+          "detail": "held-out return +7.2%, 24 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 31 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "PASS",
+          "detail": "held-out excess +57.9% vs hold, +18.5% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "PASS",
+          "detail": "beats hold 3/6 windows (median +10.0%), beats regime-hold 3/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "FAIL",
+          "detail": "p5 -3.4%, P(loss) 21%, stress 5/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PASS",
+          "detail": "20 unseen coins: net +2.9%, PF 1.13, +13.0pts vs regime-hold, 16/20 coins beat it (56 trips)"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PENDING",
+          "detail": "0/10 fills with real order-book execution records"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 86400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "MONTE_CARLO"
+      ]
+    },
+    "chal_fxe_willr_pullback_mid": {
+      "kind": "learner challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +4.1% after real costs, 92 trips, PF 1.13"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "PASS",
+          "detail": "held-out return +1.1%, 20 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 64 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "PASS",
+          "detail": "held-out excess +57.0% vs hold, +34.4% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "PASS",
+          "detail": "beats hold 3/6 windows (median +10.4%), beats regime-hold 3/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "FAIL",
+          "detail": "p5 -2.0%, P(loss) 10%, stress 5/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "FAIL",
+          "detail": "20 unseen coins: net -9.2%, PF 0.78, +4.2pts vs regime-hold, 17/20 coins beat it (103 trips)"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PENDING",
+          "detail": "0/10 fills with real order-book execution records"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 86400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "MONTE_CARLO",
+        "HOLDOUT_COINS"
+      ]
+    },
+    "chal_gr_bb_dip_large": {
+      "kind": "learner challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +1.7% after real costs, 129 trips, PF 1.05"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "PASS",
+          "detail": "held-out return +2.2%, 25 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "FAIL",
+          "detail": "avg net trade <= 0 at 80.0bps taker, 95 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "PASS",
+          "detail": "held-out excess +52.9% vs hold, +13.4% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "PASS",
+          "detail": "beats hold 3/6 windows (median +10.4%), beats regime-hold 3/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "FAIL",
+          "detail": "p5 -17.9%, P(loss) 97%, stress 0/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "FAIL",
+          "detail": "20 unseen coins: net -1.8%, PF 0.94, +8.3pts vs regime-hold, 16/20 coins beat it (119 trips)"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PENDING",
+          "detail": "0/10 fills with real order-book execution records"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 86400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "FEE_GATE",
+        "MONTE_CARLO",
+        "HOLDOUT_COINS"
+      ]
+    },
+    "chal_gr_bb_dip_mid": {
+      "kind": "learner challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "FAIL",
+          "detail": "net -21.3% after real costs, 103 trips, PF 0.54"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "PASS",
+          "detail": "held-out return +2.3%, 15 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "FAIL",
+          "detail": "avg net trade <= 0 at 80.0bps taker, 84 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "PASS",
+          "detail": "held-out excess +58.1% vs hold, +35.5% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "PASS",
+          "detail": "beats hold 3/6 windows (median +10.4%), beats regime-hold 3/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "FAIL",
+          "detail": "p5 -17.9%, P(loss) 97%, stress 0/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "FAIL",
+          "detail": "20 unseen coins: net -3.8%, PF 0.87, +9.7pts vs regime-hold, 16/20 coins beat it (123 trips)"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PENDING",
+          "detail": "0/10 fills with real order-book execution records"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 86400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "HISTORICAL",
+        "FEE_GATE",
+        "MONTE_CARLO",
+        "HOLDOUT_COINS"
+      ]
+    },
+    "chal_gr_cci_dip_large": {
+      "kind": "learner challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +12.7% after real costs, 87 trips, PF 1.62"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "PASS",
+          "detail": "held-out return +6.4%, 19 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 60 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "PASS",
+          "detail": "held-out excess +57.1% vs hold, +17.7% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "PASS",
+          "detail": "beats hold 3/6 windows (median +10.4%), beats regime-hold 3/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "FAIL",
+          "detail": "p5 -2.6%, P(loss) 13%, stress 2/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PASS",
+          "detail": "20 unseen coins: net +2.4%, PF 1.13, +12.5pts vs regime-hold, 16/20 coins beat it (93 trips)"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PENDING",
+          "detail": "0/10 fills with real order-book execution records"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 86400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "MONTE_CARLO"
+      ]
+    },
+    "chal_gr_cci_dip_mid": {
+      "kind": "learner challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +3.6% after real costs, 84 trips, PF 1.11"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "PASS",
+          "detail": "held-out return +5.8%, 17 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "FAIL",
+          "detail": "avg net trade <= 0 at 80.0bps taker, 63 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "PASS",
+          "detail": "held-out excess +61.7% vs hold, +39.1% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "PASS",
+          "detail": "beats hold 3/6 windows (median +10.4%), beats regime-hold 3/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "FAIL",
+          "detail": "p5 -2.6%, P(loss) 13%, stress 2/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PASS",
+          "detail": "20 unseen coins: net +1.7%, PF 1.09, +15.1pts vs regime-hold, 16/20 coins beat it (97 trips)"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PENDING",
+          "detail": "0/10 fills with real order-book execution records"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 86400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "FEE_GATE",
+        "MONTE_CARLO"
+      ]
+    },
+    "chal_gr_stoch_dip_large": {
+      "kind": "learner challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +4.0% after real costs, 151 trips, PF 1.16"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "PASS",
+          "detail": "held-out return +4.9%, 42 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "FAIL",
+          "detail": "avg net trade <= 0 at 80.0bps taker, 100 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "PASS",
+          "detail": "held-out excess +55.6% vs hold, +16.2% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "PASS",
+          "detail": "beats hold 3/6 windows (median +10.4%), beats regime-hold 3/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "FAIL",
+          "detail": "p5 -9.9%, P(loss) 46%, stress 0/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "FAIL",
+          "detail": "20 unseen coins: net -7.8%, PF 0.77, +2.4pts vs regime-hold, 17/20 coins beat it (156 trips)"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PENDING",
+          "detail": "0/10 fills with real order-book execution records"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 86400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "FEE_GATE",
+        "MONTE_CARLO",
+        "HOLDOUT_COINS"
+      ]
+    },
+    "chal_gr_stoch_dip_mid": {
+      "kind": "learner challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +0.4% after real costs, 138 trips, PF 1.02"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "PASS",
+          "detail": "held-out return +3.3%, 41 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "FAIL",
+          "detail": "avg net trade <= 0 at 80.0bps taker, 91 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "PASS",
+          "detail": "held-out excess +59.2% vs hold, +36.6% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "PASS",
+          "detail": "beats hold 3/6 windows (median +10.4%), beats regime-hold 3/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "FAIL",
+          "detail": "p5 -9.9%, P(loss) 46%, stress 0/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "FAIL",
+          "detail": "20 unseen coins: net -10.5%, PF 0.73, +2.9pts vs regime-hold, 16/20 coins beat it (169 trips)"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PENDING",
+          "detail": "0/10 fills with real order-book execution records"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 86400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "FEE_GATE",
+        "MONTE_CARLO",
+        "HOLDOUT_COINS"
+      ]
+    },
+    "chal_gr_willr_dip_large": {
+      "kind": "learner challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +16.0% after real costs, 97 trips, PF 1.80"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "PASS",
+          "detail": "held-out return +5.5%, 30 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 63 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "PASS",
+          "detail": "held-out excess +56.2% vs hold, +16.8% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "PASS",
+          "detail": "beats hold 3/6 windows (median +10.4%), beats regime-hold 3/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "FAIL",
+          "detail": "p5 +1.0%, P(loss) 4%, stress 4/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PASS",
+          "detail": "20 unseen coins: net +4.1%, PF 1.22, +14.3pts vs regime-hold, 16/20 coins beat it (112 trips)"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PENDING",
+          "detail": "0/10 fills with real order-book execution records"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 86400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "MONTE_CARLO"
+      ]
+    },
+    "chal_gr_willr_dip_mid": {
+      "kind": "learner challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +5.9% after real costs, 92 trips, PF 1.21"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "PASS",
+          "detail": "held-out return +6.0%, 28 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 61 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "PASS",
+          "detail": "held-out excess +61.9% vs hold, +39.3% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "PASS",
+          "detail": "beats hold 3/6 windows (median +10.4%), beats regime-hold 3/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "FAIL",
+          "detail": "p5 +1.0%, P(loss) 4%, stress 4/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PASS",
+          "detail": "20 unseen coins: net +1.2%, PF 1.07, +14.6pts vs regime-hold, 16/20 coins beat it (120 trips)"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PENDING",
+          "detail": "0/10 fills with real order-book execution records"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 86400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "MONTE_CARLO"
+      ]
+    },
+    "chal_krakencci_1": {
+      "kind": "learner challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +168.6% after real costs, 322 trips, PF 2.20"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "PASS",
+          "detail": "held-out return +11.1%, 98 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 218 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "PASS",
+          "detail": "held-out excess +64.4% vs hold, +26.3% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "FAIL",
+          "detail": "beats hold 2/6 windows (median -5.0%), beats regime-hold 2/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "PASS",
+          "detail": "p5 +1.3%, P(loss) 5%, stress 6/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PASS",
+          "detail": "20 unseen coins: net +97.1%, PF 2.12, +107.2pts vs regime-hold, 20/20 coins beat it (197 trips)"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PENDING",
+          "detail": "4/10 fills with real order-book execution records"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 86400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "WALK_FORWARD"
+      ]
+    },
+    "chal_krakenfast_1": {
+      "kind": "learner challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +142.6% after real costs, 212 trips, PF 2.96"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "FAIL",
+          "detail": "held-out return -2.8%, 59 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 150 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "PASS",
+          "detail": "held-out excess +50.5% vs hold, +21.1% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "FAIL",
+          "detail": "beats hold 2/6 windows (median -6.0%), beats regime-hold 3/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "PASS",
+          "detail": "p5 +20.6%, P(loss) 1%, stress 6/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PASS",
+          "detail": "20 unseen coins: net +43.9%, PF 1.81, +75.2pts vs regime-hold, 16/20 coins beat it (128 trips)"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PENDING",
+          "detail": "3/10 fills with real order-book execution records"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 86400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "OUT_OF_SAMPLE",
+        "WALK_FORWARD"
+      ]
+    },
+    "chal_krakenfast_2": {
+      "kind": "learner challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +181.5% after real costs, 259 trips, PF 3.10"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "PASS",
+          "detail": "held-out return +1.8%, 84 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 169 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "PASS",
+          "detail": "held-out excess +55.1% vs hold, +17.0% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "FAIL",
+          "detail": "beats hold 2/6 windows (median -6.0%), beats regime-hold 3/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "PASS",
+          "detail": "p5 +20.6%, P(loss) 1%, stress 6/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PASS",
+          "detail": "20 unseen coins: net +57.9%, PF 1.89, +68.0pts vs regime-hold, 16/20 coins beat it (153 trips)"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PENDING",
+          "detail": "3/10 fills with real order-book execution records"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 86400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "WALK_FORWARD"
+      ]
+    },
+    "chal_krakenichimoku_1": {
+      "kind": "learner challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +101.2% after real costs, 238 trips, PF 2.44"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "FAIL",
+          "detail": "held-out return -0.2%, 51 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 187 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "PASS",
+          "detail": "held-out excess +53.1% vs hold, +23.7% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "FAIL",
+          "detail": "beats hold 2/6 windows (median -5.9%), beats regime-hold 3/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "PASS",
+          "detail": "p5 +19.7%, P(loss) 1%, stress 6/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PASS",
+          "detail": "20 unseen coins: net +25.3%, PF 1.56, +56.5pts vs regime-hold, 17/20 coins beat it (143 trips)"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PENDING",
+          "detail": "4/10 fills with real order-book execution records"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 86400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "OUT_OF_SAMPLE",
+        "WALK_FORWARD"
+      ]
+    },
+    "chal_krakenichimoku_2": {
+      "kind": "learner challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +145.9% after real costs, 235 trips, PF 2.88"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "PASS",
+          "detail": "held-out return +5.8%, 60 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 169 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "PASS",
+          "detail": "held-out excess +59.1% vs hold, +21.0% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "FAIL",
+          "detail": "beats hold 2/6 windows (median -5.9%), beats regime-hold 3/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "PASS",
+          "detail": "p5 +19.7%, P(loss) 1%, stress 6/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PASS",
+          "detail": "20 unseen coins: net +56.3%, PF 2.07, +66.4pts vs regime-hold, 15/20 coins beat it (132 trips)"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PENDING",
+          "detail": "1/10 fills with real order-book execution records"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 86400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "WALK_FORWARD"
+      ]
+    },
+    "chal_krakenmulti_1": {
+      "kind": "learner challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +112.3% after real costs, 226 trips, PF 2.26"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "PASS",
+          "detail": "held-out return +1.7%, 73 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 149 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "PASS",
+          "detail": "held-out excess +54.9% vs hold, +25.6% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "FAIL",
+          "detail": "beats hold 2/6 windows (median -2.3%), beats regime-hold 3/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "PASS",
+          "detail": "p5 +19.0%, P(loss) 1%, stress 6/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PASS",
+          "detail": "20 unseen coins: net +76.1%, PF 1.79, +107.4pts vs regime-hold, 20/20 coins beat it (144 trips)"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PASS",
+          "detail": "13 book-priced fills, 0 fallback, avg exec cost $0.0299"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 86400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "WALK_FORWARD"
+      ]
+    },
+    "chal_krakenrsi_1": {
+      "kind": "learner challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +15.8% after real costs, 58 trips, PF 1.85"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "FAIL",
+          "detail": "held-out return -1.4%, 3 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 55 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "PASS",
+          "detail": "held-out excess +51.9% vs hold, +22.5% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "PASS",
+          "detail": "beats hold 3/6 windows (median +2.5%), beats regime-hold 3/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "FAIL",
+          "detail": "p5 -28.2%, P(loss) 94%, stress 0/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "FAIL",
+          "detail": "20 unseen coins: net -1.0%, PF 0.94, +30.2pts vs regime-hold, 16/20 coins beat it (36 trips)"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PENDING",
+          "detail": "0/10 fills with real order-book execution records"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 86400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "OUT_OF_SAMPLE",
+        "MONTE_CARLO",
+        "HOLDOUT_COINS"
+      ]
+    },
+    "chal_krakenturtle_1": {
+      "kind": "learner challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +106.2% after real costs, 178 trips, PF 2.81"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "FAIL",
+          "detail": "held-out return -4.6%, 57 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 117 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "PASS",
+          "detail": "held-out excess +48.7% vs hold, +19.3% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "PASS",
+          "detail": "beats hold 3/6 windows (median +3.9%), beats regime-hold 3/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "PASS",
+          "detail": "p5 +23.9%, P(loss) 0%, stress 6/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PASS",
+          "detail": "20 unseen coins: net +36.4%, PF 1.92, +67.7pts vs regime-hold, 18/20 coins beat it (99 trips)"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PENDING",
+          "detail": "8/10 fills with real order-book execution records"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 86400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "OUT_OF_SAMPLE"
+      ]
+    },
+    "chal_realpaper_1": {
+      "kind": "learner challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +105.6% after real costs, 131 trips, PF 3.76"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "PASS",
+          "detail": "held-out return +2.7%, 40 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 88 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "PASS",
+          "detail": "held-out excess +56.0% vs hold, +26.6% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "PASS",
+          "detail": "beats hold 3/6 windows (median +5.4%), beats regime-hold 3/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "PASS",
+          "detail": "p5 +9.1%, P(loss) 2%, stress 6/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PASS",
+          "detail": "20 unseen coins: net +53.1%, PF 2.6, +84.4pts vs regime-hold, 18/20 coins beat it (82 trips)"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PENDING",
+          "detail": "0/10 fills with real order-book execution records"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 86400,
+      "status": "ACCUMULATING_EVIDENCE",
+      "blocking": [
+        "LIVE_PAPER_EXECUTION",
+        "LIVE_PAPER_SAMPLE",
+        "PORTFOLIO_CHECK"
+      ]
+    },
+    "chal_realpaper_2": {
+      "kind": "learner challenger",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +101.7% after real costs, 180 trips, PF 2.82"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "PASS",
+          "detail": "held-out return +2.3%, 53 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 118 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "PASS",
+          "detail": "held-out excess +55.6% vs hold, +17.5% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "PASS",
+          "detail": "beats hold 3/6 windows (median +5.4%), beats regime-hold 3/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "PASS",
+          "detail": "p5 +9.1%, P(loss) 2%, stress 6/6"
+        },
+        "HOLDOUT_COINS": {
+          "status": "PASS",
+          "detail": "20 unseen coins: net +43.6%, PF 1.94, +53.8pts vs regime-hold, 15/20 coins beat it (99 trips)"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PENDING",
+          "detail": "0/10 fills with real order-book execution records"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 86400,
+      "status": "ACCUMULATING_EVIDENCE",
+      "blocking": [
+        "LIVE_PAPER_EXECUTION",
+        "LIVE_PAPER_SAMPLE",
+        "PORTFOLIO_CHECK"
+      ]
+    }
+  }
+}

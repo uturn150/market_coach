@@ -1,0 +1,580 @@
+  evaluated realpaper (2s)
+  evaluated krakenmulti (5s)
+  evaluated krakenfast (2s)
+  evaluated krakenslow (2s)
+  evaluated krakenrsi (2s)
+  evaluated krakenmacd (3s)
+  evaluated krakenbbreak (3s)
+  evaluated krakenturtle (2s)
+  evaluated krakencci (3s)
+  evaluated krakenkeltner (2s)
+  evaluated krakenichimoku (5s)
+  evaluated c4h_bbreak (32s)
+  evaluated c4h_cci (25s)
+  evaluated c4h_ichimoku (35s)
+  evaluated c4h_keltner (17s)
+  evaluated c4h_macd (17s)
+  evaluated c4h_multi (32s)
+  evaluated c4h_rsi (15s)
+  evaluated c4h_sma (14s)
+  evaluated c4h_turtle (23s)
+  evaluated chal_krakenfast_1 (2s)
+  evaluated chal_krakenichimoku_1 (5s)
+  evaluated chal_krakenmulti_1 (5s)
+  evaluated chal_krakenrsi_1 (2s)
+  evaluated chal_krakenturtle_1 (3s)
+  evaluated chal_realpaper_1 (2s)
+
+GRADUATION REPORT — evidence chain (P=pass  x=fail  .=pending live evidence  -=not evaluated)
+stages: 1=HISTORICAL  2=OUT_OF_SAMPLE  3=WALK_FORWARD  4=FEE_GATE  5=EDGE_GATE  6=MONTE_CARLO  7=HOLDOUT_COINS  8=LIVE_PAPER_EXECUTION  9=LIVE_PAPER_SAMPLE  10=PORTFOLIO_CHECK
+
+account         kind           1 2 3 4 5 6 7 8 9 10   status
+------------------------------------------------------------
+realpaper       champion       P x P P P P P . . -   NOT_ELIGIBLE
+krakenmulti     champion       P x x P P P P P . -   NOT_ELIGIBLE
+krakenfast      champion       P x x P P P P . . -   NOT_ELIGIBLE
+krakenslow      champion       P x P P P P P . . -   NOT_ELIGIBLE
+krakenrsi       champion       x x P x P x x x . -   NOT_ELIGIBLE
+krakenmacd      champion       x x x P x x x x . -   NOT_ELIGIBLE
+krakenbbreak    champion       P x x P P P P . . -   NOT_ELIGIBLE
+krakenturtle    champion       P x P P P P P . . -   NOT_ELIGIBLE
+krakencci       champion       P x x P P P P . . -   NOT_ELIGIBLE
+krakenkeltner   champion       P x x P P P P . . -   NOT_ELIGIBLE
+krakenichimoku  champion       P x x P P P P . . -   NOT_ELIGIBLE
+c4h_bbreak      4h challenger  P x P P x P . . . -   NOT_ELIGIBLE
+c4h_cci         4h challenger  x x P P x x . . . -   NOT_ELIGIBLE
+c4h_ichimoku    4h challenger  x x x P x x . . . -   NOT_ELIGIBLE
+c4h_keltner     4h challenger  P x P P x P . . . -   NOT_ELIGIBLE
+c4h_macd        4h challenger  x x P P x x . x . -   NOT_ELIGIBLE
+c4h_multi       4h challenger  P P P P x P . P . -   NOT_ELIGIBLE
+c4h_rsi         4h challenger  x x P P x x . x . -   NOT_ELIGIBLE
+c4h_sma         4h challenger  P x P P x x . . . -   NOT_ELIGIBLE
+c4h_turtle      4h challenger  P P P P x P . . . -   NOT_ELIGIBLE
+chal_krakenfast_1learner challengerP x x P P P P . . -   NOT_ELIGIBLE
+chal_krakenichimoku_1learner challengerP x x P P P P . . -   NOT_ELIGIBLE
+chal_krakenmulti_1learner challengerP x x P P P P . . -   NOT_ELIGIBLE
+chal_krakenrsi_1learner challengerP x P P P x x . . -   NOT_ELIGIBLE
+chal_krakenturtle_1learner challengerP x P P P P P . . -   NOT_ELIGIBLE
+chal_realpaper_1learner challengerP x P P P P P . . -   NOT_ELIGIBLE
+
+Totals: {'NOT_ELIGIBLE': 26}
+
+First blocking stage per account:
+  realpaper       OUT_OF_SAMPLE: held-out return -5.1%, 65 trips (need >0% and >=15)
+  krakenmulti     OUT_OF_SAMPLE: held-out return -5.3%, 86 trips (need >0% and >=15)
+  krakenfast      OUT_OF_SAMPLE: held-out return -12.7%, 111 trips (need >0% and >=15)
+  krakenslow      OUT_OF_SAMPLE: held-out return -0.7%, 17 trips (need >0% and >=15)
+  krakenrsi       HISTORICAL: net -12.5% after real costs, 120 trips, PF 0.70
+  krakenmacd      HISTORICAL: net -19.5% after real costs, 769 trips, PF 1.14
+  krakenbbreak    OUT_OF_SAMPLE: held-out return -2.5%, 130 trips (need >0% and >=15)
+  krakenturtle    OUT_OF_SAMPLE: held-out return -13.1%, 69 trips (need >0% and >=15)
+  krakencci       OUT_OF_SAMPLE: held-out return -11.6%, 144 trips (need >0% and >=15)
+  krakenkeltner   OUT_OF_SAMPLE: held-out return -6.7%, 65 trips (need >0% and >=15)
+  krakenichimoku  OUT_OF_SAMPLE: held-out return -8.3%, 101 trips (need >0% and >=15)
+  c4h_bbreak      OUT_OF_SAMPLE: held-out return -4.2%, 55 trips (need >0% and >=15)
+  c4h_cci         HISTORICAL: net -9.4% after real costs, 648 trips, PF 1.14
+  c4h_ichimoku    HISTORICAL: net -18.3% after real costs, 780 trips, PF 1.05
+  c4h_keltner     OUT_OF_SAMPLE: held-out return -6.4%, 74 trips (need >0% and >=15)
+  c4h_macd        HISTORICAL: net -15.6% after real costs, 1108 trips, PF 1.08
+  c4h_multi       EDGE_GATE: held-out excess +43.6% vs hold, -0.9% vs regime-timed hold
+  c4h_rsi         HISTORICAL: net -2.7% after real costs, 122 trips, PF 0.92
+  c4h_sma         OUT_OF_SAMPLE: held-out return -11.0%, 45 trips (need >0% and >=15)
+  c4h_turtle      EDGE_GATE: held-out excess +39.5% vs hold, -5.0% vs regime-timed hold
+  chal_krakenfast_1OUT_OF_SAMPLE: held-out return -6.1%, 59 trips (need >0% and >=15)
+  chal_krakenichimoku_1OUT_OF_SAMPLE: held-out return -3.4%, 51 trips (need >0% and >=15)
+  chal_krakenmulti_1OUT_OF_SAMPLE: held-out return -4.0%, 73 trips (need >0% and >=15)
+  chal_krakenrsi_1OUT_OF_SAMPLE: held-out return -1.4%, 3 trips (need >0% and >=15)
+  chal_krakenturtle_1OUT_OF_SAMPLE: held-out return -8.6%, 57 trips (need >0% and >=15)
+  chal_realpaper_1OUT_OF_SAMPLE: held-out return -0.6%, 41 trips (need >0% and >=15)
+
+krakenmoon: NOT GRADABLE (funnel architecture, no backtest harness).
+This report never enables trading. Only a human can decide to go further.
+  evaluated realpaper (2s)
+  evaluated krakenmulti (5s)
+  evaluated krakenfast (2s)
+  evaluated krakenslow (2s)
+  evaluated krakenrsi (2s)
+  evaluated krakenmacd (3s)
+  evaluated krakenbbreak (3s)
+  evaluated krakenturtle (2s)
+  evaluated krakencci (3s)
+  evaluated krakenkeltner (2s)
+  evaluated krakenichimoku (5s)
+  evaluated c4h_bbreak (33s)
+  evaluated c4h_cci (26s)
+  evaluated c4h_cci_f1 (26s)
+  evaluated c4h_fxe_ema_trend_mid (19s)
+  evaluated c4h_fxe_macd_zero_large (17s)
+  evaluated c4h_fxe_macd_zero_mid (17s)
+  evaluated c4h_fxe_rsi_trend_mid (17s)
+  evaluated c4h_ichimoku (36s)
+  evaluated c4h_keltner (18s)
+  evaluated c4h_keltner_f1 (18s)
+  evaluated c4h_macd (18s)
+  evaluated c4h_multi (33s)
+  evaluated c4h_multi_f1 (33s)
+  evaluated c4h_rsi (15s)
+  evaluated c4h_sma (15s)
+  evaluated c4h_sma_f1 (15s)
+  evaluated c4h_turtle (24s)
+  evaluated chal_fxe_bb_dip_large (3s)
+  evaluated chal_fxe_macd_zero_mid (3s)
+  evaluated chal_fxe_willr_pullback_large (3s)
+  evaluated chal_fxe_willr_pullback_mid (3s)
+  evaluated chal_gr_bb_dip_large (4s)
+  evaluated chal_gr_bb_dip_mid (4s)
+  evaluated chal_gr_cci_dip_large (3s)
+  evaluated chal_gr_cci_dip_mid (3s)
+  evaluated chal_gr_stoch_dip_large (3s)
+  evaluated chal_gr_stoch_dip_mid (3s)
+  evaluated chal_gr_willr_dip_large (3s)
+  evaluated chal_gr_willr_dip_mid (3s)
+  evaluated chal_krakencci_1 (3s)
+  evaluated chal_krakenfast_1 (2s)
+  evaluated chal_krakenfast_2 (2s)
+  evaluated chal_krakenichimoku_1 (5s)
+  evaluated chal_krakenichimoku_2 (5s)
+  evaluated chal_krakenmulti_1 (5s)
+  evaluated chal_krakenrsi_1 (2s)
+  evaluated chal_krakenturtle_1 (3s)
+  evaluated chal_realpaper_1 (2s)
+  evaluated chal_realpaper_2 (2s)
+
+GRADUATION REPORT — evidence chain (P=pass  x=fail  .=pending live evidence  -=not evaluated)
+stages: 1=HISTORICAL  2=OUT_OF_SAMPLE  3=WALK_FORWARD  4=FEE_GATE  5=EDGE_GATE  6=MONTE_CARLO  7=HOLDOUT_COINS  8=LIVE_PAPER_EXECUTION  9=LIVE_PAPER_SAMPLE  10=PORTFOLIO_CHECK
+
+account         kind           1 2 3 4 5 6 7 8 9 10   status
+------------------------------------------------------------
+realpaper       champion       P x P P P P P . . -   NOT_ELIGIBLE
+krakenmulti     champion       P x x P P P P P . -   NOT_ELIGIBLE
+krakenfast      champion       P x x P P P P . . -   NOT_ELIGIBLE
+krakenslow      champion       P x P P P P P . . -   NOT_ELIGIBLE
+krakenrsi       champion       x x P x P x x x . -   NOT_ELIGIBLE
+krakenmacd      champion       x x x P x x x x . -   NOT_ELIGIBLE
+krakenbbreak    champion       P x x P P P P P . -   NOT_ELIGIBLE
+krakenturtle    champion       P x P P P P P P . -   NOT_ELIGIBLE
+krakencci       champion       P x x P P P P P . -   NOT_ELIGIBLE
+krakenkeltner   champion       P x x P P P P . . -   NOT_ELIGIBLE
+krakenichimoku  champion       P x x P P P P . . -   NOT_ELIGIBLE
+c4h_bbreak      4h challenger  P x P P x P . . . -   NOT_ELIGIBLE
+c4h_cci         4h challenger  x x P P x x . . . -   NOT_ELIGIBLE
+c4h_cci_f1      4h challenger  x x P P x x . . . -   NOT_ELIGIBLE
+c4h_fxe_ema_trend_mid4h challenger  x x P P x x . P . -   NOT_ELIGIBLE
+c4h_fxe_macd_zero_large4h challenger  P x P P P x . . . -   NOT_ELIGIBLE
+c4h_fxe_macd_zero_mid4h challenger  x x P P P x . . . -   NOT_ELIGIBLE
+c4h_fxe_rsi_trend_mid4h challenger  P x P P x P . . . -   NOT_ELIGIBLE
+c4h_ichimoku    4h challenger  x x x P x x . . . -   NOT_ELIGIBLE
+c4h_keltner     4h challenger  P x P P x P . . . -   NOT_ELIGIBLE
+c4h_keltner_f1  4h challenger  P x P P x P . . . -   NOT_ELIGIBLE
+c4h_macd        4h challenger  x x P P x x . x . -   NOT_ELIGIBLE
+c4h_multi       4h challenger  P P P P x P . P . -   NOT_ELIGIBLE
+c4h_multi_f1    4h challenger  P P P P x P . . . -   NOT_ELIGIBLE
+c4h_rsi         4h challenger  x x P P x x . x . -   NOT_ELIGIBLE
+c4h_sma         4h challenger  P x P P x x . . . -   NOT_ELIGIBLE
+c4h_sma_f1      4h challenger  P x P P x x . . . -   NOT_ELIGIBLE
+c4h_turtle      4h challenger  P P P P x P . . . -   NOT_ELIGIBLE
+chal_fxe_bb_dip_largelearner challengerP x P P P x P . . -   NOT_ELIGIBLE
+chal_fxe_macd_zero_midlearner challengerP x P P P x P P . -   NOT_ELIGIBLE
+chal_fxe_willr_pullback_largelearner challengerP P P P P x P . . -   NOT_ELIGIBLE
+chal_fxe_willr_pullback_midlearner challengerP P P P P x x . . -   NOT_ELIGIBLE
+chal_gr_bb_dip_largelearner challengerP P P x P x x . . -   NOT_ELIGIBLE
+chal_gr_bb_dip_midlearner challengerx P P x P x x . . -   NOT_ELIGIBLE
+chal_gr_cci_dip_largelearner challengerP P P P P x P . . -   NOT_ELIGIBLE
+chal_gr_cci_dip_midlearner challengerP P P x P x P . . -   NOT_ELIGIBLE
+chal_gr_stoch_dip_largelearner challengerP P P x P x x . . -   NOT_ELIGIBLE
+chal_gr_stoch_dip_midlearner challengerP P P x P x x . . -   NOT_ELIGIBLE
+chal_gr_willr_dip_largelearner challengerP P P P P x P . . -   NOT_ELIGIBLE
+chal_gr_willr_dip_midlearner challengerP P P P P x P . . -   NOT_ELIGIBLE
+chal_krakencci_1learner challengerP P x P P P P . . -   NOT_ELIGIBLE
+chal_krakenfast_1learner challengerP x x P P P P . . -   NOT_ELIGIBLE
+chal_krakenfast_2learner challengerP x x P P P P . . -   NOT_ELIGIBLE
+chal_krakenichimoku_1learner challengerP x x P P P P . . -   NOT_ELIGIBLE
+chal_krakenichimoku_2learner challengerP P x P P P P . . -   NOT_ELIGIBLE
+chal_krakenmulti_1learner challengerP x x P P P P P . -   NOT_ELIGIBLE
+chal_krakenrsi_1learner challengerP x P P P x x . . -   NOT_ELIGIBLE
+chal_krakenturtle_1learner challengerP x P P P P P . . -   NOT_ELIGIBLE
+chal_realpaper_1learner challengerP x P P P P P . . -   NOT_ELIGIBLE
+chal_realpaper_2learner challengerP x P P P P P . . -   NOT_ELIGIBLE
+
+Totals: {'NOT_ELIGIBLE': 50}
+
+First blocking stage per account:
+  realpaper       OUT_OF_SAMPLE: held-out return -5.0%, 64 trips (need >0% and >=15)
+  krakenmulti     OUT_OF_SAMPLE: held-out return -6.8%, 86 trips (need >0% and >=15)
+  krakenfast      OUT_OF_SAMPLE: held-out return -12.1%, 111 trips (need >0% and >=15)
+  krakenslow      OUT_OF_SAMPLE: held-out return -2.2%, 16 trips (need >0% and >=15)
+  krakenrsi       HISTORICAL: net -12.5% after real costs, 120 trips, PF 0.70
+  krakenmacd      HISTORICAL: net -19.7% after real costs, 769 trips, PF 1.14
+  krakenbbreak    OUT_OF_SAMPLE: held-out return -3.6%, 130 trips (need >0% and >=15)
+  krakenturtle    OUT_OF_SAMPLE: held-out return -13.7%, 69 trips (need >0% and >=15)
+  krakencci       OUT_OF_SAMPLE: held-out return -12.5%, 144 trips (need >0% and >=15)
+  krakenkeltner   OUT_OF_SAMPLE: held-out return -8.1%, 65 trips (need >0% and >=15)
+  krakenichimoku  OUT_OF_SAMPLE: held-out return -8.6%, 101 trips (need >0% and >=15)
+  c4h_bbreak      OUT_OF_SAMPLE: held-out return -4.2%, 55 trips (need >0% and >=15)
+  c4h_cci         HISTORICAL: net -9.4% after real costs, 648 trips, PF 1.14
+  c4h_cci_f1      HISTORICAL: net -9.4% after real costs, 648 trips, PF 1.14
+  c4h_fxe_ema_trend_midHISTORICAL: net -50.8% after real costs, 772 trips, PF 0.80
+  c4h_fxe_macd_zero_largeOUT_OF_SAMPLE: held-out return +16.4%, 4 trips (need >0% and >=15)
+  c4h_fxe_macd_zero_midHISTORICAL: net -10.5% after real costs, 191 trips, PF 1.10
+  c4h_fxe_rsi_trend_midOUT_OF_SAMPLE: held-out return -7.7%, 17 trips (need >0% and >=15)
+  c4h_ichimoku    HISTORICAL: net -18.3% after real costs, 780 trips, PF 1.05
+  c4h_keltner     OUT_OF_SAMPLE: held-out return -6.4%, 74 trips (need >0% and >=15)
+  c4h_keltner_f1  OUT_OF_SAMPLE: held-out return -6.4%, 74 trips (need >0% and >=15)
+  c4h_macd        HISTORICAL: net -15.6% after real costs, 1108 trips, PF 1.08
+  c4h_multi       EDGE_GATE: held-out excess +43.6% vs hold, -0.9% vs regime-timed hold
+  c4h_multi_f1    EDGE_GATE: held-out excess +43.6% vs hold, -0.9% vs regime-timed hold
+  c4h_rsi         HISTORICAL: net -2.7% after real costs, 122 trips, PF 0.92
+  c4h_sma         OUT_OF_SAMPLE: held-out return -11.0%, 45 trips (need >0% and >=15)
+  c4h_sma_f1      OUT_OF_SAMPLE: held-out return -11.0%, 45 trips (need >0% and >=15)
+  c4h_turtle      EDGE_GATE: held-out excess +39.5% vs hold, -5.0% vs regime-timed hold
+  chal_fxe_bb_dip_largeOUT_OF_SAMPLE: held-out return +3.2%, 9 trips (need >0% and >=15)
+  chal_fxe_macd_zero_midOUT_OF_SAMPLE: held-out return -8.2%, 37 trips (need >0% and >=15)
+  chal_fxe_willr_pullback_largeMONTE_CARLO: p5 -3.4%, P(loss) 21%, stress 5/6
+  chal_fxe_willr_pullback_midMONTE_CARLO: p5 -2.8%, P(loss) 13%, stress 5/6
+  chal_gr_bb_dip_largeFEE_GATE: avg net trade <= 0 at 80.0bps taker, 97 in-sample trips (sample_ok=True)
+  chal_gr_bb_dip_midHISTORICAL: net -20.7% after real costs, 104 trips, PF 0.56
+  chal_gr_cci_dip_largeMONTE_CARLO: p5 -3.6%, P(loss) 22%, stress 1/6
+  chal_gr_cci_dip_midFEE_GATE: avg net trade <= 0 at 80.0bps taker, 63 in-sample trips (sample_ok=True)
+  chal_gr_stoch_dip_largeFEE_GATE: avg net trade <= 0 at 80.0bps taker, 102 in-sample trips (sample_ok=True)
+  chal_gr_stoch_dip_midFEE_GATE: avg net trade <= 0 at 80.0bps taker, 96 in-sample trips (sample_ok=True)
+  chal_gr_willr_dip_largeMONTE_CARLO: p5 -0.4%, P(loss) 6%, stress 3/6
+  chal_gr_willr_dip_midMONTE_CARLO: p5 -0.4%, P(loss) 6%, stress 3/6
+  chal_krakencci_1WALK_FORWARD: beats hold 2/6 windows (median -5.0%), beats regime-hold 2/4 decided windows
+  chal_krakenfast_1OUT_OF_SAMPLE: held-out return -5.5%, 59 trips (need >0% and >=15)
+  chal_krakenfast_2OUT_OF_SAMPLE: held-out return -1.4%, 84 trips (need >0% and >=15)
+  chal_krakenichimoku_1OUT_OF_SAMPLE: held-out return -3.7%, 51 trips (need >0% and >=15)
+  chal_krakenichimoku_2WALK_FORWARD: beats hold 2/6 windows (median -5.9%), beats regime-hold 3/4 decided windows
+  chal_krakenmulti_1OUT_OF_SAMPLE: held-out return -5.3%, 73 trips (need >0% and >=15)
+  chal_krakenrsi_1OUT_OF_SAMPLE: held-out return -1.4%, 3 trips (need >0% and >=15)
+  chal_krakenturtle_1OUT_OF_SAMPLE: held-out return -9.2%, 57 trips (need >0% and >=15)
+  chal_realpaper_1OUT_OF_SAMPLE: held-out return -0.6%, 40 trips (need >0% and >=15)
+  chal_realpaper_2OUT_OF_SAMPLE: held-out return -0.9%, 53 trips (need >0% and >=15)
+
+krakenmoon: NOT GRADABLE (funnel architecture, no backtest harness).
+This report never enables trading. Only a human can decide to go further.
+  evaluated realpaper (2s)
+  evaluated krakenmulti (5s)
+  evaluated krakenfast (2s)
+  evaluated krakenslow (2s)
+  evaluated krakenrsi (2s)
+  evaluated krakenmacd (3s)
+  evaluated krakenbbreak (3s)
+  evaluated krakenturtle (2s)
+  evaluated krakencci (3s)
+  evaluated krakenkeltner (2s)
+  evaluated krakenichimoku (5s)
+  evaluated c4h_bbreak (33s)
+  evaluated c4h_cci (26s)
+  evaluated c4h_cci_f1 (26s)
+  evaluated c4h_fxe_ema_trend_mid (19s)
+  evaluated c4h_fxe_macd_zero_large (17s)
+  evaluated c4h_fxe_macd_zero_mid (17s)
+  evaluated c4h_fxe_rsi_trend_mid (17s)
+  evaluated c4h_ichimoku (36s)
+  evaluated c4h_keltner (18s)
+  evaluated c4h_keltner_f1 (18s)
+  evaluated c4h_macd (18s)
+  evaluated c4h_multi (33s)
+  evaluated c4h_multi_f1 (33s)
+  evaluated c4h_rsi (15s)
+  evaluated c4h_sma (15s)
+  evaluated c4h_sma_f1 (15s)
+  evaluated c4h_turtle (24s)
+  evaluated chal_fxe_bb_dip_large (3s)
+  evaluated chal_fxe_macd_zero_mid (3s)
+  evaluated chal_fxe_willr_pullback_large (3s)
+  evaluated chal_fxe_willr_pullback_mid (3s)
+  evaluated chal_gr_bb_dip_large (4s)
+  evaluated chal_gr_bb_dip_mid (4s)
+  evaluated chal_gr_cci_dip_large (3s)
+  evaluated chal_gr_cci_dip_mid (3s)
+  evaluated chal_gr_stoch_dip_large (3s)
+  evaluated chal_gr_stoch_dip_mid (3s)
+  evaluated chal_gr_willr_dip_large (3s)
+  evaluated chal_gr_willr_dip_mid (3s)
+  evaluated chal_krakencci_1 (3s)
+  evaluated chal_krakenfast_1 (2s)
+  evaluated chal_krakenfast_2 (2s)
+  evaluated chal_krakenichimoku_1 (5s)
+  evaluated chal_krakenichimoku_2 (5s)
+  evaluated chal_krakenmulti_1 (5s)
+  evaluated chal_krakenrsi_1 (2s)
+  evaluated chal_krakenturtle_1 (3s)
+  evaluated chal_realpaper_1 (2s)
+  evaluated chal_realpaper_2 (2s)
+
+GRADUATION REPORT — evidence chain (P=pass  x=fail  .=pending live evidence  -=not evaluated)
+stages: 1=HISTORICAL  2=OUT_OF_SAMPLE  3=WALK_FORWARD  4=FEE_GATE  5=EDGE_GATE  6=MONTE_CARLO  7=HOLDOUT_COINS  8=LIVE_PAPER_EXECUTION  9=LIVE_PAPER_SAMPLE  10=PORTFOLIO_CHECK
+
+account         kind           1 2 3 4 5 6 7 8 9 10   status
+------------------------------------------------------------
+realpaper       champion       P x P P P P P . . -   NOT_ELIGIBLE
+krakenmulti     champion       P P x P P P P P . -   NOT_ELIGIBLE
+krakenfast      champion       P x x P P P P . . -   NOT_ELIGIBLE
+krakenslow      champion       P P P P P P P . . -   ACCUMULATING_EVIDENCE
+krakenrsi       champion       x x P x P x x x . -   NOT_ELIGIBLE
+krakenmacd      champion       x x x P x x x x . -   NOT_ELIGIBLE
+krakenbbreak    champion       P P x P P P P P . -   NOT_ELIGIBLE
+krakenturtle    champion       P x P P P P P P . -   NOT_ELIGIBLE
+krakencci       champion       P x x P P P P P . -   NOT_ELIGIBLE
+krakenkeltner   champion       P x x P P P P . . -   NOT_ELIGIBLE
+krakenichimoku  champion       P x x P P P P . . -   NOT_ELIGIBLE
+c4h_bbreak      4h challenger  P x P P x P . . . -   NOT_ELIGIBLE
+c4h_cci         4h challenger  x x P P x x . P . -   NOT_ELIGIBLE
+c4h_cci_f1      4h challenger  x x P P x x . P . -   NOT_ELIGIBLE
+c4h_fxe_ema_trend_mid4h challenger  x x P P x x . P . -   NOT_ELIGIBLE
+c4h_fxe_macd_zero_large4h challenger  P x P P P x . . . -   NOT_ELIGIBLE
+c4h_fxe_macd_zero_mid4h challenger  x x P P P x . . . -   NOT_ELIGIBLE
+c4h_fxe_rsi_trend_mid4h challenger  P x P P x P . . . -   NOT_ELIGIBLE
+c4h_ichimoku    4h challenger  x x x P x x . . . -   NOT_ELIGIBLE
+c4h_keltner     4h challenger  P x P P x P . P . -   NOT_ELIGIBLE
+c4h_keltner_f1  4h challenger  P x P P x P . P . -   NOT_ELIGIBLE
+c4h_macd        4h challenger  x x P P x x . x . -   NOT_ELIGIBLE
+c4h_multi       4h challenger  P P P P x P . P . -   NOT_ELIGIBLE
+c4h_multi_f1    4h challenger  P P P P x P . P . -   NOT_ELIGIBLE
+c4h_rsi         4h challenger  x x P P x x . x . -   NOT_ELIGIBLE
+c4h_sma         4h challenger  P x P P x x . . . -   NOT_ELIGIBLE
+c4h_sma_f1      4h challenger  P x P P x x . . . -   NOT_ELIGIBLE
+c4h_turtle      4h challenger  P P P P x P . P . -   NOT_ELIGIBLE
+chal_fxe_bb_dip_largelearner challengerP x P P P x P . . -   NOT_ELIGIBLE
+chal_fxe_macd_zero_midlearner challengerP x P P P x P P . -   NOT_ELIGIBLE
+chal_fxe_willr_pullback_largelearner challengerP P P P P x P . . -   NOT_ELIGIBLE
+chal_fxe_willr_pullback_midlearner challengerP P P P P x x . . -   NOT_ELIGIBLE
+chal_gr_bb_dip_largelearner challengerP P P x P x x . . -   NOT_ELIGIBLE
+chal_gr_bb_dip_midlearner challengerx P P x P x x . . -   NOT_ELIGIBLE
+chal_gr_cci_dip_largelearner challengerP P P P P x P . . -   NOT_ELIGIBLE
+chal_gr_cci_dip_midlearner challengerP P P x P x P . . -   NOT_ELIGIBLE
+chal_gr_stoch_dip_largelearner challengerP P P x P x x . . -   NOT_ELIGIBLE
+chal_gr_stoch_dip_midlearner challengerP P P x P x x . . -   NOT_ELIGIBLE
+chal_gr_willr_dip_largelearner challengerP P P P P x P . . -   NOT_ELIGIBLE
+chal_gr_willr_dip_midlearner challengerP P P P P x P . . -   NOT_ELIGIBLE
+chal_krakencci_1learner challengerP P x P P P P . . -   NOT_ELIGIBLE
+chal_krakenfast_1learner challengerP x x P P P P . . -   NOT_ELIGIBLE
+chal_krakenfast_2learner challengerP P x P P P P . . -   NOT_ELIGIBLE
+chal_krakenichimoku_1learner challengerP x x P P P P . . -   NOT_ELIGIBLE
+chal_krakenichimoku_2learner challengerP P x P P P P . . -   NOT_ELIGIBLE
+chal_krakenmulti_1learner challengerP P x P P P P P . -   NOT_ELIGIBLE
+chal_krakenrsi_1learner challengerP x P P P x x . . -   NOT_ELIGIBLE
+chal_krakenturtle_1learner challengerP x P P P P P . . -   NOT_ELIGIBLE
+chal_realpaper_1learner challengerP P P P P P P . . -   ACCUMULATING_EVIDENCE
+chal_realpaper_2learner challengerP P P P P P P . . -   ACCUMULATING_EVIDENCE
+
+Totals: {'NOT_ELIGIBLE': 47, 'ACCUMULATING_EVIDENCE': 3}
+
+First blocking stage per account:
+  realpaper       OUT_OF_SAMPLE: held-out return -2.1%, 64 trips (need >0% and >=15)
+  krakenmulti     WALK_FORWARD: beats hold 2/6 windows (median -2.3%), beats regime-hold 3/4 decided windows
+  krakenfast      OUT_OF_SAMPLE: held-out return -9.2%, 111 trips (need >0% and >=15)
+  krakenslow      LIVE_PAPER_EXECUTION: 3/10 fills with real order-book execution records
+  krakenrsi       HISTORICAL: net -12.5% after real costs, 120 trips, PF 0.70
+  krakenmacd      HISTORICAL: net -15.3% after real costs, 769 trips, PF 1.14
+  krakenbbreak    WALK_FORWARD: beats hold 2/6 windows (median -1.5%), beats regime-hold 3/4 decided windows
+  krakenturtle    OUT_OF_SAMPLE: held-out return -9.4%, 69 trips (need >0% and >=15)
+  krakencci       OUT_OF_SAMPLE: held-out return -7.0%, 144 trips (need >0% and >=15)
+  krakenkeltner   OUT_OF_SAMPLE: held-out return -1.3%, 65 trips (need >0% and >=15)
+  krakenichimoku  OUT_OF_SAMPLE: held-out return -5.0%, 101 trips (need >0% and >=15)
+  c4h_bbreak      OUT_OF_SAMPLE: held-out return -4.2%, 55 trips (need >0% and >=15)
+  c4h_cci         HISTORICAL: net -9.4% after real costs, 648 trips, PF 1.14
+  c4h_cci_f1      HISTORICAL: net -9.4% after real costs, 648 trips, PF 1.14
+  c4h_fxe_ema_trend_midHISTORICAL: net -50.8% after real costs, 772 trips, PF 0.80
+  c4h_fxe_macd_zero_largeOUT_OF_SAMPLE: held-out return +16.4%, 4 trips (need >0% and >=15)
+  c4h_fxe_macd_zero_midHISTORICAL: net -10.5% after real costs, 191 trips, PF 1.10
+  c4h_fxe_rsi_trend_midOUT_OF_SAMPLE: held-out return -7.7%, 17 trips (need >0% and >=15)
+  c4h_ichimoku    HISTORICAL: net -18.3% after real costs, 780 trips, PF 1.05
+  c4h_keltner     OUT_OF_SAMPLE: held-out return -6.4%, 74 trips (need >0% and >=15)
+  c4h_keltner_f1  OUT_OF_SAMPLE: held-out return -6.4%, 74 trips (need >0% and >=15)
+  c4h_macd        HISTORICAL: net -15.6% after real costs, 1108 trips, PF 1.08
+  c4h_multi       EDGE_GATE: held-out excess +43.6% vs hold, -0.9% vs regime-timed hold
+  c4h_multi_f1    EDGE_GATE: held-out excess +43.6% vs hold, -0.9% vs regime-timed hold
+  c4h_rsi         HISTORICAL: net -2.7% after real costs, 122 trips, PF 0.92
+  c4h_sma         OUT_OF_SAMPLE: held-out return -11.0%, 45 trips (need >0% and >=15)
+  c4h_sma_f1      OUT_OF_SAMPLE: held-out return -11.0%, 45 trips (need >0% and >=15)
+  c4h_turtle      EDGE_GATE: held-out excess +39.5% vs hold, -5.0% vs regime-timed hold
+  chal_fxe_bb_dip_largeOUT_OF_SAMPLE: held-out return +3.2%, 9 trips (need >0% and >=15)
+  chal_fxe_macd_zero_midOUT_OF_SAMPLE: held-out return -0.3%, 37 trips (need >0% and >=15)
+  chal_fxe_willr_pullback_largeMONTE_CARLO: p5 -3.4%, P(loss) 21%, stress 5/6
+  chal_fxe_willr_pullback_midMONTE_CARLO: p5 -2.0%, P(loss) 10%, stress 5/6
+  chal_gr_bb_dip_largeFEE_GATE: avg net trade <= 0 at 80.0bps taker, 95 in-sample trips (sample_ok=True)
+  chal_gr_bb_dip_midHISTORICAL: net -21.3% after real costs, 103 trips, PF 0.54
+  chal_gr_cci_dip_largeMONTE_CARLO: p5 -2.6%, P(loss) 13%, stress 2/6
+  chal_gr_cci_dip_midFEE_GATE: avg net trade <= 0 at 80.0bps taker, 63 in-sample trips (sample_ok=True)
+  chal_gr_stoch_dip_largeFEE_GATE: avg net trade <= 0 at 80.0bps taker, 100 in-sample trips (sample_ok=True)
+  chal_gr_stoch_dip_midFEE_GATE: avg net trade <= 0 at 80.0bps taker, 91 in-sample trips (sample_ok=True)
+  chal_gr_willr_dip_largeMONTE_CARLO: p5 +1.0%, P(loss) 4%, stress 4/6
+  chal_gr_willr_dip_midMONTE_CARLO: p5 +1.0%, P(loss) 4%, stress 4/6
+  chal_krakencci_1WALK_FORWARD: beats hold 2/6 windows (median -5.0%), beats regime-hold 2/4 decided windows
+  chal_krakenfast_1OUT_OF_SAMPLE: held-out return -2.8%, 59 trips (need >0% and >=15)
+  chal_krakenfast_2WALK_FORWARD: beats hold 2/6 windows (median -6.0%), beats regime-hold 3/4 decided windows
+  chal_krakenichimoku_1OUT_OF_SAMPLE: held-out return -0.2%, 51 trips (need >0% and >=15)
+  chal_krakenichimoku_2WALK_FORWARD: beats hold 2/6 windows (median -5.9%), beats regime-hold 3/4 decided windows
+  chal_krakenmulti_1WALK_FORWARD: beats hold 2/6 windows (median -2.3%), beats regime-hold 3/4 decided windows
+  chal_krakenrsi_1OUT_OF_SAMPLE: held-out return -1.4%, 3 trips (need >0% and >=15)
+  chal_krakenturtle_1OUT_OF_SAMPLE: held-out return -4.6%, 57 trips (need >0% and >=15)
+  chal_realpaper_1LIVE_PAPER_EXECUTION: 0/10 fills with real order-book execution records
+  chal_realpaper_2LIVE_PAPER_EXECUTION: 0/10 fills with real order-book execution records
+
+krakenmoon: NOT GRADABLE (funnel architecture, no backtest harness).
+This report never enables trading. Only a human can decide to go further.
+  evaluated realpaper (2s)
+  evaluated krakenmulti (5s)
+  evaluated krakenfast (2s)
+  evaluated krakenslow (2s)
+  evaluated krakenrsi (2s)
+  evaluated krakenmacd (3s)
+  evaluated krakenbbreak (3s)
+  evaluated krakenturtle (2s)
+  evaluated krakencci (3s)
+  evaluated krakenkeltner (2s)
+  evaluated krakenichimoku (5s)
+  evaluated c4h_bbreak (32s)
+  evaluated c4h_cci (26s)
+  evaluated c4h_cci_f1 (25s)
+  evaluated c4h_fxe_ema_trend_mid (19s)
+  evaluated c4h_fxe_macd_zero_large (17s)
+  evaluated c4h_fxe_macd_zero_mid (17s)
+  evaluated c4h_fxe_rsi_trend_mid (17s)
+  evaluated c4h_ichimoku (35s)
+  evaluated c4h_keltner (18s)
+  evaluated c4h_keltner_f1 (18s)
+  evaluated c4h_macd (18s)
+  evaluated c4h_multi (33s)
+  evaluated c4h_multi_f1 (33s)
+  evaluated c4h_rsi (15s)
+  evaluated c4h_sma (15s)
+  evaluated c4h_sma_f1 (15s)
+  evaluated c4h_turtle (24s)
+  evaluated chal_fxe_bb_dip_large (3s)
+  evaluated chal_fxe_macd_zero_mid (3s)
+  evaluated chal_fxe_willr_pullback_large (3s)
+  evaluated chal_fxe_willr_pullback_mid (3s)
+  evaluated chal_gr_bb_dip_large (4s)
+  evaluated chal_gr_bb_dip_mid (4s)
+  evaluated chal_gr_cci_dip_large (3s)
+  evaluated chal_gr_cci_dip_mid (3s)
+  evaluated chal_gr_stoch_dip_large (3s)
+  evaluated chal_gr_stoch_dip_mid (3s)
+  evaluated chal_gr_willr_dip_large (3s)
+  evaluated chal_gr_willr_dip_mid (3s)
+  evaluated chal_krakencci_1 (3s)
+  evaluated chal_krakenfast_1 (2s)
+  evaluated chal_krakenfast_2 (2s)
+  evaluated chal_krakenichimoku_1 (5s)
+  evaluated chal_krakenichimoku_2 (5s)
+  evaluated chal_krakenmulti_1 (5s)
+  evaluated chal_krakenrsi_1 (2s)
+  evaluated chal_krakenturtle_1 (3s)
+  evaluated chal_realpaper_1 (2s)
+  evaluated chal_realpaper_2 (2s)
+
+GRADUATION REPORT — evidence chain (P=pass  x=fail  .=pending live evidence  -=not evaluated)
+stages: 1=HISTORICAL  2=OUT_OF_SAMPLE  3=WALK_FORWARD  4=FEE_GATE  5=EDGE_GATE  6=MONTE_CARLO  7=HOLDOUT_COINS  8=LIVE_PAPER_EXECUTION  9=LIVE_PAPER_SAMPLE  10=PORTFOLIO_CHECK
+
+account         kind           1 2 3 4 5 6 7 8 9 10   status
+------------------------------------------------------------
+realpaper       champion       P x P P P P P . . -   NOT_ELIGIBLE
+krakenmulti     champion       P x x P P P P P . -   NOT_ELIGIBLE
+krakenfast      champion       P x x P P P P . . -   NOT_ELIGIBLE
+krakenslow      champion       P P P P P P P . . -   ACCUMULATING_EVIDENCE
+krakenrsi       champion       x x P x P x x x . -   NOT_ELIGIBLE
+krakenmacd      champion       x x x P x x x x . -   NOT_ELIGIBLE
+krakenbbreak    champion       P P x P P P P P . -   NOT_ELIGIBLE
+krakenturtle    champion       P x P P P P P P . -   NOT_ELIGIBLE
+krakencci       champion       P x x P P P P P . -   NOT_ELIGIBLE
+krakenkeltner   champion       P x x P P P P . . -   NOT_ELIGIBLE
+krakenichimoku  champion       P x x P P P P . . -   NOT_ELIGIBLE
+c4h_bbreak      4h challenger  P x P P x P . P . -   NOT_ELIGIBLE
+c4h_cci         4h challenger  x x P P x x . P . -   NOT_ELIGIBLE
+c4h_cci_f1      4h challenger  x x P P x x . P . -   NOT_ELIGIBLE
+c4h_fxe_ema_trend_mid4h challenger  x x P P x x . P . -   NOT_ELIGIBLE
+c4h_fxe_macd_zero_large4h challenger  P x P P P x . . . -   NOT_ELIGIBLE
+c4h_fxe_macd_zero_mid4h challenger  x x P P P x . . . -   NOT_ELIGIBLE
+c4h_fxe_rsi_trend_mid4h challenger  P x P P x P . . . -   NOT_ELIGIBLE
+c4h_ichimoku    4h challenger  x x x P x x . . . -   NOT_ELIGIBLE
+c4h_keltner     4h challenger  P x P P x P . P . -   NOT_ELIGIBLE
+c4h_keltner_f1  4h challenger  P x P P x P . P . -   NOT_ELIGIBLE
+c4h_macd        4h challenger  x x P P x x . x . -   NOT_ELIGIBLE
+c4h_multi       4h challenger  P P P P x P . P . -   NOT_ELIGIBLE
+c4h_multi_f1    4h challenger  P P P P x P . P . -   NOT_ELIGIBLE
+c4h_rsi         4h challenger  x x P P x x . x . -   NOT_ELIGIBLE
+c4h_sma         4h challenger  P x P P x x . . . -   NOT_ELIGIBLE
+c4h_sma_f1      4h challenger  P x P P x x . . . -   NOT_ELIGIBLE
+c4h_turtle      4h challenger  P P P P x P . P . -   NOT_ELIGIBLE
+chal_fxe_bb_dip_largelearner challengerP x P P P x P . . -   NOT_ELIGIBLE
+chal_fxe_macd_zero_midlearner challengerP x P P P x P P . -   NOT_ELIGIBLE
+chal_fxe_willr_pullback_largelearner challengerP P P P P x P . . -   NOT_ELIGIBLE
+chal_fxe_willr_pullback_midlearner challengerP P P P P x x . . -   NOT_ELIGIBLE
+chal_gr_bb_dip_largelearner challengerP P P x P x x . . -   NOT_ELIGIBLE
+chal_gr_bb_dip_midlearner challengerx P P x P x x . . -   NOT_ELIGIBLE
+chal_gr_cci_dip_largelearner challengerP P P P P x P . . -   NOT_ELIGIBLE
+chal_gr_cci_dip_midlearner challengerP P P x P x P . . -   NOT_ELIGIBLE
+chal_gr_stoch_dip_largelearner challengerP P P x P x x . . -   NOT_ELIGIBLE
+chal_gr_stoch_dip_midlearner challengerP P P x P x x . . -   NOT_ELIGIBLE
+chal_gr_willr_dip_largelearner challengerP P P P P x P . . -   NOT_ELIGIBLE
+chal_gr_willr_dip_midlearner challengerP P P P P x P . . -   NOT_ELIGIBLE
+chal_krakencci_1learner challengerP P x P P P P . . -   NOT_ELIGIBLE
+chal_krakenfast_1learner challengerP x x P P P P . . -   NOT_ELIGIBLE
+chal_krakenfast_2learner challengerP P x P P P P . . -   NOT_ELIGIBLE
+chal_krakenichimoku_1learner challengerP x x P P P P . . -   NOT_ELIGIBLE
+chal_krakenichimoku_2learner challengerP P x P P P P . . -   NOT_ELIGIBLE
+chal_krakenmulti_1learner challengerP P x P P P P P . -   NOT_ELIGIBLE
+chal_krakenrsi_1learner challengerP x P P P x x . . -   NOT_ELIGIBLE
+chal_krakenturtle_1learner challengerP x P P P P P . . -   NOT_ELIGIBLE
+chal_realpaper_1learner challengerP P P P P P P . . -   ACCUMULATING_EVIDENCE
+chal_realpaper_2learner challengerP P P P P P P . . -   ACCUMULATING_EVIDENCE
+
+Totals: {'NOT_ELIGIBLE': 47, 'ACCUMULATING_EVIDENCE': 3}
+
+First blocking stage per account:
+  realpaper       OUT_OF_SAMPLE: held-out return -1.9%, 64 trips (need >0% and >=15)
+  krakenmulti     OUT_OF_SAMPLE: held-out return -0.2%, 86 trips (need >0% and >=15)
+  krakenfast      OUT_OF_SAMPLE: held-out return -9.5%, 111 trips (need >0% and >=15)
+  krakenslow      LIVE_PAPER_EXECUTION: 4/10 fills with real order-book execution records
+  krakenrsi       HISTORICAL: net -12.5% after real costs, 120 trips, PF 0.70
+  krakenmacd      HISTORICAL: net -16.4% after real costs, 769 trips, PF 1.14
+  krakenbbreak    WALK_FORWARD: beats hold 2/6 windows (median -1.5%), beats regime-hold 3/4 decided windows
+  krakenturtle    OUT_OF_SAMPLE: held-out return -10.5%, 69 trips (need >0% and >=15)
+  krakencci       OUT_OF_SAMPLE: held-out return -7.2%, 143 trips (need >0% and >=15)
+  krakenkeltner   OUT_OF_SAMPLE: held-out return -1.5%, 65 trips (need >0% and >=15)
+  krakenichimoku  OUT_OF_SAMPLE: held-out return -4.9%, 101 trips (need >0% and >=15)
+  c4h_bbreak      OUT_OF_SAMPLE: held-out return -4.2%, 55 trips (need >0% and >=15)
+  c4h_cci         HISTORICAL: net -9.4% after real costs, 648 trips, PF 1.14
+  c4h_cci_f1      HISTORICAL: net -9.4% after real costs, 648 trips, PF 1.14
+  c4h_fxe_ema_trend_midHISTORICAL: net -50.8% after real costs, 772 trips, PF 0.80
+  c4h_fxe_macd_zero_largeOUT_OF_SAMPLE: held-out return +16.4%, 4 trips (need >0% and >=15)
+  c4h_fxe_macd_zero_midHISTORICAL: net -10.5% after real costs, 191 trips, PF 1.10
+  c4h_fxe_rsi_trend_midOUT_OF_SAMPLE: held-out return -7.7%, 17 trips (need >0% and >=15)
+  c4h_ichimoku    HISTORICAL: net -18.3% after real costs, 780 trips, PF 1.05
+  c4h_keltner     OUT_OF_SAMPLE: held-out return -6.4%, 74 trips (need >0% and >=15)
+  c4h_keltner_f1  OUT_OF_SAMPLE: held-out return -6.4%, 74 trips (need >0% and >=15)
+  c4h_macd        HISTORICAL: net -15.6% after real costs, 1108 trips, PF 1.08
+  c4h_multi       EDGE_GATE: held-out excess +43.6% vs hold, -0.9% vs regime-timed hold
+  c4h_multi_f1    EDGE_GATE: held-out excess +43.6% vs hold, -0.9% vs regime-timed hold
+  c4h_rsi         HISTORICAL: net -2.7% after real costs, 122 trips, PF 0.92
+  c4h_sma         OUT_OF_SAMPLE: held-out return -11.0%, 45 trips (need >0% and >=15)
+  c4h_sma_f1      OUT_OF_SAMPLE: held-out return -11.0%, 45 trips (need >0% and >=15)
+  c4h_turtle      EDGE_GATE: held-out excess +39.5% vs hold, -5.0% vs regime-timed hold
+  chal_fxe_bb_dip_largeOUT_OF_SAMPLE: held-out return +3.2%, 9 trips (need >0% and >=15)
+  chal_fxe_macd_zero_midOUT_OF_SAMPLE: held-out return -2.0%, 37 trips (need >0% and >=15)
+  chal_fxe_willr_pullback_largeMONTE_CARLO: p5 -1.4%, P(loss) 8%, stress 5/6
+  chal_fxe_willr_pullback_midMONTE_CARLO: p5 -0.6%, P(loss) 6%, stress 5/6
+  chal_gr_bb_dip_largeFEE_GATE: avg net trade <= 0 at 80.0bps taker, 95 in-sample trips (sample_ok=True)
+  chal_gr_bb_dip_midHISTORICAL: net -21.3% after real costs, 103 trips, PF 0.54
+  chal_gr_cci_dip_largeMONTE_CARLO: p5 -2.6%, P(loss) 13%, stress 2/6
+  chal_gr_cci_dip_midFEE_GATE: avg net trade <= 0 at 80.0bps taker, 63 in-sample trips (sample_ok=True)
+  chal_gr_stoch_dip_largeFEE_GATE: avg net trade <= 0 at 80.0bps taker, 100 in-sample trips (sample_ok=True)
+  chal_gr_stoch_dip_midFEE_GATE: avg net trade <= 0 at 80.0bps taker, 91 in-sample trips (sample_ok=True)
+  chal_gr_willr_dip_largeMONTE_CARLO: p5 +1.0%, P(loss) 4%, stress 4/6
+  chal_gr_willr_dip_midMONTE_CARLO: p5 +1.0%, P(loss) 4%, stress 4/6
+  chal_krakencci_1WALK_FORWARD: beats hold 2/6 windows (median -5.0%), beats regime-hold 2/4 decided windows
+  chal_krakenfast_1OUT_OF_SAMPLE: held-out return -2.9%, 59 trips (need >0% and >=15)
+  chal_krakenfast_2WALK_FORWARD: beats hold 2/6 windows (median -6.0%), beats regime-hold 3/4 decided windows
+  chal_krakenichimoku_1OUT_OF_SAMPLE: held-out return -0.1%, 51 trips (need >0% and >=15)
+  chal_krakenichimoku_2WALK_FORWARD: beats hold 2/6 windows (median -5.9%), beats regime-hold 3/4 decided windows
+  chal_krakenmulti_1WALK_FORWARD: beats hold 2/6 windows (median -2.3%), beats regime-hold 3/4 decided windows
+  chal_krakenrsi_1OUT_OF_SAMPLE: held-out return -1.4%, 3 trips (need >0% and >=15)
+  chal_krakenturtle_1OUT_OF_SAMPLE: held-out return -5.6%, 57 trips (need >0% and >=15)
+  chal_realpaper_1LIVE_PAPER_EXECUTION: 0/10 fills with real order-book execution records
+  chal_realpaper_2LIVE_PAPER_EXECUTION: 0/10 fills with real order-book execution records
+
+krakenmoon: NOT GRADABLE (funnel architecture, no backtest harness).
+This report never enables trading. Only a human can decide to go further.

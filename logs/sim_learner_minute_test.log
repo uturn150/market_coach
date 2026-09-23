@@ -1,0 +1,18 @@
+train coins ['BTC-USD', 'ETH-USD', 'LTC-USD', 'LINK-USD', 'XLM-USD', 'ETC-USD', 'BCH-USD', 'ATOM-USD', 'ALGO-USD'] | 35 training episodes (12-month, monthly starts, 2020-2023)
+gen  1: best train score   31.11 | median ret  +7.0% avg dd  1.6% green(active wk) 78.2% streak 11.6 | {"breaker": 0.08, "dev": 0.03, "family": "dca", "filter": "F1", "mult": 2.4, "safety": 6, "stop
+gen  2: best train score   31.11 | median ret  +7.0% avg dd  1.6% green(active wk) 78.2% streak 11.6 | {"breaker": 0.08, "dev": 0.03, "family": "dca", "filter": "F1", "mult": 2.4, "safety": 6, "stop
+
+learning curve (best training score per generation): [31.11, 31.11]  (45s)
+
+genome                                                                                               train  | FUTURE yrs (daily): score medRet avgDD green% | UNSEEN coins (daily, REAL held-out): score medRet avgDD green%
+{"breaker": 0.08, "dev": 0.03, "family": "dca", "filter": "F1", "mult": 2.4, "safety": 6, "stop": 0.   31.1 |    12.2   +6.3%   6.2%  62.3% |     4.5   +4.4%   8.8%  59.2%
+{"breaker": 0.12, "dev": 0.03, "family": "dca", "filter": "F1", "mult": 2.4, "safety": 6, "stop": 0.   31.1 |    11.8   +6.3%   6.4%  61.7% |     8.4   +2.3%   6.0%  65.6%
+{"breaker": 0.15, "dev": 0.03, "family": "dca", "filter": "F1", "mult": 2.4, "safety": 6, "stop": nu   30.7 |    11.8   +6.3%   6.4%  61.7% |    -1.9   +2.1%   9.8%  55.5%
+{"breaker": 0.12, "dev": 0.03, "family": "dca", "filter": "F1", "mult": 2.4, "safety": 6, "stop": nu   30.7 |    11.8   +6.3%   6.4%  61.7% |    10.6   +2.2%   5.0%  69.1%
+{"breaker": 0.15, "dev": 0.03, "family": "dca", "filter": "F1", "mult": 2.4, "safety": 6, "stop": 0.   30.7 |    11.8   +6.3%   6.4%  61.7% |     4.7   -1.7%   4.5%  55.2%
+{"breaker": 0.08, "dev": 0.03, "family": "dca", "filter": "F1", "mult": 2.4, "safety": 6, "stop": nu   30.7 |    12.2   +6.3%   6.2%  62.3% |    18.8   +4.3%   3.2%  71.2%
+
+== minute-engine check on the top 3 (real fills, real held-out coins, 2024-26) ==
+{"breaker": 0.08, "dev": 0.03, "family": "dca", "filter": "F1", "mult": 2.4, "safety": 6, "stop": 0. minute/train(5 coins) med   +4.3% dd   0.6% | minute/held-out(5 coins) med   +8.9% dd   1.4%  [180s]
+{"breaker": 0.12, "dev": 0.03, "family": "dca", "filter": "F1", "mult": 2.4, "safety": 6, "stop": 0. minute/train(5 coins) med   +4.3% dd   0.6% | minute/held-out(5 coins) med   +8.9% dd   1.4%  [181s]
+{"breaker": 0.15, "dev": 0.03, "family": "dca", "filter": "F1", "mult": 2.4, "safety": 6, "stop": nu minute/train(5 coins) med   +4.3% dd   0.6% | minute/held-out(5 coins) med   +8.9% dd   1.4%  [182s]

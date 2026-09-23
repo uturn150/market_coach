@@ -1,0 +1,45 @@
+{
+  "family": "turtle",
+  "granularity": "4h",
+  "candidates": 12,
+  "survivors": 12,
+  "rejections": {},
+  "fee_gate": "PASS",
+  "edge_gate": "PASS",
+  "paper_sample": 0,
+  "status": "CHALLENGER",
+  "params": {
+    "entry": 240,
+    "exit": 120,
+    "trail": 0.25
+  },
+  "pf_in": 4.33,
+  "n_in": 147,
+  "out_excess_pct": 39.5,
+  "robust_family": true,
+  "walk_forward": "PASS",
+  "walk_forward_detail": {
+    "strategy": "strategies/c4h_turtle.json",
+    "n_windows": 5,
+    "windows_beating_hold": 3,
+    "pct_windows_beating_hold": 60.0,
+    "median_excess_pct": 26.55,
+    "best_window_excess_pct": 41.92,
+    "worst_window_excess_pct": -10.54,
+    "windows_beating_regime_hold": 2,
+    "pct_windows_beating_regime_hold": 40.0,
+    "median_excess_vs_regime_hold_pct": -0.0,
+    "worst_window_drawdown_pct": -19.8,
+    "total_round_trips_across_windows": 54,
+    "sample_ok": true,
+    "verdict": "MOSTLY PERSISTS: beats hold in 3/5 windows"
+  },
+  "beats_regime_timed_hold": true,
+  "robustness": "PASS",
+  "robustness_detail": {
+    "p5_return_pct": 53.79,
+    "loss_prob": 0.0,
+    "stress_passed": "6/6"
+  },
+  "account": "c4h_turtle"
+}

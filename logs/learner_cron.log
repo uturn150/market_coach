@@ -1,0 +1,200 @@
+realpaper: PASS pf_in=3.46 oos=48.9% fee_src=live
+krakenmulti: PASS pf_in=3.6 oos=48.6% fee_src=live
+krakenfast: PASS pf_in=3.49 oos=41.2% fee_src=live
+krakenslow: PASS pf_in=6.6 oos=53.3% fee_src=live
+krakenrsi: FAIL (fee gate) pf_in=1.15 oos=49.9% fee_src=live
+  search for krakenrsi: {'evaluated': 14, 'survivors': 4, 'why': "best candidate 'thresholds x0.9' failed Monte Carlo robustness"}
+krakenmacd: PASS pf_in=2.33 oos=17.3% fee_src=live
+krakenbbreak: PASS pf_in=2.96 oos=51.4% fee_src=live
+krakenturtle: PASS pf_in=4.76 oos=40.8% fee_src=live
+krakencci: PASS pf_in=2.54 oos=42.3% fee_src=live
+krakenkeltner: PASS pf_in=3.97 oos=47.2% fee_src=live
+krakenichimoku: PASS pf_in=2.85 oos=45.6% fee_src=live
+--- actions ---
+none
+realpaper: PASS pf_in=3.46 oos=48.9% fee_src=live
+krakenmulti: PASS pf_in=3.6 oos=48.6% fee_src=live
+krakenfast: PASS pf_in=3.49 oos=41.2% fee_src=live
+krakenslow: PASS pf_in=6.6 oos=53.3% fee_src=live
+krakenrsi: FAIL (fee gate) pf_in=1.15 oos=49.9% fee_src=live
+  search for krakenrsi: {'evaluated': 14, 'survivors': 4, 'why': "best candidate 'thresholds x0.9' failed Monte Carlo robustness"}
+krakenmacd: PASS pf_in=2.33 oos=17.3% fee_src=live
+krakenbbreak: PASS pf_in=2.96 oos=51.4% fee_src=live
+krakenturtle: PASS pf_in=4.76 oos=40.8% fee_src=live
+krakencci: PASS pf_in=2.54 oos=42.3% fee_src=live
+krakenkeltner: PASS pf_in=3.97 oos=47.2% fee_src=live
+krakenichimoku: PASS pf_in=2.85 oos=45.6% fee_src=live
+--- actions ---
+none
+realpaper: PASS pf_in=3.46 oos=48.9% fee_src=live
+krakenmulti: PASS pf_in=3.6 oos=48.6% fee_src=live
+krakenfast: PASS pf_in=3.49 oos=41.2% fee_src=live
+krakenslow: PASS pf_in=6.6 oos=53.3% fee_src=live
+krakenrsi: FAIL (fee gate) pf_in=1.15 oos=49.9% fee_src=live
+krakenmacd: PASS pf_in=2.33 oos=17.3% fee_src=live
+krakenbbreak: PASS pf_in=2.96 oos=51.4% fee_src=live
+krakenturtle: PASS pf_in=4.76 oos=40.8% fee_src=live
+krakencci: PASS pf_in=2.54 oos=42.3% fee_src=live
+krakenkeltner: PASS pf_in=3.97 oos=47.2% fee_src=live
+krakenichimoku: PASS pf_in=2.85 oos=45.6% fee_src=live
+--- actions ---
+none
+realpaper: PASS pf_in=3.46 oos=48.9% fee_src=live
+krakenmulti: PASS pf_in=3.6 oos=48.6% fee_src=live
+krakenfast: PASS pf_in=3.49 oos=41.2% fee_src=live
+krakenslow: PASS pf_in=6.6 oos=53.3% fee_src=live
+krakenrsi: FAIL (fee gate) pf_in=1.15 oos=49.9% fee_src=live
+krakenmacd: PASS pf_in=2.33 oos=17.3% fee_src=live
+krakenbbreak: PASS pf_in=2.96 oos=51.4% fee_src=live
+krakenturtle: PASS pf_in=4.76 oos=40.8% fee_src=live
+krakencci: PASS pf_in=2.54 oos=42.3% fee_src=live
+krakenkeltner: PASS pf_in=3.97 oos=47.2% fee_src=live
+krakenichimoku: PASS pf_in=2.85 oos=45.6% fee_src=live
+--- actions ---
+none
+refreshing price history from Coinbase (once per ~20h)...
+realpaper: PASS pf_in=3.46 oos=50.6% fee_src=live
+krakenmulti: PASS pf_in=3.6 oos=48.8% fee_src=live
+krakenfast: PASS pf_in=3.49 oos=43.5% fee_src=live
+krakenslow: PASS pf_in=6.6 oos=53.5% fee_src=live
+krakenrsi: FAIL (fee gate) pf_in=1.15 oos=49.7% fee_src=live
+krakenmacd: PASS pf_in=2.31 oos=18.1% fee_src=live
+krakenbbreak: PASS pf_in=2.96 oos=52.1% fee_src=live
+krakenturtle: PASS pf_in=4.76 oos=41.9% fee_src=live
+krakencci: PASS pf_in=2.53 oos=43.2% fee_src=live
+krakenkeltner: PASS pf_in=3.97 oos=47.6% fee_src=live
+krakenichimoku: PASS pf_in=2.85 oos=47.1% fee_src=live
+--- actions ---
+none
+realpaper: PASS pf_in=3.46 oos=50.6% fee_src=live
+krakenmulti: PASS pf_in=3.6 oos=48.8% fee_src=live
+krakenfast: PASS pf_in=3.49 oos=43.5% fee_src=live
+krakenslow: PASS pf_in=6.6 oos=53.5% fee_src=live
+krakenrsi: FAIL (fee gate) pf_in=1.15 oos=49.7% fee_src=live
+krakenmacd: PASS pf_in=2.31 oos=18.1% fee_src=live
+krakenbbreak: PASS pf_in=2.96 oos=52.1% fee_src=live
+krakenturtle: PASS pf_in=4.76 oos=41.9% fee_src=live
+krakencci: PASS pf_in=2.53 oos=43.2% fee_src=live
+krakenkeltner: PASS pf_in=3.97 oos=47.6% fee_src=live
+krakenichimoku: PASS pf_in=2.85 oos=47.1% fee_src=live
+--- actions ---
+none
+realpaper: PASS pf_in=3.46 oos=50.6% fee_src=live
+krakenmulti: PASS pf_in=3.6 oos=48.8% fee_src=live
+krakenfast: PASS pf_in=3.49 oos=43.5% fee_src=live
+krakenslow: PASS pf_in=6.6 oos=53.5% fee_src=live
+krakenrsi: FAIL (fee gate) pf_in=1.15 oos=49.7% fee_src=live
+krakenmacd: PASS pf_in=2.31 oos=18.1% fee_src=live
+krakenbbreak: PASS pf_in=2.96 oos=52.1% fee_src=live
+krakenturtle: PASS pf_in=4.76 oos=41.9% fee_src=live
+krakencci: PASS pf_in=2.53 oos=43.2% fee_src=live
+krakenkeltner: PASS pf_in=3.97 oos=47.6% fee_src=live
+krakenichimoku: PASS pf_in=2.85 oos=47.1% fee_src=live
+--- actions ---
+none
+realpaper: PASS pf_in=3.46 oos=50.6% fee_src=live
+krakenmulti: PASS pf_in=3.6 oos=48.8% fee_src=live
+krakenfast: PASS pf_in=3.49 oos=43.5% fee_src=live
+krakenslow: PASS pf_in=6.6 oos=53.5% fee_src=live
+krakenrsi: FAIL (fee gate) pf_in=1.15 oos=49.7% fee_src=live
+krakenmacd: PASS pf_in=2.31 oos=18.1% fee_src=live
+krakenbbreak: PASS pf_in=2.96 oos=52.1% fee_src=live
+krakenturtle: PASS pf_in=4.76 oos=41.9% fee_src=live
+krakencci: PASS pf_in=2.53 oos=43.2% fee_src=live
+krakenkeltner: PASS pf_in=3.97 oos=47.6% fee_src=live
+krakenichimoku: PASS pf_in=2.85 oos=47.1% fee_src=live
+--- actions ---
+none
+refreshing price history from Coinbase (once per ~20h)...
+realpaper: PASS pf_in=3.46 oos=51.2% fee_src=live
+krakenmulti: PASS pf_in=3.52 oos=53.6% fee_src=live
+krakenfast: PASS pf_in=3.35 oos=44.1% fee_src=live
+krakenslow: PASS pf_in=6.6 oos=54.8% fee_src=live
+krakenrsi: FAIL (fee gate) pf_in=1.15 oos=46.2% fee_src=live
+krakenmacd: PASS pf_in=2.31 oos=18.8% fee_src=live
+krakenbbreak: PASS pf_in=2.9 oos=54.4% fee_src=live
+krakenturtle: PASS pf_in=4.76 oos=43.9% fee_src=live
+krakencci: PASS pf_in=2.5 oos=46.3% fee_src=live
+krakenkeltner: PASS pf_in=3.97 oos=52.0% fee_src=live
+krakenichimoku: PASS pf_in=2.82 oos=48.3% fee_src=live
+--- actions ---
+none
+realpaper: PASS pf_in=3.46 oos=51.2% fee_src=live
+krakenmulti: PASS pf_in=3.52 oos=53.6% fee_src=live
+krakenfast: PASS pf_in=3.35 oos=44.1% fee_src=live
+krakenslow: PASS pf_in=6.6 oos=54.8% fee_src=live
+krakenrsi: FAIL (fee gate) pf_in=1.15 oos=46.2% fee_src=live
+krakenmacd: PASS pf_in=2.31 oos=18.8% fee_src=live
+krakenbbreak: PASS pf_in=2.9 oos=54.4% fee_src=live
+krakenturtle: PASS pf_in=4.76 oos=43.9% fee_src=live
+krakencci: PASS pf_in=2.5 oos=46.3% fee_src=live
+krakenkeltner: PASS pf_in=3.97 oos=52.0% fee_src=live
+krakenichimoku: PASS pf_in=2.82 oos=48.3% fee_src=live
+--- actions ---
+none
+realpaper: PASS pf_in=3.46 oos=51.2% fee_src=live
+krakenmulti: PASS pf_in=3.52 oos=53.6% fee_src=live
+krakenfast: PASS pf_in=3.35 oos=44.1% fee_src=live
+krakenslow: PASS pf_in=6.6 oos=54.8% fee_src=live
+krakenrsi: FAIL (fee gate) pf_in=1.15 oos=46.2% fee_src=live
+krakenmacd: PASS pf_in=2.31 oos=18.8% fee_src=live
+krakenbbreak: PASS pf_in=2.9 oos=54.4% fee_src=live
+krakenturtle: PASS pf_in=4.76 oos=43.9% fee_src=live
+krakencci: PASS pf_in=2.5 oos=46.3% fee_src=live
+krakenkeltner: PASS pf_in=3.97 oos=52.0% fee_src=live
+krakenichimoku: PASS pf_in=2.82 oos=48.3% fee_src=live
+--- actions ---
+none
+realpaper: PASS pf_in=3.46 oos=51.2% fee_src=live
+krakenmulti: PASS pf_in=3.52 oos=53.6% fee_src=live
+krakenfast: PASS pf_in=3.35 oos=44.1% fee_src=live
+krakenslow: PASS pf_in=6.6 oos=54.8% fee_src=live
+krakenrsi: FAIL (fee gate) pf_in=1.15 oos=46.2% fee_src=live
+krakenmacd: PASS pf_in=2.31 oos=18.8% fee_src=live
+krakenbbreak: PASS pf_in=2.9 oos=54.4% fee_src=live
+krakenturtle: PASS pf_in=4.76 oos=43.9% fee_src=live
+krakencci: PASS pf_in=2.5 oos=46.3% fee_src=live
+krakenkeltner: PASS pf_in=3.97 oos=52.0% fee_src=live
+krakenichimoku: PASS pf_in=2.82 oos=48.3% fee_src=live
+--- actions ---
+none
+refreshing price history from Coinbase (once per ~20h)...
+realpaper: PASS pf_in=3.46 oos=51.0% fee_src=live
+krakenmulti: PASS pf_in=3.52 oos=52.6% fee_src=live
+krakenfast: PASS pf_in=3.35 oos=43.4% fee_src=live
+krakenslow: PASS pf_in=6.6 oos=54.6% fee_src=live
+krakenrsi: FAIL (fee gate) pf_in=1.15 oos=43.4% fee_src=live
+krakenmacd: PASS pf_in=2.31 oos=18.6% fee_src=live
+krakenbbreak: PASS pf_in=2.9 oos=53.4% fee_src=live
+krakenturtle: PASS pf_in=4.76 oos=42.4% fee_src=live
+krakencci: PASS pf_in=2.48 oos=45.6% fee_src=live
+krakenkeltner: PASS pf_in=3.97 oos=51.3% fee_src=live
+krakenichimoku: PASS pf_in=2.82 oos=47.9% fee_src=live
+--- actions ---
+none
+realpaper: PASS pf_in=3.46 oos=51.0% fee_src=live
+krakenmulti: PASS pf_in=3.52 oos=52.6% fee_src=live
+krakenfast: PASS pf_in=3.35 oos=43.4% fee_src=live
+krakenslow: PASS pf_in=6.6 oos=54.6% fee_src=live
+krakenrsi: FAIL (fee gate) pf_in=1.15 oos=43.4% fee_src=live
+krakenmacd: PASS pf_in=2.31 oos=18.6% fee_src=live
+krakenbbreak: PASS pf_in=2.9 oos=53.4% fee_src=live
+krakenturtle: PASS pf_in=4.76 oos=42.4% fee_src=live
+krakencci: PASS pf_in=2.48 oos=45.6% fee_src=live
+krakenkeltner: PASS pf_in=3.97 oos=51.3% fee_src=live
+krakenichimoku: PASS pf_in=2.82 oos=47.9% fee_src=live
+--- actions ---
+none
+realpaper: PASS pf_in=3.46 oos=51.0% fee_src=live
+krakenmulti: PASS pf_in=3.52 oos=52.6% fee_src=live
+krakenfast: PASS pf_in=3.35 oos=43.4% fee_src=live
+krakenslow: PASS pf_in=6.6 oos=54.6% fee_src=live
+krakenrsi: FAIL (fee gate) pf_in=1.15 oos=43.4% fee_src=live
+krakenmacd: PASS pf_in=2.31 oos=18.6% fee_src=live
+krakenbbreak: PASS pf_in=2.9 oos=53.4% fee_src=live
+krakenturtle: PASS pf_in=4.76 oos=42.4% fee_src=live
+krakencci: PASS pf_in=2.48 oos=45.6% fee_src=live
+krakenkeltner: PASS pf_in=3.97 oos=51.3% fee_src=live
+krakenichimoku: PASS pf_in=2.82 oos=47.9% fee_src=live
+--- actions ---
+none

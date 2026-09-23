@@ -1,0 +1,125 @@
+{"t": 1789706135, "iso": "2026-09-18 04:35:35", "event": "tick", "equity": 50.0, "holding": 0, "halted": false, "paper": true}
+{"t": 1789738452, "iso": "2026-09-18 13:34:12", "event": "tick", "equity": 50.0, "holding": 0, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789738488, "iso": "2026-09-18 13:34:48", "event": "tick", "equity": 50.0, "holding": 0, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789741623, "iso": "2026-09-18 14:27:03", "event": "tick", "equity": 50.0, "holding": 0, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789745223, "iso": "2026-09-18 15:27:03", "event": "tick", "equity": 50.0, "holding": 0, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789748823, "iso": "2026-09-18 16:27:03", "event": "tick", "equity": 50.0, "holding": 0, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789752423, "iso": "2026-09-18 17:27:03", "event": "tick", "equity": 50.0, "holding": 0, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789756023, "iso": "2026-09-18 18:27:03", "event": "tick", "equity": 50.0, "holding": 0, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789759623, "iso": "2026-09-18 19:27:03", "event": "tick", "equity": 50.0, "holding": 0, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789763223, "iso": "2026-09-18 20:27:03", "event": "tick", "equity": 50.0, "holding": 0, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789765784, "iso": "2026-09-18 21:09:44", "event": "tick", "equity": 50.0, "holding": 0, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789766824, "iso": "2026-09-18 21:27:04", "event": "tick", "equity": 50.0, "holding": 0, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789767254, "iso": "2026-09-18 21:34:14", "event": "funnel_buy", "coin": "NEAR-USD", "price": 3.1432, "score": 52.3, "roc": 0.287, "vol_ratio": 2.16, "max_corr": 0.0, "vol_mult": 0.66, "live": true}
+{"t": 1789767254, "iso": "2026-09-18 21:34:14", "event": "tick", "equity": 48.72, "holding": 1, "halted": false, "paper": true}
+{"t": 1789767451, "iso": "2026-09-18 21:37:31", "event": "tick", "equity": 48.72, "holding": 1, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789767503, "iso": "2026-09-18 21:38:23", "event": "tick", "equity": 50.06, "holding": 1, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789770432, "iso": "2026-09-18 22:27:12", "event": "tick", "equity": 50.09, "holding": 1, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789770591, "iso": "2026-09-18 22:29:51", "event": "tick", "equity": 50.07, "holding": 1, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789774031, "iso": "2026-09-18 23:27:11", "event": "tick", "equity": 50.21, "holding": 1, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789777632, "iso": "2026-09-19 00:27:12", "event": "funnel_buy", "coin": "ARB-USD", "price": 0.2211, "score": 82.6, "roc": 0.586, "vol_ratio": 2.24, "max_corr": 0.38, "vol_mult": 0.39, "live": true}
+{"t": 1789777633, "iso": "2026-09-19 00:27:13", "event": "funnel_buy", "coin": "UNI-USD", "price": 8.8696, "score": 75.7, "roc": 0.479, "vol_ratio": 3.2, "max_corr": 0.57, "vol_mult": 0.7, "live": true}
+{"t": 1789777633, "iso": "2026-09-19 00:27:13", "event": "funnel_buy", "coin": "OP-USD", "price": 0.1206, "score": 49.9, "roc": 0.263, "vol_ratio": 2.15, "max_corr": 0.69, "vol_mult": 0.78, "live": true}
+{"t": 1789777634, "iso": "2026-09-19 00:27:14", "event": "tick", "equity": 49.88, "holding": 4, "halted": false, "paper": true}
+{"t": 1789781231, "iso": "2026-09-19 01:27:11", "event": "tick", "equity": 49.83, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789784832, "iso": "2026-09-19 02:27:12", "event": "tick", "equity": 50.32, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789788431, "iso": "2026-09-19 03:27:11", "event": "tick", "equity": 50.33, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789792032, "iso": "2026-09-19 04:27:12", "event": "tick", "equity": 50.42, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789795631, "iso": "2026-09-19 05:27:11", "event": "tick", "equity": 50.15, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789799232, "iso": "2026-09-19 06:27:12", "event": "tick", "equity": 49.74, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789802832, "iso": "2026-09-19 07:27:12", "event": "tick", "equity": 50.14, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789806431, "iso": "2026-09-19 08:27:11", "event": "tick", "equity": 50.31, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789810031, "iso": "2026-09-19 09:27:11", "event": "tick", "equity": 50.0, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789813632, "iso": "2026-09-19 10:27:12", "event": "tick", "equity": 50.24, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789816777, "iso": "2026-09-19 11:19:37", "event": "tick", "equity": 50.13, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789817231, "iso": "2026-09-19 11:27:11", "event": "tick", "equity": 50.12, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789820832, "iso": "2026-09-19 12:27:12", "event": "tick", "equity": 50.03, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789824432, "iso": "2026-09-19 13:27:12", "event": "tick", "equity": 49.68, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789828032, "iso": "2026-09-19 14:27:12", "event": "tick", "equity": 49.87, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789831632, "iso": "2026-09-19 15:27:12", "event": "tick", "equity": 49.61, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789835232, "iso": "2026-09-19 16:27:12", "event": "tick", "equity": 49.53, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789838834, "iso": "2026-09-19 17:27:14", "event": "tick", "equity": 49.39, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789842432, "iso": "2026-09-19 18:27:12", "event": "tick", "equity": 49.13, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789846031, "iso": "2026-09-19 19:27:11", "event": "tick", "equity": 49.12, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789849632, "iso": "2026-09-19 20:27:12", "event": "tick", "equity": 49.23, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789853232, "iso": "2026-09-19 21:27:12", "event": "tick", "equity": 48.76, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789856832, "iso": "2026-09-19 22:27:12", "event": "tick", "equity": 48.66, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789860432, "iso": "2026-09-19 23:27:12", "event": "tick", "equity": 49.05, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789864030, "iso": "2026-09-20 00:27:10", "event": "tick", "equity": 49.01, "holding": 4, "halted": false, "paper": true}
+{"t": 1789867632, "iso": "2026-09-20 01:27:12", "event": "tick", "equity": 49.23, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789871232, "iso": "2026-09-20 02:27:12", "event": "tick", "equity": 49.38, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789874832, "iso": "2026-09-20 03:27:12", "event": "tick", "equity": 49.34, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789878432, "iso": "2026-09-20 04:27:12", "event": "tick", "equity": 49.44, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789882032, "iso": "2026-09-20 05:27:12", "event": "tick", "equity": 49.08, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789885631, "iso": "2026-09-20 06:27:11", "event": "tick", "equity": 49.09, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789889232, "iso": "2026-09-20 07:27:12", "event": "tick", "equity": 49.02, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789892829, "iso": "2026-09-20 08:27:09", "event": "tick", "equity": 49.33, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789896428, "iso": "2026-09-20 09:27:08", "event": "tick", "equity": 49.5, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789900029, "iso": "2026-09-20 10:27:09", "event": "tick", "equity": 49.39, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789903629, "iso": "2026-09-20 11:27:09", "event": "tick", "equity": 49.37, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789907229, "iso": "2026-09-20 12:27:09", "event": "tick", "equity": 49.45, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789910829, "iso": "2026-09-20 13:27:09", "event": "tick", "equity": 49.63, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789914428, "iso": "2026-09-20 14:27:08", "event": "tick", "equity": 49.26, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789918029, "iso": "2026-09-20 15:27:09", "event": "tick", "equity": 49.4, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789921629, "iso": "2026-09-20 16:27:09", "event": "tick", "equity": 50.73, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789925228, "iso": "2026-09-20 17:27:08", "event": "tick", "equity": 51.22, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789928826, "iso": "2026-09-20 18:27:06", "event": "tick", "equity": 51.01, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789932427, "iso": "2026-09-20 19:27:07", "event": "tick", "equity": 50.6, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789936026, "iso": "2026-09-20 20:27:06", "event": "tick", "equity": 51.04, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789939627, "iso": "2026-09-20 21:27:07", "event": "tick", "equity": 50.81, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789943227, "iso": "2026-09-20 22:27:07", "event": "tick", "equity": 51.53, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789946826, "iso": "2026-09-20 23:27:06", "event": "tick", "equity": 51.0, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789950427, "iso": "2026-09-21 00:27:07", "event": "tick", "equity": 51.68, "holding": 4, "halted": false, "paper": true}
+{"t": 1789954027, "iso": "2026-09-21 01:27:07", "event": "tick", "equity": 51.17, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789957626, "iso": "2026-09-21 02:27:06", "event": "tick", "equity": 51.07, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789961226, "iso": "2026-09-21 03:27:06", "event": "tick", "equity": 51.64, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789964826, "iso": "2026-09-21 04:27:06", "event": "tick", "equity": 51.63, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789968427, "iso": "2026-09-21 05:27:07", "event": "tick", "equity": 51.65, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789972026, "iso": "2026-09-21 06:27:06", "event": "tick", "equity": 51.38, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789975627, "iso": "2026-09-21 07:27:07", "event": "tick", "equity": 51.22, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789979226, "iso": "2026-09-21 08:27:06", "event": "tick", "equity": 51.58, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789982827, "iso": "2026-09-21 09:27:07", "event": "tick", "equity": 52.31, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789986426, "iso": "2026-09-21 10:27:06", "event": "tick", "equity": 51.99, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789990027, "iso": "2026-09-21 11:27:07", "event": "tick", "equity": 51.94, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789993626, "iso": "2026-09-21 12:27:06", "event": "tick", "equity": 51.9, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1789997226, "iso": "2026-09-21 13:27:06", "event": "tick", "equity": 52.03, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1790000826, "iso": "2026-09-21 14:27:06", "event": "tick", "equity": 51.77, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1790004426, "iso": "2026-09-21 15:27:06", "event": "tick", "equity": 51.1, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1790008026, "iso": "2026-09-21 16:27:06", "event": "tick", "equity": 51.41, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1790011627, "iso": "2026-09-21 17:27:07", "event": "tick", "equity": 50.96, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1790015227, "iso": "2026-09-21 18:27:07", "event": "tick", "equity": 50.65, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1790018827, "iso": "2026-09-21 19:27:07", "event": "tick", "equity": 51.11, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1790022426, "iso": "2026-09-21 20:27:06", "event": "tick", "equity": 51.28, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1790026026, "iso": "2026-09-21 21:27:06", "event": "tick", "equity": 51.31, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1790029626, "iso": "2026-09-21 22:27:06", "event": "tick", "equity": 51.41, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1790033226, "iso": "2026-09-21 23:27:06", "event": "tick", "equity": 51.99, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1790036827, "iso": "2026-09-22 00:27:07", "event": "tick", "equity": 51.83, "holding": 4, "halted": false, "paper": true}
+{"t": 1790040426, "iso": "2026-09-22 01:27:06", "event": "tick", "equity": 51.98, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1790044026, "iso": "2026-09-22 02:27:06", "event": "tick", "equity": 52.41, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1790047626, "iso": "2026-09-22 03:27:06", "event": "tick", "equity": 52.06, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1790051227, "iso": "2026-09-22 04:27:07", "event": "tick", "equity": 51.88, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1790054826, "iso": "2026-09-22 05:27:06", "event": "tick", "equity": 51.49, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1790058426, "iso": "2026-09-22 06:27:06", "event": "tick", "equity": 51.96, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1790062027, "iso": "2026-09-22 07:27:07", "event": "tick", "equity": 51.43, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1790065627, "iso": "2026-09-22 08:27:07", "event": "tick", "equity": 51.6, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1790069226, "iso": "2026-09-22 09:27:06", "event": "tick", "equity": 51.92, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1790072827, "iso": "2026-09-22 10:27:07", "event": "tick", "equity": 51.44, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1790076427, "iso": "2026-09-22 11:27:07", "event": "tick", "equity": 51.68, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1790080026, "iso": "2026-09-22 12:27:06", "event": "tick", "equity": 52.03, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1790083627, "iso": "2026-09-22 13:27:07", "event": "tick", "equity": 52.3, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1790087227, "iso": "2026-09-22 14:27:07", "event": "tick", "equity": 51.76, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1790090827, "iso": "2026-09-22 15:27:07", "event": "tick", "equity": 52.34, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1790094426, "iso": "2026-09-22 16:27:06", "event": "tick", "equity": 52.22, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1790098027, "iso": "2026-09-22 17:27:07", "event": "tick", "equity": 52.35, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1790101627, "iso": "2026-09-22 18:27:07", "event": "tick", "equity": 52.49, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1790105227, "iso": "2026-09-22 19:27:07", "event": "tick", "equity": 52.47, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1790108826, "iso": "2026-09-22 20:27:06", "event": "tick", "equity": 52.33, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1790112426, "iso": "2026-09-22 21:27:06", "event": "tick", "equity": 52.51, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1790116026, "iso": "2026-09-22 22:27:06", "event": "tick", "equity": 53.15, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1790119627, "iso": "2026-09-22 23:27:07", "event": "tick", "equity": 54.21, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1790123226, "iso": "2026-09-23 00:27:06", "event": "tick", "equity": 54.65, "holding": 4, "halted": false, "paper": true}
+{"t": 1790126827, "iso": "2026-09-23 01:27:07", "event": "tick", "equity": 54.61, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1790130427, "iso": "2026-09-23 02:27:07", "event": "tick", "equity": 54.44, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1790134026, "iso": "2026-09-23 03:27:06", "event": "tick", "equity": 55.25, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1790137626, "iso": "2026-09-23 04:27:06", "event": "tick", "equity": 54.92, "holding": 4, "halted": false, "paper": true, "heartbeat": true}
+{"t": 1790141226, "iso": "2026-09-23 05:27:06", "event": "tick", "equity": 55.19, "holding": 4, "halted": false, "paper": true, "heartbeat": true}

@@ -1,0 +1,196 @@
+{
+ "start": 1000.0,
+ "acct": {
+  "equal": {
+   "equity": 1013.829681093835,
+   "history": [
+    {
+     "day": 1789603200,
+     "equity": 1000.0,
+     "ret_pct": 0.0,
+     "regime": "TRENDING_UP"
+    },
+    {
+     "day": 1789689600,
+     "equity": 1000.0,
+     "ret_pct": 0.0,
+     "regime": "TRENDING_UP"
+    },
+    {
+     "day": 1789776000,
+     "equity": 1000.0,
+     "ret_pct": 0.0,
+     "regime": "TRENDING_UP"
+    },
+    {
+     "day": 1789862400,
+     "equity": 1000.3438,
+     "ret_pct": 0.034,
+     "regime": "TRENDING_UP"
+    },
+    {
+     "day": 1789948800,
+     "equity": 1000.7712,
+     "ret_pct": 0.043,
+     "regime": "TRENDING_UP"
+    },
+    {
+     "day": 1790035200,
+     "equity": 1010.1364,
+     "ret_pct": 0.936,
+     "regime": "TRENDING_UP"
+    },
+    {
+     "day": 1790121600,
+     "equity": 1013.8297,
+     "ret_pct": 0.366,
+     "regime": "TRENDING_UP"
+    }
+   ]
+  },
+  "invvol": {
+   "equity": 1013.829681093835,
+   "history": [
+    {
+     "day": 1789603200,
+     "equity": 1000.0,
+     "ret_pct": 0.0,
+     "regime": "TRENDING_UP"
+    },
+    {
+     "day": 1789689600,
+     "equity": 1000.0,
+     "ret_pct": 0.0,
+     "regime": "TRENDING_UP"
+    },
+    {
+     "day": 1789776000,
+     "equity": 1000.0,
+     "ret_pct": 0.0,
+     "regime": "TRENDING_UP"
+    },
+    {
+     "day": 1789862400,
+     "equity": 1000.3438,
+     "ret_pct": 0.034,
+     "regime": "TRENDING_UP"
+    },
+    {
+     "day": 1789948800,
+     "equity": 1000.7712,
+     "ret_pct": 0.043,
+     "regime": "TRENDING_UP"
+    },
+    {
+     "day": 1790035200,
+     "equity": 1010.1364,
+     "ret_pct": 0.936,
+     "regime": "TRENDING_UP"
+    },
+    {
+     "day": 1790121600,
+     "equity": 1013.8297,
+     "ret_pct": 0.366,
+     "regime": "TRENDING_UP"
+    }
+   ]
+  },
+  "chameleon": {
+   "equity": 1014.6564801959836,
+   "history": [
+    {
+     "day": 1789603200,
+     "equity": 1000.0,
+     "ret_pct": 0.0,
+     "regime": "TRENDING_UP"
+    },
+    {
+     "day": 1789689600,
+     "equity": 1000.0,
+     "ret_pct": 0.0,
+     "regime": "TRENDING_UP"
+    },
+    {
+     "day": 1789776000,
+     "equity": 1000.0,
+     "ret_pct": 0.0,
+     "regime": "TRENDING_UP"
+    },
+    {
+     "day": 1789862400,
+     "equity": 1000.3438,
+     "ret_pct": 0.034,
+     "regime": "TRENDING_UP"
+    },
+    {
+     "day": 1789948800,
+     "equity": 1000.7712,
+     "ret_pct": 0.043,
+     "regime": "TRENDING_UP"
+    },
+    {
+     "day": 1790035200,
+     "equity": 1007.5114,
+     "ret_pct": 0.674,
+     "regime": "TRENDING_UP"
+    },
+    {
+     "day": 1790121600,
+     "equity": 1014.6565,
+     "ret_pct": 0.709,
+     "regime": "TRENDING_UP"
+    }
+   ]
+  },
+  "overlay": {
+   "equity": 1013.829681093835,
+   "history": [
+    {
+     "day": 1789603200,
+     "equity": 1000.0,
+     "ret_pct": 0.0,
+     "regime": "TRENDING_UP"
+    },
+    {
+     "day": 1789689600,
+     "equity": 1000.0,
+     "ret_pct": 0.0,
+     "regime": "TRENDING_UP"
+    },
+    {
+     "day": 1789776000,
+     "equity": 1000.0,
+     "ret_pct": 0.0,
+     "regime": "TRENDING_UP"
+    },
+    {
+     "day": 1789862400,
+     "equity": 1000.3438,
+     "ret_pct": 0.034,
+     "regime": "TRENDING_UP"
+    },
+    {
+     "day": 1789948800,
+     "equity": 1000.7712,
+     "ret_pct": 0.043,
+     "regime": "TRENDING_UP"
+    },
+    {
+     "day": 1790035200,
+     "equity": 1010.1364,
+     "ret_pct": 0.936,
+     "regime": "TRENDING_UP"
+    },
+    {
+     "day": 1790121600,
+     "equity": 1013.8297,
+     "ret_pct": 0.366,
+     "regime": "TRENDING_UP"
+    }
+   ]
+  }
+ },
+ "last_day": 1790121600,
+ "as_of": "2026-09-23 00:55",
+ "n_bots": 64
+}

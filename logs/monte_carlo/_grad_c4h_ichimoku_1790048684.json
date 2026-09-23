@@ -1,0 +1,55 @@
+{
+  "strategy": "paper_state/_grad_c4h_ichimoku.json",
+  "n_real_trades": 780,
+  "distribution": {
+    "n_sims": 2000,
+    "median_return_pct": -4.95,
+    "p5_return_pct": -37.11,
+    "p95_return_pct": 67.02,
+    "median_max_drawdown_pct": -25.8,
+    "p5_max_drawdown_pct": -43.2,
+    "probability_of_losing_money": 0.569,
+    "probability_of_underperforming_hold": 0.887,
+    "buy_hold_return_pct": 41.1
+  },
+  "stress_scenarios": {
+    "baseline_real_fee": {
+      "fee_gate_pass": true,
+      "edge_gate_pass": true,
+      "out_excess_pct": 9.9,
+      "n_in": 581
+    },
+    "fees_1.5x": {
+      "fee_gate_pass": true,
+      "edge_gate_pass": true,
+      "out_excess_pct": 5.8,
+      "n_in": 581
+    },
+    "fees_2x": {
+      "fee_gate_pass": false,
+      "edge_gate_pass": true,
+      "out_excess_pct": 2.0,
+      "n_in": 581
+    },
+    "spread_slippage_2x": {
+      "fee_gate_pass": true,
+      "edge_gate_pass": true,
+      "out_excess_pct": 9.1,
+      "n_in": 581
+    },
+    "params_tighter": {
+      "fee_gate_pass": true,
+      "edge_gate_pass": true,
+      "out_excess_pct": 14.1,
+      "n_in": 628
+    },
+    "params_looser": {
+      "fee_gate_pass": true,
+      "edge_gate_pass": true,
+      "out_excess_pct": 10.4,
+      "n_in": 538
+    }
+  },
+  "stress_scenarios_passed": "5/6",
+  "verdict": "FRAGILE: bad-tail outcomes are severe or common; underperforms hold in the MAJORITY of simulated paths; only 5/6 stress scenarios still clear both gates"
+}

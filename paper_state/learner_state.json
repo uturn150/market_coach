@@ -1,0 +1,209 @@
+{
+  "challengers": {
+    "chal_realpaper_1": {
+      "champion": "realpaper",
+      "label": "avoid SIDEWAYS regime",
+      "created": 1789856646,
+      "evidence": {
+        "pf_in": 8.53,
+        "out_return_pct": -0.6,
+        "baseline_pf_in": 3.46,
+        "baseline_out_return_pct": -5.1,
+        "mc_p5_return_pct": 43.28
+      },
+      "status": "PAPER_TRIAL",
+      "avoid_regimes": [
+        "SIDEWAYS"
+      ],
+      "paper_round_trips": 0,
+      "stamp": {
+        "avoid_regimes": [
+          "SIDEWAYS"
+        ]
+      }
+    },
+    "chal_krakenrsi_1": {
+      "champion": "krakenrsi",
+      "label": "avoid SIDEWAYS regime",
+      "created": 1789856654,
+      "evidence": {
+        "pf_in": 2.48,
+        "out_return_pct": -1.4,
+        "baseline_pf_in": 1.15,
+        "baseline_out_return_pct": -4.1,
+        "mc_p5_return_pct": 0.15
+      },
+      "status": "PAPER_TRIAL",
+      "avoid_regimes": [
+        "SIDEWAYS"
+      ],
+      "paper_round_trips": 0,
+      "stamp": {
+        "avoid_regimes": [
+          "SIDEWAYS"
+        ]
+      }
+    },
+    "chal_krakenfast_1": {
+      "champion": "krakenfast",
+      "label": "avoid SIDEWAYS regime",
+      "created": 1789856662,
+      "evidence": {
+        "pf_in": 5.86,
+        "out_return_pct": -6.1,
+        "baseline_pf_in": 3.49,
+        "baseline_out_return_pct": -12.7,
+        "mc_p5_return_pct": 48.21
+      },
+      "status": "PAPER_TRIAL",
+      "avoid_regimes": [
+        "SIDEWAYS"
+      ],
+      "paper_round_trips": 0,
+      "stamp": {
+        "avoid_regimes": [
+          "SIDEWAYS"
+        ]
+      }
+    },
+    "chal_krakenichimoku_1": {
+      "champion": "krakenichimoku",
+      "label": "avoid SIDEWAYS regime",
+      "created": 1789856671,
+      "evidence": {
+        "pf_in": 3.8,
+        "out_return_pct": -3.4,
+        "baseline_pf_in": 2.85,
+        "baseline_out_return_pct": -8.3,
+        "mc_p5_return_pct": 41.35
+      },
+      "status": "PAPER_TRIAL",
+      "avoid_regimes": [
+        "SIDEWAYS"
+      ],
+      "paper_round_trips": 0,
+      "stamp": {
+        "avoid_regimes": [
+          "SIDEWAYS"
+        ]
+      }
+    },
+    "chal_krakenturtle_1": {
+      "champion": "krakenturtle",
+      "label": "avoid SIDEWAYS regime",
+      "created": 1789856680,
+      "evidence": {
+        "pf_in": 6.34,
+        "out_return_pct": -8.6,
+        "baseline_pf_in": 4.76,
+        "baseline_out_return_pct": -13.1,
+        "mc_p5_return_pct": 44.59
+      },
+      "status": "PAPER_TRIAL",
+      "avoid_regimes": [
+        "SIDEWAYS"
+      ],
+      "paper_round_trips": 0,
+      "stamp": {
+        "avoid_regimes": [
+          "SIDEWAYS"
+        ]
+      }
+    },
+    "chal_krakenmulti_1": {
+      "champion": "krakenmulti",
+      "label": "avoid SIDEWAYS regime",
+      "created": 1789856688,
+      "evidence": {
+        "pf_in": 4.47,
+        "out_return_pct": -4.0,
+        "baseline_pf_in": 3.6,
+        "baseline_out_return_pct": -5.3,
+        "mc_p5_return_pct": 34.66
+      },
+      "status": "PAPER_TRIAL",
+      "avoid_regimes": [
+        "SIDEWAYS"
+      ],
+      "paper_round_trips": 0,
+      "stamp": {
+        "avoid_regimes": [
+          "SIDEWAYS"
+        ]
+      }
+    },
+    "chal_krakenfast_2": {
+      "champion": "krakenfast",
+      "label": "market filter F1",
+      "created": 1789876459,
+      "evidence": {
+        "pf_in": 7.15,
+        "out_return_pct": -1.9,
+        "baseline_pf_in": 3.49,
+        "baseline_out_return_pct": -12.7,
+        "mc_p5_return_pct": 66.86
+      },
+      "status": "PAPER_TRIAL",
+      "stamp": {
+        "market_filter": "F1"
+      },
+      "market_filter": "F1",
+      "paper_round_trips": 0
+    },
+    "chal_krakenichimoku_2": {
+      "champion": "krakenichimoku",
+      "label": "market filter F1",
+      "created": 1789876468,
+      "evidence": {
+        "pf_in": 5.04,
+        "out_return_pct": 2.2,
+        "baseline_pf_in": 2.85,
+        "baseline_out_return_pct": -8.3,
+        "mc_p5_return_pct": 67.08
+      },
+      "status": "PAPER_TRIAL",
+      "stamp": {
+        "market_filter": "F1"
+      },
+      "market_filter": "F1",
+      "paper_round_trips": 0
+    },
+    "chal_realpaper_2": {
+      "champion": "realpaper",
+      "label": "market filter F1",
+      "created": 1789876476,
+      "evidence": {
+        "pf_in": 6.04,
+        "out_return_pct": -0.8,
+        "baseline_pf_in": 3.46,
+        "baseline_out_return_pct": -5.1,
+        "mc_p5_return_pct": 38.12
+      },
+      "status": "PAPER_TRIAL",
+      "stamp": {
+        "market_filter": "F1"
+      },
+      "market_filter": "F1",
+      "paper_round_trips": 0
+    },
+    "chal_krakencci_1": {
+      "champion": "krakencci",
+      "label": "market filter F1",
+      "created": 1789876485,
+      "evidence": {
+        "pf_in": 3.65,
+        "out_return_pct": 5.5,
+        "baseline_pf_in": 2.54,
+        "baseline_out_return_pct": -11.6,
+        "mc_p5_return_pct": 53.74
+      },
+      "status": "PAPER_TRIAL",
+      "stamp": {
+        "market_filter": "F1"
+      },
+      "market_filter": "F1",
+      "paper_round_trips": 0
+    }
+  },
+  "last_refresh": 1790079834
+}

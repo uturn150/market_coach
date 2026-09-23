@@ -1,0 +1,219 @@
+{
+  "account": "bot_dca_SO5_d3_F1",
+  "kind": "bot_live",
+  "bot_kind": "dca",
+  "bot_params": {
+    "safety": 5,
+    "dev": 0.03,
+    "mult": 2.0,
+    "tp": 0.03,
+    "stop": 0.2,
+    "filter": "F1",
+    "breaker": 0.12,
+    "breaker_pause": 30
+  },
+  "coins": [
+    "BTC-USD",
+    "ETH-USD",
+    "LTC-USD",
+    "LINK-USD",
+    "XLM-USD",
+    "ETC-USD",
+    "BCH-USD",
+    "ATOM-USD",
+    "ALGO-USD"
+  ],
+  "granularity": 86400,
+  "start_cash": 50.0,
+  "anchor_ts": 1789862400,
+  "paper": true,
+  "created": 1789896357,
+  "sleeves": {
+    "BTC-USD": {
+      "cash": 5.700429601931272,
+      "units": 0.0,
+      "last_px": 86196.7,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "ETH-USD": {
+      "cash": 5.700429601931272,
+      "units": 0.0,
+      "last_px": 2753.25,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "LTC-USD": {
+      "cash": 5.700429601931272,
+      "units": 0.0,
+      "last_px": 62.97,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "LINK-USD": {
+      "cash": 5.700429601931272,
+      "units": 0.0,
+      "last_px": 13.03959,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "XLM-USD": {
+      "cash": 5.700429601931272,
+      "units": 0.0,
+      "last_px": 0.216284,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "ETC-USD": {
+      "cash": 5.700429601931272,
+      "units": 0.0,
+      "last_px": 9.44,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "BCH-USD": {
+      "cash": 5.700429601931272,
+      "units": 0.0,
+      "last_px": 344.66,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "ATOM-USD": {
+      "cash": 5.700429601931272,
+      "units": 0.0,
+      "last_px": 1.8447,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "ALGO-USD": {
+      "cash": 5.700429601931272,
+      "units": 0.0,
+      "last_px": 0.11214,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    }
+  },
+  "fills": [
+    {
+      "ts": 1789948800,
+      "coin": "BTC-USD",
+      "side": "buy",
+      "price": 81187.53756000001,
+      "units": 0.00012317,
+      "notional": 10.079867953275324
+    },
+    {
+      "ts": 1789948800,
+      "coin": "ETH-USD",
+      "side": "buy",
+      "price": 2645.4369543000003,
+      "units": 0.00378008,
+      "notional": 10.079963028788027
+    },
+    {
+      "ts": 1789948800,
+      "coin": "LTC-USD",
+      "side": "buy",
+      "price": 58.72702590000001,
+      "units": 0.17027073,
+      "notional": 10.079489519287684
+    },
+    {
+      "ts": 1789948800,
+      "coin": "LINK-USD",
+      "side": "buy",
+      "price": 12.5198196951,
+      "units": 0.79873352,
+      "notional": 10.07999965207121
+    },
+    {
+      "ts": 1789948800,
+      "coin": "XLM-USD",
+      "side": "buy",
+      "price": 0.19735521642000003,
+      "units": 50.67011223,
+      "notional": 10.08001105289876
+    },
+    {
+      "ts": 1790035200,
+      "coin": "BTC-USD",
+      "side": "sell",
+      "price": 84292.1,
+      "units": 0.00012317,
+      "proceeds": 10.340728925172
+    },
+    {
+      "ts": 1790035200,
+      "coin": "ETH-USD",
+      "side": "sell",
+      "price": 2746.6,
+      "units": 0.00378008,
+      "proceeds": 10.340838257088
+    },
+    {
+      "ts": 1790035200,
+      "coin": "LTC-USD",
+      "side": "sell",
+      "price": 60.97,
+      "units": 0.17027073,
+      "proceeds": 10.339880782467601
+    },
+    {
+      "ts": 1790035200,
+      "coin": "LINK-USD",
+      "side": "sell",
+      "price": 12.99858,
+      "units": 0.79873352,
+      "proceeds": 10.340871952167994
+    },
+    {
+      "ts": 1790035200,
+      "coin": "XLM-USD",
+      "side": "sell",
+      "price": 0.204902,
+      "units": 50.67011223,
+      "proceeds": 10.340877706806856
+    }
+  ],
+  "orders": [],
+  "halted": false,
+  "peak_equity": 52.77824012985956,
+  "last_tick": 1790140442,
+  "engine_stats": {
+    "limit_fills": 5,
+    "market_fills": 5,
+    "placed": 5,
+    "expired": 0,
+    "below_min": 0,
+    "dust_sell": 0
+  },
+  "kraken_rules": true,
+  "order_step": 10.0
+}

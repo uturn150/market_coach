@@ -1,0 +1,255 @@
+{
+  "account": "bot_dca_d5_new20",
+  "kind": "bot_live",
+  "bot_kind": "dca",
+  "bot_params": {
+    "safety": 5,
+    "dev": 0.05,
+    "mult": 2.0,
+    "tp": 0.03,
+    "stop": 0.2,
+    "filter": "F1",
+    "breaker": 0.12,
+    "breaker_pause": 30
+  },
+  "coins": [
+    "SUI-USD",
+    "INJ-USD",
+    "RENDER-USD",
+    "TIA-USD",
+    "SEI-USD",
+    "WLD-USD",
+    "HBAR-USD",
+    "VET-USD",
+    "CRV-USD",
+    "GRT-USD",
+    "SAND-USD",
+    "MANA-USD",
+    "XTZ-USD",
+    "KAVA-USD",
+    "ZEC-USD",
+    "DASH-USD",
+    "COMP-USD",
+    "SNX-USD",
+    "BONK-USD",
+    "POL-USD"
+  ],
+  "granularity": 86400,
+  "start_cash": 100.0,
+  "anchor_ts": 1789862400,
+  "paper": true,
+  "created": 1789926894,
+  "sleeves": {
+    "SUI-USD": {
+      "cash": 5.0,
+      "units": 0.0,
+      "last_px": 0.8975,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "INJ-USD": {
+      "cash": 5.0,
+      "units": 0.0,
+      "last_px": 7.785,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "RENDER-USD": {
+      "cash": 5.0,
+      "units": 0.0,
+      "last_px": 1.732,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "TIA-USD": {
+      "cash": 5.0,
+      "units": 0.0,
+      "last_px": 0.4185,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "SEI-USD": {
+      "cash": 5.0,
+      "units": 0.0,
+      "last_px": 0.05339,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "WLD-USD": {
+      "cash": 5.0,
+      "units": 0.0,
+      "last_px": 0.4353,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "HBAR-USD": {
+      "cash": 5.0,
+      "units": 0.0,
+      "last_px": 0.08645,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "VET-USD": {
+      "cash": 5.0,
+      "units": 0.0,
+      "last_px": 0.008432,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "CRV-USD": {
+      "cash": 5.0,
+      "units": 0.0,
+      "last_px": 0.35485,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "GRT-USD": {
+      "cash": 5.0,
+      "units": 0.0,
+      "last_px": 0.02218,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "SAND-USD": {
+      "cash": 5.0,
+      "units": 0.0,
+      "last_px": 0.0404,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "MANA-USD": {
+      "cash": 5.0,
+      "units": 0.0,
+      "last_px": 0.0821,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "XTZ-USD": {
+      "cash": 5.0,
+      "units": 0.0,
+      "last_px": 0.3497,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "KAVA-USD": {
+      "cash": 5.0,
+      "units": 0.0,
+      "last_px": 0.0724,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "ZEC-USD": {
+      "cash": 5.0,
+      "units": 0.0,
+      "last_px": 1508.36,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "DASH-USD": {
+      "cash": 5.0,
+      "units": 0.0,
+      "last_px": 57.528,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "COMP-USD": {
+      "cash": 5.0,
+      "units": 0.0,
+      "last_px": 22.22,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "SNX-USD": {
+      "cash": 5.0,
+      "units": 0.0,
+      "last_px": 0.2268,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "BONK-USD": {
+      "cash": 5.0,
+      "units": 0.0,
+      "last_px": 3.004e-06,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "POL-USD": {
+      "cash": 5.0,
+      "units": 0.0,
+      "last_px": 0.10865,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    }
+  },
+  "fills": [],
+  "orders": [],
+  "halted": false,
+  "peak_equity": 100.0,
+  "last_tick": 1790025844,
+  "engine_stats": {
+    "limit_fills": 0,
+    "market_fills": 0,
+    "placed": 0,
+    "expired": 0
+  }
+}

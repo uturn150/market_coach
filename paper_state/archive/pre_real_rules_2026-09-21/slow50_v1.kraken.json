@@ -1,0 +1,49 @@
+{
+  "account": "slow50_v1",
+  "strategy_path": "strategies/slow50_v1.json",
+  "granularity": 86400,
+  "start_cash": 50.0,
+  "sleeves": {
+    "BCH-USD": {
+      "cash": 16.6667,
+      "units": 0.0,
+      "last_px": 252.73,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "BTC-USD": {
+      "cash": 16.6667,
+      "units": 0.0,
+      "last_px": 81164.0,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "ETH-USD": {
+      "cash": 16.6667,
+      "units": 0.0,
+      "last_px": 2645.06,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    }
+  },
+  "created": 1789971953,
+  "regime_filter": true,
+  "max_drawdown": 0.3,
+  "halted": false,
+  "fills": [],
+  "paper": true,
+  "peak_equity": 50.000099999999996,
+  "avoid_regimes": [],
+  "market_filter": "F1",
+  "fixed_sizing": true,
+  "min_order": 7.0
+}

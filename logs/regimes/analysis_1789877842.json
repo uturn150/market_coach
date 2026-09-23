@@ -1,0 +1,706 @@
+{
+  "regime_days": {
+    "SIDEWAYS": 384,
+    "TRENDING_UP": 346,
+    "HIGH_VOLATILITY": 163,
+    "TRENDING_DOWN": 190
+  },
+  "regime_share_pct": {
+    "TRENDING_UP": 31.9,
+    "TRENDING_DOWN": 17.5,
+    "SIDEWAYS": 35.5,
+    "HIGH_VOLATILITY": 15.1
+  },
+  "table": {
+    "daily:realpaper": {
+      "TRENDING_UP": {
+        "days": 346,
+        "return_pct": 63.7,
+        "avg_daily_bps": 16.3,
+        "worst_day_pct": -12.2,
+        "up_days_pct": 43.0,
+        "excess_vs_hold_pct": -42.2
+      },
+      "TRENDING_DOWN": {
+        "days": 190,
+        "return_pct": -1.1,
+        "avg_daily_bps": -0.6,
+        "worst_day_pct": -1.4,
+        "up_days_pct": 2.0,
+        "excess_vs_hold_pct": 22.9
+      },
+      "SIDEWAYS": {
+        "days": 384,
+        "return_pct": -27.5,
+        "avg_daily_bps": -8.2,
+        "worst_day_pct": -4.5,
+        "up_days_pct": 24.0,
+        "excess_vs_hold_pct": 22.7
+      },
+      "HIGH_VOLATILITY": {
+        "days": 163,
+        "return_pct": 40.9,
+        "avg_daily_bps": 22.3,
+        "worst_day_pct": -6.9,
+        "up_days_pct": 31.0,
+        "excess_vs_hold_pct": -34.9
+      }
+    },
+    "daily:krakenmulti": {
+      "TRENDING_UP": {
+        "days": 346,
+        "return_pct": 94.0,
+        "avg_daily_bps": 22.6,
+        "worst_day_pct": -14.6,
+        "up_days_pct": 47.0,
+        "excess_vs_hold_pct": -11.9
+      },
+      "TRENDING_DOWN": {
+        "days": 190,
+        "return_pct": -1.6,
+        "avg_daily_bps": -0.8,
+        "worst_day_pct": -0.5,
+        "up_days_pct": 1.0,
+        "excess_vs_hold_pct": 22.4
+      },
+      "SIDEWAYS": {
+        "days": 384,
+        "return_pct": -23.1,
+        "avg_daily_bps": -6.5,
+        "worst_day_pct": -5.4,
+        "up_days_pct": 29.0,
+        "excess_vs_hold_pct": 27.1
+      },
+      "HIGH_VOLATILITY": {
+        "days": 163,
+        "return_pct": 43.3,
+        "avg_daily_bps": 24.0,
+        "worst_day_pct": -8.1,
+        "up_days_pct": 28.0,
+        "excess_vs_hold_pct": -32.5
+      }
+    },
+    "daily:krakenfast": {
+      "TRENDING_UP": {
+        "days": 346,
+        "return_pct": 93.5,
+        "avg_daily_bps": 21.7,
+        "worst_day_pct": -12.3,
+        "up_days_pct": 45.0,
+        "excess_vs_hold_pct": -12.4
+      },
+      "TRENDING_DOWN": {
+        "days": 190,
+        "return_pct": -2.0,
+        "avg_daily_bps": -1.1,
+        "worst_day_pct": -0.8,
+        "up_days_pct": 4.0,
+        "excess_vs_hold_pct": 22.0
+      },
+      "SIDEWAYS": {
+        "days": 384,
+        "return_pct": -23.8,
+        "avg_daily_bps": -6.6,
+        "worst_day_pct": -7.0,
+        "up_days_pct": 24.0,
+        "excess_vs_hold_pct": 26.4
+      },
+      "HIGH_VOLATILITY": {
+        "days": 163,
+        "return_pct": 31.1,
+        "avg_daily_bps": 18.2,
+        "worst_day_pct": -7.9,
+        "up_days_pct": 26.0,
+        "excess_vs_hold_pct": -44.7
+      }
+    },
+    "daily:krakenslow": {
+      "TRENDING_UP": {
+        "days": 346,
+        "return_pct": 21.0,
+        "avg_daily_bps": 6.2,
+        "worst_day_pct": -12.0,
+        "up_days_pct": 27.0,
+        "excess_vs_hold_pct": -84.9
+      },
+      "TRENDING_DOWN": {
+        "days": 190,
+        "return_pct": -0.0,
+        "avg_daily_bps": -0.0,
+        "worst_day_pct": -0.0,
+        "up_days_pct": 0.0,
+        "excess_vs_hold_pct": 24.0
+      },
+      "SIDEWAYS": {
+        "days": 384,
+        "return_pct": -3.2,
+        "avg_daily_bps": -0.8,
+        "worst_day_pct": -2.8,
+        "up_days_pct": 21.0,
+        "excess_vs_hold_pct": 47.0
+      },
+      "HIGH_VOLATILITY": {
+        "days": 163,
+        "return_pct": 5.4,
+        "avg_daily_bps": 3.3,
+        "worst_day_pct": -1.5,
+        "up_days_pct": 16.0,
+        "excess_vs_hold_pct": -70.4
+      }
+    },
+    "daily:krakenmacd": {
+      "TRENDING_UP": {
+        "days": 346,
+        "return_pct": 42.4,
+        "avg_daily_bps": 13.0,
+        "worst_day_pct": -11.9,
+        "up_days_pct": 40.0,
+        "excess_vs_hold_pct": -63.5
+      },
+      "TRENDING_DOWN": {
+        "days": 190,
+        "return_pct": -3.5,
+        "avg_daily_bps": -1.6,
+        "worst_day_pct": -5.5,
+        "up_days_pct": 6.0,
+        "excess_vs_hold_pct": 20.5
+      },
+      "SIDEWAYS": {
+        "days": 384,
+        "return_pct": -50.9,
+        "avg_daily_bps": -16.7,
+        "worst_day_pct": -14.7,
+        "up_days_pct": 25.0,
+        "excess_vs_hold_pct": -0.7
+      },
+      "HIGH_VOLATILITY": {
+        "days": 163,
+        "return_pct": 44.5,
+        "avg_daily_bps": 24.3,
+        "worst_day_pct": -4.7,
+        "up_days_pct": 34.0,
+        "excess_vs_hold_pct": -31.3
+      }
+    },
+    "daily:krakenbbreak": {
+      "TRENDING_UP": {
+        "days": 346,
+        "return_pct": 80.4,
+        "avg_daily_bps": 19.4,
+        "worst_day_pct": -13.0,
+        "up_days_pct": 42.0,
+        "excess_vs_hold_pct": -25.5
+      },
+      "TRENDING_DOWN": {
+        "days": 190,
+        "return_pct": -2.0,
+        "avg_daily_bps": -1.1,
+        "worst_day_pct": -0.7,
+        "up_days_pct": 0.0,
+        "excess_vs_hold_pct": 22.0
+      },
+      "SIDEWAYS": {
+        "days": 384,
+        "return_pct": -14.5,
+        "avg_daily_bps": -3.8,
+        "worst_day_pct": -4.7,
+        "up_days_pct": 19.0,
+        "excess_vs_hold_pct": 35.7
+      },
+      "HIGH_VOLATILITY": {
+        "days": 163,
+        "return_pct": 33.9,
+        "avg_daily_bps": 19.6,
+        "worst_day_pct": -7.6,
+        "up_days_pct": 25.0,
+        "excess_vs_hold_pct": -41.9
+      }
+    },
+    "daily:krakenturtle": {
+      "TRENDING_UP": {
+        "days": 346,
+        "return_pct": 53.8,
+        "avg_daily_bps": 15.2,
+        "worst_day_pct": -14.6,
+        "up_days_pct": 45.0,
+        "excess_vs_hold_pct": -52.1
+      },
+      "TRENDING_DOWN": {
+        "days": 190,
+        "return_pct": -0.4,
+        "avg_daily_bps": -0.2,
+        "worst_day_pct": -0.7,
+        "up_days_pct": 2.0,
+        "excess_vs_hold_pct": 23.6
+      },
+      "SIDEWAYS": {
+        "days": 384,
+        "return_pct": -17.2,
+        "avg_daily_bps": -4.7,
+        "worst_day_pct": -4.2,
+        "up_days_pct": 27.0,
+        "excess_vs_hold_pct": 33.0
+      },
+      "HIGH_VOLATILITY": {
+        "days": 163,
+        "return_pct": 39.9,
+        "avg_daily_bps": 22.3,
+        "worst_day_pct": -8.0,
+        "up_days_pct": 27.0,
+        "excess_vs_hold_pct": -35.9
+      }
+    },
+    "daily:krakencci": {
+      "TRENDING_UP": {
+        "days": 346,
+        "return_pct": 91.9,
+        "avg_daily_bps": 22.3,
+        "worst_day_pct": -14.2,
+        "up_days_pct": 45.0,
+        "excess_vs_hold_pct": -14.0
+      },
+      "TRENDING_DOWN": {
+        "days": 190,
+        "return_pct": -12.0,
+        "avg_daily_bps": -6.6,
+        "worst_day_pct": -5.1,
+        "up_days_pct": 3.0,
+        "excess_vs_hold_pct": 12.0
+      },
+      "SIDEWAYS": {
+        "days": 384,
+        "return_pct": -24.0,
+        "avg_daily_bps": -6.6,
+        "worst_day_pct": -4.6,
+        "up_days_pct": 28.0,
+        "excess_vs_hold_pct": 26.2
+      },
+      "HIGH_VOLATILITY": {
+        "days": 163,
+        "return_pct": 41.5,
+        "avg_daily_bps": 23.2,
+        "worst_day_pct": -7.7,
+        "up_days_pct": 25.0,
+        "excess_vs_hold_pct": -34.3
+      }
+    },
+    "daily:krakenkeltner": {
+      "TRENDING_UP": {
+        "days": 346,
+        "return_pct": 78.4,
+        "avg_daily_bps": 19.5,
+        "worst_day_pct": -14.1,
+        "up_days_pct": 47.0,
+        "excess_vs_hold_pct": -27.5
+      },
+      "TRENDING_DOWN": {
+        "days": 190,
+        "return_pct": -0.8,
+        "avg_daily_bps": -0.4,
+        "worst_day_pct": -0.7,
+        "up_days_pct": 1.0,
+        "excess_vs_hold_pct": 23.2
+      },
+      "SIDEWAYS": {
+        "days": 384,
+        "return_pct": -25.4,
+        "avg_daily_bps": -7.3,
+        "worst_day_pct": -4.3,
+        "up_days_pct": 31.0,
+        "excess_vs_hold_pct": 24.8
+      },
+      "HIGH_VOLATILITY": {
+        "days": 163,
+        "return_pct": 40.2,
+        "avg_daily_bps": 22.4,
+        "worst_day_pct": -7.2,
+        "up_days_pct": 30.0,
+        "excess_vs_hold_pct": -35.6
+      }
+    },
+    "daily:krakenichimoku": {
+      "TRENDING_UP": {
+        "days": 346,
+        "return_pct": 82.1,
+        "avg_daily_bps": 19.4,
+        "worst_day_pct": -13.3,
+        "up_days_pct": 46.0,
+        "excess_vs_hold_pct": -23.8
+      },
+      "TRENDING_DOWN": {
+        "days": 190,
+        "return_pct": -3.9,
+        "avg_daily_bps": -2.1,
+        "worst_day_pct": -1.2,
+        "up_days_pct": 2.0,
+        "excess_vs_hold_pct": 20.1
+      },
+      "SIDEWAYS": {
+        "days": 384,
+        "return_pct": -23.8,
+        "avg_daily_bps": -6.7,
+        "worst_day_pct": -3.6,
+        "up_days_pct": 25.0,
+        "excess_vs_hold_pct": 26.4
+      },
+      "HIGH_VOLATILITY": {
+        "days": 163,
+        "return_pct": 29.4,
+        "avg_daily_bps": 17.5,
+        "worst_day_pct": -7.8,
+        "up_days_pct": 30.0,
+        "excess_vs_hold_pct": -46.4
+      }
+    },
+    "4h:multi": {
+      "TRENDING_UP": {
+        "days": 346,
+        "return_pct": 131.4,
+        "avg_daily_bps": 27.2,
+        "worst_day_pct": -10.8,
+        "up_days_pct": 47.0,
+        "excess_vs_hold_pct": 25.5
+      },
+      "TRENDING_DOWN": {
+        "days": 190,
+        "return_pct": -3.7,
+        "avg_daily_bps": -2.0,
+        "worst_day_pct": -0.9,
+        "up_days_pct": 2.0,
+        "excess_vs_hold_pct": 20.3
+      },
+      "SIDEWAYS": {
+        "days": 384,
+        "return_pct": -33.7,
+        "avg_daily_bps": -10.2,
+        "worst_day_pct": -5.7,
+        "up_days_pct": 25.0,
+        "excess_vs_hold_pct": 16.5
+      },
+      "HIGH_VOLATILITY": {
+        "days": 163,
+        "return_pct": 40.1,
+        "avg_daily_bps": 22.1,
+        "worst_day_pct": -4.6,
+        "up_days_pct": 31.0,
+        "excess_vs_hold_pct": -35.7
+      }
+    },
+    "4h:turtle": {
+      "TRENDING_UP": {
+        "days": 346,
+        "return_pct": 60.6,
+        "avg_daily_bps": 16.3,
+        "worst_day_pct": -12.7,
+        "up_days_pct": 41.0,
+        "excess_vs_hold_pct": -45.3
+      },
+      "TRENDING_DOWN": {
+        "days": 190,
+        "return_pct": -0.7,
+        "avg_daily_bps": -0.4,
+        "worst_day_pct": -0.9,
+        "up_days_pct": 1.0,
+        "excess_vs_hold_pct": 23.3
+      },
+      "SIDEWAYS": {
+        "days": 384,
+        "return_pct": -18.6,
+        "avg_daily_bps": -5.1,
+        "worst_day_pct": -3.9,
+        "up_days_pct": 23.0,
+        "excess_vs_hold_pct": 31.6
+      },
+      "HIGH_VOLATILITY": {
+        "days": 163,
+        "return_pct": 46.1,
+        "avg_daily_bps": 24.8,
+        "worst_day_pct": -7.3,
+        "up_days_pct": 27.0,
+        "excess_vs_hold_pct": -29.7
+      }
+    },
+    "4h:keltner": {
+      "TRENDING_UP": {
+        "days": 346,
+        "return_pct": 73.6,
+        "avg_daily_bps": 17.8,
+        "worst_day_pct": -7.2,
+        "up_days_pct": 43.0,
+        "excess_vs_hold_pct": -32.3
+      },
+      "TRENDING_DOWN": {
+        "days": 190,
+        "return_pct": -4.2,
+        "avg_daily_bps": -2.2,
+        "worst_day_pct": -1.5,
+        "up_days_pct": 2.0,
+        "excess_vs_hold_pct": 19.8
+      },
+      "SIDEWAYS": {
+        "days": 384,
+        "return_pct": -26.0,
+        "avg_daily_bps": -7.5,
+        "worst_day_pct": -7.3,
+        "up_days_pct": 25.0,
+        "excess_vs_hold_pct": 24.2
+      },
+      "HIGH_VOLATILITY": {
+        "days": 163,
+        "return_pct": 17.8,
+        "avg_daily_bps": 11.0,
+        "worst_day_pct": -7.4,
+        "up_days_pct": 28.0,
+        "excess_vs_hold_pct": -58.0
+      }
+    },
+    "4h:bbreak": {
+      "TRENDING_UP": {
+        "days": 346,
+        "return_pct": 48.0,
+        "avg_daily_bps": 12.4,
+        "worst_day_pct": -7.2,
+        "up_days_pct": 36.0,
+        "excess_vs_hold_pct": -57.9
+      },
+      "TRENDING_DOWN": {
+        "days": 190,
+        "return_pct": -3.2,
+        "avg_daily_bps": -1.7,
+        "worst_day_pct": -1.9,
+        "up_days_pct": 2.0,
+        "excess_vs_hold_pct": 20.8
+      },
+      "SIDEWAYS": {
+        "days": 384,
+        "return_pct": -5.0,
+        "avg_daily_bps": -1.3,
+        "worst_day_pct": -1.9,
+        "up_days_pct": 15.0,
+        "excess_vs_hold_pct": 45.2
+      },
+      "HIGH_VOLATILITY": {
+        "days": 163,
+        "return_pct": 17.3,
+        "avg_daily_bps": 10.5,
+        "worst_day_pct": -7.3,
+        "up_days_pct": 21.0,
+        "excess_vs_hold_pct": -58.5
+      }
+    },
+    "4h:sma": {
+      "TRENDING_UP": {
+        "days": 346,
+        "return_pct": 22.3,
+        "avg_daily_bps": 6.7,
+        "worst_day_pct": -7.6,
+        "up_days_pct": 37.0,
+        "excess_vs_hold_pct": -83.6
+      },
+      "TRENDING_DOWN": {
+        "days": 190,
+        "return_pct": -2.1,
+        "avg_daily_bps": -1.1,
+        "worst_day_pct": -0.6,
+        "up_days_pct": 0.0,
+        "excess_vs_hold_pct": 21.9
+      },
+      "SIDEWAYS": {
+        "days": 384,
+        "return_pct": -25.9,
+        "avg_daily_bps": -7.6,
+        "worst_day_pct": -6.7,
+        "up_days_pct": 21.0,
+        "excess_vs_hold_pct": 24.3
+      },
+      "HIGH_VOLATILITY": {
+        "days": 163,
+        "return_pct": 24.4,
+        "avg_daily_bps": 14.4,
+        "worst_day_pct": -9.4,
+        "up_days_pct": 20.0,
+        "excess_vs_hold_pct": -51.4
+      }
+    },
+    "4h:cci": {
+      "TRENDING_UP": {
+        "days": 346,
+        "return_pct": 53.6,
+        "avg_daily_bps": 14.9,
+        "worst_day_pct": -8.6,
+        "up_days_pct": 41.0,
+        "excess_vs_hold_pct": -52.3
+      },
+      "TRENDING_DOWN": {
+        "days": 190,
+        "return_pct": -7.9,
+        "avg_daily_bps": -4.2,
+        "worst_day_pct": -5.1,
+        "up_days_pct": 4.0,
+        "excess_vs_hold_pct": 16.1
+      },
+      "SIDEWAYS": {
+        "days": 384,
+        "return_pct": -45.8,
+        "avg_daily_bps": -15.2,
+        "worst_day_pct": -8.7,
+        "up_days_pct": 24.0,
+        "excess_vs_hold_pct": 4.4
+      },
+      "HIGH_VOLATILITY": {
+        "days": 163,
+        "return_pct": 16.6,
+        "avg_daily_bps": 10.7,
+        "worst_day_pct": -7.2,
+        "up_days_pct": 31.0,
+        "excess_vs_hold_pct": -59.2
+      }
+    },
+    "4h:ichimoku": {
+      "TRENDING_UP": {
+        "days": 346,
+        "return_pct": 21.5,
+        "avg_daily_bps": 7.8,
+        "worst_day_pct": -8.5,
+        "up_days_pct": 41.0,
+        "excess_vs_hold_pct": -84.4
+      },
+      "TRENDING_DOWN": {
+        "days": 190,
+        "return_pct": -5.7,
+        "avg_daily_bps": -3.0,
+        "worst_day_pct": -4.1,
+        "up_days_pct": 4.0,
+        "excess_vs_hold_pct": 18.3
+      },
+      "SIDEWAYS": {
+        "days": 384,
+        "return_pct": -37.3,
+        "avg_daily_bps": -11.6,
+        "worst_day_pct": -8.5,
+        "up_days_pct": 24.0,
+        "excess_vs_hold_pct": 12.9
+      },
+      "HIGH_VOLATILITY": {
+        "days": 163,
+        "return_pct": 13.6,
+        "avg_daily_bps": 8.9,
+        "worst_day_pct": -7.7,
+        "up_days_pct": 28.0,
+        "excess_vs_hold_pct": -62.2
+      }
+    },
+    "4h:rsi": {
+      "TRENDING_UP": {
+        "days": 346,
+        "return_pct": 6.7,
+        "avg_daily_bps": 2.1,
+        "worst_day_pct": -5.3,
+        "up_days_pct": 29.0,
+        "excess_vs_hold_pct": -99.2
+      },
+      "TRENDING_DOWN": {
+        "days": 190,
+        "return_pct": -2.0,
+        "avg_daily_bps": -1.0,
+        "worst_day_pct": -2.3,
+        "up_days_pct": 7.0,
+        "excess_vs_hold_pct": 22.0
+      },
+      "SIDEWAYS": {
+        "days": 384,
+        "return_pct": -18.4,
+        "avg_daily_bps": -4.6,
+        "worst_day_pct": -7.2,
+        "up_days_pct": 24.0,
+        "excess_vs_hold_pct": 31.8
+      },
+      "HIGH_VOLATILITY": {
+        "days": 163,
+        "return_pct": 14.0,
+        "avg_daily_bps": 8.3,
+        "worst_day_pct": -2.0,
+        "up_days_pct": 25.0,
+        "excess_vs_hold_pct": -61.8
+      }
+    },
+    "4h:macd": {
+      "TRENDING_UP": {
+        "days": 346,
+        "return_pct": 17.6,
+        "avg_daily_bps": 6.7,
+        "worst_day_pct": -8.2,
+        "up_days_pct": 37.0,
+        "excess_vs_hold_pct": -88.3
+      },
+      "TRENDING_DOWN": {
+        "days": 190,
+        "return_pct": -4.1,
+        "avg_daily_bps": -2.1,
+        "worst_day_pct": -3.6,
+        "up_days_pct": 3.0,
+        "excess_vs_hold_pct": 19.9
+      },
+      "SIDEWAYS": {
+        "days": 384,
+        "return_pct": -44.2,
+        "avg_daily_bps": -14.0,
+        "worst_day_pct": -14.9,
+        "up_days_pct": 23.0,
+        "excess_vs_hold_pct": 6.0
+      },
+      "HIGH_VOLATILITY": {
+        "days": 163,
+        "return_pct": 23.1,
+        "avg_daily_bps": 14.0,
+        "worst_day_pct": -6.5,
+        "up_days_pct": 32.0,
+        "excess_vs_hold_pct": -52.7
+      }
+    },
+    "HOLD (equal-weight basket)": {
+      "TRENDING_UP": {
+        "days": 346,
+        "return_pct": 105.9,
+        "avg_daily_bps": 27.8,
+        "worst_day_pct": -13.7,
+        "up_days_pct": 52.0,
+        "excess_vs_hold_pct": 0.0
+      },
+      "TRENDING_DOWN": {
+        "days": 190,
+        "return_pct": -24.0,
+        "avg_daily_bps": -8.7,
+        "worst_day_pct": -15.3,
+        "up_days_pct": 45.0,
+        "excess_vs_hold_pct": 0.0
+      },
+      "SIDEWAYS": {
+        "days": 384,
+        "return_pct": -50.2,
+        "avg_daily_bps": -11.7,
+        "worst_day_pct": -17.3,
+        "up_days_pct": 49.0,
+        "excess_vs_hold_pct": 0.0
+      },
+      "HIGH_VOLATILITY": {
+        "days": 163,
+        "return_pct": 75.8,
+        "avg_daily_bps": 41.3,
+        "worst_day_pct": -9.0,
+        "up_days_pct": 53.0,
+        "excess_vs_hold_pct": 0.0
+      }
+    }
+  },
+  "avg_pairwise_strategy_correlation_by_regime": {
+    "TRENDING_UP": 0.73,
+    "TRENDING_DOWN": 0.42,
+    "SIDEWAYS": 0.58,
+    "HIGH_VOLATILITY": 0.77
+  },
+  "period": [
+    "2023-09-30",
+    "2026-09-18"
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "summary": {
+    "per_4h_family": {
+      "multi": {
+        "avg_corr_to_daily_champions": 0.86,
+        "max_corr": 0.94,
+        "min_corr": 0.6,
+        "corr_to_same_family_daily": 0.94,
+        "overlap_days": 1084
+      },
+      "turtle": {
+        "avg_corr_to_daily_champions": 0.86,
+        "max_corr": 0.94,
+        "min_corr": 0.66,
+        "corr_to_same_family_daily": 0.93,
+        "overlap_days": 1084
+      },
+      "keltner": {
+        "avg_corr_to_daily_champions": 0.78,
+        "max_corr": 0.88,
+        "min_corr": 0.54,
+        "corr_to_same_family_daily": 0.82,
+        "overlap_days": 1084
+      },
+      "bbreak": {
+        "avg_corr_to_daily_champions": 0.71,
+        "max_corr": 0.84,
+        "min_corr": 0.49,
+        "corr_to_same_family_daily": 0.84,
+        "overlap_days": 1084
+      },
+      "sma": {
+        "avg_corr_to_daily_champions": 0.67,
+        "max_corr": 0.74,
+        "min_corr": 0.49,
+        "corr_to_same_family_daily": 0.67,
+        "overlap_days": 1084
+      },
+      "cci": {
+        "avg_corr_to_daily_champions": 0.77,
+        "max_corr": 0.87,
+        "min_corr": 0.54,
+        "corr_to_same_family_daily": 0.87,
+        "overlap_days": 1084
+      },
+      "ichimoku": {
+        "avg_corr_to_daily_champions": 0.71,
+        "max_corr": 0.86,
+        "min_corr": 0.5,
+        "corr_to_same_family_daily": 0.72,
+        "overlap_days": 1084
+      },
+      "rsi": {
+        "avg_corr_to_daily_champions": 0.15,
+        "max_corr": 0.37,
+        "min_corr": 0.05,
+        "corr_to_same_family_daily": null,
+        "overlap_days": 1084
+      },
+      "macd": {
+        "avg_corr_to_daily_champions": 0.55,
+        "max_corr": 0.8,
+        "min_corr": 0.35,
+        "corr_to_same_family_daily": 0.8,
+        "overlap_days": 1084
+      }
+    },
+    "daily_only": {
+      "sharpe": 0.77,
+      "max_dd_pct": -40.2
+    },
+    "daily_plus_4h_passers": {
+      "sharpe": 0.82,
+      "max_dd_pct": -37.2
+    },
+    "4h_passers_alone": {
+      "sharpe": 0.88,
+      "max_dd_pct": -32.8
+    }
+  },
+  "matrix": {
+    "multi": {
+      "realpaper": 0.85,
+      "krakenmulti": 0.94,
+      "krakenfast": 0.9,
+      "krakenslow": 0.6,
+      "krakenmacd": 0.72,
+      "krakenbbreak": 0.9,
+      "krakenturtle": 0.9,
+      "krakencci": 0.93,
+      "krakenkeltner": 0.93,
+      "krakenichimoku": 0.88
+    },
+    "turtle": {
+      "realpaper": 0.89,
+      "krakenmulti": 0.93,
+      "krakenfast": 0.89,
+      "krakenslow": 0.66,
+      "krakenmacd": 0.67,
+      "krakenbbreak": 0.88,
+      "krakenturtle": 0.93,
+      "krakencci": 0.89,
+      "krakenkeltner": 0.94,
+      "krakenichimoku": 0.87
+    },
+    "keltner": {
+      "realpaper": 0.74,
+      "krakenmulti": 0.82,
+      "krakenfast": 0.81,
+      "krakenslow": 0.54,
+      "krakenmacd": 0.78,
+      "krakenbbreak": 0.84,
+      "krakenturtle": 0.77,
+      "krakencci": 0.88,
+      "krakenkeltner": 0.82,
+      "krakenichimoku": 0.8
+    },
+    "bbreak": {
+      "realpaper": 0.69,
+      "krakenmulti": 0.72,
+      "krakenfast": 0.71,
+      "krakenslow": 0.49,
+      "krakenmacd": 0.69,
+      "krakenbbreak": 0.84,
+      "krakenturtle": 0.71,
+      "krakencci": 0.78,
+      "krakenkeltner": 0.74,
+      "krakenichimoku": 0.73
+    },
+    "sma": {
+      "realpaper": 0.67,
+      "krakenmulti": 0.66,
+      "krakenfast": 0.73,
+      "krakenslow": 0.49,
+      "krakenmacd": 0.65,
+      "krakenbbreak": 0.72,
+      "krakenturtle": 0.61,
+      "krakencci": 0.74,
+      "krakenkeltner": 0.67,
+      "krakenichimoku": 0.71
+    },
+    "cci": {
+      "realpaper": 0.71,
+      "krakenmulti": 0.78,
+      "krakenfast": 0.78,
+      "krakenslow": 0.54,
+      "krakenmacd": 0.87,
+      "krakenbbreak": 0.81,
+      "krakenturtle": 0.75,
+      "krakencci": 0.87,
+      "krakenkeltner": 0.78,
+      "krakenichimoku": 0.79
+    },
+    "ichimoku": {
+      "realpaper": 0.64,
+      "krakenmulti": 0.73,
+      "krakenfast": 0.73,
+      "krakenslow": 0.5,
+      "krakenmacd": 0.86,
+      "krakenbbreak": 0.74,
+      "krakenturtle": 0.68,
+      "krakencci": 0.81,
+      "krakenkeltner": 0.71,
+      "krakenichimoku": 0.72
+    },
+    "rsi": {
+      "realpaper": 0.12,
+      "krakenmulti": 0.12,
+      "krakenfast": 0.16,
+      "krakenslow": 0.05,
+      "krakenmacd": 0.37,
+      "krakenbbreak": 0.12,
+      "krakenturtle": 0.1,
+      "krakencci": 0.17,
+      "krakenkeltner": 0.12,
+      "krakenichimoku": 0.18
+    },
+    "macd": {
+      "realpaper": 0.48,
+      "krakenmulti": 0.55,
+      "krakenfast": 0.54,
+      "krakenslow": 0.35,
+      "krakenmacd": 0.8,
+      "krakenbbreak": 0.56,
+      "krakenturtle": 0.5,
+      "krakencci": 0.62,
+      "krakenkeltner": 0.53,
+      "krakenichimoku": 0.53
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "account": "chal_gr_bb_dip_large",
+  "strategy_path": "strategies/factory/chal_gr_bb_dip_large.json",
+  "granularity": 86400,
+  "start_cash": 50.0,
+  "sleeves": {
+    "BTC-USD": {
+      "cash": 4.1667,
+      "units": 0.0,
+      "last_px": 86196.7,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0,
+      "pending_why": null
+    },
+    "ETH-USD": {
+      "cash": 4.1667,
+      "units": 0.0,
+      "last_px": 2753.25,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0,
+      "pending_why": null
+    },
+    "SOL-USD": {
+      "cash": 4.1667,
+      "units": 0.0,
+      "last_px": 118.53,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0,
+      "pending_why": null
+    },
+    "ADA-USD": {
+      "cash": 4.1667,
+      "units": 0.0,
+      "last_px": 0.25415,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0,
+      "pending_why": null
+    },
+    "AVAX-USD": {
+      "cash": 4.1667,
+      "units": 0.0,
+      "last_px": 11.32,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0,
+      "pending_why": null
+    },
+    "LINK-USD": {
+      "cash": 4.1667,
+      "units": 0.0,
+      "last_px": 13.03959,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0,
+      "pending_why": null
+    },
+    "LTC-USD": {
+      "cash": 4.1667,
+      "units": 0.0,
+      "last_px": 62.97,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0,
+      "pending_why": null
+    },
+    "XRP-USD": {
+      "cash": 4.1667,
+      "units": 0.0,
+      "last_px": 1.57231,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0,
+      "pending_why": null
+    },
+    "DOT-USD": {
+      "cash": 4.1667,
+      "units": 0.0,
+      "last_px": 1.2178,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0,
+      "pending_why": null
+    },
+    "DOGE-USD": {
+      "cash": 4.1667,
+      "units": 0.0,
+      "last_px": 0.1004158,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0,
+      "pending_why": null
+    },
+    "ATOM-USD": {
+      "cash": 4.1667,
+      "units": 0.0,
+      "last_px": 1.8447,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0,
+      "pending_why": null
+    },
+    "UNI-USD": {
+      "cash": 4.1667,
+      "units": 0.0,
+      "last_px": 10.2157,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0,
+      "pending_why": null
+    }
+  },
+  "created": 1789891810,
+  "regime_filter": true,
+  "max_drawdown": 0.25,
+  "halted": false,
+  "fills": [],
+  "paper": true,
+  "peak_equity": 50.0004,
+  "avoid_regimes": [],
+  "market_filter": "F1",
+  "pooled": true,
+  "order_step": 10.0,
+  "min_order": 10.0
+}

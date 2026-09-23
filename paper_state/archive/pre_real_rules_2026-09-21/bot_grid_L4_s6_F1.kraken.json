@@ -1,0 +1,384 @@
+{
+  "account": "bot_grid_L4_s6_F1",
+  "kind": "bot_live",
+  "bot_kind": "grid",
+  "bot_params": {
+    "levels": 4,
+    "step": 0.06,
+    "filter": "F1",
+    "breaker": 0.12,
+    "breaker_pause": 30
+  },
+  "coins": [
+    "BTC-USD",
+    "ETH-USD",
+    "LTC-USD",
+    "LINK-USD",
+    "XLM-USD",
+    "ETC-USD",
+    "BCH-USD",
+    "ATOM-USD",
+    "ALGO-USD"
+  ],
+  "granularity": 86400,
+  "start_cash": 100.0,
+  "anchor_ts": 1789862400,
+  "paper": true,
+  "created": 1789896357,
+  "sleeves": {
+    "BTC-USD": {
+      "cash": 11.11111111111111,
+      "units": 0.0,
+      "last_px": 81164.0,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "ETH-USD": {
+      "cash": 11.11111111111111,
+      "units": 0.0,
+      "last_px": 2645.06,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "LTC-USD": {
+      "cash": 11.11111111111111,
+      "units": 0.0,
+      "last_px": 58.7,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "LINK-USD": {
+      "cash": 11.11111111111111,
+      "units": 0.0,
+      "last_px": 12.52145,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "XLM-USD": {
+      "cash": 11.11111111111111,
+      "units": 0.0,
+      "last_px": 0.197247,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "ETC-USD": {
+      "cash": 11.11111111111111,
+      "units": 0.0,
+      "last_px": 8.522,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "BCH-USD": {
+      "cash": 11.11111111111111,
+      "units": 0.0,
+      "last_px": 252.73,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "ATOM-USD": {
+      "cash": 11.11111111111111,
+      "units": 0.0,
+      "last_px": 1.7666,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "ALGO-USD": {
+      "cash": 11.11111111111111,
+      "units": 0.0,
+      "last_px": 0.10875,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    }
+  },
+  "fills": [],
+  "orders": [
+    {
+      "coin": "BTC-USD",
+      "side": "buy",
+      "price": 76294.16,
+      "units": 3.626e-05,
+      "tag": "('lvl', 1)"
+    },
+    {
+      "coin": "BTC-USD",
+      "side": "buy",
+      "price": 71424.32,
+      "units": 3.874e-05,
+      "tag": "('lvl', 2)"
+    },
+    {
+      "coin": "BTC-USD",
+      "side": "buy",
+      "price": 66554.48,
+      "units": 4.157e-05,
+      "tag": "('lvl', 3)"
+    },
+    {
+      "coin": "BTC-USD",
+      "side": "buy",
+      "price": 61684.64,
+      "units": 4.485e-05,
+      "tag": "('lvl', 4)"
+    },
+    {
+      "coin": "ETH-USD",
+      "side": "buy",
+      "price": 2486.3564,
+      "units": 0.00111276,
+      "tag": "('lvl', 1)"
+    },
+    {
+      "coin": "ETH-USD",
+      "side": "buy",
+      "price": 2327.6528,
+      "units": 0.00118863,
+      "tag": "('lvl', 2)"
+    },
+    {
+      "coin": "ETH-USD",
+      "side": "buy",
+      "price": 2168.9492,
+      "units": 0.0012756,
+      "tag": "('lvl', 3)"
+    },
+    {
+      "coin": "ETH-USD",
+      "side": "buy",
+      "price": 2010.2456,
+      "units": 0.0013763,
+      "tag": "('lvl', 4)"
+    },
+    {
+      "coin": "LTC-USD",
+      "side": "buy",
+      "price": 55.178,
+      "units": 0.05014156,
+      "tag": "('lvl', 1)"
+    },
+    {
+      "coin": "LTC-USD",
+      "side": "buy",
+      "price": 51.656,
+      "units": 0.0535603,
+      "tag": "('lvl', 2)"
+    },
+    {
+      "coin": "LTC-USD",
+      "side": "buy",
+      "price": 48.134,
+      "units": 0.05747935,
+      "tag": "('lvl', 3)"
+    },
+    {
+      "coin": "LTC-USD",
+      "side": "buy",
+      "price": 44.612,
+      "units": 0.06201719,
+      "tag": "('lvl', 4)"
+    },
+    {
+      "coin": "LINK-USD",
+      "side": "buy",
+      "price": 11.770163,
+      "units": 0.23506139,
+      "tag": "('lvl', 1)"
+    },
+    {
+      "coin": "LINK-USD",
+      "side": "buy",
+      "price": 11.018876,
+      "units": 0.25108831,
+      "tag": "('lvl', 2)"
+    },
+    {
+      "coin": "LINK-USD",
+      "side": "buy",
+      "price": 10.267589,
+      "units": 0.26946062,
+      "tag": "('lvl', 3)"
+    },
+    {
+      "coin": "LINK-USD",
+      "side": "buy",
+      "price": 9.516302,
+      "units": 0.29073383,
+      "tag": "('lvl', 4)"
+    },
+    {
+      "coin": "XLM-USD",
+      "side": "buy",
+      "price": 0.18541218,
+      "units": 14.92194814,
+      "tag": "('lvl', 1)"
+    },
+    {
+      "coin": "XLM-USD",
+      "side": "buy",
+      "price": 0.17357736,
+      "units": 15.93935369,
+      "tag": "('lvl', 2)"
+    },
+    {
+      "coin": "XLM-USD",
+      "side": "buy",
+      "price": 0.16174254,
+      "units": 17.10564787,
+      "tag": "('lvl', 3)"
+    },
+    {
+      "coin": "XLM-USD",
+      "side": "buy",
+      "price": 0.14990772,
+      "units": 18.45609375,
+      "tag": "('lvl', 4)"
+    },
+    {
+      "coin": "ETC-USD",
+      "side": "buy",
+      "price": 8.01068,
+      "units": 0.34537779,
+      "tag": "('lvl', 1)"
+    },
+    {
+      "coin": "ETC-USD",
+      "side": "buy",
+      "price": 7.49936,
+      "units": 0.36892627,
+      "tag": "('lvl', 2)"
+    },
+    {
+      "coin": "ETC-USD",
+      "side": "buy",
+      "price": 6.98804,
+      "units": 0.39592088,
+      "tag": "('lvl', 3)"
+    },
+    {
+      "coin": "ETC-USD",
+      "side": "buy",
+      "price": 6.47672,
+      "units": 0.42717779,
+      "tag": "('lvl', 4)"
+    },
+    {
+      "coin": "BCH-USD",
+      "side": "buy",
+      "price": 237.5662,
+      "units": 0.01164606,
+      "tag": "('lvl', 1)"
+    },
+    {
+      "coin": "BCH-USD",
+      "side": "buy",
+      "price": 222.4024,
+      "units": 0.01244011,
+      "tag": "('lvl', 2)"
+    },
+    {
+      "coin": "BCH-USD",
+      "side": "buy",
+      "price": 207.2386,
+      "units": 0.01335036,
+      "tag": "('lvl', 3)"
+    },
+    {
+      "coin": "BCH-USD",
+      "side": "buy",
+      "price": 192.0748,
+      "units": 0.01440434,
+      "tag": "('lvl', 4)"
+    },
+    {
+      "coin": "ATOM-USD",
+      "side": "buy",
+      "price": 1.660604,
+      "units": 1.66608712,
+      "tag": "('lvl', 1)"
+    },
+    {
+      "coin": "ATOM-USD",
+      "side": "buy",
+      "price": 1.554608,
+      "units": 1.77968397,
+      "tag": "('lvl', 2)"
+    },
+    {
+      "coin": "ATOM-USD",
+      "side": "buy",
+      "price": 1.448612,
+      "units": 1.90990475,
+      "tag": "('lvl', 3)"
+    },
+    {
+      "coin": "ATOM-USD",
+      "side": "buy",
+      "price": 1.342616,
+      "units": 2.0606867,
+      "tag": "('lvl', 4)"
+    },
+    {
+      "coin": "ALGO-USD",
+      "side": "buy",
+      "price": 0.102225,
+      "units": 27.06491498,
+      "tag": "('lvl', 1)"
+    },
+    {
+      "coin": "ALGO-USD",
+      "side": "buy",
+      "price": 0.0957,
+      "units": 28.91025009,
+      "tag": "('lvl', 2)"
+    },
+    {
+      "coin": "ALGO-USD",
+      "side": "buy",
+      "price": 0.089175,
+      "units": 31.02563425,
+      "tag": "('lvl', 3)"
+    },
+    {
+      "coin": "ALGO-USD",
+      "side": "buy",
+      "price": 0.08265,
+      "units": 33.47502643,
+      "tag": "('lvl', 4)"
+    }
+  ],
+  "halted": false,
+  "peak_equity": 100.0,
+  "last_tick": 1790028721,
+  "engine_stats": {
+    "limit_fills": 0,
+    "market_fills": 0,
+    "placed": 36,
+    "expired": 0
+  }
+}

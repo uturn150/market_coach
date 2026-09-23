@@ -1,0 +1,1040 @@
+skip: previous run still active (60s old lock)
+new hourly bar detected (ts=1789765200) -> sweeping 15 hourly accounts
+    [DRY] BUY 2.40405031 ATOMUSD (market)
+    [DRY] BUY 18.47785115 ADAUSD (market)
+    [DRY] BUY 0.07281894 XLTCZUSD (market)
+    [DRY] BUY 47.24653194 XDGUSD (market)
+    [DRY] BUY 0.16928277 UNIUSD (market)
+  swept 15/15 accounts
+skip: previous run still active (60s old lock)
+new hourly bar detected (ts=1789768800) -> sweeping 15 hourly accounts
+    [DRY] BUY 18.38052680 ADAUSD (market)
+    [DRY] BUY 0.00005133 XXBTZUSD (market)
+    [DRY] BUY 3.44957303 DOTUSD (market)
+    [DRY] BUY 0.00005133 XXBTZUSD (market)
+  swept 15/15 accounts
+skip: previous run still active (60s old lock)
+skip: previous run still active (120s old lock)
+new daily bar detected (ts=1789689600) -> sweeping 14 daily accounts
+  swept 14/14 accounts
+new hourly bar detected (ts=1789772400) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.07155590 XLTCZUSD (market)
+    [DRY] SELL 0.00005118 XXBTZUSD (market)
+    [DRY] SELL 3.43991422 DOTUSD (market)
+    [DRY] BUY 0.07158048 XLTCZUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1789776000) -> sweeping 15 hourly accounts
+    [DRY] SELL 18.42611316 ADAUSD (market)
+  swept 15/15 accounts
+skip: previous run still active (60s old lock)
+new hourly bar detected (ts=1789779600) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.00005095 XXBTZUSD (market)
+    [DRY] BUY 0.00093947 XETHZUSD (market)
+    [DRY] BUY 0.02382266 SOLUSD (market)
+    [DRY] BUY 0.36789501 AVAXUSD (market)
+    [DRY] BUY 0.26211466 LINKUSD (market)
+    [DRY] SELL 0.07261505 XLTCZUSD (market)
+    [DRY] BUY 1.59658087 XXRPZUSD (market)
+    [DRY] BUY 3.34870709 DOTUSD (market)
+    [DRY] BUY 44.69235993 XDGUSD (market)
+    [DRY] BUY 0.25876592 UNIUSD (market)
+    [DRY] BUY 18.15531823 ADAUSD (market)
+    [DRY] BUY 0.36878171 AVAXUSD (market)
+    [DRY] BUY 0.36937522 AVAXUSD (market)
+    [DRY] BUY 0.36937522 AVAXUSD (market)
+    [DRY] BUY 0.33791899 LINKUSD (market)
+    [DRY] BUY 1.71770635 XXRPZUSD (market)
+  swept 15/15 accounts
+skip: previous run still active (60s old lock)
+new hourly bar detected (ts=1789783200) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.37006010 AVAXUSD (market)
+    [DRY] BUY 0.37001706 AVAXUSD (market)
+    [DRY] SELL 0.00005081 XXBTZUSD (market)
+    [DRY] SELL 0.00093684 XETHZUSD (market)
+    [DRY] BUY 17.57551892 ADAUSD (market)
+    [DRY] SELL 3.33933071 DOTUSD (market)
+  swept 15/15 accounts
+skip: previous run still active (60s old lock)
+new hourly bar detected (ts=1789786800) -> sweeping 15 hourly accounts
+    [DRY] BUY 3.39281925 DOTUSD (market)
+    [DRY] BUY 16.69951075 ADAUSD (market)
+    [DRY] BUY 0.00110490 XETHZUSD (market)
+    [DRY] SELL 0.36686491 AVAXUSD (market)
+    [DRY] BUY 0.07162771 XLTCZUSD (market)
+    [DRY] SELL 1.59211044 XXRPZUSD (market)
+    [DRY] BUY 3.35466959 DOTUSD (market)
+    [DRY] BUY 2.11262803 ATOMUSD (market)
+    [DRY] BUY 0.31613414 LINKUSD (market)
+    [DRY] BUY 2.04158301 XXRPZUSD (market)
+    [DRY] BUY 2.11262803 ATOMUSD (market)
+    [DRY] BUY 0.33569283 LINKUSD (market)
+    [DRY] BUY 2.11528254 ATOMUSD (market)
+    [DRY] BUY 2.11528254 ATOMUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1789790400) -> sweeping 15 hourly accounts
+    [DRY] SELL 0.00110181 XETHZUSD (market)
+    [DRY] SELL 0.02375596 SOLUSD (market)
+    [DRY] SELL 17.52630746 ADAUSD (market)
+    [DRY] SELL 0.26138074 LINKUSD (market)
+    [DRY] SELL 44.56722132 XDGUSD (market)
+    [DRY] SELL 2.10671267 ATOMUSD (market)
+    [DRY] SELL 0.25804138 UNIUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1789794000) -> sweeping 15 hourly accounts
+    [DRY] SELL 0.07142715 XLTCZUSD (market)
+    [DRY] SELL 3.34527651 DOTUSD (market)
+  swept 15/15 accounts
+skip: previous run still active (59s old lock)
+new hourly bar detected (ts=1789797600) -> sweeping 15 hourly accounts
+    [DRY] SELL 3.38128366 DOTUSD (market)
+    [DRY] SELL 2.39731897 ATOMUSD (market)
+    [DRY] BUY 0.00157471 XETHZUSD (market)
+    [DRY] BUY 0.37049113 AVAXUSD (market)
+    [DRY] BUY 2.08184558 XXRPZUSD (market)
+    [DRY] BUY 0.30794992 UNIUSD (market)
+    [DRY] BUY 2.23362879 XXRPZUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1789801200) -> sweeping 15 hourly accounts
+    [DRY] BUY 2.44833320 XXRPZUSD (market)
+    [DRY] BUY 3.62979418 DOTUSD (market)
+    [DRY] SELL 18.32906132 ADAUSD (market)
+    [DRY] SELL 0.00157030 XETHZUSD (market)
+    [DRY] SELL 2.07601642 XXRPZUSD (market)
+    [DRY] BUY 0.38378615 UNIUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1789804800) -> sweeping 15 hourly accounts
+    [DRY] SELL 0.07135554 XLTCZUSD (market)
+    [DRY] BUY 1.85532019 ATOMUSD (market)
+  swept 15/15 accounts
+skip: previous run still active (60s old lock)
+new hourly bar detected (ts=1789808400) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.34948981 UNIUSD (market)
+    [DRY] BUY 0.34948981 UNIUSD (market)
+    [DRY] BUY 0.00005065 XXBTZUSD (market)
+    [DRY] BUY 0.00095552 XETHZUSD (market)
+    [DRY] BUY 0.02694683 SOLUSD (market)
+    [DRY] BUY 13.30063127 ADAUSD (market)
+    [DRY] BUY 0.27836994 LINKUSD (market)
+    [DRY] BUY 3.17599986 DOTUSD (market)
+    [DRY] BUY 42.04158296 XDGUSD (market)
+    [DRY] SELL 0.30708766 UNIUSD (market)
+    [DRY] BUY 0.00096797 XETHZUSD (market)
+    [DRY] BUY 0.03726256 SOLUSD (market)
+    [DRY] BUY 13.71502006 ADAUSD (market)
+    [DRY] BUY 0.07281894 XLTCZUSD (market)
+    [DRY] BUY 3.28637167 DOTUSD (market)
+    [DRY] BUY 45.84064389 XDGUSD (market)
+    [DRY] BUY 0.00137503 XETHZUSD (market)
+    [DRY] BUY 0.00137524 XETHZUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1789812000) -> sweeping 15 hourly accounts
+    [DRY] BUY 1.59893823 ATOMUSD (market)
+    [DRY] SELL 0.02687138 SOLUSD (market)
+    [DRY] BUY 0.07268842 XLTCZUSD (market)
+    [DRY] BUY 0.00003071 XXBTZUSD (market)
+  swept 15/15 accounts
+skip: previous run still active (60s old lock)
+skip: previous run still active (120s old lock)
+new hourly bar detected (ts=1789815600) -> sweeping 15 hourly accounts
+    [DRY] SELL 0.00005051 XXBTZUSD (market)
+    [DRY] SELL 0.00095285 XETHZUSD (market)
+    [DRY] SELL 0.36945375 AVAXUSD (market)
+    [DRY] SELL 0.27759050 LINKUSD (market)
+    [DRY] SELL 0.07248489 XLTCZUSD (market)
+    [DRY] BUY 2.86567478 XXRPZUSD (market)
+  swept 15/15 accounts
+new 4h bar detected (ts=1789804800) -> sweeping 9 4h challenger accounts
+skip: previous run still active (59s old lock)
+new hourly bar detected (ts=1789819200) -> sweeping 15 hourly accounts
+    [DRY] BUY 13.41651566 ADAUSD (market)
+    [DRY] BUY 0.07129408 XLTCZUSD (market)
+    [DRY] BUY 46.52872964 XDGUSD (market)
+    [DRY] SELL 3.61963076 DOTUSD (market)
+    [DRY] BUY 0.00004801 XXBTZUSD (market)
+    [DRY] BUY 0.03222960 SOLUSD (market)
+    [DRY] BUY 0.26351895 AVAXUSD (market)
+    [DRY] BUY 0.07136929 XLTCZUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1789822800) -> sweeping 15 hourly accounts
+    [DRY] BUY 2.85346821 DOTUSD (market)
+    [DRY] BUY 46.54911181 XDGUSD (market)
+    [DRY] BUY 0.00091931 XETHZUSD (market)
+    [DRY] BUY 0.28231575 LINKUSD (market)
+    [DRY] BUY 46.27379515 XDGUSD (market)
+  swept 15/15 accounts
+skip: previous run still active (61s old lock)
+new hourly bar detected (ts=1789826400) -> sweeping 15 hourly accounts
+    [DRY] SELL 0.34851124 UNIUSD (market)
+    [DRY] SELL 0.00091931 XETHZUSD (market)
+    [DRY] SELL 0.03222960 SOLUSD (market)
+    [DRY] SELL 13.26338951 ADAUSD (market)
+    [DRY] SELL 0.26351895 AVAXUSD (market)
+    [DRY] SELL 0.28231575 LINKUSD (market)
+    [DRY] SELL 0.07136929 XLTCZUSD (market)
+    [DRY] SELL 2.86567478 XXRPZUSD (market)
+    [DRY] SELL 3.16710706 DOTUSD (market)
+    [DRY] SELL 41.92386653 XDGUSD (market)
+    [DRY] SELL 1.85012530 ATOMUSD (market)
+    [DRY] SELL 45.71229009 XDGUSD (market)
+  swept 15/15 accounts
+skip: previous run still active (60s old lock)
+skip: previous run still active (120s old lock)
+new hourly bar detected (ts=1789830000) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.03296439 SOLUSD (market)
+    [DRY] BUY 12.50537469 ADAUSD (market)
+    [DRY] BUY 0.23863637 AVAXUSD (market)
+    [DRY] BUY 0.28215870 LINKUSD (market)
+    [DRY] BUY 0.00003097 XXBTZUSD (market)
+  swept 15/15 accounts
+new 4h bar detected (ts=1789819200) -> sweeping 9 4h challenger accounts
+    [DRY] BUY 0.21187159 AVAXUSD (market)
+    [DRY] BUY 1.44246723 APTUSD (market)
+    [DRY] BUY 0.21944659 XETCZUSD (market)
+    [DRY] BUY 0.21283397 AVAXUSD (market)
+    [DRY] BUY 1.44090315 APTUSD (market)
+    [DRY] BUY 8.36335062 OPUSD (market)
+    [DRY] BUY 0.20771061 XETCZUSD (market)
+    [DRY] BUY 0.00078323 XETHZUSD (market)
+skip: previous run still active (60s old lock)
+new hourly bar detected (ts=1789833600) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.32854338 LINKUSD (market)
+    [DRY] SELL 0.03296439 SOLUSD (market)
+    [DRY] SELL 12.50537469 ADAUSD (market)
+    [DRY] SELL 0.23863637 AVAXUSD (market)
+    [DRY] BUY 0.06872083 XLTCZUSD (market)
+  swept 15/15 accounts
+skip: previous run still active (60s old lock)
+new hourly bar detected (ts=1789837200) -> sweeping 15 hourly accounts
+    [DRY] BUY 45.89297735 XDGUSD (market)
+    [DRY] BUY 0.00005075 XXBTZUSD (market)
+    [DRY] BUY 0.00090722 XETHZUSD (market)
+    [DRY] BUY 0.02542862 SOLUSD (market)
+    [DRY] BUY 12.33797720 ADAUSD (market)
+    [DRY] BUY 0.22865989 AVAXUSD (market)
+    [DRY] SELL 0.28215870 LINKUSD (market)
+    [DRY] BUY 2.79600544 DOTUSD (market)
+    [DRY] BUY 45.99412966 XDGUSD (market)
+    [DRY] BUY 1.57296491 ATOMUSD (market)
+  swept 15/15 accounts
+skip: previous run still active (60s old lock)
+new hourly bar detected (ts=1789840800) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.31781593 UNIUSD (market)
+    [DRY] SELL 0.00004801 XXBTZUSD (market)
+    [DRY] SELL 0.00090722 XETHZUSD (market)
+    [DRY] SELL 0.02542862 SOLUSD (market)
+    [DRY] SELL 0.22865989 AVAXUSD (market)
+    [DRY] SELL 0.06872083 XLTCZUSD (market)
+    [DRY] SELL 45.99412966 XDGUSD (market)
+    [DRY] SELL 1.57296491 ATOMUSD (market)
+    [DRY] SELL 0.38271155 UNIUSD (market)
+    [DRY] SELL 0.16880877 UNIUSD (market)
+    [DRY] BUY 12.55216826 ADAUSD (market)
+    [DRY] BUY 46.05819575 XDGUSD (market)
+  swept 15/15 accounts
+skip: previous run still active (59s old lock)
+skip: previous run still active (120s old lock)
+new hourly bar detected (ts=1789844400) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.21552755 AVAXUSD (market)
+    [DRY] BUY 0.06686710 XLTCZUSD (market)
+    [DRY] BUY 0.31564872 UNIUSD (market)
+    [DRY] BUY 2.98551086 DOTUSD (market)
+  swept 15/15 accounts
+new 4h bar detected (ts=1789833600) -> sweeping 9 4h challenger accounts
+    [DRY] BUY 1.44756846 XXRPZUSD (market)
+    [DRY] BUY 20.27035968 ALGOUSD (market)
+    [DRY] BUY 352081.49551719 SHIBUSD (market)
+    [DRY] BUY 1.44824808 XXRPZUSD (market)
+    [DRY] BUY 23.15984313 XDGUSD (market)
+    [DRY] BUY 0.70852447 ICPUSD (market)
+    [DRY] BUY 0.16510306 XETCZUSD (market)
+    [DRY] BUY 0.03556032 XLTCZUSD (market)
+    [DRY] BUY 20.27234795 ALGOUSD (market)
+    [DRY] BUY 10.37501819 XXLMZUSD (market)
+new hourly bar detected (ts=1789848000) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.03541171 SOLUSD (market)
+    [DRY] SELL 0.21552755 AVAXUSD (market)
+    [DRY] BUY 1.39297535 ATOMUSD (market)
+  swept 15/15 accounts
+skip: previous run still active (61s old lock)
+new hourly bar detected (ts=1789851600) -> sweeping 15 hourly accounts
+    [DRY] SELL 2.85346821 DOTUSD (market)
+    [DRY] SELL 45.89297735 XDGUSD (market)
+    [DRY] SELL 0.00005075 XXBTZUSD (market)
+    [DRY] SELL 0.03541171 SOLUSD (market)
+    [DRY] SELL 12.33797720 ADAUSD (market)
+    [DRY] BUY 0.24520894 AVAXUSD (market)
+    [DRY] SELL 0.06686710 XLTCZUSD (market)
+    [DRY] BUY 2.88297590 XXRPZUSD (market)
+    [DRY] SELL 2.79600544 DOTUSD (market)
+    [DRY] SELL 1.39297535 ATOMUSD (market)
+    [DRY] SELL 0.31564872 UNIUSD (market)
+    [DRY] SELL 13.67661800 ADAUSD (market)
+  swept 15/15 accounts
+skip: previous run still active (60s old lock)
+new hourly bar detected (ts=1789855200) -> sweeping 15 hourly accounts
+    [DRY] SELL 0.07129408 XLTCZUSD (market)
+    [DRY] SELL 46.52872964 XDGUSD (market)
+    [DRY] SELL 1.59350184 ATOMUSD (market)
+    [DRY] SELL 46.54911181 XDGUSD (market)
+    [DRY] SELL 2.88297590 XXRPZUSD (market)
+    [DRY] SELL 2.03586658 XXRPZUSD (market)
+    [DRY] SELL 0.00003062 XXBTZUSD (market)
+    [DRY] SELL 2.98551086 DOTUSD (market)
+  swept 15/15 accounts
+skip: previous run still active (60s old lock)
+skip: previous run still active (120s old lock)
+skip: previous run still active (180s old lock)
+new daily bar detected (ts=1789776000) -> sweeping 14 daily accounts
+    [DRY] BUY 0.00078605 XETHZUSD (market)
+    [DRY] BUY 0.01467387 SOLUSD (market)
+    [DRY] BUY 8.45168957 ADAUSD (market)
+    [DRY] BUY 0.17353036 AVAXUSD (market)
+    [DRY] BUY 0.02426377 XLTCZUSD (market)
+    [DRY] BUY 0.16526787 UNIUSD (market)
+    [DRY] BUY 0.00621721 BCHUSD (market)
+    [DRY] BUY 0.36312109 NEARUSD (market)
+    [DRY] BUY 1.89980018 APTUSD (market)
+    [DRY] BUY 3.83082941 ARBUSD (market)
+    [DRY] BUY 10.87052017 OPUSD (market)
+    [DRY] BUY 7.42445336 XXLMZUSD (market)
+    [DRY] BUY 0.01168703 AAVEUSD (market)
+    [DRY] BUY 0.17337603 AVAXUSD (market)
+    [DRY] BUY 0.03542015 XLTCZUSD (market)
+    [DRY] BUY 1.51864421 DOTUSD (market)
+    [DRY] BUY 2.04720561 APTUSD (market)
+    [DRY] BUY 10.87052017 OPUSD (market)
+    [DRY] BUY 9.36228232 XXLMZUSD (market)
+    [DRY] BUY 0.00078615 XETHZUSD (market)
+    [DRY] BUY 0.01466858 SOLUSD (market)
+    [DRY] BUY 0.17296583 AVAXUSD (market)
+    [DRY] BUY 0.03539589 XLTCZUSD (market)
+    [DRY] BUY 2.04720561 APTUSD (market)
+    [DRY] BUY 3.81969867 ARBUSD (market)
+    [DRY] BUY 10.87946710 OPUSD (market)
+    [DRY] BUY 0.01327985 AAVEUSD (market)
+    [DRY] BUY 0.00078614 XETHZUSD (market)
+    [DRY] BUY 0.01467519 SOLUSD (market)
+    [DRY] BUY 0.17245581 AVAXUSD (market)
+    [DRY] BUY 0.03548705 XLTCZUSD (market)
+    [DRY] BUY 2.04720561 APTUSD (market)
+    [DRY] BUY 3.82711196 ARBUSD (market)
+    [DRY] BUY 10.90639647 OPUSD (market)
+    [DRY] BUY 0.00078632 XETHZUSD (market)
+    [DRY] BUY 0.01467651 SOLUSD (market)
+    [DRY] BUY 0.17240497 AVAXUSD (market)
+    [DRY] BUY 0.03549315 XLTCZUSD (market)
+    [DRY] BUY 1.53578904 FILUSD (market)
+    [DRY] BUY 2.04918195 APTUSD (market)
+    [DRY] BUY 10.90639647 OPUSD (market)
+    [DRY] BUY 9.11807528 XXLMZUSD (market)
+    [DRY] BUY 0.01328173 AAVEUSD (market)
+    [DRY] BUY 0.01861281 SOLUSD (market)
+    [DRY] BUY 0.03548096 XLTCZUSD (market)
+    [DRY] BUY 2.05031300 APTUSD (market)
+    [DRY] BUY 10.90639647 OPUSD (market)
+    [DRY] BUY 0.01861616 SOLUSD (market)
+    [DRY] BUY 0.17315360 AVAXUSD (market)
+    [DRY] BUY 0.03547487 XLTCZUSD (market)
+    [DRY] BUY 11.65775008 OPUSD (market)
+    [DRY] BUY 2.13060443 ATOMUSD (market)
+  swept 14/14 accounts
+new hourly bar detected (ts=1789858800) -> sweeping 15 hourly accounts
+    [DRY] BUY 1.62650053 ATOMUSD (market)
+    [DRY] BUY 0.00004904 XXBTZUSD (market)
+    [DRY] BUY 0.00092811 XETHZUSD (market)
+    [DRY] BUY 0.02187198 SOLUSD (market)
+    [DRY] BUY 0.28782491 LINKUSD (market)
+    [DRY] BUY 0.05394065 XLTCZUSD (market)
+    [DRY] BUY 2.39361592 XXRPZUSD (market)
+    [DRY] BUY 2.73476408 DOTUSD (market)
+    [DRY] BUY 1.72200879 ATOMUSD (market)
+    [DRY] BUY 0.28756668 UNIUSD (market)
+    [DRY] BUY 0.00004029 XXBTZUSD (market)
+    [DRY] BUY 0.29739800 LINKUSD (market)
+    [DRY] BUY 2.46512299 XXRPZUSD (market)
+    [DRY] BUY 47.60217316 XDGUSD (market)
+    [DRY] BUY 0.29801527 UNIUSD (market)
+    [DRY] SELL 2.22737463 XXRPZUSD (market)
+  swept 15/15 accounts
+new 4h bar detected (ts=1789848000) -> sweeping 9 4h challenger accounts
+    [DRY] BUY 14.30282767 XDGUSD (market)
+    [DRY] BUY 0.09886009 LINKUSD (market)
+    [DRY] BUY 1.56455670 FILUSD (market)
+    [DRY] BUY 0.15690797 LINKUSD (market)
+    [DRY] BUY 1.56292185 FILUSD (market)
+    [DRY] BUY 300685.74344057 SHIBUSD (market)
+    [DRY] BUY 1.56292185 FILUSD (market)
+new daily bar detected (ts=1789776000) -> sweeping 14 daily accounts
+  swept 14/14 accounts
+new hourly bar detected (ts=1789858800) -> sweeping 15 hourly accounts
+  swept 15/15 accounts
+new 4h bar detected (ts=1789848000) -> sweeping 9 4h challenger accounts
+skip: previous run still active (60s old lock)
+new hourly bar detected (ts=1789862400) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.05722926 XLTCZUSD (market)
+    [DRY] SELL 2.39361592 XXRPZUSD (market)
+    [DRY] BUY 46.40483825 XDGUSD (market)
+    [DRY] BUY 1.91012896 ATOMUSD (market)
+  swept 15/15 accounts
+skip: previous run still active (60s old lock)
+new hourly bar detected (ts=1789866000) -> sweeping 15 hourly accounts
+    [DRY] SELL 0.00092811 XETHZUSD (market)
+    [DRY] SELL 0.24520894 AVAXUSD (market)
+    [DRY] SELL 0.28782491 LINKUSD (market)
+    [DRY] SELL 46.40483825 XDGUSD (market)
+    [DRY] SELL 0.07261505 XLTCZUSD (market)
+    [DRY] BUY 0.06963373 XLTCZUSD (market)
+  swept 15/15 accounts
+skip: previous run still active (60s old lock)
+new hourly bar detected (ts=1789869600) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.00160592 XETHZUSD (market)
+    [DRY] BUY 0.02090962 SOLUSD (market)
+    [DRY] SELL 0.00004904 XXBTZUSD (market)
+    [DRY] SELL 0.02187198 SOLUSD (market)
+    [DRY] SELL 0.05394065 XLTCZUSD (market)
+    [DRY] SELL 2.73476408 DOTUSD (market)
+    [DRY] SELL 1.72200879 ATOMUSD (market)
+    [DRY] SELL 0.00096526 XETHZUSD (market)
+    [DRY] SELL 0.00137118 XETHZUSD (market)
+    [DRY] SELL 0.33475289 LINKUSD (market)
+  swept 15/15 accounts
+skip: previous run still active (61s old lock)
+skip: previous run still active (120s old lock)
+new hourly bar detected (ts=1789873200) -> sweeping 15 hourly accounts
+    [DRY] SELL 13.41651566 ADAUSD (market)
+    [DRY] SELL 0.05722926 XLTCZUSD (market)
+    [DRY] SELL 1.62650053 ATOMUSD (market)
+    [DRY] BUY 0.00159847 XETHZUSD (market)
+    [DRY] BUY 0.02080780 SOLUSD (market)
+    [DRY] BUY 0.00003344 XXBTZUSD (market)
+    [DRY] BUY 17.49220335 ADAUSD (market)
+    [DRY] BUY 0.23970070 LINKUSD (market)
+    [DRY] BUY 0.07224102 XLTCZUSD (market)
+    [DRY] BUY 2.25265184 XXRPZUSD (market)
+    [DRY] BUY 3.16656548 DOTUSD (market)
+    [DRY] BUY 39.98105827 XDGUSD (market)
+    [DRY] BUY 1.69043749 ATOMUSD (market)
+    [DRY] SELL 0.28756668 UNIUSD (market)
+    [DRY] SELL 0.00005118 XXBTZUSD (market)
+    [DRY] SELL 18.10448334 ADAUSD (market)
+    [DRY] SELL 0.31524896 LINKUSD (market)
+    [DRY] SELL 0.07138006 XLTCZUSD (market)
+    [DRY] SELL 47.11424165 XDGUSD (market)
+    [DRY] SELL 2.10671267 ATOMUSD (market)
+    [DRY] SELL 0.06963373 XLTCZUSD (market)
+    [DRY] SELL 46.27379515 XDGUSD (market)
+    [DRY] SELL 2.10935975 ATOMUSD (market)
+    [DRY] SELL 0.00003097 XXBTZUSD (market)
+    [DRY] SELL 0.00137139 XETHZUSD (market)
+    [DRY] SELL 0.33697282 LINKUSD (market)
+    [DRY] SELL 1.71289677 XXRPZUSD (market)
+    [DRY] SELL 12.55216826 ADAUSD (market)
+    [DRY] SELL 46.05819575 XDGUSD (market)
+    [DRY] SELL 1.91012896 ATOMUSD (market)
+  swept 15/15 accounts
+new 4h bar detected (ts=1789862400) -> sweeping 9 4h challenger accounts
+    [DRY] BUY 19.87274878 ALGOUSD (market)
+    [DRY] BUY 1.90257376 DOTUSD (market)
+    [DRY] BUY 19.92447578 ALGOUSD (market)
+new hourly bar detected (ts=1789876800) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.00089089 XETHZUSD (market)
+    [DRY] BUY 16.45662602 ADAUSD (market)
+    [DRY] BUY 0.07246292 XLTCZUSD (market)
+    [DRY] BUY 1.71256543 ATOMUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1789880400) -> sweeping 15 hourly accounts
+    [DRY] SELL 0.34851124 UNIUSD (market)
+  swept 15/15 accounts
+skip: previous run still active (59s old lock)
+new hourly bar detected (ts=1789884000) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.32961686 UNIUSD (market)
+    [DRY] SELL 0.31781593 UNIUSD (market)
+    [DRY] SELL 0.36898101 AVAXUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1789887600) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.18633560 AVAXUSD (market)
+    [DRY] SELL 0.29801527 UNIUSD (market)
+  swept 15/15 accounts
+new 4h bar detected (ts=1789876800) -> sweeping 13 4h challenger accounts
+    [DRY] BUY 0.01334415 SOLUSD (market)
+    [DRY] BUY 0.01187769 AAVEUSD (market)
+new hourly bar detected (ts=1789891200) -> sweeping 15 hourly accounts
+    [DRY] SELL 0.32961686 UNIUSD (market)
+    [DRY] BUY 0.31064744 UNIUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1789894800) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.18262818 AVAXUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1789898400) -> sweeping 15 hourly accounts
+    [DRY] SELL 0.32854338 LINKUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1789902000) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.16218969 AVAXUSD (market)
+    [DRY] BUY 0.14854481 AVAXUSD (market)
+  swept 15/15 accounts
+new 4h bar detected (ts=1789891200) -> sweeping 17 4h challenger accounts
+    [DRY] BUY 0.01672925 BCHUSD (market)
+    [DRY] BUY 40.28880071 ALGOUSD (market)
+    [DRY] BUY 4.00107851 FILUSD (market)
+    [DRY] BUY 0.92849645 NEARUSD (market)
+    [DRY] BUY 3.65098876 APTUSD (market)
+    [DRY] BUY 7.95572236 ARBUSD (market)
+    [DRY] BUY 22.34255569 OPUSD (market)
+    [DRY] BUY 1.48478123 ICPUSD (market)
+    [DRY] BUY 0.46282951 XETCZUSD (market)
+    [DRY] BUY 21.72405233 XXLMZUSD (market)
+    [DRY] BUY 0.03003876 AAVEUSD (market)
+    [DRY] BUY 597025.29812295 SHIBUSD (market)
+    [DRY] BUY 0.92877963 NEARUSD (market)
+    [DRY] BUY 7.95943305 ARBUSD (market)
+    [DRY] BUY 0.14248473 AVAXUSD (market)
+    [DRY] BUY 0.14248473 AVAXUSD (market)
+    [DRY] BUY 0.14248473 AVAXUSD (market)
+    [DRY] BUY 0.14234803 AVAXUSD (market)
+new hourly bar detected (ts=1789905600) -> sweeping 15 hourly accounts
+    [DRY] SELL 0.31064744 UNIUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1789909200) -> sweeping 15 hourly accounts
+    [DRY] SELL 16.65275212 ADAUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1789912800) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.34206644 UNIUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1789916400) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.00005110 XXBTZUSD (market)
+    [DRY] BUY 0.00136028 XETHZUSD (market)
+    [DRY] BUY 17.83671768 ADAUSD (market)
+    [DRY] BUY 0.20110398 LINKUSD (market)
+    [DRY] BUY 0.06865817 XLTCZUSD (market)
+    [DRY] BUY 2.01240725 DOTUSD (market)
+    [DRY] BUY 1.47352219 ATOMUSD (market)
+    [DRY] SELL 0.00003344 XXBTZUSD (market)
+    [DRY] SELL 0.00160592 XETHZUSD (market)
+    [DRY] SELL 17.49220335 ADAUSD (market)
+    [DRY] SELL 0.23970070 LINKUSD (market)
+    [DRY] SELL 0.07224102 XLTCZUSD (market)
+    [DRY] SELL 2.25265184 XXRPZUSD (market)
+    [DRY] SELL 3.16656548 DOTUSD (market)
+    [DRY] SELL 1.69043749 ATOMUSD (market)
+  swept 15/15 accounts
+new 4h bar detected (ts=1789905600) -> sweeping 17 4h challenger accounts
+    [DRY] BUY 15.87157768 ALGOUSD (market)
+    [DRY] BUY 5.86987744 ADAUSD (market)
+    [DRY] BUY 9.21022764 ADAUSD (market)
+    [DRY] BUY 15.86316147 ALGOUSD (market)
+    [DRY] BUY 0.33963203 NEARUSD (market)
+    [DRY] BUY 15.86316147 ALGOUSD (market)
+    [DRY] BUY 0.33954513 NEARUSD (market)
+    [DRY] BUY 11.26102607 OPUSD (market)
+    [DRY] BUY 0.33954513 NEARUSD (market)
+new hourly bar detected (ts=1789920000) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.02585332 SOLUSD (market)
+    [DRY] BUY 2.82423495 XXRPZUSD (market)
+    [DRY] BUY 33.76702172 XDGUSD (market)
+    [DRY] BUY 14.70521143 ADAUSD (market)
+    [DRY] SELL 0.02090962 SOLUSD (market)
+    [DRY] SELL 39.98105827 XDGUSD (market)
+    [DRY] BUY 15.13234052 ADAUSD (market)
+    [DRY] BUY 0.27701352 LINKUSD (market)
+    [DRY] BUY 0.06792653 XLTCZUSD (market)
+    [DRY] BUY 1.37368409 DOTUSD (market)
+    [DRY] BUY 1.80678004 ATOMUSD (market)
+    [DRY] BUY 2.48761620 DOTUSD (market)
+    [DRY] BUY 0.00005053 XXBTZUSD (market)
+    [DRY] BUY 0.00106789 XETHZUSD (market)
+    [DRY] BUY 15.47104099 ADAUSD (market)
+    [DRY] BUY 0.18114790 LINKUSD (market)
+    [DRY] BUY 0.06806881 XLTCZUSD (market)
+    [DRY] BUY 1.37285792 DOTUSD (market)
+    [DRY] BUY 1.81058084 ATOMUSD (market)
+    [DRY] BUY 0.38883852 UNIUSD (market)
+    [DRY] BUY 0.00152371 XETHZUSD (market)
+    [DRY] BUY 13.65312917 ADAUSD (market)
+    [DRY] BUY 0.18369665 LINKUSD (market)
+    [DRY] BUY 0.06996667 XLTCZUSD (market)
+    [DRY] BUY 1.37215057 DOTUSD (market)
+    [DRY] BUY 0.06996667 XLTCZUSD (market)
+    [DRY] BUY 2.08972683 DOTUSD (market)
+    [DRY] BUY 0.39592585 UNIUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1789923600) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.40174357 UNIUSD (market)
+    [DRY] BUY 2.04147896 ATOMUSD (market)
+    [DRY] SELL 0.00004029 XXBTZUSD (market)
+    [DRY] SELL 0.00089089 XETHZUSD (market)
+    [DRY] SELL 0.03715823 SOLUSD (market)
+    [DRY] SELL 16.45662602 ADAUSD (market)
+    [DRY] SELL 0.18633560 AVAXUSD (market)
+    [DRY] SELL 0.29739800 LINKUSD (market)
+    [DRY] SELL 2.46512299 XXRPZUSD (market)
+    [DRY] SELL 47.60217316 XDGUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1789927200) -> sweeping 15 hourly accounts
+    [DRY] SELL 0.40174357 UNIUSD (market)
+    [DRY] SELL 0.07246292 XLTCZUSD (market)
+    [DRY] SELL 3.27716983 DOTUSD (market)
+    [DRY] SELL 1.71256543 ATOMUSD (market)
+    [DRY] BUY 2.56255342 XXRPZUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1789930800) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.41081926 UNIUSD (market)
+    [DRY] BUY 1.93373407 ATOMUSD (market)
+    [DRY] BUY 0.07008530 XLTCZUSD (market)
+    [DRY] BUY 1.67333954 DOTUSD (market)
+    [DRY] BUY 0.02533426 SOLUSD (market)
+    [DRY] BUY 29.00722686 XDGUSD (market)
+    [DRY] BUY 0.00004617 XXBTZUSD (market)
+    [DRY] BUY 0.00107491 XETHZUSD (market)
+    [DRY] BUY 8.01421265 ADAUSD (market)
+    [DRY] BUY 0.18339924 LINKUSD (market)
+  swept 15/15 accounts
+new 4h bar detected (ts=1789920000) -> sweeping 17 4h challenger accounts
+    [DRY] BUY 0.10115015 LINKUSD (market)
+    [DRY] BUY 8.16218624 XXLMZUSD (market)
+    [DRY] BUY 0.01292884 AAVEUSD (market)
+    [DRY] BUY 0.13921657 LINKUSD (market)
+    [DRY] BUY 9.85098016 XXLMZUSD (market)
+    [DRY] BUY 0.01364383 AAVEUSD (market)
+    [DRY] BUY 252011.06791610 SHIBUSD (market)
+    [DRY] BUY 0.31768160 NEARUSD (market)
+    [DRY] BUY 0.31768160 NEARUSD (market)
+    [DRY] BUY 0.16473216 LINKUSD (market)
+    [DRY] BUY 0.21422629 XETCZUSD (market)
+    [DRY] BUY 9.84992627 XXLMZUSD (market)
+new hourly bar detected (ts=1789934400) -> sweeping 15 hourly accounts
+    [DRY] SELL 0.41081926 UNIUSD (market)
+    [DRY] BUY 1.90629971 ATOMUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1789938000) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.38235538 UNIUSD (market)
+    [DRY] BUY 0.30947367 LINKUSD (market)
+    [DRY] BUY 0.40871726 UNIUSD (market)
+    [DRY] BUY 0.02300661 SOLUSD (market)
+    [DRY] BUY 1.74792761 ATOMUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1789941600) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.00003708 XXBTZUSD (market)
+    [DRY] BUY 0.00083845 XETHZUSD (market)
+    [DRY] BUY 9.36643774 ADAUSD (market)
+    [DRY] BUY 0.02636219 SOLUSD (market)
+  swept 15/15 accounts
+new daily bar detected (ts=1789862400) -> sweeping 14 daily accounts
+    [DRY] BUY 17.45069134 ALGOUSD (market)
+    [DRY] BUY 1.54490143 FILUSD (market)
+    [DRY] BUY 9.06313283 ADAUSD (market)
+    [DRY] BUY 18.97159788 ALGOUSD (market)
+    [DRY] BUY 0.19510092 XETCZUSD (market)
+    [DRY] BUY 9.05530649 XXLMZUSD (market)
+    [DRY] BUY 18.96811557 ALGOUSD (market)
+    [DRY] BUY 1.54490143 FILUSD (market)
+    [DRY] BUY 0.29338018 NEARUSD (market)
+    [DRY] BUY 0.00001622 XXBTZUSD (market)
+    [DRY] BUY 5.76320716 ADAUSD (market)
+    [DRY] BUY 0.13478543 LINKUSD (market)
+    [DRY] BUY 17.44268350 ALGOUSD (market)
+    [DRY] BUY 0.17507618 XETCZUSD (market)
+    [DRY] BUY 234601.46849270 SHIBUSD (market)
+    [DRY] BUY 0.14375119 AVAXUSD (market)
+    [DRY] BUY 6.09988342 ADAUSD (market)
+    [DRY] BUY 17.45229379 ALGOUSD (market)
+    [DRY] BUY 7.30694739 XXLMZUSD (market)
+  swept 14/14 accounts
+new hourly bar detected (ts=1789945200) -> sweeping 15 hourly accounts
+    [DRY] BUY 1.88861673 ATOMUSD (market)
+    [DRY] BUY 0.02385511 SOLUSD (market)
+    [DRY] BUY 2.05904892 XXRPZUSD (market)
+    [DRY] BUY 29.59384608 XDGUSD (market)
+    [DRY] SELL 0.40871726 UNIUSD (market)
+    [DRY] BUY 2.05890294 XXRPZUSD (market)
+    [DRY] BUY 27.81600991 XDGUSD (market)
+  swept 15/15 accounts
+new 4h bar detected (ts=1789934400) -> sweeping 17 4h challenger accounts
+    [DRY] BUY 0.00049531 XETHZUSD (market)
+    [DRY] BUY 0.00058224 XETHZUSD (market)
+new hourly bar detected (ts=1789948800) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.06988387 XLTCZUSD (market)
+    [DRY] BUY 0.42270272 UNIUSD (market)
+    [DRY] SELL 0.00159847 XETHZUSD (market)
+    [DRY] BUY 0.00003251 XXBTZUSD (market)
+    [DRY] BUY 0.00086398 XETHZUSD (market)
+    [DRY] BUY 1.99133751 XXRPZUSD (market)
+    [DRY] BUY 27.38488901 XDGUSD (market)
+    [DRY] BUY 0.00150341 XETHZUSD (market)
+    [DRY] BUY 0.17597027 LINKUSD (market)
+    [DRY] BUY 0.04980421 XLTCZUSD (market)
+    [DRY] BUY 0.02506637 SOLUSD (market)
+    [DRY] BUY 30.04730598 XDGUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1789952400) -> sweeping 15 hourly accounts
+    [DRY] SELL 0.38235538 UNIUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1789956000) -> sweeping 15 hourly accounts
+    [DRY] BUY 1.66848479 DOTUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1789959600) -> sweeping 15 hourly accounts
+  swept 15/15 accounts
+new 4h bar detected (ts=1789948800) -> sweeping 17 4h challenger accounts
+    [DRY] BUY 0.53099267 ICPUSD (market)
+    [DRY] BUY 0.53099267 ICPUSD (market)
+    [DRY] BUY 5.92784023 ADAUSD (market)
+    [DRY] BUY 0.53134479 ICPUSD (market)
+    [DRY] BUY 0.01188762 SOLUSD (market)
+    [DRY] BUY 6.34677745 ADAUSD (market)
+    [DRY] BUY 0.66794398 ICPUSD (market)
+new hourly bar detected (ts=1789963200) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.36327618 UNIUSD (market)
+    [DRY] BUY 0.00155221 XETHZUSD (market)
+    [DRY] BUY 10.96452919 ADAUSD (market)
+    [DRY] BUY 0.15848580 LINKUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1789966800) -> sweeping 15 hourly accounts
+    [DRY] SELL 0.36327618 UNIUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1789970400) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.00003070 XXBTZUSD (market)
+    [DRY] SELL 0.42270272 UNIUSD (market)
+    [DRY] SELL 0.38883852 UNIUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1789974000) -> sweeping 15 hourly accounts
+    [DRY] SELL 0.18262818 AVAXUSD (market)
+    [DRY] BUY 0.02270779 SOLUSD (market)
+    [DRY] BUY 1.82345955 XXRPZUSD (market)
+    [DRY] BUY 26.16465823 XDGUSD (market)
+    [DRY] SELL 0.16218969 AVAXUSD (market)
+    [DRY] BUY 1.85609847 XXRPZUSD (market)
+    [DRY] BUY 0.07102829 XLTCZUSD (market)
+    [DRY] SELL 0.39592585 UNIUSD (market)
+  swept 15/15 accounts
+new 4h bar detected (ts=1789963200) -> sweeping 17 4h challenger accounts
+    [DRY] BUY 1.07873108 XXRPZUSD (market)
+    [DRY] BUY 14.55898416 XDGUSD (market)
+    [DRY] BUY 1.18969375 APTUSD (market)
+    [DRY] BUY 243139.02239433 SHIBUSD (market)
+    [DRY] BUY 1.47054625 APTUSD (market)
+new hourly bar detected (ts=1789977600) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.34662012 UNIUSD (market)
+    [DRY] BUY 0.02552887 SOLUSD (market)
+    [DRY] BUY 0.18438541 LINKUSD (market)
+    [DRY] BUY 1.75279199 DOTUSD (market)
+    [DRY] BUY 26.08099624 XDGUSD (market)
+    [DRY] SELL 0.02080780 SOLUSD (market)
+    [DRY] BUY 0.00003268 XXBTZUSD (market)
+    [DRY] BUY 0.01925111 SOLUSD (market)
+    [DRY] BUY 9.09977036 ADAUSD (market)
+    [DRY] BUY 22.07938585 XDGUSD (market)
+    [DRY] BUY 0.20530365 AVAXUSD (market)
+    [DRY] BUY 0.00002937 XXBTZUSD (market)
+    [DRY] BUY 1.40507499 XXRPZUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1789981200) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.20271242 AVAXUSD (market)
+    [DRY] BUY 0.04788110 XLTCZUSD (market)
+    [DRY] BUY 0.36312324 UNIUSD (market)
+    [DRY] BUY 0.37565817 UNIUSD (market)
+    [DRY] BUY 0.37091909 UNIUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1789984800) -> sweeping 15 hourly accounts
+  swept 15/15 accounts
+new hourly bar detected (ts=1789988400) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.37818337 UNIUSD (market)
+  swept 15/15 accounts
+new 4h bar detected (ts=1789977600) -> sweeping 17 4h challenger accounts
+    [DRY] BUY 0.00002435 XXBTZUSD (market)
+    [DRY] BUY 9.81337692 XXLMZUSD (market)
+    [DRY] BUY 1.60878401 DOTUSD (market)
+    [DRY] BUY 0.00698667 BCHUSD (market)
+    [DRY] BUY 1.46965748 FILUSD (market)
+    [DRY] BUY 1.60878401 DOTUSD (market)
+    [DRY] BUY 0.00698667 BCHUSD (market)
+    [DRY] BUY 1.46965748 FILUSD (market)
+    [DRY] BUY 0.00002435 XXBTZUSD (market)
+    [DRY] BUY 0.01053720 SOLUSD (market)
+    [DRY] BUY 17.87203337 XDGUSD (market)
+    [DRY] BUY 0.00002435 XXBTZUSD (market)
+    [DRY] BUY 0.01054081 SOLUSD (market)
+    [DRY] BUY 17.87203337 XDGUSD (market)
+    [DRY] BUY 0.00001450 XXBTZUSD (market)
+    [DRY] BUY 0.86613881 XXRPZUSD (market)
+    [DRY] BUY 14.27284009 XDGUSD (market)
+    [DRY] BUY 0.23185877 UNIUSD (market)
+    [DRY] BUY 0.00698720 BCHUSD (market)
+    [DRY] BUY 5.31531834 ARBUSD (market)
+    [DRY] BUY 0.00001450 XXBTZUSD (market)
+    [DRY] BUY 0.03133767 XLTCZUSD (market)
+    [DRY] BUY 0.86633702 XXRPZUSD (market)
+    [DRY] BUY 14.27910632 XDGUSD (market)
+    [DRY] BUY 0.23181716 UNIUSD (market)
+    [DRY] BUY 0.00698876 BCHUSD (market)
+    [DRY] BUY 5.31298501 ARBUSD (market)
+    [DRY] BUY 0.01109461 AAVEUSD (market)
+    [DRY] BUY 0.00001765 XXBTZUSD (market)
+    [DRY] BUY 0.01053991 SOLUSD (market)
+    [DRY] BUY 0.03430886 XLTCZUSD (market)
+    [DRY] BUY 5.31531834 ARBUSD (market)
+    [DRY] BUY 10.67739512 OPUSD (market)
+    [DRY] BUY 0.01416369 AAVEUSD (market)
+new hourly bar detected (ts=1789992000) -> sweeping 15 hourly accounts
+  swept 15/15 accounts
+new hourly bar detected (ts=1789995600) -> sweeping 15 hourly accounts
+    [DRY] SELL 0.07102829 XLTCZUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1789999200) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.00082390 XETHZUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1790002800) -> sweeping 15 hourly accounts
+    [DRY] SELL 0.20271242 AVAXUSD (market)
+  swept 15/15 accounts
+new 4h bar detected (ts=1789992000) -> sweeping 17 4h challenger accounts
+    [DRY] BUY 0.00054724 XETHZUSD (market)
+    [DRY] BUY 0.03281102 XLTCZUSD (market)
+    [DRY] BUY 19.23349425 XDGUSD (market)
+    [DRY] BUY 203739.12733981 SHIBUSD (market)
+    [DRY] BUY 0.00045481 XETHZUSD (market)
+    [DRY] BUY 0.03281102 XLTCZUSD (market)
+    [DRY] BUY 203975.28794444 SHIBUSD (market)
+    [DRY] BUY 0.00045481 XETHZUSD (market)
+    [DRY] BUY 0.03281623 XLTCZUSD (market)
+    [DRY] BUY 203975.28794444 SHIBUSD (market)
+    [DRY] BUY 7.86052362 ADAUSD (market)
+    [DRY] BUY 17.28830826 XDGUSD (market)
+new hourly bar detected (ts=1790006400) -> sweeping 15 hourly accounts
+    [DRY] SELL 0.36834097 AVAXUSD (market)
+    [DRY] SELL 0.14854481 AVAXUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1790010000) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.23228290 AVAXUSD (market)
+    [DRY] SELL 0.37565817 UNIUSD (market)
+    [DRY] SELL 0.36774912 AVAXUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1790013600) -> sweeping 15 hourly accounts
+    [DRY] SELL 0.34662012 UNIUSD (market)
+    [DRY] SELL 0.18339924 LINKUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1790017200) -> sweeping 15 hourly accounts
+  swept 15/15 accounts
+new 4h bar detected (ts=1790006400) -> sweeping 17 4h challenger accounts
+    [DRY] BUY 1.13254754 ATOMUSD (market)
+    [DRY] BUY 1.13254754 ATOMUSD (market)
+new hourly bar detected (ts=1790020800) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.21033706 LINKUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1790024400) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.22902599 AVAXUSD (market)
+    [DRY] SELL 0.23228290 AVAXUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1790028000) -> sweeping 15 hourly accounts
+  swept 15/15 accounts
+new daily bar detected (ts=1789948800) -> sweeping 14 daily accounts
+    [DRY] BUY 0.00011456 XXBTZUSD (market)
+    [DRY] BUY 0.75205458 LINKUSD (market)
+    [DRY] BUY 40.48131703 ADAUSD (market)
+    [DRY] BUY 46.01514377 XXLMZUSD (market)
+    [DRY] BUY 0.06800545 AAVEUSD (market)
+    [DRY] BUY 46.01514377 XXLMZUSD (market)
+    [DRY] BUY 1641130.67338874 SHIBUSD (market)
+    [DRY] BUY 0.00011456 XXBTZUSD (market)
+    [DRY] BUY 40.46942723 ADAUSD (market)
+    [DRY] BUY 6.45925132 XXRPZUSD (market)
+    [DRY] BUY 0.00011456 XXBTZUSD (market)
+    [DRY] BUY 40.47223391 ADAUSD (market)
+    [DRY] BUY 6.45925132 XXRPZUSD (market)
+    [DRY] BUY 6.45858518 XXRPZUSD (market)
+    [DRY] BUY 8.23016005 DOTUSD (market)
+    [DRY] BUY 0.00011457 XXBTZUSD (market)
+    [DRY] BUY 0.00357472 XETHZUSD (market)
+    [DRY] BUY 40.48825598 ADAUSD (market)
+    [DRY] BUY 8.23152582 DOTUSD (market)
+    [DRY] BUY 3.27305672 ICPUSD (market)
+    [DRY] BUY 0.00011457 XXBTZUSD (market)
+    [DRY] BUY 0.08345785 SOLUSD (market)
+    [DRY] BUY 8.23016005 DOTUSD (market)
+  swept 14/14 accounts
+new hourly bar detected (ts=1790031600) -> sweeping 15 hourly accounts
+    [DRY] BUY 2.20442368 UNIUSD (market)
+  swept 15/15 accounts
+new 4h bar detected (ts=1790020800) -> sweeping 17 4h challenger accounts
+    [DRY] BUY 6.46805294 XXRPZUSD (market)
+    [DRY] BUY 6.46805294 XXRPZUSD (market)
+    [DRY] BUY 46.03008895 XXLMZUSD (market)
+new hourly bar detected (ts=1790035200) -> sweeping 15 hourly accounts
+    [DRY] BUY 2.18220581 UNIUSD (market)
+    [DRY] SELL 0.21033706 LINKUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1790038800) -> sweeping 15 hourly accounts
+    [DRY] SELL 0.06865817 XLTCZUSD (market)
+    [DRY] SELL 0.06792653 XLTCZUSD (market)
+    [DRY] BUY 2.16258336 UNIUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1790042400) -> sweeping 15 hourly accounts
+    [DRY] SELL 0.00086398 XETHZUSD (market)
+    [DRY] SELL 0.02636219 SOLUSD (market)
+    [DRY] SELL 0.27701352 LINKUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1790046000) -> sweeping 15 hourly accounts
+    [DRY] SELL 0.00136028 XETHZUSD (market)
+    [DRY] SELL 0.02585332 SOLUSD (market)
+    [DRY] SELL 0.22902599 AVAXUSD (market)
+    [DRY] SELL 0.00003251 XXBTZUSD (market)
+    [DRY] BUY 0.16239376 XLTCZUSD (market)
+  swept 15/15 accounts
+new 4h bar detected (ts=1790035200) -> sweeping 17 4h challenger accounts
+    [DRY] BUY 5.47466195 ATOMUSD (market)
+    [DRY] BUY 1631146.81365257 SHIBUSD (market)
+new hourly bar detected (ts=1790049600) -> sweeping 15 hourly accounts
+    [DRY] SELL 0.00005110 XXBTZUSD (market)
+    [DRY] SELL 0.20110398 LINKUSD (market)
+    [DRY] SELL 2.01240725 DOTUSD (market)
+    [DRY] SELL 1.47352219 ATOMUSD (market)
+    [DRY] BUY 0.92122155 AVAXUSD (market)
+    [DRY] SELL 1.37368409 DOTUSD (market)
+    [DRY] SELL 1.80678004 ATOMUSD (market)
+    [DRY] SELL 2.16258336 UNIUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1790053200) -> sweeping 15 hourly accounts
+    [DRY] BUY 5.58248547 ATOMUSD (market)
+    [DRY] BUY 0.08487881 SOLUSD (market)
+    [DRY] BUY 5.57558305 ATOMUSD (market)
+    [DRY] SELL 1.37285792 DOTUSD (market)
+    [DRY] SELL 1.81058084 ATOMUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1790056800) -> sweeping 15 hourly accounts
+    [DRY] SELL 2.48761620 DOTUSD (market)
+    [DRY] SELL 2.04147896 ATOMUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1790060400) -> sweeping 15 hourly accounts
+    [DRY] SELL 0.01925111 SOLUSD (market)
+    [DRY] SELL 0.02533426 SOLUSD (market)
+    [DRY] SELL 0.06806881 XLTCZUSD (market)
+  swept 15/15 accounts
+new 4h bar detected (ts=1790049600) -> sweeping 17 4h challenger accounts
+new hourly bar detected (ts=1790064000) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.00011513 XXBTZUSD (market)
+    [DRY] BUY 0.00011513 XXBTZUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1790067600) -> sweeping 15 hourly accounts
+    [DRY] SELL 27.38488901 XDGUSD (market)
+    [DRY] SELL 0.04980421 XLTCZUSD (market)
+    [DRY] SELL 0.06996667 XLTCZUSD (market)
+    [DRY] SELL 2.08972683 DOTUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1790071200) -> sweeping 15 hourly accounts
+    [DRY] SELL 33.76702172 XDGUSD (market)
+    [DRY] SELL 0.36902393 AVAXUSD (market)
+    [DRY] SELL 0.07008530 XLTCZUSD (market)
+    [DRY] SELL 1.90629971 ATOMUSD (market)
+    [DRY] SELL 15.13234052 ADAUSD (market)
+    [DRY] SELL 2.18220581 UNIUSD (market)
+    [DRY] SELL 0.37091909 UNIUSD (market)
+    [DRY] SELL 0.00107491 XETHZUSD (market)
+    [DRY] SELL 0.02300661 SOLUSD (market)
+    [DRY] SELL 1.74792761 ATOMUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1790074800) -> sweeping 15 hourly accounts
+    [DRY] SELL 0.30947367 LINKUSD (market)
+    [DRY] SELL 1.67333954 DOTUSD (market)
+    [DRY] SELL 29.00722686 XDGUSD (market)
+    [DRY] SELL 0.00004617 XXBTZUSD (market)
+    [DRY] SELL 2.20442368 UNIUSD (market)
+  swept 15/15 accounts
+new 4h bar detected (ts=1790064000) -> sweeping 17 4h challenger accounts
+new hourly bar detected (ts=1790078400) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.00360003 XETHZUSD (market)
+    [DRY] BUY 0.08449566 SOLUSD (market)
+    [DRY] BUY 2.04485931 UNIUSD (market)
+    [DRY] SELL 0.00083845 XETHZUSD (market)
+    [DRY] SELL 0.02385511 SOLUSD (market)
+    [DRY] BUY 39.71587784 ADAUSD (market)
+    [DRY] BUY 2.04079524 UNIUSD (market)
+    [DRY] BUY 2.04079524 UNIUSD (market)
+    [DRY] BUY 2.04079524 UNIUSD (market)
+    [DRY] BUY 2.03986499 UNIUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1790082000) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.75623875 LINKUSD (market)
+    [DRY] SELL 0.92122155 AVAXUSD (market)
+    [DRY] SELL 0.34206644 UNIUSD (market)
+    [DRY] BUY 0.75640366 LINKUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1790085600) -> sweeping 15 hourly accounts
+    [DRY] SELL 0.16239376 XLTCZUSD (market)
+    [DRY] SELL 0.75640366 LINKUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1790089200) -> sweeping 15 hourly accounts
+  swept 15/15 accounts
+new 4h bar detected (ts=1790078400) -> sweeping 17 4h challenger accounts
+    [DRY] BUY 0.03014108 BCHUSD (market)
+    [DRY] BUY 2.16124066 UNIUSD (market)
+    [DRY] BUY 2.16124066 UNIUSD (market)
+    [DRY] BUY 0.03010175 BCHUSD (market)
+    [DRY] BUY 1.06205277 XETCZUSD (market)
+    [DRY] BUY 0.03016858 BCHUSD (market)
+    [DRY] BUY 0.03016858 BCHUSD (market)
+    [DRY] BUY 1.06296313 XETCZUSD (market)
+    [DRY] BUY 0.03015207 BCHUSD (market)
+    [DRY] BUY 0.03015207 BCHUSD (market)
+new hourly bar detected (ts=1790092800) -> sweeping 15 hourly accounts
+    [DRY] SELL 0.20530365 AVAXUSD (market)
+    [DRY] BUY 0.89641591 AVAXUSD (market)
+    [DRY] SELL 27.81600991 XDGUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1790096400) -> sweeping 15 hourly accounts
+    [DRY] SELL 5.58248547 ATOMUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1790100000) -> sweeping 15 hourly accounts
+    [DRY] SELL 1.88861673 ATOMUSD (market)
+    [DRY] SELL 1.93373407 ATOMUSD (market)
+    [DRY] BUY 0.08395933 SOLUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1790103600) -> sweeping 15 hourly accounts
+    [DRY] SELL 0.00011513 XXBTZUSD (market)
+    [DRY] SELL 5.57558305 ATOMUSD (market)
+    [DRY] BUY 0.15802222 XLTCZUSD (market)
+  swept 15/15 accounts
+new 4h bar detected (ts=1790092800) -> sweeping 17 4h challenger accounts
+    [DRY] BUY 6.25611535 XXRPZUSD (market)
+new hourly bar detected (ts=1790107200) -> sweeping 15 hourly accounts
+    [DRY] SELL 0.75623875 LINKUSD (market)
+    [DRY] BUY 0.15852724 XLTCZUSD (market)
+    [DRY] SELL 0.08487881 SOLUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1790110800) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.89439550 AVAXUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1790114400) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.08371844 SOLUSD (market)
+    [DRY] BUY 8.17290056 DOTUSD (market)
+    [DRY] BUY 0.15717102 XLTCZUSD (market)
+  swept 15/15 accounts
+new daily bar detected (ts=1790035200) -> sweeping 14 daily accounts
+    [DRY] BUY 0.00011511 XXBTZUSD (market)
+    [DRY] BUY 0.88073819 AVAXUSD (market)
+    [DRY] BUY 11.97565780 APTUSD (market)
+    [DRY] SELL 0.00011457 XXBTZUSD (market)
+    [DRY] BUY 0.15772075 XLTCZUSD (market)
+  swept 14/14 accounts
+new hourly bar detected (ts=1790118000) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.76112401 LINKUSD (market)
+  swept 15/15 accounts
+new 4h bar detected (ts=1790107200) -> sweeping 17 4h challenger accounts
+    [DRY] BUY 5.37383399 ATOMUSD (market)
+    [DRY] BUY 11.96843397 APTUSD (market)
+    [DRY] BUY 73.26909099 OPUSD (market)
+    [DRY] BUY 9.48435461 FILUSD (market)
+new hourly bar detected (ts=1790121600) -> sweeping 15 hourly accounts
+  swept 15/15 accounts
+new hourly bar detected (ts=1790125200) -> sweeping 15 hourly accounts
+    [DRY] SELL 0.76112401 LINKUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1790128800) -> sweeping 15 hourly accounts
+    [DRY] BUY 0.75784765 LINKUSD (market)
+    [DRY] BUY 5.37907874 ATOMUSD (market)
+  swept 15/15 accounts
+new hourly bar detected (ts=1790132400) -> sweeping 15 hourly accounts
+    [DRY] BUY 6.12668514 XXRPZUSD (market)
+  swept 15/15 accounts
+new 4h bar detected (ts=1790121600) -> sweeping 17 4h challenger accounts
+new hourly bar detected (ts=1790136000) -> sweeping 15 hourly accounts
+  swept 15/15 accounts
+new hourly bar detected (ts=1790139600) -> sweeping 15 hourly accounts
+    [DRY] SELL 8.17290056 DOTUSD (market)
+  swept 15/15 accounts

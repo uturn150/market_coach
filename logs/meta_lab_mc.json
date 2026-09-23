@@ -1,0 +1,58 @@
+{
+ "equal": {
+  "green_pct": 53.0,
+  "median": 1.6,
+  "p5": -15.2,
+  "p95": 58.1,
+  "avg_dd": -14.3,
+  "worst": -20.2
+ },
+ "regime": {
+  "green_pct": 53.0,
+  "median": 4.7,
+  "p5": -23.9,
+  "p95": 109.4,
+  "avg_dd": -20.7,
+  "worst": -29.6
+ },
+ "cutlosers": {
+  "green_pct": 52.0,
+  "median": 3.3,
+  "p5": -16.1,
+  "p95": 46.8,
+  "avg_dd": -12.9,
+  "worst": -23.0
+ },
+ "blend": {
+  "green_pct": 52.0,
+  "median": 2.6,
+  "p5": -16.7,
+  "p95": 69.4,
+  "avg_dd": -14.7,
+  "worst": -24.6
+ },
+ "invvol": {
+  "green_pct": 51.0,
+  "median": 0.9,
+  "p5": -13.1,
+  "p95": 21.3,
+  "avg_dd": -9.3,
+  "worst": -16.1
+ },
+ "momentum": {
+  "green_pct": 48.0,
+  "median": -0.4,
+  "p5": -32.1,
+  "p95": 160.1,
+  "avg_dd": -25.0,
+  "worst": -33.9
+ },
+ "bandit": {
+  "green_pct": 46.0,
+  "median": -1.6,
+  "p5": -23.7,
+  "p95": 82.8,
+  "avg_dd": -18.4,
+  "worst": -28.2
+ }
+}

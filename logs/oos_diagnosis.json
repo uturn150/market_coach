@@ -1,0 +1,31 @@
+{
+ "generated": "2026-09-20 02:16",
+ "regime_days": {
+  "SIDEWAYS": 213,
+  "TRENDING_DOWN": 177,
+  "HIGH_VOLATILITY": 68,
+  "TRENDING_UP": 142
+ },
+ "pooled": {
+  "TRENDING_UP": {
+   "trips": 504,
+   "avg_gross_pct": -2.9,
+   "avg_net_pct": -4.6
+  },
+  "SIDEWAYS": {
+   "trips": 468,
+   "avg_gross_pct": -1.85,
+   "avg_net_pct": -3.56
+  },
+  "HIGH_VOLATILITY": {
+   "trips": 59,
+   "avg_gross_pct": -3.0,
+   "avg_net_pct": -4.69
+  },
+  "TRENDING_DOWN": {
+   "trips": 24,
+   "avg_gross_pct": -12.56,
+   "avg_net_pct": -14.08
+  }
+ }
+}

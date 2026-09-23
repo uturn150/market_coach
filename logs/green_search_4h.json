@@ -1,0 +1,341 @@
+[
+ {
+  "family": "rsi_dip",
+  "params": {
+   "n": 42,
+   "lo": 35,
+   "trend": 600,
+   "tp": 0.08,
+   "sl": 0.06
+  },
+  "spec": {
+   "name": "RSI dip (factory)",
+   "costs": {
+    "order_type": "taker",
+    "taker_fee_bps": 80.0,
+    "half_spread_bps": 5,
+    "slippage_bps": 3,
+    "maker_fee_bps": 40.0
+   },
+   "risk": {
+    "take_profit_pct": 0.08,
+    "stop_loss_pct": 0.06
+   },
+   "entry": {
+    "threshold": 2,
+    "size": "100%",
+    "signals": [
+     {
+      "name": "dip",
+      "when": {
+       "left": "rsi:42",
+       "op": "<",
+       "right": 35
+      },
+      "weight": 1
+     },
+     {
+      "name": "trend",
+      "when": {
+       "left": "price",
+       "op": ">",
+       "right": "sma:600"
+      },
+      "weight": 1
+     }
+    ]
+   },
+   "rules": [
+    {
+     "when": {
+      "left": "rsi:42",
+      "op": "cross_above",
+      "right": 55
+     },
+     "then": {
+      "action": "sell",
+      "size": "all"
+     }
+    }
+   ]
+  },
+  "in_sample": {
+   "days": 656,
+   "green_day_pct": 1.4,
+   "green_of_active_pct": 56.2,
+   "flat_pct": 97.6,
+   "weeks": 93,
+   "green_week_pct": 5.4,
+   "green_of_active_wk_pct": 83.3,
+   "worst_week_pct": -0.1,
+   "max_red_week_run": 1,
+   "total_return_pct": 5.5,
+   "max_dd_pct": -0.7
+  },
+  "oos_large": {
+   "days": 437,
+   "green_day_pct": 0.0,
+   "green_of_active_pct": 0.0,
+   "flat_pct": 100.0,
+   "weeks": 62,
+   "green_week_pct": 0.0,
+   "green_of_active_wk_pct": 0.0,
+   "worst_week_pct": 0.0,
+   "max_red_week_run": 0,
+   "total_return_pct": 0.0,
+   "max_dd_pct": 0.0
+  },
+  "mid": {
+   "days": 1083,
+   "green_day_pct": 0.3,
+   "green_of_active_pct": 75.0,
+   "flat_pct": 99.6,
+   "weeks": 155,
+   "green_week_pct": 1.9,
+   "green_of_active_wk_pct": 100.0,
+   "worst_week_pct": 0.0,
+   "max_red_week_run": 0,
+   "total_return_pct": 2.4,
+   "max_dd_pct": -0.2
+  },
+  "unseen": {
+   "days": 505,
+   "green_day_pct": 0.0,
+   "green_of_active_pct": 0.0,
+   "flat_pct": 100.0,
+   "weeks": 72,
+   "green_week_pct": 0.0,
+   "green_of_active_wk_pct": 0.0,
+   "worst_week_pct": 0.0,
+   "max_red_week_run": 0,
+   "total_return_pct": 0.0,
+   "max_dd_pct": 0.0
+  }
+ },
+ {
+  "family": "rsi_dip",
+  "params": {
+   "n": 42,
+   "lo": 35,
+   "trend": 600,
+   "tp": 0.05,
+   "sl": 0.06
+  },
+  "spec": {
+   "name": "RSI dip (factory)",
+   "costs": {
+    "order_type": "taker",
+    "taker_fee_bps": 80.0,
+    "half_spread_bps": 5,
+    "slippage_bps": 3,
+    "maker_fee_bps": 40.0
+   },
+   "risk": {
+    "take_profit_pct": 0.05,
+    "stop_loss_pct": 0.06
+   },
+   "entry": {
+    "threshold": 2,
+    "size": "100%",
+    "signals": [
+     {
+      "name": "dip",
+      "when": {
+       "left": "rsi:42",
+       "op": "<",
+       "right": 35
+      },
+      "weight": 1
+     },
+     {
+      "name": "trend",
+      "when": {
+       "left": "price",
+       "op": ">",
+       "right": "sma:600"
+      },
+      "weight": 1
+     }
+    ]
+   },
+   "rules": [
+    {
+     "when": {
+      "left": "rsi:42",
+      "op": "cross_above",
+      "right": 55
+     },
+     "then": {
+      "action": "sell",
+      "size": "all"
+     }
+    }
+   ]
+  },
+  "in_sample": {
+   "days": 656,
+   "green_day_pct": 1.2,
+   "green_of_active_pct": 57.1,
+   "flat_pct": 97.9,
+   "weeks": 93,
+   "green_week_pct": 4.3,
+   "green_of_active_wk_pct": 80.0,
+   "worst_week_pct": -0.3,
+   "max_red_week_run": 1,
+   "total_return_pct": 4.2,
+   "max_dd_pct": -0.7
+  },
+  "oos_large": {
+   "days": 437,
+   "green_day_pct": 0.0,
+   "green_of_active_pct": 0.0,
+   "flat_pct": 100.0,
+   "weeks": 62,
+   "green_week_pct": 0.0,
+   "green_of_active_wk_pct": 0.0,
+   "worst_week_pct": 0.0,
+   "max_red_week_run": 0,
+   "total_return_pct": 0.0,
+   "max_dd_pct": 0.0
+  },
+  "mid": {
+   "days": 1083,
+   "green_day_pct": 0.2,
+   "green_of_active_pct": 66.7,
+   "flat_pct": 99.7,
+   "weeks": 155,
+   "green_week_pct": 1.3,
+   "green_of_active_wk_pct": 100.0,
+   "worst_week_pct": 0.0,
+   "max_red_week_run": 0,
+   "total_return_pct": 1.5,
+   "max_dd_pct": -0.2
+  },
+  "unseen": {
+   "days": 505,
+   "green_day_pct": 0.0,
+   "green_of_active_pct": 0.0,
+   "flat_pct": 100.0,
+   "weeks": 72,
+   "green_week_pct": 0.0,
+   "green_of_active_wk_pct": 0.0,
+   "worst_week_pct": 0.0,
+   "max_red_week_run": 0,
+   "total_return_pct": 0.0,
+   "max_dd_pct": 0.0
+  }
+ },
+ {
+  "family": "rsi_dip",
+  "params": {
+   "n": 42,
+   "lo": 35,
+   "trend": 600,
+   "tp": 0.05,
+   "sl": 0.1
+  },
+  "spec": {
+   "name": "RSI dip (factory)",
+   "costs": {
+    "order_type": "taker",
+    "taker_fee_bps": 80.0,
+    "half_spread_bps": 5,
+    "slippage_bps": 3,
+    "maker_fee_bps": 40.0
+   },
+   "risk": {
+    "take_profit_pct": 0.05,
+    "stop_loss_pct": 0.1
+   },
+   "entry": {
+    "threshold": 2,
+    "size": "100%",
+    "signals": [
+     {
+      "name": "dip",
+      "when": {
+       "left": "rsi:42",
+       "op": "<",
+       "right": 35
+      },
+      "weight": 1
+     },
+     {
+      "name": "trend",
+      "when": {
+       "left": "price",
+       "op": ">",
+       "right": "sma:600"
+      },
+      "weight": 1
+     }
+    ]
+   },
+   "rules": [
+    {
+     "when": {
+      "left": "rsi:42",
+      "op": "cross_above",
+      "right": 55
+     },
+     "then": {
+      "action": "sell",
+      "size": "all"
+     }
+    }
+   ]
+  },
+  "in_sample": {
+   "days": 656,
+   "green_day_pct": 1.2,
+   "green_of_active_pct": 57.1,
+   "flat_pct": 97.9,
+   "weeks": 93,
+   "green_week_pct": 4.3,
+   "green_of_active_wk_pct": 80.0,
+   "worst_week_pct": -1.1,
+   "max_red_week_run": 1,
+   "total_return_pct": 3.4,
+   "max_dd_pct": -1.6
+  },
+  "oos_large": {
+   "days": 437,
+   "green_day_pct": 0.0,
+   "green_of_active_pct": 0.0,
+   "flat_pct": 100.0,
+   "weeks": 62,
+   "green_week_pct": 0.0,
+   "green_of_active_wk_pct": 0.0,
+   "worst_week_pct": 0.0,
+   "max_red_week_run": 0,
+   "total_return_pct": 0.0,
+   "max_dd_pct": 0.0
+  },
+  "mid": {
+   "days": 1083,
+   "green_day_pct": 0.2,
+   "green_of_active_pct": 66.7,
+   "flat_pct": 99.7,
+   "weeks": 155,
+   "green_week_pct": 1.3,
+   "green_of_active_wk_pct": 100.0,
+   "worst_week_pct": 0.0,
+   "max_red_week_run": 0,
+   "total_return_pct": 1.5,
+   "max_dd_pct": -0.2
+  },
+  "unseen": {
+   "days": 505,
+   "green_day_pct": 0.0,
+   "green_of_active_pct": 0.0,
+   "flat_pct": 100.0,
+   "weeks": 72,
+   "green_week_pct": 0.0,
+   "green_of_active_wk_pct": 0.0,
+   "worst_week_pct": 0.0,
+   "max_red_week_run": 0,
+   "total_return_pct": 0.0,
+   "max_dd_pct": 0.0
+  }
+ }
+]

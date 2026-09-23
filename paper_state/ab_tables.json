@@ -1,0 +1,30 @@
+[
+ {
+  "from_ts": 1789949929,
+  "iso": "2026-09-21 00:18",
+  "tables": {
+   "chameleon": {
+    "TRENDING_UP": {
+     "trend": 0.81606787426539,
+     "mean": 0.18393212573461
+    },
+    "TRENDING_DOWN": {
+     "mean": 1.0
+    },
+    "SIDEWAYS": {
+     "mean": 1.0
+    },
+    "HIGH_VOLATILITY": {
+     "trend": 0.39256330484937335,
+     "mean": 0.6074366951506266
+    }
+   },
+   "overlay": {
+    "TRENDING_UP": 1.0,
+    "TRENDING_DOWN": 0.0,
+    "SIDEWAYS": 0.0,
+    "HIGH_VOLATILITY": 1.0
+   }
+  }
+ }
+]

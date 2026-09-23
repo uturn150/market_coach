@@ -1,0 +1,55 @@
+{
+  "strategy": "strategies/bollinger_breakout.json",
+  "n_real_trades": 414,
+  "distribution": {
+    "n_sims": 500,
+    "median_return_pct": 94.55,
+    "p5_return_pct": 24.45,
+    "p95_return_pct": 275.5,
+    "median_max_drawdown_pct": -9.3,
+    "p5_max_drawdown_pct": -18.3,
+    "probability_of_losing_money": 0.004,
+    "probability_of_underperforming_hold": 0.0,
+    "buy_hold_return_pct": -13.7
+  },
+  "stress_scenarios": {
+    "baseline_real_fee": {
+      "fee_gate_pass": true,
+      "edge_gate_pass": true,
+      "out_excess_pct": 56.8,
+      "n_in": 276
+    },
+    "fees_1.5x": {
+      "fee_gate_pass": true,
+      "edge_gate_pass": true,
+      "out_excess_pct": 52.8,
+      "n_in": 276
+    },
+    "fees_2x": {
+      "fee_gate_pass": true,
+      "edge_gate_pass": true,
+      "out_excess_pct": 49.0,
+      "n_in": 276
+    },
+    "spread_slippage_2x": {
+      "fee_gate_pass": true,
+      "edge_gate_pass": true,
+      "out_excess_pct": 55.9,
+      "n_in": 276
+    },
+    "params_tighter": {
+      "fee_gate_pass": true,
+      "edge_gate_pass": true,
+      "out_excess_pct": 52.9,
+      "n_in": 299
+    },
+    "params_looser": {
+      "fee_gate_pass": false,
+      "edge_gate_pass": true,
+      "out_excess_pct": 58.3,
+      "n_in": 4
+    }
+  },
+  "stress_scenarios_passed": "5/6",
+  "verdict": "Bootstrap distribution looks survivable; only 5/6 stress scenarios still clear both gates"
+}

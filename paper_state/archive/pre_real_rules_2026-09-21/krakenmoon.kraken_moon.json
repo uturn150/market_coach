@@ -1,0 +1,145 @@
+{
+  "account": "krakenmoon",
+  "coins": [
+    "AAVE-USD",
+    "ADA-USD",
+    "ALGO-USD",
+    "APT-USD",
+    "ARB-USD",
+    "ATOM-USD",
+    "AVAX-USD",
+    "BCH-USD",
+    "BONK-USD",
+    "BTC-USD",
+    "CRV-USD",
+    "DASH-USD",
+    "DOGE-USD",
+    "DOT-USD",
+    "ETC-USD",
+    "ETH-USD",
+    "FIL-USD",
+    "GRT-USD",
+    "HBAR-USD",
+    "ICP-USD",
+    "INJ-USD",
+    "LINK-USD",
+    "LTC-USD",
+    "MANA-USD",
+    "NEAR-USD",
+    "OP-USD",
+    "POL-USD",
+    "RENDER-USD",
+    "SAND-USD",
+    "SEI-USD",
+    "SHIB-USD",
+    "SOL-USD",
+    "SUI-USD",
+    "TIA-USD",
+    "UNI-USD",
+    "VET-USD",
+    "WLD-USD",
+    "XLM-USD",
+    "XRP-USD",
+    "XTZ-USD",
+    "ZEC-USD"
+  ],
+  "granularity": 86400,
+  "start_cash": 50.0,
+  "cash": 18.389144755221146,
+  "positions": {
+    "NEAR-USD": {
+      "units": 2.231554224280856,
+      "avg_cost": 3.7163713250100683,
+      "peak": 4.1653,
+      "original_units": 2.231554224280856,
+      "ladder_hit": []
+    },
+    "ARB-USD": {
+      "units": 21.778198137342958,
+      "avg_cost": 0.22492952074103906,
+      "peak": 0.22492952074103906,
+      "original_units": 21.778198137342958,
+      "ladder_hit": []
+    },
+    "UNI-USD": {
+      "units": 0.9778099803975817,
+      "avg_cost": 8.921768022553364,
+      "peak": 8.921768022553364,
+      "original_units": 0.9778099803975817,
+      "ladder_hit": []
+    },
+    "OP-USD": {
+      "units": 80.57983389696955,
+      "avg_cost": 0.1203181635118808,
+      "peak": 0.1252,
+      "original_units": 80.57983389696955,
+      "ladder_hit": []
+    }
+  },
+  "last_close_ts": 1789862400,
+  "fills": [
+    {
+      "ts": 1789603200,
+      "coin": "NEAR-USD",
+      "side": "buy",
+      "price": 3.1432,
+      "units": 2.231554224280856,
+      "reason": "moon score 52.3"
+    },
+    {
+      "ts": 1789689600,
+      "coin": "ARB-USD",
+      "side": "buy",
+      "price": 0.2211,
+      "units": 21.778198137342958,
+      "reason": "breakout+momentum(59%)+volume(2.2x), score 82.6"
+    },
+    {
+      "ts": 1789689600,
+      "coin": "UNI-USD",
+      "side": "buy",
+      "price": 8.8696,
+      "units": 0.9778099803975817,
+      "reason": "breakout+momentum(48%)+volume(3.2x), score 75.7"
+    },
+    {
+      "ts": 1789689600,
+      "coin": "OP-USD",
+      "side": "buy",
+      "price": 0.1206,
+      "units": 80.57983389696955,
+      "reason": "breakout+momentum(26%)+volume(2.1x), score 49.9"
+    }
+  ],
+  "peak_equity": 51.682127338022205,
+  "halted": false,
+  "paper": true,
+  "created": 1789767242,
+  "loss_today_usd": 0.0,
+  "loss_day": "2026-09-21",
+  "paused_until": 0.0,
+  "max_positions": 4,
+  "trailing_stop_pct": 0.2,
+  "stop_loss_pct": 0.15,
+  "max_drawdown": 0.3,
+  "fee_bps": 60,
+  "half_spread_bps": 5,
+  "slippage_bps": 3,
+  "moon_cfg": {},
+  "profit_ladder_levels": [
+    0.6,
+    1.2,
+    3.0,
+    6.0,
+    10.0
+  ],
+  "profit_ladder_sells": [
+    0.15,
+    0.15,
+    0.1,
+    0.1,
+    0.1
+  ],
+  "daily_loss_cap_usd": 5.0,
+  "loss_pause_minutes": 30
+}

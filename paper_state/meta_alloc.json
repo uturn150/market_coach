@@ -1,0 +1,103 @@
+{
+ "method": "invvol",
+ "start": 1000.0,
+ "equity": 1011.7818792206959,
+ "history": [
+  {
+   "day": 1789603200,
+   "equity": 1000.0,
+   "ret_pct": 0.0
+  },
+  {
+   "day": 1789689600,
+   "equity": 1000.0,
+   "ret_pct": 0.0
+  },
+  {
+   "day": 1789776000,
+   "equity": 1000.0,
+   "ret_pct": 0.0
+  },
+  {
+   "day": 1789862400,
+   "equity": 998.2263,
+   "ret_pct": -0.177
+  },
+  {
+   "day": 1789948800,
+   "equity": 998.3457,
+   "ret_pct": 0.012
+  },
+  {
+   "day": 1790035200,
+   "equity": 1008.8993,
+   "ret_pct": 1.057
+  },
+  {
+   "day": 1790121600,
+   "equity": 1011.7819,
+   "ret_pct": 0.286
+  }
+ ],
+ "weights": {
+  "bot_dca_SO5_d3_F1": 0.018518518518518517,
+  "bot_dca_SO5_d5_F1": 0.018518518518518517,
+  "bot_dca_d3_large12": 0.018518518518518517,
+  "bot_dca_d3_mid12": 0.018518518518518517,
+  "bot_dca_d3_new20": 0.018518518518518517,
+  "bot_dca_d5_large12": 0.018518518518518517,
+  "bot_dca_d5_mid12": 0.018518518518518517,
+  "bot_dca_d5_new20": 0.018518518518518517,
+  "bot_grid_L4_s6_F1": 0.018518518518518517,
+  "bot_grid_L8_s6_F1": 0.018518518518518517,
+  "bot_grid_L8_s6_large12": 0.018518518518518517,
+  "c4h_bbreak": 0.018518518518518517,
+  "c4h_cci": 0.018518518518518517,
+  "c4h_cci_f1": 0.018518518518518517,
+  "c4h_fxe_ema_trend_mid": 0.018518518518518517,
+  "c4h_fxe_macd_zero_large": 0.018518518518518517,
+  "c4h_fxe_macd_zero_mid": 0.018518518518518517,
+  "c4h_fxe_rsi_trend_mid": 0.018518518518518517,
+  "c4h_ichimoku": 0.018518518518518517,
+  "c4h_keltner": 0.018518518518518517,
+  "c4h_keltner_f1": 0.018518518518518517,
+  "c4h_multi": 0.018518518518518517,
+  "c4h_multi_f1": 0.018518518518518517,
+  "c4h_sma": 0.018518518518518517,
+  "c4h_sma_f1": 0.018518518518518517,
+  "c4h_turtle": 0.018518518518518517,
+  "chal_fxe_bb_dip_large": 0.018518518518518517,
+  "chal_fxe_macd_zero_mid": 0.018518518518518517,
+  "chal_gr_bb_dip_large": 0.018518518518518517,
+  "chal_gr_bb_dip_mid": 0.018518518518518517,
+  "chal_gr_cci_dip_mid": 0.018518518518518517,
+  "chal_gr_stoch_dip_large": 0.018518518518518517,
+  "chal_gr_stoch_dip_mid": 0.018518518518518517,
+  "chal_gr_willr_dip_large": 0.018518518518518517,
+  "chal_gr_willr_dip_mid": 0.018518518518518517,
+  "chal_krakencci_1": 0.018518518518518517,
+  "chal_krakenfast_1": 0.018518518518518517,
+  "chal_krakenfast_2": 0.018518518518518517,
+  "chal_krakenichimoku_1": 0.018518518518518517,
+  "chal_krakenichimoku_2": 0.018518518518518517,
+  "chal_krakenmulti_1": 0.018518518518518517,
+  "chal_krakenrsi_1": 0.018518518518518517,
+  "chal_krakenturtle_1": 0.018518518518518517,
+  "chal_realpaper_1": 0.018518518518518517,
+  "chal_realpaper_2": 0.018518518518518517,
+  "krakenbbreak": 0.018518518518518517,
+  "krakencci": 0.018518518518518517,
+  "krakenfast": 0.018518518518518517,
+  "krakenichimoku": 0.018518518518518517,
+  "krakenkeltner": 0.018518518518518517,
+  "krakenmulti": 0.018518518518518517,
+  "krakenslow": 0.018518518518518517,
+  "krakenturtle": 0.018518518518518517,
+  "realpaper": 0.018518518518518517
+ },
+ "weights_day": 0,
+ "weights_week": 2960,
+ "weights_how": "equal (not enough live history yet)",
+ "as_of": "2026-09-23 00:50",
+ "n_bots": 64
+}

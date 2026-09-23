@@ -1,0 +1,121 @@
+{
+  "account": "slow50_challenger_a",
+  "strategy_path": "strategies/slow50_challenger_a.json",
+  "granularity": 86400,
+  "start_cash": 50.0,
+  "sleeves": {
+    "BCH-USD": {
+      "cash": -0.0033333400000046254,
+      "units": 0.048383053207627445,
+      "last_px": 344.66,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 344.5428147840001,
+      "in_position": true,
+      "entry_px": 344.5428147840001,
+      "pending_why": null,
+      "pending_px": 344.66
+    },
+    "BTC-USD": {
+      "cash": -0.0033333400000046254,
+      "units": 0.00019132813776538782,
+      "last_px": 86196.7,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 87127.97571072001,
+      "in_position": true,
+      "entry_px": 87127.97571072001,
+      "pending_why": null,
+      "pending_px": 86196.7
+    },
+    "LINK-USD": {
+      "cash": -0.0033333400000046254,
+      "units": 1.2709725628506665,
+      "last_px": 13.03959,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 13.115966329446763,
+      "in_position": true,
+      "entry_px": 13.115966329446763,
+      "pending_why": null,
+      "pending_px": 13.03959
+    }
+  },
+  "created": 1790047501,
+  "regime_filter": true,
+  "max_drawdown": 0.3,
+  "halted": false,
+  "fills": [
+    {
+      "ts": 1790035200,
+      "coin": "BCH-USD",
+      "side": "buy",
+      "price": 341.808348,
+      "notional": 16.670033340000003,
+      "units": 0.048383053207627445,
+      "reason": "trend, breakout, momentum, volume",
+      "exec": {
+        "source": "book",
+        "signal_price": 344.66,
+        "mid": 341.63,
+        "expected_fill": 341.74,
+        "sim_fill": 341.808348,
+        "filled_fraction": 1.0,
+        "spread_cost_usd": 0.00532214,
+        "slippage_cost_usd": 0.00330688,
+        "fee_usd": 0.13230185,
+        "total_exec_cost_usd": 0.14093087
+      }
+    },
+    {
+      "ts": 1790035200,
+      "coin": "BTC-USD",
+      "side": "buy",
+      "price": 86436.48384,
+      "notional": 16.670033340000003,
+      "units": 0.00019132813776538782,
+      "reason": "trend, momentum, not_overbought",
+      "exec": {
+        "source": "book",
+        "signal_price": 86196.7,
+        "mid": 86419.15,
+        "expected_fill": 86419.2,
+        "sim_fill": 86436.48384,
+        "filled_fraction": 1.0,
+        "spread_cost_usd": 9.57e-06,
+        "slippage_cost_usd": 0.00330688,
+        "fee_usd": 0.13230185,
+        "total_exec_cost_usd": 0.1356183
+      }
+    },
+    {
+      "ts": 1790035200,
+      "coin": "LINK-USD",
+      "side": "buy",
+      "price": 13.011871358578137,
+      "notional": 16.670033340000003,
+      "units": 1.2709725628506665,
+      "reason": "trend, momentum, not_overbought",
+      "exec": {
+        "source": "book",
+        "signal_price": 13.03959,
+        "mid": 13.005975,
+        "expected_fill": 13.00727,
+        "sim_fill": 13.01187136,
+        "filled_fraction": 1.0,
+        "spread_cost_usd": 0.00164591,
+        "slippage_cost_usd": 0.0058482,
+        "fee_usd": 0.13230185,
+        "total_exec_cost_usd": 0.13979596
+      }
+    }
+  ],
+  "paper": true,
+  "peak_equity": 50.000099999999996,
+  "avoid_regimes": [],
+  "market_filter": "F1",
+  "fixed_sizing": true,
+  "min_order": 10.0,
+  "order_step": 10.0,
+  "size_mode": "third_in_chop"
+}

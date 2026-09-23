@@ -1,0 +1,4941 @@
+{
+ "seen": {
+  "{\"breaker\": 0.08, \"dev\": 0.04, \"family\": \"dca\", \"filter\": \"F0\", \"mult\": 1.3, \"safety\": 3, \"stop\": 0.3, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 3,
+    "dev": 0.04,
+    "mult": 1.3,
+    "tp": 0.03,
+    "stop": 0.3,
+    "levels": 10,
+    "step": 0.08,
+    "filter": "F0",
+    "breaker": 0.08
+   },
+   "train_score": -70.93,
+   "train_median_ret": -9.2,
+   "train_avg_dd": 18.2,
+   "train_green_active": 55.8,
+   "train_streak": 4.2
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.02, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.0, \"safety\": 6, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.02,
+    "mult": 2.0,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.08
+   },
+   "train_score": 18.22,
+   "train_median_ret": 1.7,
+   "train_avg_dd": 5.2,
+   "train_green_active": 74.7,
+   "train_streak": 12.3
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.02, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 1.3, \"safety\": 5, \"stop\": null, \"tp\": 0.01}": {
+   "genome": {
+    "family": "dca",
+    "safety": 5,
+    "dev": 0.02,
+    "mult": 1.3,
+    "tp": 0.01,
+    "stop": null,
+    "levels": 10,
+    "step": 0.08,
+    "filter": "none",
+    "breaker": 0.15
+   },
+   "train_score": -229.23,
+   "train_median_ret": -25.7,
+   "train_avg_dd": 37.6,
+   "train_green_active": 56.1,
+   "train_streak": 5.4
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.09, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.0, \"safety\": 4, \"stop\": 0.15, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 4,
+    "dev": 0.09,
+    "mult": 2.0,
+    "tp": 0.03,
+    "stop": 0.15,
+    "levels": 8,
+    "step": 0.03,
+    "filter": "F1",
+    "breaker": 0.08
+   },
+   "train_score": 13.67,
+   "train_median_ret": -0.0,
+   "train_avg_dd": 2.5,
+   "train_green_active": 56.8,
+   "train_streak": 7.2
+  },
+  "{\"breaker\": 0.12, \"family\": \"grid\", \"filter\": \"F1\", \"levels\": 6, \"step\": 0.08}": {
+   "genome": {
+    "family": "grid",
+    "safety": 5,
+    "dev": 0.02,
+    "mult": 2.0,
+    "tp": 0.07,
+    "stop": null,
+    "levels": 6,
+    "step": 0.08,
+    "filter": "F1",
+    "breaker": 0.12
+   },
+   "train_score": 18.33,
+   "train_median_ret": 1.7,
+   "train_avg_dd": 0.9,
+   "train_green_active": 80.4,
+   "train_streak": 2.4
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.07, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 5, \"stop\": 0.15, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 5,
+    "dev": 0.07,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": 0.15,
+    "levels": 8,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 18.82,
+   "train_median_ret": 0.0,
+   "train_avg_dd": 0.8,
+   "train_green_active": 61.0,
+   "train_streak": 8.3
+  },
+  "{\"breaker\": 0.12, \"family\": \"grid\", \"filter\": \"none\", \"levels\": 10, \"step\": 0.08}": {
+   "genome": {
+    "family": "grid",
+    "safety": 3,
+    "dev": 0.05,
+    "mult": 1.5,
+    "tp": 0.05,
+    "stop": 0.3,
+    "levels": 10,
+    "step": 0.08,
+    "filter": "none",
+    "breaker": 0.12
+   },
+   "train_score": -3.24,
+   "train_median_ret": 1.0,
+   "train_avg_dd": 5.9,
+   "train_green_active": 44.5,
+   "train_streak": 3.5
+  },
+  "{\"breaker\": null, \"family\": \"grid\", \"filter\": \"F0\", \"levels\": 10, \"step\": 0.04}": {
+   "genome": {
+    "family": "grid",
+    "safety": 3,
+    "dev": 0.05,
+    "mult": 2.4,
+    "tp": 0.01,
+    "stop": 0.15,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F0",
+    "breaker": null
+   },
+   "train_score": 14.45,
+   "train_median_ret": 1.2,
+   "train_avg_dd": 2.3,
+   "train_green_active": 73.6,
+   "train_streak": 3.2
+  },
+  "{\"breaker\": 0.08, \"family\": \"grid\", \"filter\": \"F1\", \"levels\": 6, \"step\": 0.03}": {
+   "genome": {
+    "family": "grid",
+    "safety": 3,
+    "dev": 0.04,
+    "mult": 2.4,
+    "tp": 0.04,
+    "stop": 0.3,
+    "levels": 6,
+    "step": 0.03,
+    "filter": "F1",
+    "breaker": 0.08
+   },
+   "train_score": 14.18,
+   "train_median_ret": 1.7,
+   "train_avg_dd": 2.9,
+   "train_green_active": 77.1,
+   "train_streak": 2.9
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.06, \"family\": \"dca\", \"filter\": \"F0\", \"mult\": 2.4, \"safety\": 4, \"stop\": 0.3, \"tp\": 0.015}": {
+   "genome": {
+    "family": "dca",
+    "safety": 4,
+    "dev": 0.06,
+    "mult": 2.4,
+    "tp": 0.015,
+    "stop": 0.3,
+    "levels": 8,
+    "step": 0.06,
+    "filter": "F0",
+    "breaker": 0.15
+   },
+   "train_score": 5.2,
+   "train_median_ret": -0.9,
+   "train_avg_dd": 5.4,
+   "train_green_active": 58.6,
+   "train_streak": 5.7
+  },
+  "{\"breaker\": 0.15, \"family\": \"grid\", \"filter\": \"none\", \"levels\": 6, \"step\": 0.05}": {
+   "genome": {
+    "family": "grid",
+    "safety": 3,
+    "dev": 0.05,
+    "mult": 2.4,
+    "tp": 0.07,
+    "stop": 0.15,
+    "levels": 6,
+    "step": 0.05,
+    "filter": "none",
+    "breaker": 0.15
+   },
+   "train_score": -35.18,
+   "train_median_ret": 0.0,
+   "train_avg_dd": 8.8,
+   "train_green_active": 45.2,
+   "train_streak": 2.9
+  },
+  "{\"breaker\": 0.12, \"family\": \"grid\", \"filter\": \"none\", \"levels\": 10, \"step\": 0.04}": {
+   "genome": {
+    "family": "grid",
+    "safety": 4,
+    "dev": 0.06,
+    "mult": 2.0,
+    "tp": 0.03,
+    "stop": 0.2,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "none",
+    "breaker": 0.12
+   },
+   "train_score": -32.03,
+   "train_median_ret": 0.0,
+   "train_avg_dd": 8.7,
+   "train_green_active": 47.9,
+   "train_streak": 3.7
+  },
+  "{\"breaker\": 0.12, \"family\": \"grid\", \"filter\": \"F1\", \"levels\": 6, \"step\": 0.025}": {
+   "genome": {
+    "family": "grid",
+    "safety": 3,
+    "dev": 0.09,
+    "mult": 1.5,
+    "tp": 0.05,
+    "stop": 0.15,
+    "levels": 6,
+    "step": 0.025,
+    "filter": "F1",
+    "breaker": 0.12
+   },
+   "train_score": 9.91,
+   "train_median_ret": -0.6,
+   "train_avg_dd": 3.5,
+   "train_green_active": 75.0,
+   "train_streak": 2.6
+  },
+  "{\"breaker\": null, \"dev\": 0.02, \"family\": \"dca\", \"filter\": \"F0\", \"mult\": 1.3, \"safety\": 3, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 3,
+    "dev": 0.02,
+    "mult": 1.3,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 8,
+    "step": 0.03,
+    "filter": "F0",
+    "breaker": null
+   },
+   "train_score": -238.71,
+   "train_median_ret": -21.3,
+   "train_avg_dd": 38.7,
+   "train_green_active": 51.9,
+   "train_streak": 3.5
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.04, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 1.3, \"safety\": 5, \"stop\": 0.15, \"tp\": 0.015}": {
+   "genome": {
+    "family": "dca",
+    "safety": 5,
+    "dev": 0.04,
+    "mult": 1.3,
+    "tp": 0.015,
+    "stop": 0.15,
+    "levels": 8,
+    "step": 0.06,
+    "filter": "none",
+    "breaker": 0.12
+   },
+   "train_score": -120.55,
+   "train_median_ret": -14.1,
+   "train_avg_dd": 23.9,
+   "train_green_active": 57.6,
+   "train_streak": 6.1
+  },
+  "{\"breaker\": 0.15, \"family\": \"grid\", \"filter\": \"F0\", \"levels\": 4, \"step\": 0.025}": {
+   "genome": {
+    "family": "grid",
+    "safety": 6,
+    "dev": 0.07,
+    "mult": 1.8,
+    "tp": 0.03,
+    "stop": 0.3,
+    "levels": 4,
+    "step": 0.025,
+    "filter": "F0",
+    "breaker": 0.15
+   },
+   "train_score": -1.6,
+   "train_median_ret": -3.2,
+   "train_avg_dd": 6.7,
+   "train_green_active": 60.9,
+   "train_streak": 2.9
+  },
+  "{\"breaker\": 0.08, \"family\": \"grid\", \"filter\": \"F1\", \"levels\": 8, \"step\": 0.08}": {
+   "genome": {
+    "family": "grid",
+    "safety": 6,
+    "dev": 0.09,
+    "mult": 1.5,
+    "tp": 0.02,
+    "stop": null,
+    "levels": 8,
+    "step": 0.08,
+    "filter": "F1",
+    "breaker": 0.08
+   },
+   "train_score": 18.36,
+   "train_median_ret": 1.2,
+   "train_avg_dd": 0.7,
+   "train_green_active": 80.4,
+   "train_streak": 2.4
+  },
+  "{\"breaker\": 0.15, \"family\": \"grid\", \"filter\": \"none\", \"levels\": 4, \"step\": 0.08}": {
+   "genome": {
+    "family": "grid",
+    "safety": 3,
+    "dev": 0.03,
+    "mult": 1.3,
+    "tp": 0.03,
+    "stop": 0.15,
+    "levels": 4,
+    "step": 0.08,
+    "filter": "none",
+    "breaker": 0.15
+   },
+   "train_score": -34.42,
+   "train_median_ret": 0.0,
+   "train_avg_dd": 8.7,
+   "train_green_active": 42.1,
+   "train_streak": 3.1
+  },
+  "{\"breaker\": 0.12, \"family\": \"grid\", \"filter\": \"F1\", \"levels\": 4, \"step\": 0.05}": {
+   "genome": {
+    "family": "grid",
+    "safety": 4,
+    "dev": 0.07,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": 0.15,
+    "levels": 4,
+    "step": 0.05,
+    "filter": "F1",
+    "breaker": 0.12
+   },
+   "train_score": 18.15,
+   "train_median_ret": 3.8,
+   "train_avg_dd": 2.0,
+   "train_green_active": 77.4,
+   "train_streak": 2.9
+  },
+  "{\"breaker\": null, \"family\": \"grid\", \"filter\": \"none\", \"levels\": 4, \"step\": 0.04}": {
+   "genome": {
+    "family": "grid",
+    "safety": 3,
+    "dev": 0.07,
+    "mult": 1.8,
+    "tp": 0.015,
+    "stop": 0.15,
+    "levels": 4,
+    "step": 0.04,
+    "filter": "none",
+    "breaker": null
+   },
+   "train_score": -62.53,
+   "train_median_ret": 0.0,
+   "train_avg_dd": 8.9,
+   "train_green_active": 37.7,
+   "train_streak": 3.9
+  },
+  "{\"breaker\": null, \"family\": \"grid\", \"filter\": \"F1\", \"levels\": 6, \"step\": 0.025}": {
+   "genome": {
+    "family": "grid",
+    "safety": 5,
+    "dev": 0.07,
+    "mult": 1.5,
+    "tp": 0.03,
+    "stop": 0.2,
+    "levels": 6,
+    "step": 0.025,
+    "filter": "F1",
+    "breaker": null
+   },
+   "train_score": 9.91,
+   "train_median_ret": -0.6,
+   "train_avg_dd": 3.5,
+   "train_green_active": 75.0,
+   "train_streak": 2.6
+  },
+  "{\"breaker\": null, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F0\", \"mult\": 2.4, \"safety\": 6, \"stop\": null, \"tp\": 0.04}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.04,
+    "stop": null,
+    "levels": 10,
+    "step": 0.03,
+    "filter": "F0",
+    "breaker": null
+   },
+   "train_score": 22.59,
+   "train_median_ret": 3.8,
+   "train_avg_dd": 4.4,
+   "train_green_active": 77.8,
+   "train_streak": 14.4
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.06, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 1.5, \"safety\": 6, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.06,
+    "mult": 1.5,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 14.72,
+   "train_median_ret": 0.8,
+   "train_avg_dd": 3.1,
+   "train_green_active": 58.4,
+   "train_streak": 8.3
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.06, \"family\": \"dca\", \"filter\": \"F0\", \"mult\": 2.0, \"safety\": 5, \"stop\": null, \"tp\": 0.02}": {
+   "genome": {
+    "family": "dca",
+    "safety": 5,
+    "dev": 0.06,
+    "mult": 2.0,
+    "tp": 0.02,
+    "stop": null,
+    "levels": 6,
+    "step": 0.03,
+    "filter": "F0",
+    "breaker": 0.08
+   },
+   "train_score": 17.96,
+   "train_median_ret": 0.9,
+   "train_avg_dd": 2.3,
+   "train_green_active": 64.8,
+   "train_streak": 8.6
+  },
+  "{\"breaker\": 0.15, \"family\": \"grid\", \"filter\": \"F0\", \"levels\": 10, \"step\": 0.06}": {
+   "genome": {
+    "family": "grid",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 1.8,
+    "tp": 0.05,
+    "stop": null,
+    "levels": 10,
+    "step": 0.06,
+    "filter": "F0",
+    "breaker": 0.15
+   },
+   "train_score": 13.29,
+   "train_median_ret": 0.9,
+   "train_avg_dd": 1.4,
+   "train_green_active": 62.7,
+   "train_streak": 2.7
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.07, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 1.3, \"safety\": 3, \"stop\": 0.15, \"tp\": 0.01}": {
+   "genome": {
+    "family": "dca",
+    "safety": 3,
+    "dev": 0.07,
+    "mult": 1.3,
+    "tp": 0.01,
+    "stop": 0.15,
+    "levels": 6,
+    "step": 0.03,
+    "filter": "F1",
+    "breaker": 0.08
+   },
+   "train_score": -19.66,
+   "train_median_ret": -4.6,
+   "train_avg_dd": 10.0,
+   "train_green_active": 49.3,
+   "train_streak": 3.6
+  },
+  "{\"breaker\": null, \"family\": \"grid\", \"filter\": \"F0\", \"levels\": 8, \"step\": 0.04}": {
+   "genome": {
+    "family": "grid",
+    "safety": 5,
+    "dev": 0.06,
+    "mult": 2.4,
+    "tp": 0.07,
+    "stop": 0.2,
+    "levels": 8,
+    "step": 0.04,
+    "filter": "F0",
+    "breaker": null
+   },
+   "train_score": 13.73,
+   "train_median_ret": 1.5,
+   "train_avg_dd": 2.9,
+   "train_green_active": 73.6,
+   "train_streak": 3.2
+  },
+  "{\"breaker\": null, \"family\": \"grid\", \"filter\": \"F1\", \"levels\": 6, \"step\": 0.06}": {
+   "genome": {
+    "family": "grid",
+    "safety": 4,
+    "dev": 0.09,
+    "mult": 2.4,
+    "tp": 0.07,
+    "stop": 0.3,
+    "levels": 6,
+    "step": 0.06,
+    "filter": "F1",
+    "breaker": null
+   },
+   "train_score": 15.78,
+   "train_median_ret": 1.9,
+   "train_avg_dd": 1.3,
+   "train_green_active": 72.5,
+   "train_streak": 2.1
+  },
+  "{\"breaker\": 0.15, \"family\": \"grid\", \"filter\": \"none\", \"levels\": 6, \"step\": 0.04}": {
+   "genome": {
+    "family": "grid",
+    "safety": 3,
+    "dev": 0.05,
+    "mult": 1.3,
+    "tp": 0.03,
+    "stop": 0.15,
+    "levels": 6,
+    "step": 0.04,
+    "filter": "none",
+    "breaker": 0.15
+   },
+   "train_score": -68.13,
+   "train_median_ret": 0.0,
+   "train_avg_dd": 9.0,
+   "train_green_active": 50.9,
+   "train_streak": 3.3
+  },
+  "{\"breaker\": null, \"dev\": 0.06, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 1.3, \"safety\": 4, \"stop\": 0.2, \"tp\": 0.02}": {
+   "genome": {
+    "family": "dca",
+    "safety": 4,
+    "dev": 0.06,
+    "mult": 1.3,
+    "tp": 0.02,
+    "stop": 0.2,
+    "levels": 8,
+    "step": 0.06,
+    "filter": "F1",
+    "breaker": null
+   },
+   "train_score": -14.02,
+   "train_median_ret": 0.0,
+   "train_avg_dd": 9.0,
+   "train_green_active": 54.1,
+   "train_streak": 5.6
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.07, \"family\": \"dca\", \"filter\": \"F0\", \"mult\": 2.0, \"safety\": 6, \"stop\": 0.15, \"tp\": 0.07}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.07,
+    "mult": 2.0,
+    "tp": 0.07,
+    "stop": 0.15,
+    "levels": 8,
+    "step": 0.08,
+    "filter": "F0",
+    "breaker": 0.08
+   },
+   "train_score": 17.55,
+   "train_median_ret": 0.6,
+   "train_avg_dd": 1.0,
+   "train_green_active": 62.9,
+   "train_streak": 6.4
+  },
+  "{\"breaker\": 0.12, \"family\": \"grid\", \"filter\": \"F1\", \"levels\": 4, \"step\": 0.08}": {
+   "genome": {
+    "family": "grid",
+    "safety": 6,
+    "dev": 0.09,
+    "mult": 1.5,
+    "tp": 0.03,
+    "stop": 0.15,
+    "levels": 4,
+    "step": 0.08,
+    "filter": "F1",
+    "breaker": 0.12
+   },
+   "train_score": 18.26,
+   "train_median_ret": 2.5,
+   "train_avg_dd": 1.4,
+   "train_green_active": 80.4,
+   "train_streak": 2.4
+  },
+  "{\"breaker\": 0.12, \"family\": \"grid\", \"filter\": \"none\", \"levels\": 8, \"step\": 0.03}": {
+   "genome": {
+    "family": "grid",
+    "safety": 5,
+    "dev": 0.04,
+    "mult": 1.5,
+    "tp": 0.04,
+    "stop": 0.15,
+    "levels": 8,
+    "step": 0.03,
+    "filter": "none",
+    "breaker": 0.12
+   },
+   "train_score": -86.69,
+   "train_median_ret": 0.0,
+   "train_avg_dd": 9.5,
+   "train_green_active": 48.2,
+   "train_streak": 4.0
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F0\", \"mult\": 1.5, \"safety\": 6, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 1.5,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 10,
+    "step": 0.025,
+    "filter": "F0",
+    "breaker": 0.08
+   },
+   "train_score": -37.37,
+   "train_median_ret": -2.8,
+   "train_avg_dd": 11.7,
+   "train_green_active": 66.9,
+   "train_streak": 11.2
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.06, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 1.8, \"safety\": 3, \"stop\": 0.15, \"tp\": 0.01}": {
+   "genome": {
+    "family": "dca",
+    "safety": 3,
+    "dev": 0.06,
+    "mult": 1.8,
+    "tp": 0.01,
+    "stop": 0.15,
+    "levels": 6,
+    "step": 0.03,
+    "filter": "none",
+    "breaker": 0.12
+   },
+   "train_score": -195.44,
+   "train_median_ret": -25.8,
+   "train_avg_dd": 31.1,
+   "train_green_active": 56.6,
+   "train_streak": 4.9
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.04, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.0, \"safety\": 4, \"stop\": 0.15, \"tp\": 0.04}": {
+   "genome": {
+    "family": "dca",
+    "safety": 4,
+    "dev": 0.04,
+    "mult": 2.0,
+    "tp": 0.04,
+    "stop": 0.15,
+    "levels": 4,
+    "step": 0.08,
+    "filter": "F1",
+    "breaker": 0.08
+   },
+   "train_score": 5.68,
+   "train_median_ret": 0.6,
+   "train_avg_dd": 7.3,
+   "train_green_active": 68.2,
+   "train_streak": 6.1
+  },
+  "{\"breaker\": null, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 2.0, \"safety\": 6, \"stop\": null, \"tp\": 0.04}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.0,
+    "tp": 0.04,
+    "stop": null,
+    "levels": 10,
+    "step": 0.03,
+    "filter": "none",
+    "breaker": null
+   },
+   "train_score": -64.24,
+   "train_median_ret": -9.2,
+   "train_avg_dd": 25.3,
+   "train_green_active": 71.9,
+   "train_streak": 14.7
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.07, \"family\": \"dca\", \"filter\": \"F0\", \"mult\": 1.8, \"safety\": 3, \"stop\": 0.15, \"tp\": 0.04}": {
+   "genome": {
+    "family": "dca",
+    "safety": 3,
+    "dev": 0.07,
+    "mult": 1.8,
+    "tp": 0.04,
+    "stop": 0.15,
+    "levels": 6,
+    "step": 0.03,
+    "filter": "F0",
+    "breaker": 0.12
+   },
+   "train_score": -33.33,
+   "train_median_ret": -2.1,
+   "train_avg_dd": 12.5,
+   "train_green_active": 59.2,
+   "train_streak": 6.5
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.04, \"family\": \"dca\", \"filter\": \"F0\", \"mult\": 2.0, \"safety\": 3, \"stop\": null, \"tp\": 0.07}": {
+   "genome": {
+    "family": "dca",
+    "safety": 3,
+    "dev": 0.04,
+    "mult": 2.0,
+    "tp": 0.07,
+    "stop": null,
+    "levels": 6,
+    "step": 0.08,
+    "filter": "F0",
+    "breaker": 0.12
+   },
+   "train_score": -109.85,
+   "train_median_ret": 3.1,
+   "train_avg_dd": 21.9,
+   "train_green_active": 58.0,
+   "train_streak": 6.5
+  },
+  "{\"breaker\": 0.12, \"family\": \"grid\", \"filter\": \"none\", \"levels\": 6, \"step\": 0.025}": {
+   "genome": {
+    "family": "grid",
+    "safety": 5,
+    "dev": 0.06,
+    "mult": 2.4,
+    "tp": 0.05,
+    "stop": 0.2,
+    "levels": 6,
+    "step": 0.025,
+    "filter": "none",
+    "breaker": 0.12
+   },
+   "train_score": -80.98,
+   "train_median_ret": -1.7,
+   "train_avg_dd": 10.7,
+   "train_green_active": 55.0,
+   "train_streak": 4.8
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.02, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 6, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.02,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.08
+   },
+   "train_score": 22.88,
+   "train_median_ret": 1.6,
+   "train_avg_dd": 3.4,
+   "train_green_active": 79.8,
+   "train_streak": 12.7
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.07, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.0, \"safety\": 5, \"stop\": null, \"tp\": 0.07}": {
+   "genome": {
+    "family": "dca",
+    "safety": 5,
+    "dev": 0.07,
+    "mult": 2.0,
+    "tp": 0.07,
+    "stop": null,
+    "levels": 6,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.12
+   },
+   "train_score": 17.39,
+   "train_median_ret": 1.3,
+   "train_avg_dd": 2.3,
+   "train_green_active": 64.2,
+   "train_streak": 8.0
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.02, \"family\": \"dca\", \"filter\": \"F0\", \"mult\": 2.4, \"safety\": 5, \"stop\": null, \"tp\": 0.04}": {
+   "genome": {
+    "family": "dca",
+    "safety": 5,
+    "dev": 0.02,
+    "mult": 2.4,
+    "tp": 0.04,
+    "stop": null,
+    "levels": 10,
+    "step": 0.08,
+    "filter": "F0",
+    "breaker": 0.12
+   },
+   "train_score": -56.18,
+   "train_median_ret": 0.5,
+   "train_avg_dd": 14.5,
+   "train_green_active": 66.2,
+   "train_streak": 8.7
+  },
+  "{\"breaker\": 0.12, \"family\": \"grid\", \"filter\": \"F1\", \"levels\": 8, \"step\": 0.04}": {
+   "genome": {
+    "family": "grid",
+    "safety": 5,
+    "dev": 0.07,
+    "mult": 2.0,
+    "tp": 0.03,
+    "stop": 0.15,
+    "levels": 8,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.12
+   },
+   "train_score": 19.46,
+   "train_median_ret": 1.8,
+   "train_avg_dd": 1.4,
+   "train_green_active": 88.0,
+   "train_streak": 3.0
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.09, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.0, \"safety\": 6, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.09,
+    "mult": 2.0,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 10,
+    "step": 0.08,
+    "filter": "F1",
+    "breaker": 0.08
+   },
+   "train_score": 18.67,
+   "train_median_ret": 0.3,
+   "train_avg_dd": 0.6,
+   "train_green_active": 60.9,
+   "train_streak": 7.5
+  },
+  "{\"breaker\": 0.12, \"family\": \"grid\", \"filter\": \"F0\", \"levels\": 4, \"step\": 0.05}": {
+   "genome": {
+    "family": "grid",
+    "safety": 6,
+    "dev": 0.07,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": 0.15,
+    "levels": 4,
+    "step": 0.05,
+    "filter": "F0",
+    "breaker": 0.12
+   },
+   "train_score": 9.56,
+   "train_median_ret": 1.0,
+   "train_avg_dd": 3.5,
+   "train_green_active": 64.6,
+   "train_streak": 2.6
+  },
+  "{\"breaker\": 0.12, \"family\": \"grid\", \"filter\": \"F1\", \"levels\": 10, \"step\": 0.08}": {
+   "genome": {
+    "family": "grid",
+    "safety": 5,
+    "dev": 0.02,
+    "mult": 2.0,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 10,
+    "step": 0.08,
+    "filter": "F1",
+    "breaker": 0.12
+   },
+   "train_score": 18.38,
+   "train_median_ret": 1.0,
+   "train_avg_dd": 0.5,
+   "train_green_active": 80.4,
+   "train_streak": 2.4
+  },
+  "{\"breaker\": 0.08, \"family\": \"grid\", \"filter\": \"F1\", \"levels\": 4, \"step\": 0.05}": {
+   "genome": {
+    "family": "grid",
+    "safety": 3,
+    "dev": 0.05,
+    "mult": 1.5,
+    "tp": 0.05,
+    "stop": 0.2,
+    "levels": 4,
+    "step": 0.05,
+    "filter": "F1",
+    "breaker": 0.08
+   },
+   "train_score": 18.15,
+   "train_median_ret": 3.8,
+   "train_avg_dd": 2.0,
+   "train_green_active": 77.4,
+   "train_streak": 2.9
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F0\", \"mult\": 2.4, \"safety\": 6, \"stop\": 0.15, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": 0.15,
+    "levels": 10,
+    "step": 0.03,
+    "filter": "F0",
+    "breaker": 0.12
+   },
+   "train_score": 20.09,
+   "train_median_ret": 2.2,
+   "train_avg_dd": 4.7,
+   "train_green_active": 76.3,
+   "train_streak": 13.9
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.07, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.0, \"safety\": 5, \"stop\": 0.15, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 5,
+    "dev": 0.07,
+    "mult": 2.0,
+    "tp": 0.03,
+    "stop": 0.15,
+    "levels": 8,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.12
+   },
+   "train_score": 15.3,
+   "train_median_ret": 0.0,
+   "train_avg_dd": 1.5,
+   "train_green_active": 60.2,
+   "train_streak": 6.2
+  },
+  "{\"breaker\": 0.12, \"family\": \"grid\", \"filter\": \"F0\", \"levels\": 4, \"step\": 0.06}": {
+   "genome": {
+    "family": "grid",
+    "safety": 4,
+    "dev": 0.04,
+    "mult": 2.4,
+    "tp": 0.05,
+    "stop": 0.15,
+    "levels": 4,
+    "step": 0.06,
+    "filter": "F0",
+    "breaker": 0.12
+   },
+   "train_score": 9.58,
+   "train_median_ret": 1.9,
+   "train_avg_dd": 3.5,
+   "train_green_active": 61.5,
+   "train_streak": 2.4
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 1.3, \"safety\": 5, \"stop\": 0.15, \"tp\": 0.05}": {
+   "genome": {
+    "family": "dca",
+    "safety": 5,
+    "dev": 0.03,
+    "mult": 1.3,
+    "tp": 0.05,
+    "stop": 0.15,
+    "levels": 10,
+    "step": 0.06,
+    "filter": "F1",
+    "breaker": 0.08
+   },
+   "train_score": -16.27,
+   "train_median_ret": 2.3,
+   "train_avg_dd": 10.5,
+   "train_green_active": 64.9,
+   "train_streak": 5.7
+  },
+  "{\"breaker\": null, \"family\": \"grid\", \"filter\": \"F1\", \"levels\": 10, \"step\": 0.04}": {
+   "genome": {
+    "family": "grid",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.0,
+    "tp": 0.04,
+    "stop": 0.15,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": null
+   },
+   "train_score": 19.68,
+   "train_median_ret": 1.4,
+   "train_avg_dd": 1.2,
+   "train_green_active": 88.0,
+   "train_streak": 3.0
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.05, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.0, \"safety\": 4, \"stop\": 0.15, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 4,
+    "dev": 0.05,
+    "mult": 2.0,
+    "tp": 0.03,
+    "stop": 0.15,
+    "levels": 8,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.12
+   },
+   "train_score": 14.77,
+   "train_median_ret": 1.8,
+   "train_avg_dd": 5.0,
+   "train_green_active": 63.8,
+   "train_streak": 10.2
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.09, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.0, \"safety\": 5, \"stop\": 0.15, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 5,
+    "dev": 0.09,
+    "mult": 2.0,
+    "tp": 0.03,
+    "stop": 0.15,
+    "levels": 8,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 16.16,
+   "train_median_ret": -0.0,
+   "train_avg_dd": 1.2,
+   "train_green_active": 56.8,
+   "train_streak": 7.2
+  },
+  "{\"breaker\": null, \"dev\": 0.02, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 6, \"stop\": null, \"tp\": 0.04}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.02,
+    "mult": 2.4,
+    "tp": 0.04,
+    "stop": null,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": null
+   },
+   "train_score": 20.19,
+   "train_median_ret": 3.9,
+   "train_avg_dd": 4.6,
+   "train_green_active": 72.7,
+   "train_streak": 11.0
+  },
+  "{\"breaker\": null, \"family\": \"grid\", \"filter\": \"F0\", \"levels\": 10, \"step\": 0.03}": {
+   "genome": {
+    "family": "grid",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.0,
+    "tp": 0.04,
+    "stop": null,
+    "levels": 10,
+    "step": 0.03,
+    "filter": "F0",
+    "breaker": null
+   },
+   "train_score": 12.79,
+   "train_median_ret": 1.4,
+   "train_avg_dd": 3.5,
+   "train_green_active": 74.6,
+   "train_streak": 3.4
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.07, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 6, \"stop\": null, \"tp\": 0.04}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.07,
+    "mult": 2.4,
+    "tp": 0.04,
+    "stop": null,
+    "levels": 8,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 21.67,
+   "train_median_ret": 0.2,
+   "train_avg_dd": 0.4,
+   "train_green_active": 66.6,
+   "train_streak": 9.0
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 6, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 30.68,
+   "train_median_ret": 6.3,
+   "train_avg_dd": 1.8,
+   "train_green_active": 80.4,
+   "train_streak": 12.9
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.02, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 6, \"stop\": null, \"tp\": 0.04}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.02,
+    "mult": 2.4,
+    "tp": 0.04,
+    "stop": null,
+    "levels": 8,
+    "step": 0.06,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 20.19,
+   "train_median_ret": 3.9,
+   "train_avg_dd": 4.6,
+   "train_green_active": 72.7,
+   "train_streak": 11.0
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.07, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.0, \"safety\": 5, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 5,
+    "dev": 0.07,
+    "mult": 2.0,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 8,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.12
+   },
+   "train_score": 17.32,
+   "train_median_ret": 0.4,
+   "train_avg_dd": 1.8,
+   "train_green_active": 61.0,
+   "train_streak": 8.3
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.02, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 6, \"stop\": null, \"tp\": 0.02}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.02,
+    "mult": 2.4,
+    "tp": 0.02,
+    "stop": null,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 18.86,
+   "train_median_ret": 1.7,
+   "train_avg_dd": 4.3,
+   "train_green_active": 73.9,
+   "train_streak": 10.9
+  },
+  "{\"breaker\": null, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 5, \"stop\": null, \"tp\": 0.05}": {
+   "genome": {
+    "family": "dca",
+    "safety": 5,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.05,
+    "stop": null,
+    "levels": 10,
+    "step": 0.03,
+    "filter": "F1",
+    "breaker": null
+   },
+   "train_score": 21.15,
+   "train_median_ret": 3.5,
+   "train_avg_dd": 4.7,
+   "train_green_active": 74.7,
+   "train_streak": 12.4
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.02, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 6, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.02,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 22.88,
+   "train_median_ret": 1.6,
+   "train_avg_dd": 3.4,
+   "train_green_active": 79.8,
+   "train_streak": 12.7
+  },
+  "{\"breaker\": null, \"dev\": 0.05, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 5, \"stop\": 0.15, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 5,
+    "dev": 0.05,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": 0.15,
+    "levels": 8,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": null
+   },
+   "train_score": 23.48,
+   "train_median_ret": 1.6,
+   "train_avg_dd": 1.3,
+   "train_green_active": 68.8,
+   "train_streak": 10.8
+  },
+  "{\"breaker\": 0.15, \"family\": \"grid\", \"filter\": \"F0\", \"levels\": 10, \"step\": 0.025}": {
+   "genome": {
+    "family": "grid",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 1.3,
+    "tp": 0.05,
+    "stop": 0.3,
+    "levels": 10,
+    "step": 0.025,
+    "filter": "F0",
+    "breaker": 0.15
+   },
+   "train_score": 9.28,
+   "train_median_ret": 0.7,
+   "train_avg_dd": 4.2,
+   "train_green_active": 68.9,
+   "train_streak": 3.2
+  },
+  "{\"breaker\": 0.08, \"family\": \"grid\", \"filter\": \"F1\", \"levels\": 10, \"step\": 0.04}": {
+   "genome": {
+    "family": "grid",
+    "safety": 6,
+    "dev": 0.02,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.08
+   },
+   "train_score": 19.68,
+   "train_median_ret": 1.4,
+   "train_avg_dd": 1.2,
+   "train_green_active": 88.0,
+   "train_streak": 3.0
+  },
+  "{\"breaker\": 0.15, \"family\": \"grid\", \"filter\": \"none\", \"levels\": 10, \"step\": 0.04}": {
+   "genome": {
+    "family": "grid",
+    "safety": 6,
+    "dev": 0.06,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": 0.2,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "none",
+    "breaker": 0.15
+   },
+   "train_score": -30.76,
+   "train_median_ret": 0.0,
+   "train_avg_dd": 9.8,
+   "train_green_active": 44.1,
+   "train_streak": 3.5
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 6, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.12
+   },
+   "train_score": 30.68,
+   "train_median_ret": 6.3,
+   "train_avg_dd": 1.8,
+   "train_green_active": 80.4,
+   "train_streak": 12.9
+  },
+  "{\"breaker\": null, \"dev\": 0.05, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 1.8, \"safety\": 5, \"stop\": 0.15, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 5,
+    "dev": 0.05,
+    "mult": 1.8,
+    "tp": 0.03,
+    "stop": 0.15,
+    "levels": 8,
+    "step": 0.05,
+    "filter": "F1",
+    "breaker": null
+   },
+   "train_score": 14.4,
+   "train_median_ret": 1.1,
+   "train_avg_dd": 3.7,
+   "train_green_active": 61.4,
+   "train_streak": 8.3
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.05, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 6, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.05,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 8,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.08
+   },
+   "train_score": 24.09,
+   "train_median_ret": 0.7,
+   "train_avg_dd": 0.5,
+   "train_green_active": 68.8,
+   "train_streak": 10.8
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 6, \"stop\": 0.15, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": 0.15,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 30.68,
+   "train_median_ret": 6.3,
+   "train_avg_dd": 1.8,
+   "train_green_active": 80.4,
+   "train_streak": 12.9
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.02, \"family\": \"dca\", \"filter\": \"F0\", \"mult\": 2.4, \"safety\": 6, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.02,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F0",
+    "breaker": 0.15
+   },
+   "train_score": -13.02,
+   "train_median_ret": -2.7,
+   "train_avg_dd": 9.5,
+   "train_green_active": 74.9,
+   "train_streak": 13.9
+  },
+  "{\"breaker\": 0.15, \"family\": \"grid\", \"filter\": \"F1\", \"levels\": 10, \"step\": 0.06}": {
+   "genome": {
+    "family": "grid",
+    "safety": 4,
+    "dev": 0.03,
+    "mult": 1.5,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 10,
+    "step": 0.06,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 16.09,
+   "train_median_ret": 1.1,
+   "train_avg_dd": 0.8,
+   "train_green_active": 72.5,
+   "train_streak": 2.1
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.02, \"family\": \"dca\", \"filter\": \"F0\", \"mult\": 2.4, \"safety\": 4, \"stop\": null, \"tp\": 0.015}": {
+   "genome": {
+    "family": "dca",
+    "safety": 4,
+    "dev": 0.02,
+    "mult": 2.4,
+    "tp": 0.015,
+    "stop": null,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F0",
+    "breaker": 0.08
+   },
+   "train_score": -72.67,
+   "train_median_ret": -9.2,
+   "train_avg_dd": 17.1,
+   "train_green_active": 54.0,
+   "train_streak": 3.7
+  },
+  "{\"breaker\": null, \"dev\": 0.05, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 1.5, \"safety\": 5, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 5,
+    "dev": 0.05,
+    "mult": 1.5,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 8,
+    "step": 0.04,
+    "filter": "none",
+    "breaker": null
+   },
+   "train_score": -38.57,
+   "train_median_ret": 5.5,
+   "train_avg_dd": 18.2,
+   "train_green_active": 62.0,
+   "train_streak": 9.3
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.02, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 6, \"stop\": 0.2, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.02,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": 0.2,
+    "levels": 8,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 22.88,
+   "train_median_ret": 1.6,
+   "train_avg_dd": 3.4,
+   "train_green_active": 79.8,
+   "train_streak": 12.7
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.02, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 1.8, \"safety\": 6, \"stop\": 0.15, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.02,
+    "mult": 1.8,
+    "tp": 0.03,
+    "stop": 0.15,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 8.66,
+   "train_median_ret": 0.0,
+   "train_avg_dd": 6.9,
+   "train_green_active": 66.9,
+   "train_streak": 9.0
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F0\", \"mult\": 2.4, \"safety\": 6, \"stop\": null, \"tp\": 0.04}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.04,
+    "stop": null,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F0",
+    "breaker": 0.15
+   },
+   "train_score": 22.59,
+   "train_median_ret": 3.8,
+   "train_avg_dd": 4.4,
+   "train_green_active": 77.8,
+   "train_streak": 14.4
+  },
+  "{\"breaker\": null, \"family\": \"grid\", \"filter\": \"F1\", \"levels\": 10, \"step\": 0.025}": {
+   "genome": {
+    "family": "grid",
+    "safety": 6,
+    "dev": 0.06,
+    "mult": 2.0,
+    "tp": 0.01,
+    "stop": null,
+    "levels": 10,
+    "step": 0.025,
+    "filter": "F1",
+    "breaker": null
+   },
+   "train_score": 15.09,
+   "train_median_ret": 1.5,
+   "train_avg_dd": 2.4,
+   "train_green_active": 77.4,
+   "train_streak": 2.9
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 6, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 8,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.08
+   },
+   "train_score": 30.68,
+   "train_median_ret": 6.3,
+   "train_avg_dd": 1.8,
+   "train_green_active": 80.4,
+   "train_streak": 12.9
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.04, \"family\": \"dca\", \"filter\": \"F0\", \"mult\": 1.3, \"safety\": 6, \"stop\": null, \"tp\": 0.04}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.04,
+    "mult": 1.3,
+    "tp": 0.04,
+    "stop": null,
+    "levels": 10,
+    "step": 0.03,
+    "filter": "F0",
+    "breaker": 0.08
+   },
+   "train_score": 3.45,
+   "train_median_ret": 0.7,
+   "train_avg_dd": 8.8,
+   "train_green_active": 62.2,
+   "train_streak": 8.0
+  },
+  "{\"breaker\": 0.12, \"family\": \"grid\", \"filter\": \"F1\", \"levels\": 10, \"step\": 0.04}": {
+   "genome": {
+    "family": "grid",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.0,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.12
+   },
+   "train_score": 19.68,
+   "train_median_ret": 1.4,
+   "train_avg_dd": 1.2,
+   "train_green_active": 88.0,
+   "train_streak": 3.0
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.0, \"safety\": 6, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.0,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 28.66,
+   "train_median_ret": 5.3,
+   "train_avg_dd": 2.0,
+   "train_green_active": 77.0,
+   "train_streak": 12.3
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 1.5, \"safety\": 6, \"stop\": 0.15, \"tp\": 0.02}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 1.5,
+    "tp": 0.02,
+    "stop": 0.15,
+    "levels": 4,
+    "step": 0.06,
+    "filter": "F1",
+    "breaker": 0.08
+   },
+   "train_score": 11.52,
+   "train_median_ret": 0.4,
+   "train_avg_dd": 5.6,
+   "train_green_active": 65.0,
+   "train_streak": 9.4
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.05, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 6, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.05,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 8,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 24.09,
+   "train_median_ret": 0.7,
+   "train_avg_dd": 0.5,
+   "train_green_active": 68.8,
+   "train_streak": 10.8
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.05, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 5, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 5,
+    "dev": 0.05,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 8,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.08
+   },
+   "train_score": 23.48,
+   "train_median_ret": 1.6,
+   "train_avg_dd": 1.3,
+   "train_green_active": 68.8,
+   "train_streak": 10.8
+  },
+  "{\"breaker\": 0.08, \"family\": \"grid\", \"filter\": \"F0\", \"levels\": 10, \"step\": 0.08}": {
+   "genome": {
+    "family": "grid",
+    "safety": 6,
+    "dev": 0.06,
+    "mult": 2.0,
+    "tp": 0.04,
+    "stop": 0.15,
+    "levels": 10,
+    "step": 0.08,
+    "filter": "F0",
+    "breaker": 0.08
+   },
+   "train_score": 15.31,
+   "train_median_ret": 1.0,
+   "train_avg_dd": 1.1,
+   "train_green_active": 68.3,
+   "train_streak": 2.9
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F0\", \"mult\": 2.4, \"safety\": 5, \"stop\": 0.15, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 5,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": 0.15,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F0",
+    "breaker": 0.15
+   },
+   "train_score": -28.04,
+   "train_median_ret": -1.9,
+   "train_avg_dd": 10.1,
+   "train_green_active": 71.3,
+   "train_streak": 13.1
+  },
+  "{\"breaker\": null, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 3, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 3,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 6,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": null
+   },
+   "train_score": -81.47,
+   "train_median_ret": 4.2,
+   "train_avg_dd": 19.2,
+   "train_green_active": 65.7,
+   "train_streak": 6.5
+  },
+  "{\"breaker\": null, \"family\": \"grid\", \"filter\": \"none\", \"levels\": 8, \"step\": 0.04}": {
+   "genome": {
+    "family": "grid",
+    "safety": 5,
+    "dev": 0.05,
+    "mult": 2.4,
+    "tp": 0.04,
+    "stop": 0.15,
+    "levels": 8,
+    "step": 0.04,
+    "filter": "none",
+    "breaker": null
+   },
+   "train_score": -40.11,
+   "train_median_ret": 0.0,
+   "train_avg_dd": 10.0,
+   "train_green_active": 37.9,
+   "train_streak": 3.1
+  },
+  "{\"breaker\": 0.12, \"family\": \"grid\", \"filter\": \"F1\", \"levels\": 8, \"step\": 0.05}": {
+   "genome": {
+    "family": "grid",
+    "safety": 4,
+    "dev": 0.03,
+    "mult": 1.8,
+    "tp": 0.05,
+    "stop": 0.15,
+    "levels": 8,
+    "step": 0.05,
+    "filter": "F1",
+    "breaker": 0.12
+   },
+   "train_score": 19.3,
+   "train_median_ret": 1.9,
+   "train_avg_dd": 1.1,
+   "train_green_active": 83.6,
+   "train_streak": 3.0
+  },
+  "{\"breaker\": 0.15, \"family\": \"grid\", \"filter\": \"F1\", \"levels\": 6, \"step\": 0.04}": {
+   "genome": {
+    "family": "grid",
+    "safety": 3,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.01,
+    "stop": 0.2,
+    "levels": 6,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 18.75,
+   "train_median_ret": 2.0,
+   "train_avg_dd": 1.9,
+   "train_green_active": 88.0,
+   "train_streak": 3.0
+  },
+  "{\"breaker\": null, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 5, \"stop\": 0.15, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 5,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": 0.15,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": null
+   },
+   "train_score": 19.51,
+   "train_median_ret": 1.9,
+   "train_avg_dd": 4.5,
+   "train_green_active": 72.8,
+   "train_streak": 12.4
+  },
+  "{\"breaker\": 0.12, \"family\": \"grid\", \"filter\": \"F0\", \"levels\": 10, \"step\": 0.025}": {
+   "genome": {
+    "family": "grid",
+    "safety": 6,
+    "dev": 0.02,
+    "mult": 2.4,
+    "tp": 0.04,
+    "stop": null,
+    "levels": 10,
+    "step": 0.025,
+    "filter": "F0",
+    "breaker": 0.12
+   },
+   "train_score": 9.77,
+   "train_median_ret": 0.7,
+   "train_avg_dd": 4.0,
+   "train_green_active": 69.8,
+   "train_streak": 3.2
+  },
+  "{\"breaker\": null, \"dev\": 0.05, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.0, \"safety\": 5, \"stop\": null, \"tp\": 0.04}": {
+   "genome": {
+    "family": "dca",
+    "safety": 5,
+    "dev": 0.05,
+    "mult": 2.0,
+    "tp": 0.04,
+    "stop": null,
+    "levels": 4,
+    "step": 0.025,
+    "filter": "F1",
+    "breaker": null
+   },
+   "train_score": 16.61,
+   "train_median_ret": 1.2,
+   "train_avg_dd": 3.7,
+   "train_green_active": 63.5,
+   "train_streak": 10.1
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.09, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.0, \"safety\": 6, \"stop\": 0.15, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.09,
+    "mult": 2.0,
+    "tp": 0.03,
+    "stop": 0.15,
+    "levels": 10,
+    "step": 0.03,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 17.38,
+   "train_median_ret": -0.0,
+   "train_avg_dd": 0.6,
+   "train_green_active": 56.8,
+   "train_streak": 7.2
+  },
+  "{\"breaker\": 0.12, \"family\": \"grid\", \"filter\": \"F0\", \"levels\": 10, \"step\": 0.04}": {
+   "genome": {
+    "family": "grid",
+    "safety": 3,
+    "dev": 0.05,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F0",
+    "breaker": 0.12
+   },
+   "train_score": 14.45,
+   "train_median_ret": 1.2,
+   "train_avg_dd": 2.3,
+   "train_green_active": 73.6,
+   "train_streak": 3.2
+  },
+  "{\"breaker\": 0.15, \"family\": \"grid\", \"filter\": \"F1\", \"levels\": 10, \"step\": 0.04}": {
+   "genome": {
+    "family": "grid",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 1.8,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 19.68,
+   "train_median_ret": 1.4,
+   "train_avg_dd": 1.2,
+   "train_green_active": 88.0,
+   "train_streak": 3.0
+  },
+  "{\"breaker\": 0.08, \"family\": \"grid\", \"filter\": \"F1\", \"levels\": 6, \"step\": 0.04}": {
+   "genome": {
+    "family": "grid",
+    "safety": 5,
+    "dev": 0.03,
+    "mult": 1.5,
+    "tp": 0.03,
+    "stop": 0.15,
+    "levels": 6,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.08
+   },
+   "train_score": 18.75,
+   "train_median_ret": 2.0,
+   "train_avg_dd": 1.9,
+   "train_green_active": 88.0,
+   "train_streak": 3.0
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 5, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 5,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 8,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.08
+   },
+   "train_score": 19.96,
+   "train_median_ret": 1.9,
+   "train_avg_dd": 4.3,
+   "train_green_active": 73.2,
+   "train_streak": 12.4
+  },
+  "{\"breaker\": 0.12, \"family\": \"grid\", \"filter\": \"F1\", \"levels\": 10, \"step\": 0.06}": {
+   "genome": {
+    "family": "grid",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 1.8,
+    "tp": 0.05,
+    "stop": 0.2,
+    "levels": 10,
+    "step": 0.06,
+    "filter": "F1",
+    "breaker": 0.12
+   },
+   "train_score": 16.09,
+   "train_median_ret": 1.1,
+   "train_avg_dd": 0.8,
+   "train_green_active": 72.5,
+   "train_streak": 2.1
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 6, \"stop\": 0.3, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": 0.3,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 30.68,
+   "train_median_ret": 6.3,
+   "train_avg_dd": 1.8,
+   "train_green_active": 80.4,
+   "train_streak": 12.9
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 1.8, \"safety\": 3, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 3,
+    "dev": 0.03,
+    "mult": 1.8,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 8,
+    "step": 0.08,
+    "filter": "none",
+    "breaker": 0.08
+   },
+   "train_score": -199.7,
+   "train_median_ret": -31.7,
+   "train_avg_dd": 37.0,
+   "train_green_active": 60.5,
+   "train_streak": 5.4
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F0\", \"mult\": 1.8, \"safety\": 4, \"stop\": null, \"tp\": 0.05}": {
+   "genome": {
+    "family": "dca",
+    "safety": 4,
+    "dev": 0.03,
+    "mult": 1.8,
+    "tp": 0.05,
+    "stop": null,
+    "levels": 8,
+    "step": 0.03,
+    "filter": "F0",
+    "breaker": 0.08
+   },
+   "train_score": -68.67,
+   "train_median_ret": -6.0,
+   "train_avg_dd": 19.2,
+   "train_green_active": 64.2,
+   "train_streak": 8.9
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.07, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 6, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.07,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.08
+   },
+   "train_score": 19.69,
+   "train_median_ret": 0.1,
+   "train_avg_dd": 0.5,
+   "train_green_active": 61.0,
+   "train_streak": 8.3
+  },
+  "{\"breaker\": null, \"family\": \"grid\", \"filter\": \"F0\", \"levels\": 6, \"step\": 0.03}": {
+   "genome": {
+    "family": "grid",
+    "safety": 6,
+    "dev": 0.04,
+    "mult": 1.5,
+    "tp": 0.01,
+    "stop": null,
+    "levels": 6,
+    "step": 0.03,
+    "filter": "F0",
+    "breaker": null
+   },
+   "train_score": 7.98,
+   "train_median_ret": -1.4,
+   "train_avg_dd": 4.5,
+   "train_green_active": 75.9,
+   "train_streak": 3.1
+  },
+  "{\"breaker\": null, \"dev\": 0.02, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 1.3, \"safety\": 4, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 4,
+    "dev": 0.02,
+    "mult": 1.3,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 4,
+    "step": 0.025,
+    "filter": "none",
+    "breaker": null
+   },
+   "train_score": -273.54,
+   "train_median_ret": -15.2,
+   "train_avg_dd": 48.5,
+   "train_green_active": 56.3,
+   "train_streak": 5.9
+  },
+  "{\"breaker\": null, \"family\": \"grid\", \"filter\": \"none\", \"levels\": 4, \"step\": 0.06}": {
+   "genome": {
+    "family": "grid",
+    "safety": 3,
+    "dev": 0.04,
+    "mult": 1.8,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 4,
+    "step": 0.06,
+    "filter": "none",
+    "breaker": null
+   },
+   "train_score": -35.94,
+   "train_median_ret": 0.0,
+   "train_avg_dd": 9.2,
+   "train_green_active": 34.3,
+   "train_streak": 3.3
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 1.5, \"safety\": 6, \"stop\": 0.15, \"tp\": 0.05}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 1.5,
+    "tp": 0.05,
+    "stop": 0.15,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 12.48,
+   "train_median_ret": 1.2,
+   "train_avg_dd": 5.6,
+   "train_green_active": 68.3,
+   "train_streak": 8.8
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 6, \"stop\": null, \"tp\": 0.01}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.01,
+    "stop": null,
+    "levels": 8,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 21.23,
+   "train_median_ret": 4.1,
+   "train_avg_dd": 1.9,
+   "train_green_active": 67.7,
+   "train_streak": 7.5
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F0\", \"mult\": 2.0, \"safety\": 6, \"stop\": null, \"tp\": 0.02}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.0,
+    "tp": 0.02,
+    "stop": null,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F0",
+    "breaker": 0.15
+   },
+   "train_score": 17.54,
+   "train_median_ret": 0.7,
+   "train_avg_dd": 4.5,
+   "train_green_active": 71.4,
+   "train_streak": 11.6
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 1.3, \"safety\": 5, \"stop\": 0.2, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 5,
+    "dev": 0.03,
+    "mult": 1.3,
+    "tp": 0.03,
+    "stop": 0.2,
+    "levels": 6,
+    "step": 0.06,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": -18.25,
+   "train_median_ret": 3.4,
+   "train_avg_dd": 11.6,
+   "train_green_active": 63.9,
+   "train_streak": 7.7
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 1.8, \"safety\": 6, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 1.8,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 8,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.08
+   },
+   "train_score": 24.33,
+   "train_median_ret": 4.4,
+   "train_avg_dd": 3.4,
+   "train_green_active": 73.7,
+   "train_streak": 12.2
+  },
+  "{\"breaker\": null, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 6, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": null
+   },
+   "train_score": 30.68,
+   "train_median_ret": 6.3,
+   "train_avg_dd": 1.8,
+   "train_green_active": 80.4,
+   "train_streak": 12.9
+  },
+  "{\"breaker\": 0.15, \"family\": \"grid\", \"filter\": \"F0\", \"levels\": 8, \"step\": 0.04}": {
+   "genome": {
+    "family": "grid",
+    "safety": 3,
+    "dev": 0.03,
+    "mult": 1.8,
+    "tp": 0.015,
+    "stop": 0.2,
+    "levels": 8,
+    "step": 0.04,
+    "filter": "F0",
+    "breaker": 0.15
+   },
+   "train_score": 13.18,
+   "train_median_ret": 1.5,
+   "train_avg_dd": 3.0,
+   "train_green_active": 72.3,
+   "train_streak": 3.2
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 2.4, \"safety\": 5, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 5,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "none",
+    "breaker": 0.15
+   },
+   "train_score": -31.92,
+   "train_median_ret": -2.9,
+   "train_avg_dd": 19.1,
+   "train_green_active": 71.8,
+   "train_streak": 14.7
+  },
+  "{\"breaker\": 0.15, \"family\": \"grid\", \"filter\": \"F1\", \"levels\": 4, \"step\": 0.025}": {
+   "genome": {
+    "family": "grid",
+    "safety": 6,
+    "dev": 0.04,
+    "mult": 1.5,
+    "tp": 0.01,
+    "stop": null,
+    "levels": 4,
+    "step": 0.025,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 2.32,
+   "train_median_ret": -2.4,
+   "train_avg_dd": 5.3,
+   "train_green_active": 66.0,
+   "train_streak": 2.1
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.06, \"family\": \"dca\", \"filter\": \"F0\", \"mult\": 1.8, \"safety\": 6, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.06,
+    "mult": 1.8,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 4,
+    "step": 0.04,
+    "filter": "F0",
+    "breaker": 0.15
+   },
+   "train_score": 16.86,
+   "train_median_ret": 0.5,
+   "train_avg_dd": 2.3,
+   "train_green_active": 61.2,
+   "train_streak": 8.8
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 1.8, \"safety\": 6, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 1.8,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.12
+   },
+   "train_score": 24.33,
+   "train_median_ret": 4.4,
+   "train_avg_dd": 3.4,
+   "train_green_active": 73.7,
+   "train_streak": 12.2
+  },
+  "{\"breaker\": 0.12, \"family\": \"grid\", \"filter\": \"F1\", \"levels\": 10, \"step\": 0.03}": {
+   "genome": {
+    "family": "grid",
+    "safety": 4,
+    "dev": 0.03,
+    "mult": 1.3,
+    "tp": 0.07,
+    "stop": 0.2,
+    "levels": 10,
+    "step": 0.03,
+    "filter": "F1",
+    "breaker": 0.12
+   },
+   "train_score": 17.38,
+   "train_median_ret": 1.2,
+   "train_avg_dd": 1.9,
+   "train_green_active": 83.6,
+   "train_streak": 3.2
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 1.5, \"safety\": 6, \"stop\": 0.3, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 1.5,
+    "tp": 0.03,
+    "stop": 0.3,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 15.08,
+   "train_median_ret": 2.4,
+   "train_avg_dd": 5.8,
+   "train_green_active": 67.3,
+   "train_streak": 10.9
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.05, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 2.4, \"safety\": 6, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.05,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 10,
+    "step": 0.08,
+    "filter": "none",
+    "breaker": 0.15
+   },
+   "train_score": 19.51,
+   "train_median_ret": 1.2,
+   "train_avg_dd": 4.3,
+   "train_green_active": 73.9,
+   "train_streak": 13.5
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 1.8, \"safety\": 6, \"stop\": 0.3, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 1.8,
+    "tp": 0.03,
+    "stop": 0.3,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 24.33,
+   "train_median_ret": 4.4,
+   "train_avg_dd": 3.4,
+   "train_green_active": 73.7,
+   "train_streak": 12.2
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.06, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 6, \"stop\": 0.15, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.06,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": 0.15,
+    "levels": 6,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 21.56,
+   "train_median_ret": 0.3,
+   "train_avg_dd": 0.4,
+   "train_green_active": 63.0,
+   "train_streak": 9.5
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.02, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 2.4, \"safety\": 5, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 5,
+    "dev": 0.02,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "none",
+    "breaker": 0.15
+   },
+   "train_score": -138.0,
+   "train_median_ret": -9.6,
+   "train_avg_dd": 27.7,
+   "train_green_active": 66.8,
+   "train_streak": 12.8
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 2.4, \"safety\": 6, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 6,
+    "step": 0.04,
+    "filter": "none",
+    "breaker": 0.08
+   },
+   "train_score": -12.48,
+   "train_median_ret": 2.9,
+   "train_avg_dd": 9.8,
+   "train_green_active": 74.8,
+   "train_streak": 16.3
+  },
+  "{\"breaker\": null, \"family\": \"grid\", \"filter\": \"F1\", \"levels\": 4, \"step\": 0.05}": {
+   "genome": {
+    "family": "grid",
+    "safety": 4,
+    "dev": 0.03,
+    "mult": 1.8,
+    "tp": 0.015,
+    "stop": 0.3,
+    "levels": 4,
+    "step": 0.05,
+    "filter": "F1",
+    "breaker": null
+   },
+   "train_score": 18.15,
+   "train_median_ret": 3.8,
+   "train_avg_dd": 2.0,
+   "train_green_active": 77.4,
+   "train_streak": 2.9
+  },
+  "{\"breaker\": 0.12, \"family\": \"grid\", \"filter\": \"F1\", \"levels\": 4, \"step\": 0.04}": {
+   "genome": {
+    "family": "grid",
+    "safety": 3,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 4,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.12
+   },
+   "train_score": 16.55,
+   "train_median_ret": 2.5,
+   "train_avg_dd": 2.8,
+   "train_green_active": 83.4,
+   "train_streak": 2.9
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 1.3, \"safety\": 6, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 1.3,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 8,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": -15.2,
+   "train_median_ret": 3.4,
+   "train_avg_dd": 9.7,
+   "train_green_active": 63.0,
+   "train_streak": 7.9
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 6, \"stop\": null, \"tp\": 0.015}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.015,
+    "stop": null,
+    "levels": 10,
+    "step": 0.03,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 27.75,
+   "train_median_ret": 4.9,
+   "train_avg_dd": 1.8,
+   "train_green_active": 76.5,
+   "train_streak": 11.2
+  },
+  "{\"breaker\": null, \"family\": \"grid\", \"filter\": \"F1\", \"levels\": 8, \"step\": 0.04}": {
+   "genome": {
+    "family": "grid",
+    "safety": 3,
+    "dev": 0.02,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": 0.15,
+    "levels": 8,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": null
+   },
+   "train_score": 19.46,
+   "train_median_ret": 1.8,
+   "train_avg_dd": 1.4,
+   "train_green_active": 88.0,
+   "train_streak": 3.0
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 2.4, \"safety\": 3, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 3,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 4,
+    "step": 0.025,
+    "filter": "none",
+    "breaker": 0.12
+   },
+   "train_score": -231.33,
+   "train_median_ret": -29.1,
+   "train_avg_dd": 40.3,
+   "train_green_active": 58.7,
+   "train_streak": 6.6
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.05, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 3, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 3,
+    "dev": 0.05,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 8,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 3.59,
+   "train_median_ret": 2.9,
+   "train_avg_dd": 9.8,
+   "train_green_active": 63.4,
+   "train_streak": 8.5
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.0, \"safety\": 4, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 4,
+    "dev": 0.03,
+    "mult": 2.0,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 10,
+    "step": 0.06,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": -9.32,
+   "train_median_ret": 2.7,
+   "train_avg_dd": 10.8,
+   "train_green_active": 74.6,
+   "train_streak": 12.1
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.09, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 1.3, \"safety\": 6, \"stop\": 0.3, \"tp\": 0.07}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.09,
+    "mult": 1.3,
+    "tp": 0.07,
+    "stop": 0.3,
+    "levels": 6,
+    "step": 0.025,
+    "filter": "none",
+    "breaker": 0.12
+   },
+   "train_score": -5.33,
+   "train_median_ret": 3.0,
+   "train_avg_dd": 11.3,
+   "train_green_active": 58.7,
+   "train_streak": 9.2
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.07, \"family\": \"dca\", \"filter\": \"F0\", \"mult\": 2.4, \"safety\": 4, \"stop\": 0.2, \"tp\": 0.05}": {
+   "genome": {
+    "family": "dca",
+    "safety": 4,
+    "dev": 0.07,
+    "mult": 2.4,
+    "tp": 0.05,
+    "stop": 0.2,
+    "levels": 4,
+    "step": 0.025,
+    "filter": "F0",
+    "breaker": 0.15
+   },
+   "train_score": 12.42,
+   "train_median_ret": 0.2,
+   "train_avg_dd": 4.5,
+   "train_green_active": 65.3,
+   "train_streak": 8.1
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 6, \"stop\": 0.15, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": 0.15,
+    "levels": 8,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.08
+   },
+   "train_score": 30.68,
+   "train_median_ret": 6.3,
+   "train_avg_dd": 1.8,
+   "train_green_active": 80.4,
+   "train_streak": 12.9
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F0\", \"mult\": 2.4, \"safety\": 6, \"stop\": 0.15, \"tp\": 0.04}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.04,
+    "stop": 0.15,
+    "levels": 10,
+    "step": 0.05,
+    "filter": "F0",
+    "breaker": 0.08
+   },
+   "train_score": 22.45,
+   "train_median_ret": 3.8,
+   "train_avg_dd": 4.4,
+   "train_green_active": 77.3,
+   "train_streak": 14.2
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.02, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 3, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 3,
+    "dev": 0.02,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 8,
+    "step": 0.05,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": -94.1,
+   "train_median_ret": -15.8,
+   "train_avg_dd": 23.1,
+   "train_green_active": 59.8,
+   "train_streak": 4.2
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 3, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 3,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 4,
+    "step": 0.03,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": -88.74,
+   "train_median_ret": 4.2,
+   "train_avg_dd": 19.7,
+   "train_green_active": 61.4,
+   "train_streak": 5.6
+  },
+  "{\"breaker\": null, \"family\": \"grid\", \"filter\": \"F1\", \"levels\": 10, \"step\": 0.05}": {
+   "genome": {
+    "family": "grid",
+    "safety": 3,
+    "dev": 0.06,
+    "mult": 2.0,
+    "tp": 0.07,
+    "stop": null,
+    "levels": 10,
+    "step": 0.05,
+    "filter": "F1",
+    "breaker": null
+   },
+   "train_score": 19.37,
+   "train_median_ret": 1.5,
+   "train_avg_dd": 0.9,
+   "train_green_active": 83.6,
+   "train_streak": 3.0
+  },
+  "{\"breaker\": null, \"dev\": 0.09, \"family\": \"dca\", \"filter\": \"F0\", \"mult\": 2.4, \"safety\": 3, \"stop\": 0.3, \"tp\": 0.04}": {
+   "genome": {
+    "family": "dca",
+    "safety": 3,
+    "dev": 0.09,
+    "mult": 2.4,
+    "tp": 0.04,
+    "stop": 0.3,
+    "levels": 8,
+    "step": 0.03,
+    "filter": "F0",
+    "breaker": null
+   },
+   "train_score": -21.38,
+   "train_median_ret": -0.5,
+   "train_avg_dd": 9.8,
+   "train_green_active": 61.7,
+   "train_streak": 7.6
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 6, \"stop\": 0.2, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": 0.2,
+    "levels": 10,
+    "step": 0.05,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 30.68,
+   "train_median_ret": 6.3,
+   "train_avg_dd": 1.8,
+   "train_green_active": 80.4,
+   "train_streak": 12.9
+  },
+  "{\"breaker\": 0.15, \"family\": \"grid\", \"filter\": \"F1\", \"levels\": 4, \"step\": 0.06}": {
+   "genome": {
+    "family": "grid",
+    "safety": 4,
+    "dev": 0.05,
+    "mult": 2.0,
+    "tp": 0.04,
+    "stop": 0.15,
+    "levels": 4,
+    "step": 0.06,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 14.94,
+   "train_median_ret": 2.4,
+   "train_avg_dd": 2.0,
+   "train_green_active": 72.5,
+   "train_streak": 2.1
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 1.8, \"safety\": 6, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 1.8,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 24.33,
+   "train_median_ret": 4.4,
+   "train_avg_dd": 3.4,
+   "train_green_active": 73.7,
+   "train_streak": 12.2
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.02, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 1.3, \"safety\": 6, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.02,
+    "mult": 1.3,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 8,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": -16.11,
+   "train_median_ret": 4.2,
+   "train_avg_dd": 11.5,
+   "train_green_active": 61.3,
+   "train_streak": 6.5
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.06, \"family\": \"dca\", \"filter\": \"F0\", \"mult\": 2.4, \"safety\": 4, \"stop\": 0.15, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 4,
+    "dev": 0.06,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": 0.15,
+    "levels": 8,
+    "step": 0.06,
+    "filter": "F0",
+    "breaker": 0.08
+   },
+   "train_score": 13.39,
+   "train_median_ret": 0.6,
+   "train_avg_dd": 5.1,
+   "train_green_active": 65.4,
+   "train_streak": 9.9
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 3, \"stop\": 0.15, \"tp\": 0.04}": {
+   "genome": {
+    "family": "dca",
+    "safety": 3,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.04,
+    "stop": 0.15,
+    "levels": 10,
+    "step": 0.08,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": -98.74,
+   "train_median_ret": -7.4,
+   "train_avg_dd": 18.5,
+   "train_green_active": 59.1,
+   "train_streak": 4.5
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.09, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 2.0, \"safety\": 6, \"stop\": 0.2, \"tp\": 0.01}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.09,
+    "mult": 2.0,
+    "tp": 0.01,
+    "stop": 0.2,
+    "levels": 4,
+    "step": 0.03,
+    "filter": "none",
+    "breaker": 0.15
+   },
+   "train_score": 11.86,
+   "train_median_ret": -0.5,
+   "train_avg_dd": 1.9,
+   "train_green_active": 54.0,
+   "train_streak": 5.4
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 2.4, \"safety\": 6, \"stop\": null, \"tp\": 0.02}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.02,
+    "stop": null,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "none",
+    "breaker": 0.12
+   },
+   "train_score": -17.44,
+   "train_median_ret": 2.0,
+   "train_avg_dd": 8.5,
+   "train_green_active": 80.9,
+   "train_streak": 17.3
+  },
+  "{\"breaker\": null, \"dev\": 0.02, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 1.5, \"safety\": 5, \"stop\": 0.15, \"tp\": 0.05}": {
+   "genome": {
+    "family": "dca",
+    "safety": 5,
+    "dev": 0.02,
+    "mult": 1.5,
+    "tp": 0.05,
+    "stop": 0.15,
+    "levels": 8,
+    "step": 0.08,
+    "filter": "none",
+    "breaker": null
+   },
+   "train_score": -190.47,
+   "train_median_ret": -7.4,
+   "train_avg_dd": 38.5,
+   "train_green_active": 62.5,
+   "train_streak": 6.8
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 1.3, \"safety\": 6, \"stop\": 0.15, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 1.3,
+    "tp": 0.03,
+    "stop": 0.15,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": -5.52,
+   "train_median_ret": 0.2,
+   "train_avg_dd": 8.3,
+   "train_green_active": 60.6,
+   "train_streak": 7.7
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.05, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 2.4, \"safety\": 6, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.05,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 10,
+    "step": 0.025,
+    "filter": "none",
+    "breaker": 0.12
+   },
+   "train_score": 13.53,
+   "train_median_ret": 1.1,
+   "train_avg_dd": 4.7,
+   "train_green_active": 70.7,
+   "train_streak": 13.6
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 4, \"stop\": 0.15, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 4,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": 0.15,
+    "levels": 10,
+    "step": 0.06,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": -9.31,
+   "train_median_ret": -0.9,
+   "train_avg_dd": 10.5,
+   "train_green_active": 65.6,
+   "train_streak": 10.4
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 4, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 4,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 8,
+    "step": 0.025,
+    "filter": "F1",
+    "breaker": 0.08
+   },
+   "train_score": -17.05,
+   "train_median_ret": -6.2,
+   "train_avg_dd": 10.8,
+   "train_green_active": 62.6,
+   "train_streak": 7.7
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 1.3, \"safety\": 6, \"stop\": 0.2, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 1.3,
+    "tp": 0.03,
+    "stop": 0.2,
+    "levels": 8,
+    "step": 0.05,
+    "filter": "F1",
+    "breaker": 0.08
+   },
+   "train_score": -8.48,
+   "train_median_ret": 3.2,
+   "train_avg_dd": 9.6,
+   "train_green_active": 62.5,
+   "train_streak": 9.5
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 6, \"stop\": 0.15, \"tp\": 0.04}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.04,
+    "stop": 0.15,
+    "levels": 10,
+    "step": 0.05,
+    "filter": "F1",
+    "breaker": 0.12
+   },
+   "train_score": 29.12,
+   "train_median_ret": 6.2,
+   "train_avg_dd": 1.4,
+   "train_green_active": 77.8,
+   "train_streak": 10.2
+  },
+  "{\"breaker\": 0.15, \"family\": \"grid\", \"filter\": \"none\", \"levels\": 4, \"step\": 0.03}": {
+   "genome": {
+    "family": "grid",
+    "safety": 3,
+    "dev": 0.03,
+    "mult": 1.5,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 4,
+    "step": 0.03,
+    "filter": "none",
+    "breaker": 0.15
+   },
+   "train_score": -67.21,
+   "train_median_ret": -2.7,
+   "train_avg_dd": 9.8,
+   "train_green_active": 62.7,
+   "train_streak": 4.5
+  },
+  "{\"breaker\": null, \"family\": \"grid\", \"filter\": \"none\", \"levels\": 10, \"step\": 0.025}": {
+   "genome": {
+    "family": "grid",
+    "safety": 3,
+    "dev": 0.09,
+    "mult": 2.4,
+    "tp": 0.02,
+    "stop": 0.2,
+    "levels": 10,
+    "step": 0.025,
+    "filter": "none",
+    "breaker": null
+   },
+   "train_score": -59.86,
+   "train_median_ret": -0.1,
+   "train_avg_dd": 10.1,
+   "train_green_active": 45.6,
+   "train_streak": 3.1
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.02, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 4, \"stop\": 0.2, \"tp\": 0.02}": {
+   "genome": {
+    "family": "dca",
+    "safety": 4,
+    "dev": 0.02,
+    "mult": 2.4,
+    "tp": 0.02,
+    "stop": 0.2,
+    "levels": 10,
+    "step": 0.03,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": -69.19,
+   "train_median_ret": -3.6,
+   "train_avg_dd": 17.7,
+   "train_green_active": 56.3,
+   "train_streak": 4.7
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 1.5, \"safety\": 6, \"stop\": 0.15, \"tp\": 0.02}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 1.5,
+    "tp": 0.02,
+    "stop": 0.15,
+    "levels": 6,
+    "step": 0.08,
+    "filter": "none",
+    "breaker": 0.08
+   },
+   "train_score": -94.37,
+   "train_median_ret": -13.9,
+   "train_avg_dd": 20.4,
+   "train_green_active": 62.4,
+   "train_streak": 9.4
+  },
+  "{\"breaker\": null, \"dev\": 0.05, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 2.4, \"safety\": 6, \"stop\": 0.3, \"tp\": 0.01}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.05,
+    "mult": 2.4,
+    "tp": 0.01,
+    "stop": 0.3,
+    "levels": 4,
+    "step": 0.025,
+    "filter": "none",
+    "breaker": null
+   },
+   "train_score": 17.53,
+   "train_median_ret": -0.6,
+   "train_avg_dd": 3.4,
+   "train_green_active": 64.2,
+   "train_streak": 12.5
+  },
+  "{\"breaker\": null, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 2.0, \"safety\": 4, \"stop\": null, \"tp\": 0.04}": {
+   "genome": {
+    "family": "dca",
+    "safety": 4,
+    "dev": 0.03,
+    "mult": 2.0,
+    "tp": 0.04,
+    "stop": null,
+    "levels": 8,
+    "step": 0.03,
+    "filter": "none",
+    "breaker": null
+   },
+   "train_score": -221.26,
+   "train_median_ret": -17.1,
+   "train_avg_dd": 44.0,
+   "train_green_active": 61.1,
+   "train_streak": 8.7
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.05, \"family\": \"dca\", \"filter\": \"F0\", \"mult\": 2.0, \"safety\": 5, \"stop\": null, \"tp\": 0.015}": {
+   "genome": {
+    "family": "dca",
+    "safety": 5,
+    "dev": 0.05,
+    "mult": 2.0,
+    "tp": 0.015,
+    "stop": null,
+    "levels": 4,
+    "step": 0.03,
+    "filter": "F0",
+    "breaker": 0.12
+   },
+   "train_score": 14.03,
+   "train_median_ret": 0.4,
+   "train_avg_dd": 4.3,
+   "train_green_active": 67.2,
+   "train_streak": 8.9
+  },
+  "{\"breaker\": null, \"dev\": 0.04, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 1.5, \"safety\": 3, \"stop\": 0.2, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 3,
+    "dev": 0.04,
+    "mult": 1.5,
+    "tp": 0.03,
+    "stop": 0.2,
+    "levels": 6,
+    "step": 0.06,
+    "filter": "none",
+    "breaker": null
+   },
+   "train_score": -283.47,
+   "train_median_ret": -29.8,
+   "train_avg_dd": 49.9,
+   "train_green_active": 59.2,
+   "train_streak": 8.5
+  },
+  "{\"breaker\": 0.12, \"family\": \"grid\", \"filter\": \"none\", \"levels\": 4, \"step\": 0.05}": {
+   "genome": {
+    "family": "grid",
+    "safety": 5,
+    "dev": 0.07,
+    "mult": 1.8,
+    "tp": 0.01,
+    "stop": null,
+    "levels": 4,
+    "step": 0.05,
+    "filter": "none",
+    "breaker": 0.12
+   },
+   "train_score": -70.02,
+   "train_median_ret": 0.1,
+   "train_avg_dd": 9.5,
+   "train_green_active": 62.3,
+   "train_streak": 5.0
+  },
+  "{\"breaker\": 0.08, \"family\": \"grid\", \"filter\": \"F1\", \"levels\": 4, \"step\": 0.08}": {
+   "genome": {
+    "family": "grid",
+    "safety": 4,
+    "dev": 0.02,
+    "mult": 1.3,
+    "tp": 0.03,
+    "stop": 0.2,
+    "levels": 4,
+    "step": 0.08,
+    "filter": "F1",
+    "breaker": 0.08
+   },
+   "train_score": 22.18,
+   "train_median_ret": 4.2,
+   "train_avg_dd": 1.6,
+   "train_green_active": 84.4,
+   "train_streak": 4.3
+  },
+  "{\"breaker\": null, \"family\": \"grid\", \"filter\": \"F1\", \"levels\": 4, \"step\": 0.025}": {
+   "genome": {
+    "family": "grid",
+    "safety": 6,
+    "dev": 0.06,
+    "mult": 1.3,
+    "tp": 0.04,
+    "stop": null,
+    "levels": 4,
+    "step": 0.025,
+    "filter": "F1",
+    "breaker": null
+   },
+   "train_score": 1.63,
+   "train_median_ret": -4.2,
+   "train_avg_dd": 6.1,
+   "train_green_active": 63.1,
+   "train_streak": 5.5
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.06, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 1.3, \"safety\": 5, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 5,
+    "dev": 0.06,
+    "mult": 1.3,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 6,
+    "step": 0.08,
+    "filter": "none",
+    "breaker": 0.15
+   },
+   "train_score": -34.26,
+   "train_median_ret": -2.9,
+   "train_avg_dd": 19.2,
+   "train_green_active": 62.3,
+   "train_streak": 8.3
+  },
+  "{\"breaker\": 0.12, \"family\": \"grid\", \"filter\": \"none\", \"levels\": 6, \"step\": 0.06}": {
+   "genome": {
+    "family": "grid",
+    "safety": 5,
+    "dev": 0.02,
+    "mult": 1.8,
+    "tp": 0.02,
+    "stop": 0.15,
+    "levels": 6,
+    "step": 0.06,
+    "filter": "none",
+    "breaker": 0.12
+   },
+   "train_score": -39.71,
+   "train_median_ret": 0.3,
+   "train_avg_dd": 8.4,
+   "train_green_active": 64.8,
+   "train_streak": 4.5
+  },
+  "{\"breaker\": 0.08, \"family\": \"grid\", \"filter\": \"F0\", \"levels\": 6, \"step\": 0.08}": {
+   "genome": {
+    "family": "grid",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 1.8,
+    "tp": 0.03,
+    "stop": 0.2,
+    "levels": 6,
+    "step": 0.08,
+    "filter": "F0",
+    "breaker": 0.08
+   },
+   "train_score": 17.16,
+   "train_median_ret": 1.9,
+   "train_avg_dd": 3.2,
+   "train_green_active": 74.8,
+   "train_streak": 6.8
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F0\", \"mult\": 2.4, \"safety\": 6, \"stop\": 0.15, \"tp\": 0.02}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.02,
+    "stop": 0.15,
+    "levels": 6,
+    "step": 0.03,
+    "filter": "F0",
+    "breaker": 0.12
+   },
+   "train_score": 18.67,
+   "train_median_ret": 0.7,
+   "train_avg_dd": 4.6,
+   "train_green_active": 76.1,
+   "train_streak": 12.8
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 6, \"stop\": 0.3, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": 0.3,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.08
+   },
+   "train_score": 31.11,
+   "train_median_ret": 7.0,
+   "train_avg_dd": 1.6,
+   "train_green_active": 78.2,
+   "train_streak": 11.6
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 1.5, \"safety\": 6, \"stop\": null, \"tp\": 0.02}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 1.5,
+    "tp": 0.02,
+    "stop": null,
+    "levels": 8,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.08
+   },
+   "train_score": 11.12,
+   "train_median_ret": 1.0,
+   "train_avg_dd": 5.5,
+   "train_green_active": 63.7,
+   "train_streak": 8.4
+  },
+  "{\"breaker\": null, \"dev\": 0.02, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 6, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.02,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": null
+   },
+   "train_score": 18.51,
+   "train_median_ret": 1.7,
+   "train_avg_dd": 4.6,
+   "train_green_active": 73.4,
+   "train_streak": 11.3
+  },
+  "{\"breaker\": null, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 1.5, \"safety\": 6, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 1.5,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": null
+   },
+   "train_score": 10.85,
+   "train_median_ret": 2.7,
+   "train_avg_dd": 6.5,
+   "train_green_active": 63.4,
+   "train_streak": 8.4
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.06, \"family\": \"dca\", \"filter\": \"F0\", \"mult\": 1.3, \"safety\": 5, \"stop\": 0.3, \"tp\": 0.01}": {
+   "genome": {
+    "family": "dca",
+    "safety": 5,
+    "dev": 0.06,
+    "mult": 1.3,
+    "tp": 0.01,
+    "stop": 0.3,
+    "levels": 8,
+    "step": 0.06,
+    "filter": "F0",
+    "breaker": 0.12
+   },
+   "train_score": -53.23,
+   "train_median_ret": -6.8,
+   "train_avg_dd": 12.5,
+   "train_green_active": 49.8,
+   "train_streak": 4.1
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 2.4, \"safety\": 6, \"stop\": null, \"tp\": 0.04}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.04,
+    "stop": null,
+    "levels": 8,
+    "step": 0.06,
+    "filter": "none",
+    "breaker": 0.08
+   },
+   "train_score": -6.26,
+   "train_median_ret": 2.6,
+   "train_avg_dd": 10.3,
+   "train_green_active": 72.9,
+   "train_streak": 13.8
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.07, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.0, \"safety\": 6, \"stop\": 0.15, \"tp\": 0.07}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.07,
+    "mult": 2.0,
+    "tp": 0.07,
+    "stop": 0.15,
+    "levels": 6,
+    "step": 0.08,
+    "filter": "F1",
+    "breaker": 0.08
+   },
+   "train_score": 20.35,
+   "train_median_ret": 0.6,
+   "train_avg_dd": 0.9,
+   "train_green_active": 65.7,
+   "train_streak": 8.4
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.02, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 3, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 3,
+    "dev": 0.02,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 10,
+    "step": 0.08,
+    "filter": "F1",
+    "breaker": 0.08
+   },
+   "train_score": -138.5,
+   "train_median_ret": -13.6,
+   "train_avg_dd": 23.4,
+   "train_green_active": 57.4,
+   "train_streak": 3.9
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.0, \"safety\": 3, \"stop\": 0.2, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 3,
+    "dev": 0.03,
+    "mult": 2.0,
+    "tp": 0.03,
+    "stop": 0.2,
+    "levels": 10,
+    "step": 0.025,
+    "filter": "F1",
+    "breaker": 0.12
+   },
+   "train_score": -64.83,
+   "train_median_ret": -10.5,
+   "train_avg_dd": 18.7,
+   "train_green_active": 58.6,
+   "train_streak": 3.8
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.04, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 6, \"stop\": 0.15, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.04,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": 0.15,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 25.53,
+   "train_median_ret": 4.2,
+   "train_avg_dd": 0.7,
+   "train_green_active": 71.6,
+   "train_streak": 8.5
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.09, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 2.0, \"safety\": 3, \"stop\": null, \"tp\": 0.04}": {
+   "genome": {
+    "family": "dca",
+    "safety": 3,
+    "dev": 0.09,
+    "mult": 2.0,
+    "tp": 0.04,
+    "stop": null,
+    "levels": 4,
+    "step": 0.06,
+    "filter": "none",
+    "breaker": 0.08
+   },
+   "train_score": -106.83,
+   "train_median_ret": -9.3,
+   "train_avg_dd": 21.1,
+   "train_green_active": 63.8,
+   "train_streak": 9.9
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 1.8, \"safety\": 6, \"stop\": null, \"tp\": 0.02}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 1.8,
+    "tp": 0.02,
+    "stop": null,
+    "levels": 8,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.08
+   },
+   "train_score": 21.66,
+   "train_median_ret": 4.4,
+   "train_avg_dd": 2.6,
+   "train_green_active": 69.5,
+   "train_streak": 8.7
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 1.8, \"safety\": 5, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 5,
+    "dev": 0.03,
+    "mult": 1.8,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "none",
+    "breaker": 0.15
+   },
+   "train_score": -134.61,
+   "train_median_ret": -15.1,
+   "train_avg_dd": 27.7,
+   "train_green_active": 66.4,
+   "train_streak": 9.7
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.0, \"safety\": 6, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.0,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 8,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.12
+   },
+   "train_score": 24.29,
+   "train_median_ret": 4.2,
+   "train_avg_dd": 2.2,
+   "train_green_active": 76.3,
+   "train_streak": 9.2
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.05, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 6, \"stop\": 0.3, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.05,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": 0.3,
+    "levels": 8,
+    "step": 0.03,
+    "filter": "F1",
+    "breaker": 0.08
+   },
+   "train_score": 26.18,
+   "train_median_ret": 1.8,
+   "train_avg_dd": 0.6,
+   "train_green_active": 73.6,
+   "train_streak": 10.8
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 1.8, \"safety\": 6, \"stop\": 0.3, \"tp\": 0.07}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 1.8,
+    "tp": 0.07,
+    "stop": 0.3,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 19.53,
+   "train_median_ret": 5.4,
+   "train_avg_dd": 5.2,
+   "train_green_active": 68.4,
+   "train_streak": 10.9
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 6, \"stop\": null, \"tp\": 0.01}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.01,
+    "stop": null,
+    "levels": 8,
+    "step": 0.06,
+    "filter": "F1",
+    "breaker": 0.12
+   },
+   "train_score": 21.82,
+   "train_median_ret": 4.1,
+   "train_avg_dd": 1.9,
+   "train_green_active": 70.1,
+   "train_streak": 7.6
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 1.5, \"safety\": 5, \"stop\": null, \"tp\": 0.07}": {
+   "genome": {
+    "family": "dca",
+    "safety": 5,
+    "dev": 0.03,
+    "mult": 1.5,
+    "tp": 0.07,
+    "stop": null,
+    "levels": 6,
+    "step": 0.03,
+    "filter": "none",
+    "breaker": 0.15
+   },
+   "train_score": -132.53,
+   "train_median_ret": 0.3,
+   "train_avg_dd": 30.1,
+   "train_green_active": 63.6,
+   "train_streak": 9.7
+  },
+  "{\"breaker\": null, \"dev\": 0.09, \"family\": \"dca\", \"filter\": \"F0\", \"mult\": 1.8, \"safety\": 6, \"stop\": null, \"tp\": 0.05}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.09,
+    "mult": 1.8,
+    "tp": 0.05,
+    "stop": null,
+    "levels": 4,
+    "step": 0.03,
+    "filter": "F0",
+    "breaker": null
+   },
+   "train_score": 19.85,
+   "train_median_ret": -0.0,
+   "train_avg_dd": 1.9,
+   "train_green_active": 68.7,
+   "train_streak": 9.9
+  },
+  "{\"breaker\": null, \"family\": \"grid\", \"filter\": \"F0\", \"levels\": 10, \"step\": 0.06}": {
+   "genome": {
+    "family": "grid",
+    "safety": 5,
+    "dev": 0.04,
+    "mult": 2.4,
+    "tp": 0.04,
+    "stop": null,
+    "levels": 10,
+    "step": 0.06,
+    "filter": "F0",
+    "breaker": null
+   },
+   "train_score": 15.67,
+   "train_median_ret": 0.1,
+   "train_avg_dd": 2.9,
+   "train_green_active": 73.3,
+   "train_streak": 6.6
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.04, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 1.5, \"safety\": 5, \"stop\": 0.3, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 5,
+    "dev": 0.04,
+    "mult": 1.5,
+    "tp": 0.03,
+    "stop": 0.3,
+    "levels": 6,
+    "step": 0.08,
+    "filter": "none",
+    "breaker": 0.12
+   },
+   "train_score": -123.47,
+   "train_median_ret": -9.7,
+   "train_avg_dd": 23.6,
+   "train_green_active": 63.9,
+   "train_streak": 9.1
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.06, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 1.5, \"safety\": 6, \"stop\": 0.15, \"tp\": 0.05}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.06,
+    "mult": 1.5,
+    "tp": 0.05,
+    "stop": 0.15,
+    "levels": 8,
+    "step": 0.05,
+    "filter": "F1",
+    "breaker": 0.08
+   },
+   "train_score": 14.44,
+   "train_median_ret": 0.5,
+   "train_avg_dd": 3.1,
+   "train_green_active": 59.2,
+   "train_streak": 8.3
+  },
+  "{\"breaker\": 0.12, \"family\": \"grid\", \"filter\": \"none\", \"levels\": 8, \"step\": 0.05}": {
+   "genome": {
+    "family": "grid",
+    "safety": 6,
+    "dev": 0.06,
+    "mult": 1.5,
+    "tp": 0.02,
+    "stop": 0.15,
+    "levels": 8,
+    "step": 0.05,
+    "filter": "none",
+    "breaker": 0.12
+   },
+   "train_score": -32.2,
+   "train_median_ret": 0.1,
+   "train_avg_dd": 8.5,
+   "train_green_active": 65.3,
+   "train_streak": 4.5
+  },
+  "{\"breaker\": 0.15, \"family\": \"grid\", \"filter\": \"F0\", \"levels\": 8, \"step\": 0.025}": {
+   "genome": {
+    "family": "grid",
+    "safety": 4,
+    "dev": 0.05,
+    "mult": 2.0,
+    "tp": 0.04,
+    "stop": 0.3,
+    "levels": 8,
+    "step": 0.025,
+    "filter": "F0",
+    "breaker": 0.15
+   },
+   "train_score": -2.55,
+   "train_median_ret": -3.0,
+   "train_avg_dd": 7.3,
+   "train_green_active": 64.2,
+   "train_streak": 4.5
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.09, \"family\": \"dca\", \"filter\": \"F0\", \"mult\": 1.3, \"safety\": 4, \"stop\": 0.2, \"tp\": 0.01}": {
+   "genome": {
+    "family": "dca",
+    "safety": 4,
+    "dev": 0.09,
+    "mult": 1.3,
+    "tp": 0.01,
+    "stop": 0.2,
+    "levels": 6,
+    "step": 0.03,
+    "filter": "F0",
+    "breaker": 0.12
+   },
+   "train_score": -56.93,
+   "train_median_ret": -8.9,
+   "train_avg_dd": 12.5,
+   "train_green_active": 49.4,
+   "train_streak": 5.2
+  },
+  "{\"breaker\": 0.15, \"family\": \"grid\", \"filter\": \"F0\", \"levels\": 8, \"step\": 0.05}": {
+   "genome": {
+    "family": "grid",
+    "safety": 5,
+    "dev": 0.02,
+    "mult": 1.8,
+    "tp": 0.015,
+    "stop": null,
+    "levels": 8,
+    "step": 0.05,
+    "filter": "F0",
+    "breaker": 0.15
+   },
+   "train_score": 9.45,
+   "train_median_ret": -0.3,
+   "train_avg_dd": 4.5,
+   "train_green_active": 67.5,
+   "train_streak": 5.2
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.06, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 1.8, \"safety\": 5, \"stop\": null, \"tp\": 0.015}": {
+   "genome": {
+    "family": "dca",
+    "safety": 5,
+    "dev": 0.06,
+    "mult": 1.8,
+    "tp": 0.015,
+    "stop": null,
+    "levels": 8,
+    "step": 0.03,
+    "filter": "F1",
+    "breaker": 0.08
+   },
+   "train_score": 18.32,
+   "train_median_ret": 0.9,
+   "train_avg_dd": 2.3,
+   "train_green_active": 63.0,
+   "train_streak": 9.5
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.09, \"family\": \"dca\", \"filter\": \"F0\", \"mult\": 1.5, \"safety\": 4, \"stop\": 0.3, \"tp\": 0.01}": {
+   "genome": {
+    "family": "dca",
+    "safety": 4,
+    "dev": 0.09,
+    "mult": 1.5,
+    "tp": 0.01,
+    "stop": 0.3,
+    "levels": 8,
+    "step": 0.025,
+    "filter": "F0",
+    "breaker": 0.12
+   },
+   "train_score": -45.43,
+   "train_median_ret": -6.0,
+   "train_avg_dd": 11.1,
+   "train_green_active": 50.6,
+   "train_streak": 5.3
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.07, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 1.5, \"safety\": 3, \"stop\": 0.15, \"tp\": 0.05}": {
+   "genome": {
+    "family": "dca",
+    "safety": 3,
+    "dev": 0.07,
+    "mult": 1.5,
+    "tp": 0.05,
+    "stop": 0.15,
+    "levels": 10,
+    "step": 0.03,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": -9.41,
+   "train_median_ret": 0.9,
+   "train_avg_dd": 11.2,
+   "train_green_active": 59.5,
+   "train_streak": 6.2
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.02, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 2.4, \"safety\": 3, \"stop\": 0.2, \"tp\": 0.015}": {
+   "genome": {
+    "family": "dca",
+    "safety": 3,
+    "dev": 0.02,
+    "mult": 2.4,
+    "tp": 0.015,
+    "stop": 0.2,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "none",
+    "breaker": 0.12
+   },
+   "train_score": -302.11,
+   "train_median_ret": -51.3,
+   "train_avg_dd": 51.9,
+   "train_green_active": 42.9,
+   "train_streak": 4.9
+  },
+  "{\"breaker\": 0.12, \"family\": \"grid\", \"filter\": \"F1\", \"levels\": 4, \"step\": 0.025}": {
+   "genome": {
+    "family": "grid",
+    "safety": 3,
+    "dev": 0.04,
+    "mult": 1.3,
+    "tp": 0.01,
+    "stop": 0.15,
+    "levels": 4,
+    "step": 0.025,
+    "filter": "F1",
+    "breaker": 0.12
+   },
+   "train_score": -8.45,
+   "train_median_ret": -4.2,
+   "train_avg_dd": 6.9,
+   "train_green_active": 59.2,
+   "train_streak": 4.9
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.09, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 2.0, \"safety\": 5, \"stop\": 0.2, \"tp\": 0.015}": {
+   "genome": {
+    "family": "dca",
+    "safety": 5,
+    "dev": 0.09,
+    "mult": 2.0,
+    "tp": 0.015,
+    "stop": 0.2,
+    "levels": 4,
+    "step": 0.025,
+    "filter": "none",
+    "breaker": 0.12
+   },
+   "train_score": 12.58,
+   "train_median_ret": -1.0,
+   "train_avg_dd": 3.5,
+   "train_green_active": 60.1,
+   "train_streak": 8.6
+  },
+  "{\"breaker\": null, \"family\": \"grid\", \"filter\": \"F0\", \"levels\": 6, \"step\": 0.05}": {
+   "genome": {
+    "family": "grid",
+    "safety": 6,
+    "dev": 0.05,
+    "mult": 2.0,
+    "tp": 0.02,
+    "stop": 0.15,
+    "levels": 6,
+    "step": 0.05,
+    "filter": "F0",
+    "breaker": null
+   },
+   "train_score": 8.76,
+   "train_median_ret": 0.0,
+   "train_avg_dd": 4.7,
+   "train_green_active": 65.1,
+   "train_streak": 5.2
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.05, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 2.4, \"safety\": 6, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.05,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 8,
+    "step": 0.04,
+    "filter": "none",
+    "breaker": 0.08
+   },
+   "train_score": 13.53,
+   "train_median_ret": 1.1,
+   "train_avg_dd": 4.9,
+   "train_green_active": 72.7,
+   "train_streak": 14.1
+  },
+  "{\"breaker\": null, \"dev\": 0.07, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 6, \"stop\": 0.15, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.07,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": 0.15,
+    "levels": 10,
+    "step": 0.08,
+    "filter": "F1",
+    "breaker": null
+   },
+   "train_score": 24.2,
+   "train_median_ret": 0.7,
+   "train_avg_dd": 0.4,
+   "train_green_active": 68.4,
+   "train_streak": 10.6
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 6, \"stop\": 0.3, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": 0.3,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.12
+   },
+   "train_score": 31.11,
+   "train_median_ret": 7.0,
+   "train_avg_dd": 1.6,
+   "train_green_active": 78.2,
+   "train_streak": 11.6
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 6, \"stop\": null, \"tp\": 0.05}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.05,
+    "stop": null,
+    "levels": 4,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.12
+   },
+   "train_score": 29.5,
+   "train_median_ret": 6.1,
+   "train_avg_dd": 1.9,
+   "train_green_active": 78.1,
+   "train_streak": 11.5
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.09, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 6, \"stop\": 0.3, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.09,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": 0.3,
+    "levels": 8,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.08
+   },
+   "train_score": 23.01,
+   "train_median_ret": 0.2,
+   "train_avg_dd": 0.2,
+   "train_green_active": 67.0,
+   "train_streak": 9.9
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.09, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 1.8, \"safety\": 3, \"stop\": null, \"tp\": 0.015}": {
+   "genome": {
+    "family": "dca",
+    "safety": 3,
+    "dev": 0.09,
+    "mult": 1.8,
+    "tp": 0.015,
+    "stop": null,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.12
+   },
+   "train_score": 5.74,
+   "train_median_ret": -0.3,
+   "train_avg_dd": 6.5,
+   "train_green_active": 58.2,
+   "train_streak": 7.3
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.04, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.0, \"safety\": 6, \"stop\": null, \"tp\": 0.02}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.04,
+    "mult": 2.0,
+    "tp": 0.02,
+    "stop": null,
+    "levels": 10,
+    "step": 0.03,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 22.63,
+   "train_median_ret": 3.3,
+   "train_avg_dd": 1.4,
+   "train_green_active": 69.0,
+   "train_streak": 8.4
+  },
+  "{\"breaker\": null, \"dev\": 0.07, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 2.0, \"safety\": 3, \"stop\": 0.15, \"tp\": 0.05}": {
+   "genome": {
+    "family": "dca",
+    "safety": 3,
+    "dev": 0.07,
+    "mult": 2.0,
+    "tp": 0.05,
+    "stop": 0.15,
+    "levels": 6,
+    "step": 0.08,
+    "filter": "none",
+    "breaker": null
+   },
+   "train_score": -75.29,
+   "train_median_ret": -7.0,
+   "train_avg_dd": 25.8,
+   "train_green_active": 63.8,
+   "train_streak": 11.2
+  },
+  "{\"breaker\": null, \"dev\": 0.09, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 1.8, \"safety\": 6, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.09,
+    "mult": 1.8,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 8,
+    "step": 0.08,
+    "filter": "F1",
+    "breaker": null
+   },
+   "train_score": 20.49,
+   "train_median_ret": 0.4,
+   "train_avg_dd": 1.0,
+   "train_green_active": 62.8,
+   "train_streak": 9.6
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.07, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 2.0, \"safety\": 6, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.07,
+    "mult": 2.0,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "none",
+    "breaker": 0.15
+   },
+   "train_score": 18.68,
+   "train_median_ret": 1.5,
+   "train_avg_dd": 4.1,
+   "train_green_active": 69.4,
+   "train_streak": 11.6
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 6, \"stop\": null, \"tp\": 0.05}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.05,
+    "stop": null,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 29.5,
+   "train_median_ret": 6.1,
+   "train_avg_dd": 1.9,
+   "train_green_active": 78.1,
+   "train_streak": 11.5
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.06, \"family\": \"dca\", \"filter\": \"F0\", \"mult\": 1.5, \"safety\": 6, \"stop\": 0.3, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.06,
+    "mult": 1.5,
+    "tp": 0.03,
+    "stop": 0.3,
+    "levels": 6,
+    "step": 0.04,
+    "filter": "F0",
+    "breaker": 0.15
+   },
+   "train_score": 13.39,
+   "train_median_ret": -0.4,
+   "train_avg_dd": 5.1,
+   "train_green_active": 64.3,
+   "train_streak": 11.2
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F0\", \"mult\": 1.5, \"safety\": 3, \"stop\": 0.3, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 3,
+    "dev": 0.03,
+    "mult": 1.5,
+    "tp": 0.03,
+    "stop": 0.3,
+    "levels": 8,
+    "step": 0.04,
+    "filter": "F0",
+    "breaker": 0.08
+   },
+   "train_score": -109.29,
+   "train_median_ret": -16.4,
+   "train_avg_dd": 22.8,
+   "train_green_active": 57.5,
+   "train_streak": 4.1
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 5, \"stop\": 0.3, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 5,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": 0.3,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.12
+   },
+   "train_score": 20.48,
+   "train_median_ret": 2.0,
+   "train_avg_dd": 3.5,
+   "train_green_active": 72.6,
+   "train_streak": 11.1
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.06, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 6, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.06,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 4,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.12
+   },
+   "train_score": 23.16,
+   "train_median_ret": 0.6,
+   "train_avg_dd": 0.5,
+   "train_green_active": 66.9,
+   "train_streak": 10.1
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.06, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 1.5, \"safety\": 6, \"stop\": 0.15, \"tp\": 0.015}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.06,
+    "mult": 1.5,
+    "tp": 0.015,
+    "stop": 0.15,
+    "levels": 10,
+    "step": 0.05,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 12.57,
+   "train_median_ret": -0.1,
+   "train_avg_dd": 2.9,
+   "train_green_active": 59.1,
+   "train_streak": 6.6
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.05, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 1.3, \"safety\": 4, \"stop\": null, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 4,
+    "dev": 0.05,
+    "mult": 1.3,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 8,
+    "step": 0.025,
+    "filter": "F1",
+    "breaker": 0.12
+   },
+   "train_score": -2.95,
+   "train_median_ret": 3.6,
+   "train_avg_dd": 11.0,
+   "train_green_active": 65.1,
+   "train_streak": 7.0
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.06, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 2.0, \"safety\": 6, \"stop\": 0.3, \"tp\": 0.07}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.06,
+    "mult": 2.0,
+    "tp": 0.07,
+    "stop": 0.3,
+    "levels": 4,
+    "step": 0.06,
+    "filter": "none",
+    "breaker": 0.15
+   },
+   "train_score": 18.33,
+   "train_median_ret": 5.1,
+   "train_avg_dd": 5.6,
+   "train_green_active": 70.3,
+   "train_streak": 11.6
+  },
+  "{\"breaker\": null, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 2.4, \"safety\": 6, \"stop\": 0.2, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": 0.2,
+    "levels": 4,
+    "step": 0.06,
+    "filter": "none",
+    "breaker": null
+   },
+   "train_score": 4.98,
+   "train_median_ret": -0.2,
+   "train_avg_dd": 10.0,
+   "train_green_active": 74.4,
+   "train_streak": 14.2
+  },
+  "{\"breaker\": 0.08, \"family\": \"grid\", \"filter\": \"F0\", \"levels\": 4, \"step\": 0.03}": {
+   "genome": {
+    "family": "grid",
+    "safety": 6,
+    "dev": 0.02,
+    "mult": 1.8,
+    "tp": 0.04,
+    "stop": 0.3,
+    "levels": 4,
+    "step": 0.03,
+    "filter": "F0",
+    "breaker": 0.08
+   },
+   "train_score": -12.33,
+   "train_median_ret": -4.3,
+   "train_avg_dd": 8.1,
+   "train_green_active": 64.0,
+   "train_streak": 4.2
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.02, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 1.5, \"safety\": 5, \"stop\": null, \"tp\": 0.05}": {
+   "genome": {
+    "family": "dca",
+    "safety": 5,
+    "dev": 0.02,
+    "mult": 1.5,
+    "tp": 0.05,
+    "stop": null,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "none",
+    "breaker": 0.12
+   },
+   "train_score": -219.31,
+   "train_median_ret": -25.7,
+   "train_avg_dd": 41.4,
+   "train_green_active": 59.1,
+   "train_streak": 7.8
+  },
+  "{\"breaker\": null, \"dev\": 0.04, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.0, \"safety\": 5, \"stop\": 0.3, \"tp\": 0.05}": {
+   "genome": {
+    "family": "dca",
+    "safety": 5,
+    "dev": 0.04,
+    "mult": 2.0,
+    "tp": 0.05,
+    "stop": 0.3,
+    "levels": 4,
+    "step": 0.05,
+    "filter": "F1",
+    "breaker": null
+   },
+   "train_score": 23.79,
+   "train_median_ret": 6.4,
+   "train_avg_dd": 4.2,
+   "train_green_active": 73.2,
+   "train_streak": 11.1
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.07, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.0, \"safety\": 4, \"stop\": 0.15, \"tp\": 0.07}": {
+   "genome": {
+    "family": "dca",
+    "safety": 4,
+    "dev": 0.07,
+    "mult": 2.0,
+    "tp": 0.07,
+    "stop": 0.15,
+    "levels": 6,
+    "step": 0.06,
+    "filter": "F1",
+    "breaker": 0.12
+   },
+   "train_score": 15.29,
+   "train_median_ret": 2.1,
+   "train_avg_dd": 3.9,
+   "train_green_active": 62.9,
+   "train_streak": 8.4
+  },
+  "{\"breaker\": 0.12, \"family\": \"grid\", \"filter\": \"none\", \"levels\": 10, \"step\": 0.06}": {
+   "genome": {
+    "family": "grid",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.05,
+    "stop": null,
+    "levels": 10,
+    "step": 0.06,
+    "filter": "none",
+    "breaker": 0.12
+   },
+   "train_score": -15.8,
+   "train_median_ret": 0.7,
+   "train_avg_dd": 7.6,
+   "train_green_active": 63.7,
+   "train_streak": 4.4
+  },
+  "{\"breaker\": null, \"family\": \"grid\", \"filter\": \"F1\", \"levels\": 6, \"step\": 0.08}": {
+   "genome": {
+    "family": "grid",
+    "safety": 4,
+    "dev": 0.02,
+    "mult": 1.3,
+    "tp": 0.05,
+    "stop": 0.2,
+    "levels": 6,
+    "step": 0.08,
+    "filter": "F1",
+    "breaker": null
+   },
+   "train_score": 21.84,
+   "train_median_ret": 2.8,
+   "train_avg_dd": 1.1,
+   "train_green_active": 84.4,
+   "train_streak": 4.3
+  },
+  "{\"breaker\": 0.15, \"family\": \"grid\", \"filter\": \"none\", \"levels\": 8, \"step\": 0.05}": {
+   "genome": {
+    "family": "grid",
+    "safety": 4,
+    "dev": 0.03,
+    "mult": 1.8,
+    "tp": 0.015,
+    "stop": null,
+    "levels": 8,
+    "step": 0.05,
+    "filter": "none",
+    "breaker": 0.15
+   },
+   "train_score": -33.02,
+   "train_median_ret": 0.1,
+   "train_avg_dd": 8.8,
+   "train_green_active": 65.4,
+   "train_streak": 4.4
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.09, \"family\": \"dca\", \"filter\": \"F0\", \"mult\": 2.4, \"safety\": 5, \"stop\": 0.15, \"tp\": 0.015}": {
+   "genome": {
+    "family": "dca",
+    "safety": 5,
+    "dev": 0.09,
+    "mult": 2.4,
+    "tp": 0.015,
+    "stop": 0.15,
+    "levels": 10,
+    "step": 0.05,
+    "filter": "F0",
+    "breaker": 0.15
+   },
+   "train_score": 16.68,
+   "train_median_ret": -0.4,
+   "train_avg_dd": 1.0,
+   "train_green_active": 59.0,
+   "train_streak": 7.3
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.02, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 2.0, \"safety\": 6, \"stop\": 0.3, \"tp\": 0.02}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.02,
+    "mult": 2.0,
+    "tp": 0.02,
+    "stop": 0.3,
+    "levels": 6,
+    "step": 0.08,
+    "filter": "none",
+    "breaker": 0.15
+   },
+   "train_score": -92.97,
+   "train_median_ret": -12.0,
+   "train_avg_dd": 21.4,
+   "train_green_active": 69.2,
+   "train_streak": 13.9
+  },
+  "{\"breaker\": 0.12, \"family\": \"grid\", \"filter\": \"none\", \"levels\": 10, \"step\": 0.05}": {
+   "genome": {
+    "family": "grid",
+    "safety": 6,
+    "dev": 0.07,
+    "mult": 1.5,
+    "tp": 0.01,
+    "stop": null,
+    "levels": 10,
+    "step": 0.05,
+    "filter": "none",
+    "breaker": 0.12
+   },
+   "train_score": -22.73,
+   "train_median_ret": 0.6,
+   "train_avg_dd": 8.3,
+   "train_green_active": 64.5,
+   "train_streak": 4.5
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.05, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 2.0, \"safety\": 5, \"stop\": 0.3, \"tp\": 0.02}": {
+   "genome": {
+    "family": "dca",
+    "safety": 5,
+    "dev": 0.05,
+    "mult": 2.0,
+    "tp": 0.02,
+    "stop": 0.3,
+    "levels": 4,
+    "step": 0.03,
+    "filter": "none",
+    "breaker": 0.08
+   },
+   "train_score": -21.75,
+   "train_median_ret": 1.1,
+   "train_avg_dd": 9.2,
+   "train_green_active": 66.9,
+   "train_streak": 12.7
+  },
+  "{\"breaker\": 0.08, \"family\": \"grid\", \"filter\": \"F0\", \"levels\": 8, \"step\": 0.05}": {
+   "genome": {
+    "family": "grid",
+    "safety": 3,
+    "dev": 0.07,
+    "mult": 2.0,
+    "tp": 0.05,
+    "stop": 0.2,
+    "levels": 8,
+    "step": 0.05,
+    "filter": "F0",
+    "breaker": 0.08
+   },
+   "train_score": 9.45,
+   "train_median_ret": -0.3,
+   "train_avg_dd": 4.5,
+   "train_green_active": 67.5,
+   "train_streak": 5.2
+  },
+  "{\"breaker\": 0.12, \"family\": \"grid\", \"filter\": \"F1\", \"levels\": 8, \"step\": 0.03}": {
+   "genome": {
+    "family": "grid",
+    "safety": 6,
+    "dev": 0.02,
+    "mult": 1.8,
+    "tp": 0.05,
+    "stop": 0.15,
+    "levels": 8,
+    "step": 0.03,
+    "filter": "F1",
+    "breaker": 0.12
+   },
+   "train_score": 17.61,
+   "train_median_ret": 1.8,
+   "train_avg_dd": 3.2,
+   "train_green_active": 77.6,
+   "train_streak": 6.7
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.07, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 2.4, \"safety\": 6, \"stop\": 0.15, \"tp\": 0.015}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.07,
+    "mult": 2.4,
+    "tp": 0.015,
+    "stop": 0.15,
+    "levels": 10,
+    "step": 0.06,
+    "filter": "none",
+    "breaker": 0.08
+   },
+   "train_score": 17.96,
+   "train_median_ret": 0.2,
+   "train_avg_dd": 1.8,
+   "train_green_active": 62.5,
+   "train_streak": 8.8
+  },
+  "{\"breaker\": 0.12, \"family\": \"grid\", \"filter\": \"none\", \"levels\": 4, \"step\": 0.03}": {
+   "genome": {
+    "family": "grid",
+    "safety": 3,
+    "dev": 0.09,
+    "mult": 2.4,
+    "tp": 0.01,
+    "stop": 0.2,
+    "levels": 4,
+    "step": 0.03,
+    "filter": "none",
+    "breaker": 0.12
+   },
+   "train_score": -69.32,
+   "train_median_ret": -2.5,
+   "train_avg_dd": 10.2,
+   "train_green_active": 61.2,
+   "train_streak": 5.0
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 3, \"stop\": 0.2, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 3,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": 0.2,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.12
+   },
+   "train_score": -72.55,
+   "train_median_ret": -9.6,
+   "train_avg_dd": 18.1,
+   "train_green_active": 58.4,
+   "train_streak": 5.0
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 6, \"stop\": null, \"tp\": 0.015}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.015,
+    "stop": null,
+    "levels": 8,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.08
+   },
+   "train_score": 28.06,
+   "train_median_ret": 6.0,
+   "train_avg_dd": 1.5,
+   "train_green_active": 72.1,
+   "train_streak": 10.7
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.09, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 6, \"stop\": null, \"tp\": 0.01}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.09,
+    "mult": 2.4,
+    "tp": 0.01,
+    "stop": null,
+    "levels": 8,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.08
+   },
+   "train_score": 16.73,
+   "train_median_ret": 0.0,
+   "train_avg_dd": 0.3,
+   "train_green_active": 58.2,
+   "train_streak": 5.7
+  },
+  "{\"breaker\": 0.15, \"dev\": 0.04, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 2.4, \"safety\": 6, \"stop\": null, \"tp\": 0.01}": {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.04,
+    "mult": 2.4,
+    "tp": 0.01,
+    "stop": null,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 17.62,
+   "train_median_ret": 1.9,
+   "train_avg_dd": 0.9,
+   "train_green_active": 63.6,
+   "train_streak": 4.9
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.03, \"family\": \"dca\", \"filter\": \"F0\", \"mult\": 2.4, \"safety\": 3, \"stop\": 0.2, \"tp\": 0.03}": {
+   "genome": {
+    "family": "dca",
+    "safety": 3,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": 0.2,
+    "levels": 8,
+    "step": 0.04,
+    "filter": "F0",
+    "breaker": 0.08
+   },
+   "train_score": -98.72,
+   "train_median_ret": -14.4,
+   "train_avg_dd": 20.7,
+   "train_green_active": 60.2,
+   "train_streak": 4.9
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.09, \"family\": \"dca\", \"filter\": \"F1\", \"mult\": 1.5, \"safety\": 3, \"stop\": null, \"tp\": 0.04}": {
+   "genome": {
+    "family": "dca",
+    "safety": 3,
+    "dev": 0.09,
+    "mult": 1.5,
+    "tp": 0.04,
+    "stop": null,
+    "levels": 6,
+    "step": 0.025,
+    "filter": "F1",
+    "breaker": 0.12
+   },
+   "train_score": 4.97,
+   "train_median_ret": 2.4,
+   "train_avg_dd": 9.7,
+   "train_green_active": 62.0,
+   "train_streak": 9.7
+  },
+  "{\"breaker\": 0.12, \"dev\": 0.05, \"family\": \"dca\", \"filter\": \"none\", \"mult\": 1.8, \"safety\": 4, \"stop\": 0.15, \"tp\": 0.015}": {
+   "genome": {
+    "family": "dca",
+    "safety": 4,
+    "dev": 0.05,
+    "mult": 1.8,
+    "tp": 0.015,
+    "stop": 0.15,
+    "levels": 6,
+    "step": 0.06,
+    "filter": "none",
+    "breaker": 0.12
+   },
+   "train_score": -82.78,
+   "train_median_ret": -12.0,
+   "train_avg_dd": 19.2,
+   "train_green_active": 62.7,
+   "train_streak": 9.2
+  },
+  "{\"breaker\": 0.08, \"dev\": 0.02, \"family\": \"dca\", \"filter\": \"F0\", \"mult\": 2.4, \"safety\": 4, \"stop\": 0.15, \"tp\": 0.02}": {
+   "genome": {
+    "family": "dca",
+    "safety": 4,
+    "dev": 0.02,
+    "mult": 2.4,
+    "tp": 0.02,
+    "stop": 0.15,
+    "levels": 4,
+    "step": 0.06,
+    "filter": "F0",
+    "breaker": 0.08
+   },
+   "train_score": -118.44,
+   "train_median_ret": -19.2,
+   "train_avg_dd": 21.1,
+   "train_green_active": 62.6,
+   "train_streak": 4.1
+  }
+ },
+ "hall_of_fame": [
+  {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": 0.3,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.08
+   },
+   "train_score": 31.11
+  },
+  {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": 0.3,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.12
+   },
+   "train_score": 31.11
+  },
+  {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 30.68
+  },
+  {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.12
+   },
+   "train_score": 30.68
+  },
+  {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": 0.15,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 30.68
+  },
+  {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 8,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.08
+   },
+   "train_score": 30.68
+  },
+  {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": 0.3,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 30.68
+  },
+  {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": null,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": null
+   },
+   "train_score": 30.68
+  },
+  {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": 0.15,
+    "levels": 8,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.08
+   },
+   "train_score": 30.68
+  },
+  {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.03,
+    "stop": 0.2,
+    "levels": 10,
+    "step": 0.05,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 30.68
+  },
+  {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.05,
+    "stop": null,
+    "levels": 4,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.12
+   },
+   "train_score": 29.5
+  },
+  {
+   "genome": {
+    "family": "dca",
+    "safety": 6,
+    "dev": 0.03,
+    "mult": 2.4,
+    "tp": 0.05,
+    "stop": null,
+    "levels": 10,
+    "step": 0.04,
+    "filter": "F1",
+    "breaker": 0.15
+   },
+   "train_score": 29.5
+  }
+ ],
+ "generations": 16,
+ "log": [
+  {
+   "iso": "2026-09-21 05:44",
+   "generations": 10,
+   "best_curve": [
+    22.59,
+    22.88,
+    30.68,
+    30.68,
+    30.68,
+    30.68,
+    30.68,
+    30.68,
+    30.68,
+    30.68
+   ]
+  },
+  {
+   "iso": "2026-09-22 07:21",
+   "generations": 2,
+   "best_curve": [
+    30.68,
+    31.11
+   ]
+  },
+  {
+   "iso": "2026-09-22 07:26",
+   "generations": 2,
+   "best_curve": [
+    31.11,
+    31.11
+   ]
+  },
+  {
+   "iso": "2026-09-22 07:31",
+   "generations": 2,
+   "best_curve": [
+    31.11,
+    31.11
+   ]
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+  "strategy": "strategies/multi_signal.json",
+  "n_real_trades": 271,
+  "distribution": {
+    "n_sims": 2000,
+    "median_return_pct": 87.42,
+    "p5_return_pct": 18.23,
+    "p95_return_pct": 253.41,
+    "median_max_drawdown_pct": -8.3,
+    "p5_max_drawdown_pct": -18.1,
+    "probability_of_losing_money": 0.011,
+    "probability_of_underperforming_hold": 0.002,
+    "buy_hold_return_pct": -13.7
+  },
+  "stress_scenarios": {
+    "baseline_real_fee": {
+      "fee_gate_pass": true,
+      "edge_gate_pass": true,
+      "out_excess_pct": 47.6,
+      "n_in": 176
+    },
+    "fees_1.5x": {
+      "fee_gate_pass": true,
+      "edge_gate_pass": true,
+      "out_excess_pct": 45.0,
+      "n_in": 176
+    },
+    "fees_2x": {
+      "fee_gate_pass": true,
+      "edge_gate_pass": true,
+      "out_excess_pct": 42.6,
+      "n_in": 176
+    },
+    "spread_slippage_2x": {
+      "fee_gate_pass": true,
+      "edge_gate_pass": true,
+      "out_excess_pct": 47.1,
+      "n_in": 176
+    },
+    "params_tighter": {
+      "fee_gate_pass": true,
+      "edge_gate_pass": true,
+      "out_excess_pct": 47.6,
+      "n_in": 183
+    },
+    "params_looser": {
+      "fee_gate_pass": true,
+      "edge_gate_pass": true,
+      "out_excess_pct": 41.9,
+      "n_in": 167
+    }
+  },
+  "stress_scenarios_passed": "6/6",
+  "verdict": "Bootstrap distribution looks survivable"
+}

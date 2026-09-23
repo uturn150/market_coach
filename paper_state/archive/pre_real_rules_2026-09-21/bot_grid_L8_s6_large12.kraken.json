@@ -1,0 +1,837 @@
+{
+  "account": "bot_grid_L8_s6_large12",
+  "kind": "bot_live",
+  "bot_kind": "grid",
+  "bot_params": {
+    "levels": 8,
+    "step": 0.06,
+    "filter": "F1",
+    "breaker": 0.12,
+    "breaker_pause": 30
+  },
+  "coins": [
+    "BTC-USD",
+    "ETH-USD",
+    "SOL-USD",
+    "ADA-USD",
+    "AVAX-USD",
+    "LINK-USD",
+    "LTC-USD",
+    "XRP-USD",
+    "DOT-USD",
+    "DOGE-USD",
+    "ATOM-USD",
+    "UNI-USD"
+  ],
+  "granularity": 86400,
+  "start_cash": 100.0,
+  "anchor_ts": 1789862400,
+  "paper": true,
+  "created": 1789926894,
+  "sleeves": {
+    "BTC-USD": {
+      "cash": 8.333333333333334,
+      "units": 0.0,
+      "last_px": 81164.0,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "ETH-USD": {
+      "cash": 8.333333333333334,
+      "units": 0.0,
+      "last_px": 2645.06,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "SOL-USD": {
+      "cash": 8.333333333333334,
+      "units": 0.0,
+      "last_px": 111.14,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "ADA-USD": {
+      "cash": 8.333333333333334,
+      "units": 0.0,
+      "last_px": 0.227893,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "AVAX-USD": {
+      "cash": 8.333333333333334,
+      "units": 0.0,
+      "last_px": 11.308,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "LINK-USD": {
+      "cash": 8.333333333333334,
+      "units": 0.0,
+      "last_px": 12.52145,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "LTC-USD": {
+      "cash": 8.333333333333334,
+      "units": 0.0,
+      "last_px": 58.7,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "XRP-USD": {
+      "cash": 8.333333333333334,
+      "units": 0.0,
+      "last_px": 1.41013,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "DOT-USD": {
+      "cash": 8.333333333333334,
+      "units": 0.0,
+      "last_px": 1.1347,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "DOGE-USD": {
+      "cash": 8.333333333333334,
+      "units": 0.0,
+      "last_px": 0.0872706,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "ATOM-USD": {
+      "cash": 8.333333333333334,
+      "units": 0.0,
+      "last_px": 1.7666,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    },
+    "UNI-USD": {
+      "cash": 8.333333333333334,
+      "units": 0.0,
+      "last_px": 8.7279,
+      "last_bar_ts": 1789862400,
+      "pending": null,
+      "peak": 0.0,
+      "in_position": false,
+      "entry_px": 0.0
+    }
+  },
+  "fills": [],
+  "orders": [
+    {
+      "coin": "BTC-USD",
+      "side": "buy",
+      "price": 76294.16,
+      "units": 1.36e-05,
+      "tag": "('lvl', 1)"
+    },
+    {
+      "coin": "BTC-USD",
+      "side": "buy",
+      "price": 71424.32,
+      "units": 1.453e-05,
+      "tag": "('lvl', 2)"
+    },
+    {
+      "coin": "BTC-USD",
+      "side": "buy",
+      "price": 66554.48,
+      "units": 1.559e-05,
+      "tag": "('lvl', 3)"
+    },
+    {
+      "coin": "BTC-USD",
+      "side": "buy",
+      "price": 61684.64,
+      "units": 1.682e-05,
+      "tag": "('lvl', 4)"
+    },
+    {
+      "coin": "BTC-USD",
+      "side": "buy",
+      "price": 56814.8,
+      "units": 1.826e-05,
+      "tag": "('lvl', 5)"
+    },
+    {
+      "coin": "BTC-USD",
+      "side": "buy",
+      "price": 51944.96,
+      "units": 1.997e-05,
+      "tag": "('lvl', 6)"
+    },
+    {
+      "coin": "BTC-USD",
+      "side": "buy",
+      "price": 47075.12,
+      "units": 2.204e-05,
+      "tag": "('lvl', 7)"
+    },
+    {
+      "coin": "BTC-USD",
+      "side": "buy",
+      "price": 42205.28,
+      "units": 2.458e-05,
+      "tag": "('lvl', 8)"
+    },
+    {
+      "coin": "ETH-USD",
+      "side": "buy",
+      "price": 2486.3564,
+      "units": 0.00041728,
+      "tag": "('lvl', 1)"
+    },
+    {
+      "coin": "ETH-USD",
+      "side": "buy",
+      "price": 2327.6528,
+      "units": 0.00044574,
+      "tag": "('lvl', 2)"
+    },
+    {
+      "coin": "ETH-USD",
+      "side": "buy",
+      "price": 2168.9492,
+      "units": 0.00047835,
+      "tag": "('lvl', 3)"
+    },
+    {
+      "coin": "ETH-USD",
+      "side": "buy",
+      "price": 2010.2456,
+      "units": 0.00051611,
+      "tag": "('lvl', 4)"
+    },
+    {
+      "coin": "ETH-USD",
+      "side": "buy",
+      "price": 1851.542,
+      "units": 0.00056035,
+      "tag": "('lvl', 5)"
+    },
+    {
+      "coin": "ETH-USD",
+      "side": "buy",
+      "price": 1692.8384,
+      "units": 0.00061289,
+      "tag": "('lvl', 6)"
+    },
+    {
+      "coin": "ETH-USD",
+      "side": "buy",
+      "price": 1534.1348,
+      "units": 0.00067629,
+      "tag": "('lvl', 7)"
+    },
+    {
+      "coin": "ETH-USD",
+      "side": "buy",
+      "price": 1375.4312,
+      "units": 0.00075432,
+      "tag": "('lvl', 8)"
+    },
+    {
+      "coin": "SOL-USD",
+      "side": "buy",
+      "price": 104.4716,
+      "units": 0.00993109,
+      "tag": "('lvl', 1)"
+    },
+    {
+      "coin": "SOL-USD",
+      "side": "buy",
+      "price": 97.8032,
+      "units": 0.01060821,
+      "tag": "('lvl', 2)"
+    },
+    {
+      "coin": "SOL-USD",
+      "side": "buy",
+      "price": 91.1348,
+      "units": 0.01138442,
+      "tag": "('lvl', 3)"
+    },
+    {
+      "coin": "SOL-USD",
+      "side": "buy",
+      "price": 84.4664,
+      "units": 0.01228319,
+      "tag": "('lvl', 4)"
+    },
+    {
+      "coin": "SOL-USD",
+      "side": "buy",
+      "price": 77.798,
+      "units": 0.01333603,
+      "tag": "('lvl', 5)"
+    },
+    {
+      "coin": "SOL-USD",
+      "side": "buy",
+      "price": 71.1296,
+      "units": 0.01458628,
+      "tag": "('lvl', 6)"
+    },
+    {
+      "coin": "SOL-USD",
+      "side": "buy",
+      "price": 64.4612,
+      "units": 0.01609521,
+      "tag": "('lvl', 7)"
+    },
+    {
+      "coin": "SOL-USD",
+      "side": "buy",
+      "price": 57.7928,
+      "units": 0.01795235,
+      "tag": "('lvl', 8)"
+    },
+    {
+      "coin": "ADA-USD",
+      "side": "buy",
+      "price": 0.21421942,
+      "units": 4.8432425,
+      "tag": "('lvl', 1)"
+    },
+    {
+      "coin": "ADA-USD",
+      "side": "buy",
+      "price": 0.20054584,
+      "units": 5.17346358,
+      "tag": "('lvl', 2)"
+    },
+    {
+      "coin": "ADA-USD",
+      "side": "buy",
+      "price": 0.18687226,
+      "units": 5.5520097,
+      "tag": "('lvl', 3)"
+    },
+    {
+      "coin": "ADA-USD",
+      "side": "buy",
+      "price": 0.17319868,
+      "units": 5.99032626,
+      "tag": "('lvl', 4)"
+    },
+    {
+      "coin": "ADA-USD",
+      "side": "buy",
+      "price": 0.1595251,
+      "units": 6.50378279,
+      "tag": "('lvl', 5)"
+    },
+    {
+      "coin": "ADA-USD",
+      "side": "buy",
+      "price": 0.14585152,
+      "units": 7.11351243,
+      "tag": "('lvl', 6)"
+    },
+    {
+      "coin": "ADA-USD",
+      "side": "buy",
+      "price": 0.13217794,
+      "units": 7.84939302,
+      "tag": "('lvl', 7)"
+    },
+    {
+      "coin": "ADA-USD",
+      "side": "buy",
+      "price": 0.11850436,
+      "units": 8.75509222,
+      "tag": "('lvl', 8)"
+    },
+    {
+      "coin": "AVAX-USD",
+      "side": "buy",
+      "price": 10.62952,
+      "units": 0.0976071,
+      "tag": "('lvl', 1)"
+    },
+    {
+      "coin": "AVAX-USD",
+      "side": "buy",
+      "price": 9.95104,
+      "units": 0.10426213,
+      "tag": "('lvl', 2)"
+    },
+    {
+      "coin": "AVAX-USD",
+      "side": "buy",
+      "price": 9.27256,
+      "units": 0.11189106,
+      "tag": "('lvl', 3)"
+    },
+    {
+      "coin": "AVAX-USD",
+      "side": "buy",
+      "price": 8.59408,
+      "units": 0.12072457,
+      "tag": "('lvl', 4)"
+    },
+    {
+      "coin": "AVAX-USD",
+      "side": "buy",
+      "price": 7.9156,
+      "units": 0.13107239,
+      "tag": "('lvl', 5)"
+    },
+    {
+      "coin": "AVAX-USD",
+      "side": "buy",
+      "price": 7.23712,
+      "units": 0.14336043,
+      "tag": "('lvl', 6)"
+    },
+    {
+      "coin": "AVAX-USD",
+      "side": "buy",
+      "price": 6.55864,
+      "units": 0.15819081,
+      "tag": "('lvl', 7)"
+    },
+    {
+      "coin": "AVAX-USD",
+      "side": "buy",
+      "price": 5.88016,
+      "units": 0.1764436,
+      "tag": "('lvl', 8)"
+    },
+    {
+      "coin": "LINK-USD",
+      "side": "buy",
+      "price": 11.770163,
+      "units": 0.08814802,
+      "tag": "('lvl', 1)"
+    },
+    {
+      "coin": "LINK-USD",
+      "side": "buy",
+      "price": 11.018876,
+      "units": 0.09415812,
+      "tag": "('lvl', 2)"
+    },
+    {
+      "coin": "LINK-USD",
+      "side": "buy",
+      "price": 10.267589,
+      "units": 0.10104773,
+      "tag": "('lvl', 3)"
+    },
+    {
+      "coin": "LINK-USD",
+      "side": "buy",
+      "price": 9.516302,
+      "units": 0.10902519,
+      "tag": "('lvl', 4)"
+    },
+    {
+      "coin": "LINK-USD",
+      "side": "buy",
+      "price": 8.765015,
+      "units": 0.1183702,
+      "tag": "('lvl', 5)"
+    },
+    {
+      "coin": "LINK-USD",
+      "side": "buy",
+      "price": 8.013728,
+      "units": 0.12946741,
+      "tag": "('lvl', 6)"
+    },
+    {
+      "coin": "LINK-USD",
+      "side": "buy",
+      "price": 7.262441,
+      "units": 0.14286059,
+      "tag": "('lvl', 7)"
+    },
+    {
+      "coin": "LINK-USD",
+      "side": "buy",
+      "price": 6.511154,
+      "units": 0.1593445,
+      "tag": "('lvl', 8)"
+    },
+    {
+      "coin": "LTC-USD",
+      "side": "buy",
+      "price": 55.178,
+      "units": 0.01880308,
+      "tag": "('lvl', 1)"
+    },
+    {
+      "coin": "LTC-USD",
+      "side": "buy",
+      "price": 51.656,
+      "units": 0.02008511,
+      "tag": "('lvl', 2)"
+    },
+    {
+      "coin": "LTC-USD",
+      "side": "buy",
+      "price": 48.134,
+      "units": 0.02155476,
+      "tag": "('lvl', 3)"
+    },
+    {
+      "coin": "LTC-USD",
+      "side": "buy",
+      "price": 44.612,
+      "units": 0.02325645,
+      "tag": "('lvl', 4)"
+    },
+    {
+      "coin": "LTC-USD",
+      "side": "buy",
+      "price": 41.09,
+      "units": 0.02524986,
+      "tag": "('lvl', 5)"
+    },
+    {
+      "coin": "LTC-USD",
+      "side": "buy",
+      "price": 37.568,
+      "units": 0.02761703,
+      "tag": "('lvl', 6)"
+    },
+    {
+      "coin": "LTC-USD",
+      "side": "buy",
+      "price": 34.046,
+      "units": 0.03047396,
+      "tag": "('lvl', 7)"
+    },
+    {
+      "coin": "LTC-USD",
+      "side": "buy",
+      "price": 30.524,
+      "units": 0.03399019,
+      "tag": "('lvl', 8)"
+    },
+    {
+      "coin": "XRP-USD",
+      "side": "buy",
+      "price": 1.3255222,
+      "units": 0.78272291,
+      "tag": "('lvl', 1)"
+    },
+    {
+      "coin": "XRP-USD",
+      "side": "buy",
+      "price": 1.2409144,
+      "units": 0.83609039,
+      "tag": "('lvl', 2)"
+    },
+    {
+      "coin": "XRP-USD",
+      "side": "buy",
+      "price": 1.1563066,
+      "units": 0.89726773,
+      "tag": "('lvl', 3)"
+    },
+    {
+      "coin": "XRP-USD",
+      "side": "buy",
+      "price": 1.0716988,
+      "units": 0.96810466,
+      "tag": "('lvl', 4)"
+    },
+    {
+      "coin": "XRP-USD",
+      "side": "buy",
+      "price": 0.987091,
+      "units": 1.05108506,
+      "tag": "('lvl', 5)"
+    },
+    {
+      "coin": "XRP-USD",
+      "side": "buy",
+      "price": 0.9024832,
+      "units": 1.14962428,
+      "tag": "('lvl', 6)"
+    },
+    {
+      "coin": "XRP-USD",
+      "side": "buy",
+      "price": 0.8178754,
+      "units": 1.26855093,
+      "tag": "('lvl', 7)"
+    },
+    {
+      "coin": "XRP-USD",
+      "side": "buy",
+      "price": 0.7332676,
+      "units": 1.41492219,
+      "tag": "('lvl', 8)"
+    },
+    {
+      "coin": "DOT-USD",
+      "side": "buy",
+      "price": 1.066618,
+      "units": 0.97271619,
+      "tag": "('lvl', 1)"
+    },
+    {
+      "coin": "DOT-USD",
+      "side": "buy",
+      "price": 0.998536,
+      "units": 1.03903775,
+      "tag": "('lvl', 2)"
+    },
+    {
+      "coin": "DOT-USD",
+      "side": "buy",
+      "price": 0.930454,
+      "units": 1.1150649,
+      "tag": "('lvl', 3)"
+    },
+    {
+      "coin": "DOT-USD",
+      "side": "buy",
+      "price": 0.862372,
+      "units": 1.20309634,
+      "tag": "('lvl', 4)"
+    },
+    {
+      "coin": "DOT-USD",
+      "side": "buy",
+      "price": 0.79429,
+      "units": 1.30621889,
+      "tag": "('lvl', 5)"
+    },
+    {
+      "coin": "DOT-USD",
+      "side": "buy",
+      "price": 0.726208,
+      "units": 1.42867691,
+      "tag": "('lvl', 6)"
+    },
+    {
+      "coin": "DOT-USD",
+      "side": "buy",
+      "price": 0.658126,
+      "units": 1.57647107,
+      "tag": "('lvl', 7)"
+    },
+    {
+      "coin": "DOT-USD",
+      "side": "buy",
+      "price": 0.590044,
+      "units": 1.75837158,
+      "tag": "('lvl', 8)"
+    },
+    {
+      "coin": "DOGE-USD",
+      "side": "buy",
+      "price": 0.08203436,
+      "units": 12.64734131,
+      "tag": "('lvl', 1)"
+    },
+    {
+      "coin": "DOGE-USD",
+      "side": "buy",
+      "price": 0.07679813,
+      "units": 13.50966003,
+      "tag": "('lvl', 2)"
+    },
+    {
+      "coin": "DOGE-USD",
+      "side": "buy",
+      "price": 0.07156189,
+      "units": 14.49817174,
+      "tag": "('lvl', 3)"
+    },
+    {
+      "coin": "DOGE-USD",
+      "side": "buy",
+      "price": 0.06632566,
+      "units": 15.64276425,
+      "tag": "('lvl', 4)"
+    },
+    {
+      "coin": "DOGE-USD",
+      "side": "buy",
+      "price": 0.06108942,
+      "units": 16.98357261,
+      "tag": "('lvl', 5)"
+    },
+    {
+      "coin": "DOGE-USD",
+      "side": "buy",
+      "price": 0.05585318,
+      "units": 18.57578254,
+      "tag": "('lvl', 6)"
+    },
+    {
+      "coin": "DOGE-USD",
+      "side": "buy",
+      "price": 0.05061695,
+      "units": 20.49741522,
+      "tag": "('lvl', 7)"
+    },
+    {
+      "coin": "DOGE-USD",
+      "side": "buy",
+      "price": 0.04538071,
+      "units": 22.86250159,
+      "tag": "('lvl', 8)"
+    },
+    {
+      "coin": "ATOM-USD",
+      "side": "buy",
+      "price": 1.660604,
+      "units": 0.62478267,
+      "tag": "('lvl', 1)"
+    },
+    {
+      "coin": "ATOM-USD",
+      "side": "buy",
+      "price": 1.554608,
+      "units": 0.66738149,
+      "tag": "('lvl', 2)"
+    },
+    {
+      "coin": "ATOM-USD",
+      "side": "buy",
+      "price": 1.448612,
+      "units": 0.71621428,
+      "tag": "('lvl', 3)"
+    },
+    {
+      "coin": "ATOM-USD",
+      "side": "buy",
+      "price": 1.342616,
+      "units": 0.77275751,
+      "tag": "('lvl', 4)"
+    },
+    {
+      "coin": "ATOM-USD",
+      "side": "buy",
+      "price": 1.23662,
+      "units": 0.83899387,
+      "tag": "('lvl', 5)"
+    },
+    {
+      "coin": "ATOM-USD",
+      "side": "buy",
+      "price": 1.130624,
+      "units": 0.91764955,
+      "tag": "('lvl', 6)"
+    },
+    {
+      "coin": "ATOM-USD",
+      "side": "buy",
+      "price": 1.024628,
+      "units": 1.01257881,
+      "tag": "('lvl', 7)"
+    },
+    {
+      "coin": "ATOM-USD",
+      "side": "buy",
+      "price": 0.918632,
+      "units": 1.12941483,
+      "tag": "('lvl', 8)"
+    },
+    {
+      "coin": "UNI-USD",
+      "side": "buy",
+      "price": 8.204226,
+      "units": 0.12646124,
+      "tag": "('lvl', 1)"
+    },
+    {
+      "coin": "UNI-USD",
+      "side": "buy",
+      "price": 7.680552,
+      "units": 0.1350836,
+      "tag": "('lvl', 2)"
+    },
+    {
+      "coin": "UNI-USD",
+      "side": "buy",
+      "price": 7.156878,
+      "units": 0.14496776,
+      "tag": "('lvl', 3)"
+    },
+    {
+      "coin": "UNI-USD",
+      "side": "buy",
+      "price": 6.633204,
+      "units": 0.15641259,
+      "tag": "('lvl', 4)"
+    },
+    {
+      "coin": "UNI-USD",
+      "side": "buy",
+      "price": 6.10953,
+      "units": 0.16981938,
+      "tag": "('lvl', 5)"
+    },
+    {
+      "coin": "UNI-USD",
+      "side": "buy",
+      "price": 5.585856,
+      "units": 0.18573995,
+      "tag": "('lvl', 6)"
+    },
+    {
+      "coin": "UNI-USD",
+      "side": "buy",
+      "price": 5.062182,
+      "units": 0.20495442,
+      "tag": "('lvl', 7)"
+    },
+    {
+      "coin": "UNI-USD",
+      "side": "buy",
+      "price": 4.538508,
+      "units": 0.22860301,
+      "tag": "('lvl', 8)"
+    }
+  ],
+  "halted": false,
+  "peak_equity": 100.0,
+  "last_tick": 1790026321,
+  "engine_stats": {
+    "limit_fills": 0,
+    "market_fills": 0,
+    "placed": 96,
+    "expired": 0
+  }
+}

@@ -1,0 +1,244 @@
+{
+ "period": [
+  "2025-01-23",
+  "2026-09-19"
+ ],
+ "decisions": [
+  {
+   "date": "2025-01-23",
+   "F1_supported": false,
+   "F1": "2/11 vs [1, 1, 0]",
+   "SIDE_supported": true,
+   "SIDE": "6/11 vs [3, 2, 5]",
+   "modes": {
+    "F0": 0,
+    "F1": 0,
+    "SIDE": 0,
+    "PAUSED": 11
+   }
+  },
+  {
+   "date": "2025-03-09",
+   "F1_supported": false,
+   "F1": "2/11 vs [0, 0, 3]",
+   "SIDE_supported": true,
+   "SIDE": "9/11 vs [2, 1, 2]",
+   "modes": {
+    "F0": 1,
+    "F1": 0,
+    "SIDE": 7,
+    "PAUSED": 3
+   }
+  },
+  {
+   "date": "2025-04-23",
+   "F1_supported": true,
+   "F1": "6/11 vs [2, 0, 1]",
+   "SIDE_supported": true,
+   "SIDE": "10/11 vs [4, 1, 2]",
+   "modes": {
+    "F0": 0,
+    "F1": 2,
+    "SIDE": 5,
+    "PAUSED": 4
+   }
+  },
+  {
+   "date": "2025-06-07",
+   "F1_supported": false,
+   "F1": "5/11 vs [2, 2, 7]",
+   "SIDE_supported": true,
+   "SIDE": "10/11 vs [1, 2, 4]",
+   "modes": {
+    "F0": 0,
+    "F1": 0,
+    "SIDE": 8,
+    "PAUSED": 3
+   }
+  },
+  {
+   "date": "2025-07-22",
+   "F1_supported": true,
+   "F1": "5/11 vs [1, 0, 4]",
+   "SIDE_supported": true,
+   "SIDE": "5/11 vs [2, 0, 2]",
+   "modes": {
+    "F0": 1,
+    "F1": 4,
+    "SIDE": 2,
+    "PAUSED": 4
+   }
+  },
+  {
+   "date": "2025-09-05",
+   "F1_supported": false,
+   "F1": "4/11 vs [4, 2, 9]",
+   "SIDE_supported": false,
+   "SIDE": "6/11 vs [7, 4, 4]",
+   "modes": {
+    "F0": 0,
+    "F1": 0,
+    "SIDE": 0,
+    "PAUSED": 11
+   }
+  },
+  {
+   "date": "2025-10-20",
+   "F1_supported": false,
+   "F1": "4/11 vs [6, 5, 9]",
+   "SIDE_supported": true,
+   "SIDE": "11/11 vs [5, 5, 6]",
+   "modes": {
+    "F0": 0,
+    "F1": 0,
+    "SIDE": 9,
+    "PAUSED": 2
+   }
+  },
+  {
+   "date": "2025-12-04",
+   "F1_supported": true,
+   "F1": "8/11 vs [2, 4, 7]",
+   "SIDE_supported": true,
+   "SIDE": "10/11 vs [4, 7, 8]",
+   "modes": {
+    "F0": 0,
+    "F1": 6,
+    "SIDE": 3,
+    "PAUSED": 2
+   }
+  },
+  {
+   "date": "2026-01-18",
+   "F1_supported": true,
+   "F1": "8/11 vs [3, 4, 7]",
+   "SIDE_supported": true,
+   "SIDE": "10/11 vs [3, 7, 9]",
+   "modes": {
+    "F0": 0,
+    "F1": 6,
+    "SIDE": 3,
+    "PAUSED": 2
+   }
+  },
+  {
+   "date": "2026-03-04",
+   "F1_supported": true,
+   "F1": "8/11 vs [3, 5, 6]",
+   "SIDE_supported": false,
+   "SIDE": "9/11 vs [2, 7, 9]",
+   "modes": {
+    "F0": 3,
+    "F1": 6,
+    "SIDE": 0,
+    "PAUSED": 2
+   }
+  },
+  {
+   "date": "2026-04-18",
+   "F1_supported": true,
+   "F1": "9/11 vs [2, 5, 6]",
+   "SIDE_supported": false,
+   "SIDE": "9/11 vs [0, 7, 9]",
+   "modes": {
+    "F0": 3,
+    "F1": 7,
+    "SIDE": 0,
+    "PAUSED": 1
+   }
+  },
+  {
+   "date": "2026-06-02",
+   "F1_supported": true,
+   "F1": "9/11 vs [2, 5, 6]",
+   "SIDE_supported": true,
+   "SIDE": "10/11 vs [1, 7, 9]",
+   "modes": {
+    "F0": 1,
+    "F1": 7,
+    "SIDE": 2,
+    "PAUSED": 1
+   }
+  },
+  {
+   "date": "2026-07-17",
+   "F1_supported": true,
+   "F1": "8/11 vs [2, 6, 4]",
+   "SIDE_supported": true,
+   "SIDE": "9/11 vs [1, 6, 7]",
+   "modes": {
+    "F0": 1,
+    "F1": 7,
+    "SIDE": 2,
+    "PAUSED": 1
+   }
+  },
+  {
+   "date": "2026-08-31",
+   "F1_supported": true,
+   "F1": "8/11 vs [4, 1, 6]",
+   "SIDE_supported": false,
+   "SIDE": "7/11 vs [0, 3, 7]",
+   "modes": {
+    "F0": 3,
+    "F1": 7,
+    "SIDE": 0,
+    "PAUSED": 1
+   }
+  }
+ ],
+ "results": {
+  "learner_managed": {
+   "days": 604,
+   "green_day_pct": 17.1,
+   "green_of_active_pct": 49.8,
+   "flat_pct": 65.7,
+   "weeks": 86,
+   "green_week_pct": 11.6,
+   "green_of_active_wk_pct": 29.4,
+   "worst_week_pct": -6.3,
+   "max_red_week_run": 6,
+   "total_return_pct": -2.8,
+   "max_dd_pct": -14.0
+  },
+  "static_F0_never_learns": {
+   "days": 604,
+   "green_day_pct": 28.0,
+   "green_of_active_pct": 50.9,
+   "flat_pct": 45.0,
+   "weeks": 86,
+   "green_week_pct": 17.4,
+   "green_of_active_wk_pct": 31.2,
+   "worst_week_pct": -9.7,
+   "max_red_week_run": 7,
+   "total_return_pct": -15.1,
+   "max_dd_pct": -24.7
+  },
+  "static_F1_hindsight": {
+   "days": 604,
+   "green_day_pct": 24.7,
+   "green_of_active_pct": 48.9,
+   "flat_pct": 49.5,
+   "weeks": 86,
+   "green_week_pct": 15.1,
+   "green_of_active_wk_pct": 28.9,
+   "worst_week_pct": -9.0,
+   "max_red_week_run": 6,
+   "total_return_pct": -3.3,
+   "max_dd_pct": -19.0
+  },
+  "buy_and_hold": {
+   "days": 604,
+   "green_day_pct": 48.5,
+   "green_of_active_pct": 48.5,
+   "flat_pct": 0.0,
+   "weeks": 86,
+   "green_week_pct": 40.7,
+   "green_of_active_wk_pct": 40.7,
+   "worst_week_pct": -24.8,
+   "max_red_week_run": 5,
+   "total_return_pct": -58.2,
+   "max_dd_pct": -72.6
+  }
+ }
+}

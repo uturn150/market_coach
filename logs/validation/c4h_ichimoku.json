@@ -1,0 +1,46 @@
+{
+  "family": "ichimoku",
+  "granularity": "4h",
+  "candidates": 8,
+  "survivors": 3,
+  "rejections": {
+    "FEE BLEED": 5
+  },
+  "fee_gate": "PASS",
+  "edge_gate": "PASS",
+  "paper_sample": 0,
+  "status": "CHALLENGER",
+  "params": {
+    "tenkan": 9,
+    "kijun": 104
+  },
+  "pf_in": 1.65,
+  "n_in": 581,
+  "out_excess_pct": 9.9,
+  "robust_family": true,
+  "walk_forward": "FAIL",
+  "walk_forward_detail": {
+    "strategy": "strategies/c4h_ichimoku.json",
+    "n_windows": 5,
+    "windows_beating_hold": 2,
+    "pct_windows_beating_hold": 40.0,
+    "median_excess_pct": -1.36,
+    "best_window_excess_pct": 33.32,
+    "worst_window_excess_pct": -28.07,
+    "windows_beating_regime_hold": 2,
+    "pct_windows_beating_regime_hold": 40.0,
+    "median_excess_vs_regime_hold_pct": -0.0,
+    "worst_window_drawdown_pct": -24.9,
+    "total_round_trips_across_windows": 367,
+    "sample_ok": true,
+    "verdict": "DOES NOT PERSIST: only beats hold in 2/5 windows \u2014 the earlier single-split result may have been luck"
+  },
+  "beats_regime_timed_hold": true,
+  "robustness": "FAIL",
+  "robustness_detail": {
+    "p5_return_pct": -37.41,
+    "loss_prob": 0.569,
+    "stress_passed": "5/6"
+  },
+  "account": "c4h_ichimoku"
+}

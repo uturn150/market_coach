@@ -1,0 +1,103 @@
+{"t": 1789884549, "iso": "2026-09-20 06:09:09", "event": "tick", "equity": 50.0, "holding": 0, "halted": false, "paper": true}
+{"t": 1789888149, "iso": "2026-09-20 07:09:09", "event": "tick", "equity": 50.0, "holding": 0, "halted": false, "paper": true}
+{"t": 1789891215, "iso": "2026-09-20 08:00:15", "event": "tick", "equity": 50.0, "holding": 0, "halted": false, "paper": true}
+{"t": 1789891741, "iso": "2026-09-20 08:09:01", "event": "tick", "equity": 50.0, "holding": 0, "halted": false, "paper": true}
+{"t": 1789895341, "iso": "2026-09-20 09:09:01", "event": "tick", "equity": 50.0, "holding": 0, "halted": false, "paper": true}
+{"t": 1789898941, "iso": "2026-09-20 10:09:01", "event": "tick", "equity": 50.0, "holding": 0, "halted": false, "paper": true}
+{"t": 1789902541, "iso": "2026-09-20 11:09:01", "event": "tick", "equity": 50.0, "holding": 0, "halted": false, "paper": true}
+{"t": 1789905623, "iso": "2026-09-20 12:00:23", "event": "kraken_fill", "coin": "AVAX-USD", "side": "buy", "price": 10.4150826, "notional": 1.4959, "units": 0.14248473, "live": true, "reason": "price cross_above keltner_upper:20:20:3", "source": "book", "signal_price": 10.407, "mid": 10.4095, "expected_fill": 10.413, "sim_fill": 10.4150826, "filled_fraction": 1.0, "spread_cost_usd": 0.0004987, "slippage_cost_usd": 0.00029674, "fee_usd": 0.01187192, "total_exec_cost_usd": 0.01266736}
+{"t": 1789905624, "iso": "2026-09-20 12:00:24", "event": "tick", "equity": 49.99, "holding": 1, "halted": false, "paper": true}
+{"t": 1789906141, "iso": "2026-09-20 12:09:01", "event": "tick", "equity": 49.99, "holding": 1, "halted": false, "paper": true}
+{"t": 1789909741, "iso": "2026-09-20 13:09:01", "event": "tick", "equity": 49.99, "holding": 1, "halted": false, "paper": true}
+{"t": 1789913341, "iso": "2026-09-20 14:09:01", "event": "tick", "equity": 49.99, "holding": 1, "halted": false, "paper": true}
+{"t": 1789916941, "iso": "2026-09-20 15:09:01", "event": "tick", "equity": 49.99, "holding": 1, "halted": false, "paper": true}
+{"t": 1789920025, "iso": "2026-09-20 16:00:25", "event": "kraken_fill", "coin": "ALGO-USD", "side": "buy", "price": 0.11317263, "notional": 1.8096, "units": 15.86316147, "live": true, "reason": "price cross_above keltner_upper:20:20:3", "source": "book", "signal_price": 0.11323, "mid": 0.113075, "expected_fill": 0.11315, "sim_fill": 0.11317263, "filled_fraction": 1.0, "spread_cost_usd": 0.00118974, "slippage_cost_usd": 0.00035898, "fee_usd": 0.01436221, "total_exec_cost_usd": 0.01591093}
+{"t": 1789920026, "iso": "2026-09-20 16:00:26", "event": "tick", "equity": 50.12, "holding": 2, "halted": false, "paper": true}
+{"t": 1789920541, "iso": "2026-09-20 16:09:01", "event": "tick", "equity": 50.12, "holding": 2, "halted": false, "paper": true}
+{"t": 1789924141, "iso": "2026-09-20 17:09:01", "event": "tick", "equity": 50.12, "holding": 2, "halted": false, "paper": true}
+{"t": 1789927741, "iso": "2026-09-20 18:09:01", "event": "tick", "equity": 50.12, "holding": 2, "halted": false, "paper": true}
+{"t": 1789931341, "iso": "2026-09-20 19:09:01", "event": "tick", "equity": 50.12, "holding": 2, "halted": false, "paper": true}
+{"t": 1789934424, "iso": "2026-09-20 20:00:24", "event": "kraken_fill", "coin": "NEAR-USD", "side": "buy", "price": 4.17903564, "notional": 1.3382, "units": 0.3176816, "live": true, "reason": "price cross_above keltner_upper:20:20:3", "source": "book", "signal_price": 4.1571, "mid": 4.17735, "expected_fill": 4.1782, "sim_fill": 4.17903564, "filled_fraction": 1.0, "spread_cost_usd": 0.00027003, "slippage_cost_usd": 0.00026547, "fee_usd": 0.01062082, "total_exec_cost_usd": 0.01115632}
+{"t": 1789934425, "iso": "2026-09-20 20:00:25", "event": "tick", "equity": 50.01, "holding": 3, "halted": false, "paper": true}
+{"t": 1789934941, "iso": "2026-09-20 20:09:01", "event": "tick", "equity": 50.01, "holding": 3, "halted": false, "paper": true}
+{"t": 1789938541, "iso": "2026-09-20 21:09:01", "event": "tick", "equity": 50.01, "holding": 3, "halted": false, "paper": true}
+{"t": 1789942141, "iso": "2026-09-20 22:09:01", "event": "tick", "equity": 50.01, "holding": 3, "halted": false, "paper": true}
+{"t": 1789945742, "iso": "2026-09-20 23:09:02", "event": "tick", "equity": 50.01, "holding": 3, "halted": false, "paper": true}
+{"t": 1789948838, "iso": "2026-09-21 00:00:38", "event": "tick", "equity": 50.02, "holding": 3, "halted": false, "paper": true}
+{"t": 1789949342, "iso": "2026-09-21 00:09:02", "event": "tick", "equity": 50.02, "holding": 3, "halted": false, "paper": true}
+{"t": 1789952941, "iso": "2026-09-21 01:09:01", "event": "tick", "equity": 50.02, "holding": 3, "halted": false, "paper": true}
+{"t": 1789956541, "iso": "2026-09-21 02:09:01", "event": "tick", "equity": 50.02, "holding": 3, "halted": false, "paper": true}
+{"t": 1789960141, "iso": "2026-09-21 03:09:01", "event": "tick", "equity": 50.02, "holding": 3, "halted": false, "paper": true}
+{"t": 1789963216, "iso": "2026-09-21 04:00:16", "event": "tick", "equity": 50.11, "holding": 3, "halted": false, "paper": true}
+{"t": 1789963742, "iso": "2026-09-21 04:09:02", "event": "tick", "equity": 50.11, "holding": 3, "halted": false, "paper": true}
+{"t": 1789967342, "iso": "2026-09-21 05:09:02", "event": "tick", "equity": 50.11, "holding": 3, "halted": false, "paper": true}
+{"t": 1789970941, "iso": "2026-09-21 06:09:01", "event": "tick", "equity": 50.11, "holding": 3, "halted": false, "paper": true}
+{"t": 1789974541, "iso": "2026-09-21 07:09:01", "event": "tick", "equity": 50.11, "holding": 3, "halted": false, "paper": true}
+{"t": 1789977619, "iso": "2026-09-21 08:00:19", "event": "tick", "equity": 50.0, "holding": 3, "halted": false, "paper": true}
+{"t": 1789978141, "iso": "2026-09-21 08:09:01", "event": "tick", "equity": 50.0, "holding": 3, "halted": false, "paper": true}
+{"t": 1789981741, "iso": "2026-09-21 09:09:01", "event": "tick", "equity": 50.0, "holding": 3, "halted": false, "paper": true}
+{"t": 1789985341, "iso": "2026-09-21 10:09:01", "event": "tick", "equity": 50.0, "holding": 3, "halted": false, "paper": true}
+{"t": 1789988941, "iso": "2026-09-21 11:09:01", "event": "tick", "equity": 50.0, "holding": 3, "halted": false, "paper": true}
+{"t": 1789992021, "iso": "2026-09-21 12:00:21", "event": "kraken_fill", "coin": "BTC-USD", "side": "buy", "price": 84888.9744, "notional": 2.0837, "units": 2.435e-05, "live": true, "reason": "price cross_above keltner_upper:20:20:3", "source": "book", "signal_price": 84870.7, "mid": 84871.95, "expected_fill": 84872.0, "sim_fill": 84888.9744, "filled_fraction": 1.0, "spread_cost_usd": 1.22e-06, "slippage_cost_usd": 0.00041335, "fee_usd": 0.01653743, "total_exec_cost_usd": 0.016952}
+{"t": 1789992022, "iso": "2026-09-21 12:00:22", "event": "kraken_fill", "coin": "SOL-USD", "side": "buy", "price": 116.743344, "notional": 1.2404, "units": 0.01054081, "live": true, "reason": "price cross_above keltner_upper:20:20:3", "source": "book", "signal_price": 116.76, "mid": 116.705, "expected_fill": 116.72, "sim_fill": 116.743344, "filled_fraction": 1.0, "spread_cost_usd": 0.00015811, "slippage_cost_usd": 0.00024606, "fee_usd": 0.00984455, "total_exec_cost_usd": 0.01024873}
+{"t": 1789992022, "iso": "2026-09-21 12:00:22", "event": "kraken_fill", "coin": "DOGE-USD", "side": "buy", "price": 0.09338487, "notional": 1.6823, "units": 17.87203337, "live": true, "reason": "price cross_above keltner_upper:20:20:3", "source": "book", "signal_price": 0.0933205, "mid": 0.09334355, "expected_fill": 0.0933662, "sim_fill": 0.09338487, "filled_fraction": 1.0, "spread_cost_usd": 0.0004048, "slippage_cost_usd": 0.00033373, "fee_usd": 0.01335182, "total_exec_cost_usd": 0.01409035}
+{"t": 1789992023, "iso": "2026-09-21 12:00:23", "event": "tick", "equity": 50.04, "holding": 6, "halted": false, "paper": true}
+{"t": 1789992541, "iso": "2026-09-21 12:09:01", "event": "tick", "equity": 50.04, "holding": 6, "halted": false, "paper": true}
+{"t": 1789996141, "iso": "2026-09-21 13:09:01", "event": "tick", "equity": 50.04, "holding": 6, "halted": false, "paper": true}
+{"t": 1789999741, "iso": "2026-09-21 14:09:01", "event": "tick", "equity": 50.04, "holding": 6, "halted": false, "paper": true}
+{"t": 1790003341, "iso": "2026-09-21 15:09:01", "event": "tick", "equity": 50.04, "holding": 6, "halted": false, "paper": true}
+{"t": 1790006419, "iso": "2026-09-21 16:00:19", "event": "kraken_fill", "coin": "ETH-USD", "side": "buy", "price": 2756.771244, "notional": 1.2638, "units": 0.00045481, "live": true, "reason": "price cross_above keltner_upper:20:20:3", "source": "book", "signal_price": 2755.5, "mid": 2756.215, "expected_fill": 2756.22, "sim_fill": 2756.771244, "filled_fraction": 1.0, "spread_cost_usd": 2.27e-06, "slippage_cost_usd": 0.00025071, "fee_usd": 0.01003044, "total_exec_cost_usd": 0.01028342}
+{"t": 1790006420, "iso": "2026-09-21 16:00:20", "event": "kraken_fill", "coin": "LTC-USD", "side": "buy", "price": 62.992596, "notional": 2.0837, "units": 0.03281623, "live": true, "reason": "price cross_above keltner_upper:20:20:3", "source": "book", "signal_price": 62.95, "mid": 62.96, "expected_fill": 62.98, "sim_fill": 62.992596, "filled_fraction": 1.0, "spread_cost_usd": 0.00065632, "slippage_cost_usd": 0.00041335, "fee_usd": 0.01653743, "total_exec_cost_usd": 0.01760711}
+{"t": 1790006420, "iso": "2026-09-21 16:00:20", "event": "kraken_fill", "coin": "SHIB-USD", "side": "buy", "price": 6.04e-06, "notional": 1.2419, "units": 203975.28794444, "live": true, "reason": "price cross_above keltner_upper:20:20:3", "source": "book", "signal_price": 6.01e-06, "mid": 6.04e-06, "expected_fill": 6.04e-06, "sim_fill": 6.04e-06, "filled_fraction": 1.0, "spread_cost_usd": 0.00061193, "slippage_cost_usd": 0.00024636, "fee_usd": 0.00985643, "total_exec_cost_usd": 0.01071471}
+{"t": 1790006421, "iso": "2026-09-21 16:00:21", "event": "tick", "equity": 50.03, "holding": 9, "halted": false, "paper": true}
+{"t": 1790006941, "iso": "2026-09-21 16:09:01", "event": "tick", "equity": 50.03, "holding": 9, "halted": false, "paper": true}
+{"t": 1790010541, "iso": "2026-09-21 17:09:01", "event": "tick", "equity": 50.03, "holding": 9, "halted": false, "paper": true}
+{"t": 1790014141, "iso": "2026-09-21 18:09:01", "event": "tick", "equity": 50.03, "holding": 9, "halted": false, "paper": true}
+{"t": 1790017741, "iso": "2026-09-21 19:09:01", "event": "tick", "equity": 50.03, "holding": 9, "halted": false, "paper": true}
+{"t": 1790020815, "iso": "2026-09-21 20:00:15", "event": "tick", "equity": 50.07, "holding": 9, "halted": false, "paper": true}
+{"t": 1790021342, "iso": "2026-09-21 20:09:02", "event": "tick", "equity": 50.07, "holding": 9, "halted": false, "paper": true}
+{"t": 1790024941, "iso": "2026-09-21 21:09:01", "event": "tick", "equity": 50.07, "holding": 9, "halted": false, "paper": true}
+{"t": 1790028541, "iso": "2026-09-21 22:09:01", "event": "tick", "equity": 50.07, "holding": 9, "halted": false, "paper": true}
+{"t": 1790032141, "iso": "2026-09-21 23:09:01", "event": "tick", "equity": 50.07, "holding": 9, "halted": false, "paper": true}
+{"t": 1790035239, "iso": "2026-09-22 00:00:39", "event": "kraken_fill", "coin": "XRP-USD", "side": "buy", "price": 1.53409676, "notional": 10.002, "units": 6.46805294, "live": true, "reason": "price cross_above keltner_upper:20:20:3", "source": "book", "signal_price": 1.53636, "mid": 1.53364, "expected_fill": 1.53379, "sim_fill": 1.53409676, "filled_fraction": 1.0, "spread_cost_usd": 0.00097021, "slippage_cost_usd": 0.00198413, "fee_usd": 0.07938095, "total_exec_cost_usd": 0.08233529}
+{"t": 1790035239, "iso": "2026-09-22 00:00:39", "event": "tick", "equity": 50.12, "holding": 10, "halted": false, "paper": true}
+{"t": 1790035741, "iso": "2026-09-22 00:09:01", "event": "tick", "equity": 50.12, "holding": 10, "halted": false, "paper": true}
+{"t": 1790039341, "iso": "2026-09-22 01:09:01", "event": "tick", "equity": 50.12, "holding": 10, "halted": false, "paper": true}
+{"t": 1790042942, "iso": "2026-09-22 02:09:02", "event": "tick", "equity": 50.12, "holding": 10, "halted": false, "paper": true}
+{"t": 1790046541, "iso": "2026-09-22 03:09:01", "event": "tick", "equity": 50.12, "holding": 10, "halted": false, "paper": true}
+{"t": 1790049618, "iso": "2026-09-22 04:00:18", "event": "tick", "equity": 49.93, "holding": 10, "halted": false, "paper": true}
+{"t": 1790050141, "iso": "2026-09-22 04:09:01", "event": "tick", "equity": 49.93, "holding": 10, "halted": false, "paper": true}
+{"t": 1790053741, "iso": "2026-09-22 05:09:01", "event": "tick", "equity": 49.93, "holding": 10, "halted": false, "paper": true}
+{"t": 1790057341, "iso": "2026-09-22 06:09:01", "event": "tick", "equity": 49.93, "holding": 10, "halted": false, "paper": true}
+{"t": 1790060941, "iso": "2026-09-22 07:09:01", "event": "tick", "equity": 49.93, "holding": 10, "halted": false, "paper": true}
+{"t": 1790064016, "iso": "2026-09-22 08:00:16", "event": "tick", "equity": 49.77, "holding": 10, "halted": false, "paper": true}
+{"t": 1790064541, "iso": "2026-09-22 08:09:01", "event": "tick", "equity": 49.77, "holding": 10, "halted": false, "paper": true}
+{"t": 1790068141, "iso": "2026-09-22 09:09:01", "event": "tick", "equity": 49.77, "holding": 10, "halted": false, "paper": true}
+{"t": 1790071741, "iso": "2026-09-22 10:09:01", "event": "tick", "equity": 49.77, "holding": 10, "halted": false, "paper": true}
+{"t": 1790075341, "iso": "2026-09-22 11:09:01", "event": "tick", "equity": 49.77, "holding": 10, "halted": false, "paper": true}
+{"t": 1790078418, "iso": "2026-09-22 12:00:18", "event": "tick", "equity": 49.95, "holding": 10, "halted": false, "paper": true}
+{"t": 1790078942, "iso": "2026-09-22 12:09:02", "event": "tick", "equity": 49.95, "holding": 10, "halted": false, "paper": true}
+{"t": 1790082542, "iso": "2026-09-22 13:09:02", "event": "tick", "equity": 49.95, "holding": 10, "halted": false, "paper": true}
+{"t": 1790086141, "iso": "2026-09-22 14:09:01", "event": "tick", "equity": 49.95, "holding": 10, "halted": false, "paper": true}
+{"t": 1790089741, "iso": "2026-09-22 15:09:01", "event": "tick", "equity": 49.95, "holding": 10, "halted": false, "paper": true}
+{"t": 1790092818, "iso": "2026-09-22 16:00:18", "event": "kraken_fill", "coin": "BCH-USD", "side": "buy", "price": 328.905768, "notional": 10.002, "units": 0.03016858, "live": true, "reason": "price cross_above keltner_upper:20:20:3", "source": "book", "signal_price": 328.0, "mid": 328.575, "expected_fill": 328.84, "sim_fill": 328.905768, "filled_fraction": 1.0, "spread_cost_usd": 0.00799467, "slippage_cost_usd": 0.00198413, "fee_usd": 0.07938095, "total_exec_cost_usd": 0.08935975}
+{"t": 1790092818, "iso": "2026-09-22 16:00:18", "event": "kraken_fill", "coin": "ETC-USD", "side": "buy", "price": 9.3348666, "notional": 10.002, "units": 1.06296313, "live": true, "reason": "price cross_above keltner_upper:20:20:3", "source": "book", "signal_price": 9.363, "mid": 9.316, "expected_fill": 9.333, "sim_fill": 9.3348666, "filled_fraction": 1.0, "spread_cost_usd": 0.01807037, "slippage_cost_usd": 0.00198413, "fee_usd": 0.07938095, "total_exec_cost_usd": 0.09943545}
+{"t": 1790092819, "iso": "2026-09-22 16:00:19", "event": "tick", "equity": 50.13, "holding": 12, "halted": false, "paper": true}
+{"t": 1790093341, "iso": "2026-09-22 16:09:01", "event": "tick", "equity": 50.13, "holding": 12, "halted": false, "paper": true}
+{"t": 1790096941, "iso": "2026-09-22 17:09:01", "event": "tick", "equity": 50.13, "holding": 12, "halted": false, "paper": true}
+{"t": 1790100541, "iso": "2026-09-22 18:09:01", "event": "tick", "equity": 50.13, "holding": 12, "halted": false, "paper": true}
+{"t": 1790104142, "iso": "2026-09-22 19:09:02", "event": "tick", "equity": 50.13, "holding": 12, "halted": false, "paper": true}
+{"t": 1790107217, "iso": "2026-09-22 20:00:17", "event": "tick", "equity": 50.36, "holding": 12, "halted": false, "paper": true}
+{"t": 1790107741, "iso": "2026-09-22 20:09:01", "event": "tick", "equity": 50.36, "holding": 12, "halted": false, "paper": true}
+{"t": 1790111342, "iso": "2026-09-22 21:09:02", "event": "tick", "equity": 50.36, "holding": 12, "halted": false, "paper": true}
+{"t": 1790114941, "iso": "2026-09-22 22:09:01", "event": "tick", "equity": 50.36, "holding": 12, "halted": false, "paper": true}
+{"t": 1790118541, "iso": "2026-09-22 23:09:01", "event": "tick", "equity": 50.36, "holding": 12, "halted": false, "paper": true}
+{"t": 1790121630, "iso": "2026-09-23 00:00:30", "event": "tick", "equity": 50.86, "holding": 12, "halted": false, "paper": true}
+{"t": 1790122141, "iso": "2026-09-23 00:09:01", "event": "tick", "equity": 50.86, "holding": 12, "halted": false, "paper": true}
+{"t": 1790125741, "iso": "2026-09-23 01:09:01", "event": "tick", "equity": 50.86, "holding": 12, "halted": false, "paper": true}
+{"t": 1790129341, "iso": "2026-09-23 02:09:01", "event": "tick", "equity": 50.86, "holding": 12, "halted": false, "paper": true}
+{"t": 1790132941, "iso": "2026-09-23 03:09:01", "event": "tick", "equity": 50.86, "holding": 12, "halted": false, "paper": true}
+{"t": 1790136015, "iso": "2026-09-23 04:00:15", "event": "tick", "equity": 51.27, "holding": 12, "halted": false, "paper": true}
+{"t": 1790136541, "iso": "2026-09-23 04:09:01", "event": "tick", "equity": 51.27, "holding": 12, "halted": false, "paper": true}
+{"t": 1790140142, "iso": "2026-09-23 05:09:02", "event": "tick", "equity": 51.27, "holding": 12, "halted": false, "paper": true}
+{"t": 1790143741, "iso": "2026-09-23 06:09:01", "event": "tick", "equity": 51.27, "holding": 12, "halted": false, "paper": true}

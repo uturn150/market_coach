@@ -1,0 +1,270 @@
+{"t": 1789816911, "iso": "2026-09-19 11:21:51", "action": "revalidate", "account": "realpaper", "passed": true, "why": "", "pf_in": 3.46, "out_excess_pct": 48.9}
+{"t": 1789816911, "iso": "2026-09-19 11:21:51", "action": "revalidate", "account": "krakenmulti", "passed": true, "why": "", "pf_in": 3.6, "out_excess_pct": 48.6}
+{"t": 1789816912, "iso": "2026-09-19 11:21:52", "action": "revalidate", "account": "krakenfast", "passed": true, "why": "", "pf_in": 3.49, "out_excess_pct": 41.2}
+{"t": 1789816912, "iso": "2026-09-19 11:21:52", "action": "revalidate", "account": "krakenslow", "passed": true, "why": "", "pf_in": 6.6, "out_excess_pct": 53.3}
+{"t": 1789816912, "iso": "2026-09-19 11:21:52", "action": "revalidate", "account": "krakenrsi", "passed": false, "why": "fee gate", "pf_in": 1.15, "out_excess_pct": 49.9}
+{"t": 1789816914, "iso": "2026-09-19 11:21:54", "action": "no_replacement", "account": "krakenrsi", "evidence": {"evaluated": 14, "survivors": 4, "why": "best candidate 'thresholds x0.9' failed Monte Carlo robustness"}}
+{"t": 1789816915, "iso": "2026-09-19 11:21:55", "action": "revalidate", "account": "krakenmacd", "passed": true, "why": "", "pf_in": 2.33, "out_excess_pct": 17.3}
+{"t": 1789816915, "iso": "2026-09-19 11:21:55", "action": "revalidate", "account": "krakenbbreak", "passed": true, "why": "", "pf_in": 2.96, "out_excess_pct": 51.4}
+{"t": 1789816915, "iso": "2026-09-19 11:21:55", "action": "revalidate", "account": "krakenturtle", "passed": true, "why": "", "pf_in": 4.76, "out_excess_pct": 40.8}
+{"t": 1789816915, "iso": "2026-09-19 11:21:55", "action": "revalidate", "account": "krakencci", "passed": true, "why": "", "pf_in": 2.54, "out_excess_pct": 42.3}
+{"t": 1789816915, "iso": "2026-09-19 11:21:55", "action": "revalidate", "account": "krakenkeltner", "passed": true, "why": "", "pf_in": 3.97, "out_excess_pct": 47.2}
+{"t": 1789816916, "iso": "2026-09-19 11:21:56", "action": "revalidate", "account": "krakenichimoku", "passed": true, "why": "", "pf_in": 2.85, "out_excess_pct": 45.6}
+{"t": 1789820582, "iso": "2026-09-19 12:23:02", "action": "revalidate", "account": "realpaper", "passed": true, "why": "", "pf_in": 3.46, "out_excess_pct": 48.9}
+{"t": 1789820582, "iso": "2026-09-19 12:23:02", "action": "revalidate", "account": "krakenmulti", "passed": true, "why": "", "pf_in": 3.6, "out_excess_pct": 48.6}
+{"t": 1789820582, "iso": "2026-09-19 12:23:02", "action": "revalidate", "account": "krakenfast", "passed": true, "why": "", "pf_in": 3.49, "out_excess_pct": 41.2}
+{"t": 1789820582, "iso": "2026-09-19 12:23:02", "action": "revalidate", "account": "krakenslow", "passed": true, "why": "", "pf_in": 6.6, "out_excess_pct": 53.3}
+{"t": 1789820583, "iso": "2026-09-19 12:23:03", "action": "revalidate", "account": "krakenrsi", "passed": false, "why": "fee gate", "pf_in": 1.15, "out_excess_pct": 49.9}
+{"t": 1789820585, "iso": "2026-09-19 12:23:05", "action": "no_replacement", "account": "krakenrsi", "evidence": {"evaluated": 14, "survivors": 4, "why": "best candidate 'thresholds x0.9' failed Monte Carlo robustness"}}
+{"t": 1789820585, "iso": "2026-09-19 12:23:05", "action": "revalidate", "account": "krakenmacd", "passed": true, "why": "", "pf_in": 2.33, "out_excess_pct": 17.3}
+{"t": 1789820586, "iso": "2026-09-19 12:23:06", "action": "revalidate", "account": "krakenbbreak", "passed": true, "why": "", "pf_in": 2.96, "out_excess_pct": 51.4}
+{"t": 1789820586, "iso": "2026-09-19 12:23:06", "action": "revalidate", "account": "krakenturtle", "passed": true, "why": "", "pf_in": 4.76, "out_excess_pct": 40.8}
+{"t": 1789820586, "iso": "2026-09-19 12:23:06", "action": "revalidate", "account": "krakencci", "passed": true, "why": "", "pf_in": 2.54, "out_excess_pct": 42.3}
+{"t": 1789820586, "iso": "2026-09-19 12:23:06", "action": "revalidate", "account": "krakenkeltner", "passed": true, "why": "", "pf_in": 3.97, "out_excess_pct": 47.2}
+{"t": 1789820587, "iso": "2026-09-19 12:23:07", "action": "revalidate", "account": "krakenichimoku", "passed": true, "why": "", "pf_in": 2.85, "out_excess_pct": 45.6}
+{"t": 1789842181, "iso": "2026-09-19 18:23:01", "action": "revalidate", "account": "realpaper", "passed": true, "why": "", "pf_in": 3.46, "out_excess_pct": 48.9}
+{"t": 1789842182, "iso": "2026-09-19 18:23:02", "action": "revalidate", "account": "krakenmulti", "passed": true, "why": "", "pf_in": 3.6, "out_excess_pct": 48.6}
+{"t": 1789842182, "iso": "2026-09-19 18:23:02", "action": "revalidate", "account": "krakenfast", "passed": true, "why": "", "pf_in": 3.49, "out_excess_pct": 41.2}
+{"t": 1789842182, "iso": "2026-09-19 18:23:02", "action": "revalidate", "account": "krakenslow", "passed": true, "why": "", "pf_in": 6.6, "out_excess_pct": 53.3}
+{"t": 1789842182, "iso": "2026-09-19 18:23:02", "action": "revalidate", "account": "krakenrsi", "passed": false, "why": "fee gate", "pf_in": 1.15, "out_excess_pct": 49.9}
+{"t": 1789842185, "iso": "2026-09-19 18:23:05", "action": "no_replacement", "account": "krakenrsi", "evidence": {"evaluated": 14, "survivors": 4, "why": "best candidate 'thresholds x0.9' failed Monte Carlo robustness"}}
+{"t": 1789842185, "iso": "2026-09-19 18:23:05", "action": "revalidate", "account": "krakenmacd", "passed": true, "why": "", "pf_in": 2.33, "out_excess_pct": 17.3}
+{"t": 1789842185, "iso": "2026-09-19 18:23:05", "action": "revalidate", "account": "krakenbbreak", "passed": true, "why": "", "pf_in": 2.96, "out_excess_pct": 51.4}
+{"t": 1789842185, "iso": "2026-09-19 18:23:05", "action": "revalidate", "account": "krakenturtle", "passed": true, "why": "", "pf_in": 4.76, "out_excess_pct": 40.8}
+{"t": 1789842186, "iso": "2026-09-19 18:23:06", "action": "revalidate", "account": "krakencci", "passed": true, "why": "", "pf_in": 2.54, "out_excess_pct": 42.3}
+{"t": 1789842186, "iso": "2026-09-19 18:23:06", "action": "revalidate", "account": "krakenkeltner", "passed": true, "why": "", "pf_in": 3.97, "out_excess_pct": 47.2}
+{"t": 1789842186, "iso": "2026-09-19 18:23:06", "action": "revalidate", "account": "krakenichimoku", "passed": true, "why": "", "pf_in": 2.85, "out_excess_pct": 45.6}
+{"t": 1789856556, "iso": "2026-09-19 22:22:36", "action": "hypothesis_test", "hypothesis": "avoid_SIDEWAYS", "verdict": "SUPPORTED", "improved": 8, "tested": 10}
+{"t": 1789856598, "iso": "2026-09-19 22:23:18", "action": "hypothesis_test", "hypothesis": "avoid_SIDEWAYS", "verdict": "SUPPORTED", "improved": 8, "tested": 10}
+{"t": 1789856637, "iso": "2026-09-19 22:23:57", "action": "hypothesis_test", "hypothesis": "avoid_SIDEWAYS", "verdict": "SUPPORTED", "improved": 8, "tested": 10}
+{"t": 1789856646, "iso": "2026-09-19 22:24:06", "action": "spawn_challenger", "challenger": "chal_realpaper_1", "champion": "realpaper", "label": "avoid SIDEWAYS regime", "evidence": {"pf_in": 8.53, "out_return_pct": -0.6, "baseline_pf_in": 3.46, "baseline_out_return_pct": -5.1, "mc_p5_return_pct": 43.28}}
+{"t": 1789856654, "iso": "2026-09-19 22:24:14", "action": "spawn_challenger", "challenger": "chal_krakenrsi_1", "champion": "krakenrsi", "label": "avoid SIDEWAYS regime", "evidence": {"pf_in": 2.48, "out_return_pct": -1.4, "baseline_pf_in": 1.15, "baseline_out_return_pct": -4.1, "mc_p5_return_pct": 0.15}}
+{"t": 1789856662, "iso": "2026-09-19 22:24:22", "action": "spawn_challenger", "challenger": "chal_krakenfast_1", "champion": "krakenfast", "label": "avoid SIDEWAYS regime", "evidence": {"pf_in": 5.86, "out_return_pct": -6.1, "baseline_pf_in": 3.49, "baseline_out_return_pct": -12.7, "mc_p5_return_pct": 48.21}}
+{"t": 1789856671, "iso": "2026-09-19 22:24:31", "action": "spawn_challenger", "challenger": "chal_krakenichimoku_1", "champion": "krakenichimoku", "label": "avoid SIDEWAYS regime", "evidence": {"pf_in": 3.8, "out_return_pct": -3.4, "baseline_pf_in": 2.85, "baseline_out_return_pct": -8.3, "mc_p5_return_pct": 41.35}}
+{"t": 1789856680, "iso": "2026-09-19 22:24:40", "action": "spawn_challenger", "challenger": "chal_krakenturtle_1", "champion": "krakenturtle", "label": "avoid SIDEWAYS regime", "evidence": {"pf_in": 6.34, "out_return_pct": -8.6, "baseline_pf_in": 4.76, "baseline_out_return_pct": -13.1, "mc_p5_return_pct": 44.59}}
+{"t": 1789856688, "iso": "2026-09-19 22:24:48", "action": "spawn_challenger", "challenger": "chal_krakenmulti_1", "champion": "krakenmulti", "label": "avoid SIDEWAYS regime", "evidence": {"pf_in": 4.47, "out_return_pct": -4.0, "baseline_pf_in": 3.6, "baseline_out_return_pct": -5.3, "mc_p5_return_pct": 34.66}}
+{"t": 1789863782, "iso": "2026-09-20 00:23:02", "action": "revalidate", "account": "realpaper", "passed": true, "why": "", "pf_in": 3.46, "out_excess_pct": 48.9}
+{"t": 1789863782, "iso": "2026-09-20 00:23:02", "action": "revalidate", "account": "krakenmulti", "passed": true, "why": "", "pf_in": 3.6, "out_excess_pct": 48.6}
+{"t": 1789863782, "iso": "2026-09-20 00:23:02", "action": "revalidate", "account": "krakenfast", "passed": true, "why": "", "pf_in": 3.49, "out_excess_pct": 41.2}
+{"t": 1789863782, "iso": "2026-09-20 00:23:02", "action": "revalidate", "account": "krakenslow", "passed": true, "why": "", "pf_in": 6.6, "out_excess_pct": 53.3}
+{"t": 1789863783, "iso": "2026-09-20 00:23:03", "action": "revalidate", "account": "krakenrsi", "passed": false, "why": "fee gate", "pf_in": 1.15, "out_excess_pct": 49.9}
+{"t": 1789863783, "iso": "2026-09-20 00:23:03", "action": "revalidate", "account": "krakenmacd", "passed": true, "why": "", "pf_in": 2.33, "out_excess_pct": 17.3}
+{"t": 1789863783, "iso": "2026-09-20 00:23:03", "action": "revalidate", "account": "krakenbbreak", "passed": true, "why": "", "pf_in": 2.96, "out_excess_pct": 51.4}
+{"t": 1789863783, "iso": "2026-09-20 00:23:03", "action": "revalidate", "account": "krakenturtle", "passed": true, "why": "", "pf_in": 4.76, "out_excess_pct": 40.8}
+{"t": 1789863783, "iso": "2026-09-20 00:23:03", "action": "revalidate", "account": "krakencci", "passed": true, "why": "", "pf_in": 2.54, "out_excess_pct": 42.3}
+{"t": 1789863784, "iso": "2026-09-20 00:23:04", "action": "revalidate", "account": "krakenkeltner", "passed": true, "why": "", "pf_in": 3.97, "out_excess_pct": 47.2}
+{"t": 1789863784, "iso": "2026-09-20 00:23:04", "action": "hypothesis_test", "hypothesis": "avoid_SIDEWAYS", "verdict": "SUPPORTED", "improved": 8, "tested": 10}
+{"t": 1789863784, "iso": "2026-09-20 00:23:04", "action": "revalidate", "account": "krakenichimoku", "passed": true, "why": "", "pf_in": 2.85, "out_excess_pct": 45.6}
+{"t": 1789863799, "iso": "2026-09-20 00:23:19", "action": "hypothesis_test", "hypothesis": "avoid_HIGH_VOLATILITY", "verdict": "REFUTED", "improved": 3, "tested": 10}
+{"t": 1789863815, "iso": "2026-09-20 00:23:35", "action": "hypothesis_test", "hypothesis": "avoid_SIDEWAYS_and_HIGH_VOLATILITY", "verdict": "SUPPORTED", "improved": 7, "tested": 10}
+{"t": 1789863862, "iso": "2026-09-20 00:24:22", "action": "hypothesis_test", "hypothesis": "avoid_SIDEWAYS", "verdict": "SUPPORTED", "improved": 8, "tested": 10}
+{"t": 1789863878, "iso": "2026-09-20 00:24:38", "action": "hypothesis_test", "hypothesis": "avoid_HIGH_VOLATILITY", "verdict": "REFUTED", "improved": 3, "tested": 10}
+{"t": 1789863893, "iso": "2026-09-20 00:24:53", "action": "hypothesis_test", "hypothesis": "avoid_SIDEWAYS_and_HIGH_VOLATILITY", "verdict": "SUPPORTED", "improved": 7, "tested": 10}
+{"t": -4.27, "iso": "2026-09-20 00:31:18", "action": "live_failure", "account": "arena_stochastic_cross", "n": 56, "mean_pct": -0.962}
+{"t": 1789864517, "iso": "2026-09-20 00:35:17", "action": "hypothesis_test", "hypothesis": "avoid_SIDEWAYS", "verdict": "SUPPORTED", "improved": 8, "tested": 10}
+{"t": 1789864533, "iso": "2026-09-20 00:35:33", "action": "hypothesis_test", "hypothesis": "avoid_HIGH_VOLATILITY", "verdict": "REFUTED", "improved": 3, "tested": 10}
+{"t": 1789864548, "iso": "2026-09-20 00:35:48", "action": "hypothesis_test", "hypothesis": "avoid_SIDEWAYS_and_HIGH_VOLATILITY", "verdict": "SUPPORTED", "improved": 7, "tested": 10}
+{"t": 1789876330, "iso": "2026-09-20 03:52:10", "action": "hypothesis_test", "hypothesis": "avoid_SIDEWAYS", "verdict": "SUPPORTED", "improved": 8, "tested": 10}
+{"t": 1789876345, "iso": "2026-09-20 03:52:25", "action": "hypothesis_test", "hypothesis": "avoid_HIGH_VOLATILITY", "verdict": "REFUTED", "improved": 3, "tested": 10}
+{"t": 1789876361, "iso": "2026-09-20 03:52:41", "action": "hypothesis_test", "hypothesis": "avoid_SIDEWAYS_and_HIGH_VOLATILITY", "verdict": "SUPPORTED", "improved": 7, "tested": 10}
+{"t": 1789876376, "iso": "2026-09-20 03:52:56", "action": "hypothesis_test", "hypothesis": "market_filter_F1", "verdict": "SUPPORTED", "improved": 9, "tested": 10}
+{"t": 1789876404, "iso": "2026-09-20 03:53:24", "action": "hypothesis_test", "hypothesis": "avoid_SIDEWAYS", "verdict": "SUPPORTED", "improved": 8, "tested": 10}
+{"t": 1789876420, "iso": "2026-09-20 03:53:40", "action": "hypothesis_test", "hypothesis": "avoid_HIGH_VOLATILITY", "verdict": "REFUTED", "improved": 3, "tested": 10}
+{"t": 1789876435, "iso": "2026-09-20 03:53:55", "action": "hypothesis_test", "hypothesis": "avoid_SIDEWAYS_and_HIGH_VOLATILITY", "verdict": "SUPPORTED", "improved": 7, "tested": 10}
+{"t": 1789876451, "iso": "2026-09-20 03:54:11", "action": "hypothesis_test", "hypothesis": "market_filter_F1", "verdict": "SUPPORTED", "improved": 9, "tested": 10}
+{"t": 1789876459, "iso": "2026-09-20 03:54:19", "action": "spawn_challenger", "challenger": "chal_krakenfast_2", "champion": "krakenfast", "label": "market filter F1", "evidence": {"pf_in": 7.15, "out_return_pct": -1.9, "baseline_pf_in": 3.49, "baseline_out_return_pct": -12.7, "mc_p5_return_pct": 66.86}}
+{"t": 1789876468, "iso": "2026-09-20 03:54:28", "action": "spawn_challenger", "challenger": "chal_krakenichimoku_2", "champion": "krakenichimoku", "label": "market filter F1", "evidence": {"pf_in": 5.04, "out_return_pct": 2.2, "baseline_pf_in": 2.85, "baseline_out_return_pct": -8.3, "mc_p5_return_pct": 67.08}}
+{"t": 1789876476, "iso": "2026-09-20 03:54:36", "action": "spawn_challenger", "challenger": "chal_realpaper_2", "champion": "realpaper", "label": "market filter F1", "evidence": {"pf_in": 6.04, "out_return_pct": -0.8, "baseline_pf_in": 3.46, "baseline_out_return_pct": -5.1, "mc_p5_return_pct": 38.12}}
+{"t": 1789876485, "iso": "2026-09-20 03:54:45", "action": "spawn_challenger", "challenger": "chal_krakencci_1", "champion": "krakencci", "label": "market filter F1", "evidence": {"pf_in": 3.65, "out_return_pct": 5.5, "baseline_pf_in": 2.54, "baseline_out_return_pct": -11.6, "mc_p5_return_pct": 53.74}}
+{"t": 1789881901, "iso": "2026-09-20 05:25:01", "action": "spawn_4h_f1", "challenger": "c4h_sma_f1", "pf0": 1.99, "pf1": 3.46, "oos0": -11.0, "oos1": 1.6}
+{"t": 1789881911, "iso": "2026-09-20 05:25:11", "action": "spawn_4h_f1", "challenger": "c4h_keltner_f1", "pf0": 2.17, "pf1": 3.26, "oos0": -6.4, "oos1": 0.6}
+{"t": 1789881921, "iso": "2026-09-20 05:25:21", "action": "spawn_4h_f1", "challenger": "c4h_cci_f1", "pf0": 1.69, "pf1": 2.2, "oos0": -31.1, "oos1": -14.5}
+{"t": 1789881935, "iso": "2026-09-20 05:25:35", "action": "spawn_4h_f1", "challenger": "c4h_multi_f1", "pf0": 2.99, "pf1": 3.78, "oos0": 7.4, "oos1": 12.5}
+{"t": 1789885381, "iso": "2026-09-20 06:23:01", "action": "revalidate", "account": "realpaper", "passed": true, "why": "", "pf_in": 3.46, "out_excess_pct": 48.9}
+{"t": 1789885382, "iso": "2026-09-20 06:23:02", "action": "revalidate", "account": "krakenmulti", "passed": true, "why": "", "pf_in": 3.6, "out_excess_pct": 48.6}
+{"t": 1789885382, "iso": "2026-09-20 06:23:02", "action": "revalidate", "account": "krakenfast", "passed": true, "why": "", "pf_in": 3.49, "out_excess_pct": 41.2}
+{"t": 1789885382, "iso": "2026-09-20 06:23:02", "action": "revalidate", "account": "krakenslow", "passed": true, "why": "", "pf_in": 6.6, "out_excess_pct": 53.3}
+{"t": 1789885382, "iso": "2026-09-20 06:23:02", "action": "revalidate", "account": "krakenrsi", "passed": false, "why": "fee gate", "pf_in": 1.15, "out_excess_pct": 49.9}
+{"t": 1789885382, "iso": "2026-09-20 06:23:02", "action": "revalidate", "account": "krakenmacd", "passed": true, "why": "", "pf_in": 2.33, "out_excess_pct": 17.3}
+{"t": 1789885383, "iso": "2026-09-20 06:23:03", "action": "revalidate", "account": "krakenbbreak", "passed": true, "why": "", "pf_in": 2.96, "out_excess_pct": 51.4}
+{"t": 1789885383, "iso": "2026-09-20 06:23:03", "action": "revalidate", "account": "krakenturtle", "passed": true, "why": "", "pf_in": 4.76, "out_excess_pct": 40.8}
+{"t": 1789885383, "iso": "2026-09-20 06:23:03", "action": "revalidate", "account": "krakencci", "passed": true, "why": "", "pf_in": 2.54, "out_excess_pct": 42.3}
+{"t": 1789885383, "iso": "2026-09-20 06:23:03", "action": "revalidate", "account": "krakenkeltner", "passed": true, "why": "", "pf_in": 3.97, "out_excess_pct": 47.2}
+{"t": 1789885384, "iso": "2026-09-20 06:23:04", "action": "revalidate", "account": "krakenichimoku", "passed": true, "why": "", "pf_in": 2.85, "out_excess_pct": 45.6}
+{"t": 1789886117, "iso": "2026-09-20 06:35:17", "action": "hypothesis_test", "hypothesis": "avoid_SIDEWAYS", "verdict": "SUPPORTED", "improved": 8, "tested": 10}
+{"t": 1789886132, "iso": "2026-09-20 06:35:32", "action": "hypothesis_test", "hypothesis": "avoid_HIGH_VOLATILITY", "verdict": "REFUTED", "improved": 3, "tested": 10}
+{"t": 1789886148, "iso": "2026-09-20 06:35:48", "action": "hypothesis_test", "hypothesis": "avoid_SIDEWAYS_and_HIGH_VOLATILITY", "verdict": "SUPPORTED", "improved": 7, "tested": 10}
+{"t": 1789886163, "iso": "2026-09-20 06:36:03", "action": "hypothesis_test", "hypothesis": "market_filter_F1", "verdict": "SUPPORTED", "improved": 9, "tested": 10}
+{"t": 1789891851, "iso": "2026-09-20 08:10:51", "action": "factory_spawn", "account": "chal_fxe_bb_dip_large", "tier": 2, "evidence": {"n_candidates": 12, "survivors": 2, "params": {"n": 20, "k": 2, "trend": 100, "trail": 0.2}, "pf_in": 1.5, "n_in": 36, "out_return_pct": 3.2, "out_excess_pct": 53.2, "robust": false, "max_corr": 0.52, "most_similar": "chal_gr_stoch_dip_large", "tier1_fails": ["not a robust family", "Monte Carlo fragile"]}}
+{"t": 1789891863, "iso": "2026-09-20 08:11:03", "action": "factory_spawn", "account": "chal_fxe_macd_zero_mid", "tier": 2, "evidence": {"n_candidates": 16, "survivors": 16, "params": {"f": 20, "s": 26, "trend": 150, "trail": 0.2}, "pf_in": 2.46, "n_in": 142, "out_return_pct": -2.4, "out_excess_pct": 55.4, "robust": true, "max_corr": 0.84, "most_similar": "krakenmulti", "tier1_fails": ["Monte Carlo fragile"]}}
+{"t": 1789891869, "iso": "2026-09-20 08:11:09", "action": "factory_spawn", "account": "chal_fxe_willr_pullback_large", "tier": 2, "evidence": {"n_candidates": 12, "survivors": 6, "params": {"n": 14, "lo": -90, "trend": 50, "trail": 0.15}, "pf_in": 3.47, "n_in": 31, "out_return_pct": 5.9, "out_excess_pct": 55.9, "robust": true, "max_corr": 0.69, "most_similar": "chal_gr_stoch_dip_large", "tier1_fails": ["Monte Carlo fragile"]}}
+{"t": 1789891874, "iso": "2026-09-20 08:11:14", "action": "factory_spawn", "account": "chal_fxe_willr_pullback_mid", "tier": 2, "evidence": {"n_candidates": 12, "survivors": 1, "params": {"n": 14, "lo": -90, "trend": 150, "trail": 0.2}, "pf_in": 1.43, "n_in": 61, "out_return_pct": 4.1, "out_excess_pct": 61.9, "robust": false, "max_corr": 0.72, "most_similar": "chal_gr_stoch_dip_large", "tier1_fails": ["not a robust family", "Monte Carlo fragile"]}}
+{"t": 1789891899, "iso": "2026-09-20 08:11:39", "action": "factory_spawn", "account": "c4h_fxe_ema_trend_mid", "tier": 2, "evidence": {"n_candidates": 18, "survivors": 7, "params": {"f": 72, "s": 534, "trail": 0.2}, "pf_in": 2.03, "n_in": 525, "out_return_pct": -3.9, "out_excess_pct": 36.8, "robust": true, "max_corr": 0.77, "most_similar": "c4h_cci_f1", "tier1_fails": ["Monte Carlo fragile"]}}
+{"t": 1789891971, "iso": "2026-09-20 08:12:51", "action": "factory_spawn", "account": "c4h_fxe_rsi_trend_mid", "tier": 2, "evidence": {"n_candidates": 24, "survivors": 21, "params": {"n": 84, "t": 60, "trend": 600, "trail": 0.15}, "pf_in": 3.47, "n_in": 51, "out_return_pct": -7.7, "out_excess_pct": 33.0, "robust": true, "max_corr": 0.8, "most_similar": "c4h_sma_f1", "tier1_fails": ["Monte Carlo fragile"]}}
+{"t": 1789892109, "iso": "2026-09-20 08:15:09", "action": "factory_spawn", "account": "c4h_fxe_macd_zero_large", "tier": 2, "evidence": {"n_candidates": 16, "survivors": 13, "params": {"f": 120, "s": 156, "trend": 900, "trail": 0.2}, "pf_in": 1.76, "n_in": 127, "out_return_pct": 16.4, "out_excess_pct": 48.1, "robust": true, "max_corr": 0.78, "most_similar": "krakenmulti", "tier1_fails": ["Monte Carlo fragile"]}}
+{"t": 1789892121, "iso": "2026-09-20 08:15:21", "action": "factory_spawn", "account": "c4h_fxe_macd_zero_mid", "tier": 2, "evidence": {"n_candidates": 16, "survivors": 13, "params": {"f": 72, "s": 156, "trend": 900, "trail": 0.2}, "pf_in": 1.78, "n_in": 138, "out_return_pct": 12.7, "out_excess_pct": 53.4, "robust": true, "max_corr": 0.79, "most_similar": "krakenmulti", "tier1_fails": ["Monte Carlo fragile"]}}
+{"t": 1789907033, "iso": "2026-09-20 12:23:53", "action": "revalidate", "account": "realpaper", "passed": true, "why": "", "pf_in": 3.46, "out_excess_pct": 50.6}
+{"t": 1789907034, "iso": "2026-09-20 12:23:54", "action": "revalidate", "account": "krakenmulti", "passed": true, "why": "", "pf_in": 3.6, "out_excess_pct": 48.8}
+{"t": 1789907034, "iso": "2026-09-20 12:23:54", "action": "revalidate", "account": "krakenfast", "passed": true, "why": "", "pf_in": 3.49, "out_excess_pct": 43.5}
+{"t": 1789907034, "iso": "2026-09-20 12:23:54", "action": "revalidate", "account": "krakenslow", "passed": true, "why": "", "pf_in": 6.6, "out_excess_pct": 53.5}
+{"t": 1789907034, "iso": "2026-09-20 12:23:54", "action": "revalidate", "account": "krakenrsi", "passed": false, "why": "fee gate", "pf_in": 1.15, "out_excess_pct": 49.7}
+{"t": 1789907034, "iso": "2026-09-20 12:23:54", "action": "revalidate", "account": "krakenmacd", "passed": true, "why": "", "pf_in": 2.31, "out_excess_pct": 18.1}
+{"t": 1789907035, "iso": "2026-09-20 12:23:55", "action": "revalidate", "account": "krakenbbreak", "passed": true, "why": "", "pf_in": 2.96, "out_excess_pct": 52.1}
+{"t": 1789907035, "iso": "2026-09-20 12:23:55", "action": "revalidate", "account": "krakenturtle", "passed": true, "why": "", "pf_in": 4.76, "out_excess_pct": 41.9}
+{"t": 1789907035, "iso": "2026-09-20 12:23:55", "action": "revalidate", "account": "krakencci", "passed": true, "why": "", "pf_in": 2.53, "out_excess_pct": 43.2}
+{"t": 1789907035, "iso": "2026-09-20 12:23:55", "action": "revalidate", "account": "krakenkeltner", "passed": true, "why": "", "pf_in": 3.97, "out_excess_pct": 47.6}
+{"t": 1789907035, "iso": "2026-09-20 12:23:55", "action": "revalidate", "account": "krakenichimoku", "passed": true, "why": "", "pf_in": 2.85, "out_excess_pct": 47.1}
+{"t": 1789907717, "iso": "2026-09-20 12:35:17", "action": "hypothesis_test", "hypothesis": "avoid_SIDEWAYS", "verdict": "SUPPORTED", "improved": 8, "tested": 10}
+{"t": 1789907733, "iso": "2026-09-20 12:35:33", "action": "hypothesis_test", "hypothesis": "avoid_HIGH_VOLATILITY", "verdict": "REFUTED", "improved": 3, "tested": 10}
+{"t": 1789907748, "iso": "2026-09-20 12:35:48", "action": "hypothesis_test", "hypothesis": "avoid_SIDEWAYS_and_HIGH_VOLATILITY", "verdict": "SUPPORTED", "improved": 6, "tested": 10}
+{"t": 1789907764, "iso": "2026-09-20 12:36:04", "action": "hypothesis_test", "hypothesis": "market_filter_F1", "verdict": "SUPPORTED", "improved": 9, "tested": 10}
+{"t": 1789928581, "iso": "2026-09-20 18:23:01", "action": "revalidate", "account": "realpaper", "passed": true, "why": "", "pf_in": 3.46, "out_excess_pct": 50.6}
+{"t": 1789928582, "iso": "2026-09-20 18:23:02", "action": "revalidate", "account": "krakenmulti", "passed": true, "why": "", "pf_in": 3.6, "out_excess_pct": 48.8}
+{"t": 1789928582, "iso": "2026-09-20 18:23:02", "action": "revalidate", "account": "krakenfast", "passed": true, "why": "", "pf_in": 3.49, "out_excess_pct": 43.5}
+{"t": 1789928582, "iso": "2026-09-20 18:23:02", "action": "revalidate", "account": "krakenslow", "passed": true, "why": "", "pf_in": 6.6, "out_excess_pct": 53.5}
+{"t": 1789928582, "iso": "2026-09-20 18:23:02", "action": "revalidate", "account": "krakenrsi", "passed": false, "why": "fee gate", "pf_in": 1.15, "out_excess_pct": 49.7}
+{"t": 1789928583, "iso": "2026-09-20 18:23:03", "action": "revalidate", "account": "krakenmacd", "passed": true, "why": "", "pf_in": 2.31, "out_excess_pct": 18.1}
+{"t": 1789928583, "iso": "2026-09-20 18:23:03", "action": "revalidate", "account": "krakenbbreak", "passed": true, "why": "", "pf_in": 2.96, "out_excess_pct": 52.1}
+{"t": 1789928583, "iso": "2026-09-20 18:23:03", "action": "revalidate", "account": "krakenturtle", "passed": true, "why": "", "pf_in": 4.76, "out_excess_pct": 41.9}
+{"t": 1789928583, "iso": "2026-09-20 18:23:03", "action": "revalidate", "account": "krakencci", "passed": true, "why": "", "pf_in": 2.53, "out_excess_pct": 43.2}
+{"t": 1789928583, "iso": "2026-09-20 18:23:03", "action": "revalidate", "account": "krakenkeltner", "passed": true, "why": "", "pf_in": 3.97, "out_excess_pct": 47.6}
+{"t": 1789928584, "iso": "2026-09-20 18:23:04", "action": "revalidate", "account": "krakenichimoku", "passed": true, "why": "", "pf_in": 2.85, "out_excess_pct": 47.1}
+{"t": 1789929317, "iso": "2026-09-20 18:35:17", "action": "hypothesis_test", "hypothesis": "avoid_SIDEWAYS", "verdict": "SUPPORTED", "improved": 8, "tested": 10}
+{"t": 1789929333, "iso": "2026-09-20 18:35:33", "action": "hypothesis_test", "hypothesis": "avoid_HIGH_VOLATILITY", "verdict": "REFUTED", "improved": 3, "tested": 10}
+{"t": 1789929348, "iso": "2026-09-20 18:35:48", "action": "hypothesis_test", "hypothesis": "avoid_SIDEWAYS_and_HIGH_VOLATILITY", "verdict": "SUPPORTED", "improved": 6, "tested": 10}
+{"t": 1789929364, "iso": "2026-09-20 18:36:04", "action": "hypothesis_test", "hypothesis": "market_filter_F1", "verdict": "SUPPORTED", "improved": 9, "tested": 10}
+{"t": 1789950181, "iso": "2026-09-21 00:23:01", "action": "revalidate", "account": "realpaper", "passed": true, "why": "", "pf_in": 3.46, "out_excess_pct": 50.6}
+{"t": 1789950181, "iso": "2026-09-21 00:23:01", "action": "revalidate", "account": "krakenmulti", "passed": true, "why": "", "pf_in": 3.6, "out_excess_pct": 48.8}
+{"t": 1789950182, "iso": "2026-09-21 00:23:02", "action": "revalidate", "account": "krakenfast", "passed": true, "why": "", "pf_in": 3.49, "out_excess_pct": 43.5}
+{"t": 1789950182, "iso": "2026-09-21 00:23:02", "action": "revalidate", "account": "krakenslow", "passed": true, "why": "", "pf_in": 6.6, "out_excess_pct": 53.5}
+{"t": 1789950182, "iso": "2026-09-21 00:23:02", "action": "revalidate", "account": "krakenrsi", "passed": false, "why": "fee gate", "pf_in": 1.15, "out_excess_pct": 49.7}
+{"t": 1789950182, "iso": "2026-09-21 00:23:02", "action": "revalidate", "account": "krakenmacd", "passed": true, "why": "", "pf_in": 2.31, "out_excess_pct": 18.1}
+{"t": 1789950182, "iso": "2026-09-21 00:23:02", "action": "revalidate", "account": "krakenbbreak", "passed": true, "why": "", "pf_in": 2.96, "out_excess_pct": 52.1}
+{"t": 1789950182, "iso": "2026-09-21 00:23:02", "action": "revalidate", "account": "krakenturtle", "passed": true, "why": "", "pf_in": 4.76, "out_excess_pct": 41.9}
+{"t": 1789950183, "iso": "2026-09-21 00:23:03", "action": "revalidate", "account": "krakencci", "passed": true, "why": "", "pf_in": 2.53, "out_excess_pct": 43.2}
+{"t": 1789950183, "iso": "2026-09-21 00:23:03", "action": "revalidate", "account": "krakenkeltner", "passed": true, "why": "", "pf_in": 3.97, "out_excess_pct": 47.6}
+{"t": 1789950183, "iso": "2026-09-21 00:23:03", "action": "revalidate", "account": "krakenichimoku", "passed": true, "why": "", "pf_in": 2.85, "out_excess_pct": 47.1}
+{"t": 1789950917, "iso": "2026-09-21 00:35:17", "action": "hypothesis_test", "hypothesis": "avoid_SIDEWAYS", "verdict": "SUPPORTED", "improved": 8, "tested": 10}
+{"t": 1789950933, "iso": "2026-09-21 00:35:33", "action": "hypothesis_test", "hypothesis": "avoid_HIGH_VOLATILITY", "verdict": "REFUTED", "improved": 3, "tested": 10}
+{"t": 1789950949, "iso": "2026-09-21 00:35:49", "action": "hypothesis_test", "hypothesis": "avoid_SIDEWAYS_and_HIGH_VOLATILITY", "verdict": "SUPPORTED", "improved": 6, "tested": 10}
+{"t": 1789950965, "iso": "2026-09-21 00:36:05", "action": "hypothesis_test", "hypothesis": "market_filter_F1", "verdict": "SUPPORTED", "improved": 9, "tested": 10}
+{"t": 1789971782, "iso": "2026-09-21 06:23:02", "action": "revalidate", "account": "realpaper", "passed": true, "why": "", "pf_in": 3.46, "out_excess_pct": 50.6}
+{"t": 1789971782, "iso": "2026-09-21 06:23:02", "action": "revalidate", "account": "krakenmulti", "passed": true, "why": "", "pf_in": 3.6, "out_excess_pct": 48.8}
+{"t": 1789971782, "iso": "2026-09-21 06:23:02", "action": "revalidate", "account": "krakenfast", "passed": true, "why": "", "pf_in": 3.49, "out_excess_pct": 43.5}
+{"t": 1789971782, "iso": "2026-09-21 06:23:02", "action": "revalidate", "account": "krakenslow", "passed": true, "why": "", "pf_in": 6.6, "out_excess_pct": 53.5}
+{"t": 1789971783, "iso": "2026-09-21 06:23:03", "action": "revalidate", "account": "krakenrsi", "passed": false, "why": "fee gate", "pf_in": 1.15, "out_excess_pct": 49.7}
+{"t": 1789971783, "iso": "2026-09-21 06:23:03", "action": "revalidate", "account": "krakenmacd", "passed": true, "why": "", "pf_in": 2.31, "out_excess_pct": 18.1}
+{"t": 1789971783, "iso": "2026-09-21 06:23:03", "action": "revalidate", "account": "krakenbbreak", "passed": true, "why": "", "pf_in": 2.96, "out_excess_pct": 52.1}
+{"t": 1789971783, "iso": "2026-09-21 06:23:03", "action": "revalidate", "account": "krakenturtle", "passed": true, "why": "", "pf_in": 4.76, "out_excess_pct": 41.9}
+{"t": 1789971783, "iso": "2026-09-21 06:23:03", "action": "revalidate", "account": "krakencci", "passed": true, "why": "", "pf_in": 2.53, "out_excess_pct": 43.2}
+{"t": 1789971784, "iso": "2026-09-21 06:23:04", "action": "revalidate", "account": "krakenkeltner", "passed": true, "why": "", "pf_in": 3.97, "out_excess_pct": 47.6}
+{"t": 1789971784, "iso": "2026-09-21 06:23:04", "action": "revalidate", "account": "krakenichimoku", "passed": true, "why": "", "pf_in": 2.85, "out_excess_pct": 47.1}
+{"t": 1789972517, "iso": "2026-09-21 06:35:17", "action": "hypothesis_test", "hypothesis": "avoid_SIDEWAYS", "verdict": "SUPPORTED", "improved": 8, "tested": 10}
+{"t": 1789972533, "iso": "2026-09-21 06:35:33", "action": "hypothesis_test", "hypothesis": "avoid_HIGH_VOLATILITY", "verdict": "REFUTED", "improved": 3, "tested": 10}
+{"t": 1789972548, "iso": "2026-09-21 06:35:48", "action": "hypothesis_test", "hypothesis": "avoid_SIDEWAYS_and_HIGH_VOLATILITY", "verdict": "SUPPORTED", "improved": 6, "tested": 10}
+{"t": 1789972564, "iso": "2026-09-21 06:36:04", "action": "hypothesis_test", "hypothesis": "market_filter_F1", "verdict": "SUPPORTED", "improved": 9, "tested": 10}
+{"t": 1789993433, "iso": "2026-09-21 12:23:53", "action": "revalidate", "account": "realpaper", "passed": true, "why": "", "pf_in": 3.46, "out_excess_pct": 51.2}
+{"t": 1789993434, "iso": "2026-09-21 12:23:54", "action": "revalidate", "account": "krakenmulti", "passed": true, "why": "", "pf_in": 3.52, "out_excess_pct": 53.6}
+{"t": 1789993434, "iso": "2026-09-21 12:23:54", "action": "revalidate", "account": "krakenfast", "passed": true, "why": "", "pf_in": 3.35, "out_excess_pct": 44.1}
+{"t": 1789993434, "iso": "2026-09-21 12:23:54", "action": "revalidate", "account": "krakenslow", "passed": true, "why": "", "pf_in": 6.6, "out_excess_pct": 54.8}
+{"t": 1789993434, "iso": "2026-09-21 12:23:54", "action": "revalidate", "account": "krakenrsi", "passed": false, "why": "fee gate", "pf_in": 1.15, "out_excess_pct": 46.2}
+{"t": 1789993434, "iso": "2026-09-21 12:23:54", "action": "revalidate", "account": "krakenmacd", "passed": true, "why": "", "pf_in": 2.31, "out_excess_pct": 18.8}
+{"t": 1789993435, "iso": "2026-09-21 12:23:55", "action": "revalidate", "account": "krakenbbreak", "passed": true, "why": "", "pf_in": 2.9, "out_excess_pct": 54.4}
+{"t": 1789993435, "iso": "2026-09-21 12:23:55", "action": "revalidate", "account": "krakenturtle", "passed": true, "why": "", "pf_in": 4.76, "out_excess_pct": 43.9}
+{"t": 1789993435, "iso": "2026-09-21 12:23:55", "action": "revalidate", "account": "krakencci", "passed": true, "why": "", "pf_in": 2.5, "out_excess_pct": 46.3}
+{"t": 1789993435, "iso": "2026-09-21 12:23:55", "action": "revalidate", "account": "krakenkeltner", "passed": true, "why": "", "pf_in": 3.97, "out_excess_pct": 52.0}
+{"t": 1789993436, "iso": "2026-09-21 12:23:56", "action": "revalidate", "account": "krakenichimoku", "passed": true, "why": "", "pf_in": 2.82, "out_excess_pct": 48.3}
+{"t": 1789994117, "iso": "2026-09-21 12:35:17", "action": "hypothesis_test", "hypothesis": "avoid_SIDEWAYS", "verdict": "SUPPORTED", "improved": 8, "tested": 10}
+{"t": 1789994133, "iso": "2026-09-21 12:35:33", "action": "hypothesis_test", "hypothesis": "avoid_HIGH_VOLATILITY", "verdict": "REFUTED", "improved": 3, "tested": 10}
+{"t": 1789994149, "iso": "2026-09-21 12:35:49", "action": "hypothesis_test", "hypothesis": "avoid_SIDEWAYS_and_HIGH_VOLATILITY", "verdict": "REFUTED", "improved": 6, "tested": 10}
+{"t": 1789994164, "iso": "2026-09-21 12:36:04", "action": "hypothesis_test", "hypothesis": "market_filter_F1", "verdict": "SUPPORTED", "improved": 9, "tested": 10}
+{"t": 1790014981, "iso": "2026-09-21 18:23:01", "action": "revalidate", "account": "realpaper", "passed": true, "why": "", "pf_in": 3.46, "out_excess_pct": 51.2}
+{"t": 1790014982, "iso": "2026-09-21 18:23:02", "action": "revalidate", "account": "krakenmulti", "passed": true, "why": "", "pf_in": 3.52, "out_excess_pct": 53.6}
+{"t": 1790014982, "iso": "2026-09-21 18:23:02", "action": "revalidate", "account": "krakenfast", "passed": true, "why": "", "pf_in": 3.35, "out_excess_pct": 44.1}
+{"t": 1790014982, "iso": "2026-09-21 18:23:02", "action": "revalidate", "account": "krakenslow", "passed": true, "why": "", "pf_in": 6.6, "out_excess_pct": 54.8}
+{"t": 1790014982, "iso": "2026-09-21 18:23:02", "action": "revalidate", "account": "krakenrsi", "passed": false, "why": "fee gate", "pf_in": 1.15, "out_excess_pct": 46.2}
+{"t": 1790014982, "iso": "2026-09-21 18:23:02", "action": "revalidate", "account": "krakenmacd", "passed": true, "why": "", "pf_in": 2.31, "out_excess_pct": 18.8}
+{"t": 1790014983, "iso": "2026-09-21 18:23:03", "action": "revalidate", "account": "krakenbbreak", "passed": true, "why": "", "pf_in": 2.9, "out_excess_pct": 54.4}
+{"t": 1790014983, "iso": "2026-09-21 18:23:03", "action": "revalidate", "account": "krakenturtle", "passed": true, "why": "", "pf_in": 4.76, "out_excess_pct": 43.9}
+{"t": 1790014983, "iso": "2026-09-21 18:23:03", "action": "revalidate", "account": "krakencci", "passed": true, "why": "", "pf_in": 2.5, "out_excess_pct": 46.3}
+{"t": 1790014983, "iso": "2026-09-21 18:23:03", "action": "revalidate", "account": "krakenkeltner", "passed": true, "why": "", "pf_in": 3.97, "out_excess_pct": 52.0}
+{"t": 1790014983, "iso": "2026-09-21 18:23:03", "action": "revalidate", "account": "krakenichimoku", "passed": true, "why": "", "pf_in": 2.82, "out_excess_pct": 48.3}
+{"t": 1790015718, "iso": "2026-09-21 18:35:18", "action": "hypothesis_test", "hypothesis": "avoid_SIDEWAYS", "verdict": "SUPPORTED", "improved": 8, "tested": 10}
+{"t": 1790015733, "iso": "2026-09-21 18:35:33", "action": "hypothesis_test", "hypothesis": "avoid_HIGH_VOLATILITY", "verdict": "REFUTED", "improved": 3, "tested": 10}
+{"t": 1790015749, "iso": "2026-09-21 18:35:49", "action": "hypothesis_test", "hypothesis": "avoid_SIDEWAYS_and_HIGH_VOLATILITY", "verdict": "REFUTED", "improved": 6, "tested": 10}
+{"t": 1790015765, "iso": "2026-09-21 18:36:05", "action": "hypothesis_test", "hypothesis": "market_filter_F1", "verdict": "SUPPORTED", "improved": 9, "tested": 10}
+{"t": 1790036582, "iso": "2026-09-22 00:23:02", "action": "revalidate", "account": "realpaper", "passed": true, "why": "", "pf_in": 3.46, "out_excess_pct": 51.2}
+{"t": 1790036582, "iso": "2026-09-22 00:23:02", "action": "revalidate", "account": "krakenmulti", "passed": true, "why": "", "pf_in": 3.52, "out_excess_pct": 53.6}
+{"t": 1790036582, "iso": "2026-09-22 00:23:02", "action": "revalidate", "account": "krakenfast", "passed": true, "why": "", "pf_in": 3.35, "out_excess_pct": 44.1}
+{"t": 1790036582, "iso": "2026-09-22 00:23:02", "action": "revalidate", "account": "krakenslow", "passed": true, "why": "", "pf_in": 6.6, "out_excess_pct": 54.8}
+{"t": 1790036582, "iso": "2026-09-22 00:23:02", "action": "revalidate", "account": "krakenrsi", "passed": false, "why": "fee gate", "pf_in": 1.15, "out_excess_pct": 46.2}
+{"t": 1790036583, "iso": "2026-09-22 00:23:03", "action": "revalidate", "account": "krakenmacd", "passed": true, "why": "", "pf_in": 2.31, "out_excess_pct": 18.8}
+{"t": 1790036583, "iso": "2026-09-22 00:23:03", "action": "revalidate", "account": "krakenbbreak", "passed": true, "why": "", "pf_in": 2.9, "out_excess_pct": 54.4}
+{"t": 1790036583, "iso": "2026-09-22 00:23:03", "action": "revalidate", "account": "krakenturtle", "passed": true, "why": "", "pf_in": 4.76, "out_excess_pct": 43.9}
+{"t": 1790036583, "iso": "2026-09-22 00:23:03", "action": "revalidate", "account": "krakencci", "passed": true, "why": "", "pf_in": 2.5, "out_excess_pct": 46.3}
+{"t": 1790036583, "iso": "2026-09-22 00:23:03", "action": "revalidate", "account": "krakenkeltner", "passed": true, "why": "", "pf_in": 3.97, "out_excess_pct": 52.0}
+{"t": 1790036584, "iso": "2026-09-22 00:23:04", "action": "revalidate", "account": "krakenichimoku", "passed": true, "why": "", "pf_in": 2.82, "out_excess_pct": 48.3}
+{"t": 1790037317, "iso": "2026-09-22 00:35:17", "action": "hypothesis_test", "hypothesis": "avoid_SIDEWAYS", "verdict": "SUPPORTED", "improved": 8, "tested": 10}
+{"t": 1790037333, "iso": "2026-09-22 00:35:33", "action": "hypothesis_test", "hypothesis": "avoid_HIGH_VOLATILITY", "verdict": "REFUTED", "improved": 3, "tested": 10}
+{"t": 1790037348, "iso": "2026-09-22 00:35:48", "action": "hypothesis_test", "hypothesis": "avoid_SIDEWAYS_and_HIGH_VOLATILITY", "verdict": "REFUTED", "improved": 6, "tested": 10}
+{"t": 1790037364, "iso": "2026-09-22 00:36:04", "action": "hypothesis_test", "hypothesis": "market_filter_F1", "verdict": "SUPPORTED", "improved": 9, "tested": 10}
+{"t": 1790058181, "iso": "2026-09-22 06:23:01", "action": "revalidate", "account": "realpaper", "passed": true, "why": "", "pf_in": 3.46, "out_excess_pct": 51.2}
+{"t": 1790058182, "iso": "2026-09-22 06:23:02", "action": "revalidate", "account": "krakenmulti", "passed": true, "why": "", "pf_in": 3.52, "out_excess_pct": 53.6}
+{"t": 1790058182, "iso": "2026-09-22 06:23:02", "action": "revalidate", "account": "krakenfast", "passed": true, "why": "", "pf_in": 3.35, "out_excess_pct": 44.1}
+{"t": 1790058182, "iso": "2026-09-22 06:23:02", "action": "revalidate", "account": "krakenslow", "passed": true, "why": "", "pf_in": 6.6, "out_excess_pct": 54.8}
+{"t": 1790058182, "iso": "2026-09-22 06:23:02", "action": "revalidate", "account": "krakenrsi", "passed": false, "why": "fee gate", "pf_in": 1.15, "out_excess_pct": 46.2}
+{"t": 1790058182, "iso": "2026-09-22 06:23:02", "action": "revalidate", "account": "krakenmacd", "passed": true, "why": "", "pf_in": 2.31, "out_excess_pct": 18.8}
+{"t": 1790058183, "iso": "2026-09-22 06:23:03", "action": "revalidate", "account": "krakenbbreak", "passed": true, "why": "", "pf_in": 2.9, "out_excess_pct": 54.4}
+{"t": 1790058183, "iso": "2026-09-22 06:23:03", "action": "revalidate", "account": "krakenturtle", "passed": true, "why": "", "pf_in": 4.76, "out_excess_pct": 43.9}
+{"t": 1790058183, "iso": "2026-09-22 06:23:03", "action": "revalidate", "account": "krakencci", "passed": true, "why": "", "pf_in": 2.5, "out_excess_pct": 46.3}
+{"t": 1790058183, "iso": "2026-09-22 06:23:03", "action": "revalidate", "account": "krakenkeltner", "passed": true, "why": "", "pf_in": 3.97, "out_excess_pct": 52.0}
+{"t": 1790058184, "iso": "2026-09-22 06:23:04", "action": "revalidate", "account": "krakenichimoku", "passed": true, "why": "", "pf_in": 2.82, "out_excess_pct": 48.3}
+{"t": 1790058917, "iso": "2026-09-22 06:35:17", "action": "hypothesis_test", "hypothesis": "avoid_SIDEWAYS", "verdict": "SUPPORTED", "improved": 8, "tested": 10}
+{"t": 1790058933, "iso": "2026-09-22 06:35:33", "action": "hypothesis_test", "hypothesis": "avoid_HIGH_VOLATILITY", "verdict": "REFUTED", "improved": 3, "tested": 10}
+{"t": 1790058949, "iso": "2026-09-22 06:35:49", "action": "hypothesis_test", "hypothesis": "avoid_SIDEWAYS_and_HIGH_VOLATILITY", "verdict": "REFUTED", "improved": 6, "tested": 10}
+{"t": 1790058965, "iso": "2026-09-22 06:36:05", "action": "hypothesis_test", "hypothesis": "market_filter_F1", "verdict": "SUPPORTED", "improved": 9, "tested": 10}
+{"t": 1790079834, "iso": "2026-09-22 12:23:54", "action": "revalidate", "account": "realpaper", "passed": true, "why": "", "pf_in": 3.46, "out_excess_pct": 51.0}
+{"t": 1790079835, "iso": "2026-09-22 12:23:55", "action": "revalidate", "account": "krakenmulti", "passed": true, "why": "", "pf_in": 3.52, "out_excess_pct": 52.6}
+{"t": 1790079835, "iso": "2026-09-22 12:23:55", "action": "revalidate", "account": "krakenfast", "passed": true, "why": "", "pf_in": 3.35, "out_excess_pct": 43.4}
+{"t": 1790079835, "iso": "2026-09-22 12:23:55", "action": "revalidate", "account": "krakenslow", "passed": true, "why": "", "pf_in": 6.6, "out_excess_pct": 54.6}
+{"t": 1790079835, "iso": "2026-09-22 12:23:55", "action": "revalidate", "account": "krakenrsi", "passed": false, "why": "fee gate", "pf_in": 1.15, "out_excess_pct": 43.4}
+{"t": 1790079835, "iso": "2026-09-22 12:23:55", "action": "revalidate", "account": "krakenmacd", "passed": true, "why": "", "pf_in": 2.31, "out_excess_pct": 18.6}
+{"t": 1790079836, "iso": "2026-09-22 12:23:56", "action": "revalidate", "account": "krakenbbreak", "passed": true, "why": "", "pf_in": 2.9, "out_excess_pct": 53.4}
+{"t": 1790079836, "iso": "2026-09-22 12:23:56", "action": "revalidate", "account": "krakenturtle", "passed": true, "why": "", "pf_in": 4.76, "out_excess_pct": 42.4}
+{"t": 1790079836, "iso": "2026-09-22 12:23:56", "action": "revalidate", "account": "krakencci", "passed": true, "why": "", "pf_in": 2.48, "out_excess_pct": 45.6}
+{"t": 1790079836, "iso": "2026-09-22 12:23:56", "action": "revalidate", "account": "krakenkeltner", "passed": true, "why": "", "pf_in": 3.97, "out_excess_pct": 51.3}
+{"t": 1790079837, "iso": "2026-09-22 12:23:57", "action": "revalidate", "account": "krakenichimoku", "passed": true, "why": "", "pf_in": 2.82, "out_excess_pct": 47.9}
+{"t": 1790080517, "iso": "2026-09-22 12:35:17", "action": "hypothesis_test", "hypothesis": "avoid_SIDEWAYS", "verdict": "SUPPORTED", "improved": 8, "tested": 10}
+{"t": 1790080533, "iso": "2026-09-22 12:35:33", "action": "hypothesis_test", "hypothesis": "avoid_HIGH_VOLATILITY", "verdict": "REFUTED", "improved": 3, "tested": 10}
+{"t": 1790080549, "iso": "2026-09-22 12:35:49", "action": "hypothesis_test", "hypothesis": "avoid_SIDEWAYS_and_HIGH_VOLATILITY", "verdict": "REFUTED", "improved": 5, "tested": 10}
+{"t": 1790080564, "iso": "2026-09-22 12:36:04", "action": "hypothesis_test", "hypothesis": "market_filter_F1", "verdict": "SUPPORTED", "improved": 9, "tested": 10}
+{"t": 1790101382, "iso": "2026-09-22 18:23:02", "action": "revalidate", "account": "realpaper", "passed": true, "why": "", "pf_in": 3.46, "out_excess_pct": 51.0}
+{"t": 1790101382, "iso": "2026-09-22 18:23:02", "action": "revalidate", "account": "krakenmulti", "passed": true, "why": "", "pf_in": 3.52, "out_excess_pct": 52.6}
+{"t": 1790101382, "iso": "2026-09-22 18:23:02", "action": "revalidate", "account": "krakenfast", "passed": true, "why": "", "pf_in": 3.35, "out_excess_pct": 43.4}
+{"t": 1790101382, "iso": "2026-09-22 18:23:02", "action": "revalidate", "account": "krakenslow", "passed": true, "why": "", "pf_in": 6.6, "out_excess_pct": 54.6}
+{"t": 1790101383, "iso": "2026-09-22 18:23:03", "action": "revalidate", "account": "krakenrsi", "passed": false, "why": "fee gate", "pf_in": 1.15, "out_excess_pct": 43.4}
+{"t": 1790101383, "iso": "2026-09-22 18:23:03", "action": "revalidate", "account": "krakenmacd", "passed": true, "why": "", "pf_in": 2.31, "out_excess_pct": 18.6}
+{"t": 1790101383, "iso": "2026-09-22 18:23:03", "action": "revalidate", "account": "krakenbbreak", "passed": true, "why": "", "pf_in": 2.9, "out_excess_pct": 53.4}
+{"t": 1790101383, "iso": "2026-09-22 18:23:03", "action": "revalidate", "account": "krakenturtle", "passed": true, "why": "", "pf_in": 4.76, "out_excess_pct": 42.4}
+{"t": 1790101383, "iso": "2026-09-22 18:23:03", "action": "revalidate", "account": "krakencci", "passed": true, "why": "", "pf_in": 2.48, "out_excess_pct": 45.6}
+{"t": 1790101384, "iso": "2026-09-22 18:23:04", "action": "revalidate", "account": "krakenkeltner", "passed": true, "why": "", "pf_in": 3.97, "out_excess_pct": 51.3}
+{"t": 1790101384, "iso": "2026-09-22 18:23:04", "action": "revalidate", "account": "krakenichimoku", "passed": true, "why": "", "pf_in": 2.82, "out_excess_pct": 47.9}
+{"t": 1790102117, "iso": "2026-09-22 18:35:17", "action": "hypothesis_test", "hypothesis": "avoid_SIDEWAYS", "verdict": "SUPPORTED", "improved": 8, "tested": 10}
+{"t": 1790102133, "iso": "2026-09-22 18:35:33", "action": "hypothesis_test", "hypothesis": "avoid_HIGH_VOLATILITY", "verdict": "REFUTED", "improved": 3, "tested": 10}
+{"t": 1790102149, "iso": "2026-09-22 18:35:49", "action": "hypothesis_test", "hypothesis": "avoid_SIDEWAYS_and_HIGH_VOLATILITY", "verdict": "REFUTED", "improved": 5, "tested": 10}
+{"t": 1790102164, "iso": "2026-09-22 18:36:04", "action": "hypothesis_test", "hypothesis": "market_filter_F1", "verdict": "SUPPORTED", "improved": 9, "tested": 10}
+{"t": 1790122981, "iso": "2026-09-23 00:23:01", "action": "revalidate", "account": "realpaper", "passed": true, "why": "", "pf_in": 3.46, "out_excess_pct": 51.0}
+{"t": 1790122982, "iso": "2026-09-23 00:23:02", "action": "revalidate", "account": "krakenmulti", "passed": true, "why": "", "pf_in": 3.52, "out_excess_pct": 52.6}
+{"t": 1790122982, "iso": "2026-09-23 00:23:02", "action": "revalidate", "account": "krakenfast", "passed": true, "why": "", "pf_in": 3.35, "out_excess_pct": 43.4}
+{"t": 1790122982, "iso": "2026-09-23 00:23:02", "action": "revalidate", "account": "krakenslow", "passed": true, "why": "", "pf_in": 6.6, "out_excess_pct": 54.6}
+{"t": 1790122982, "iso": "2026-09-23 00:23:02", "action": "revalidate", "account": "krakenrsi", "passed": false, "why": "fee gate", "pf_in": 1.15, "out_excess_pct": 43.4}
+{"t": 1790122982, "iso": "2026-09-23 00:23:02", "action": "revalidate", "account": "krakenmacd", "passed": true, "why": "", "pf_in": 2.31, "out_excess_pct": 18.6}
+{"t": 1790122982, "iso": "2026-09-23 00:23:02", "action": "revalidate", "account": "krakenbbreak", "passed": true, "why": "", "pf_in": 2.9, "out_excess_pct": 53.4}
+{"t": 1790122983, "iso": "2026-09-23 00:23:03", "action": "revalidate", "account": "krakenturtle", "passed": true, "why": "", "pf_in": 4.76, "out_excess_pct": 42.4}
+{"t": 1790122983, "iso": "2026-09-23 00:23:03", "action": "revalidate", "account": "krakencci", "passed": true, "why": "", "pf_in": 2.48, "out_excess_pct": 45.6}
+{"t": 1790122983, "iso": "2026-09-23 00:23:03", "action": "revalidate", "account": "krakenkeltner", "passed": true, "why": "", "pf_in": 3.97, "out_excess_pct": 51.3}
+{"t": 1790122983, "iso": "2026-09-23 00:23:03", "action": "revalidate", "account": "krakenichimoku", "passed": true, "why": "", "pf_in": 2.82, "out_excess_pct": 47.9}
+{"t": 1790123717, "iso": "2026-09-23 00:35:17", "action": "hypothesis_test", "hypothesis": "avoid_SIDEWAYS", "verdict": "SUPPORTED", "improved": 8, "tested": 10}
+{"t": 1790123733, "iso": "2026-09-23 00:35:33", "action": "hypothesis_test", "hypothesis": "avoid_HIGH_VOLATILITY", "verdict": "REFUTED", "improved": 3, "tested": 10}
+{"t": 1790123749, "iso": "2026-09-23 00:35:49", "action": "hypothesis_test", "hypothesis": "avoid_SIDEWAYS_and_HIGH_VOLATILITY", "verdict": "REFUTED", "improved": 5, "tested": 10}
+{"t": 1790123765, "iso": "2026-09-23 00:36:05", "action": "hypothesis_test", "hypothesis": "market_filter_F1", "verdict": "SUPPORTED", "improved": 9, "tested": 10}

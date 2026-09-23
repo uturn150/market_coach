@@ -1,0 +1,1745 @@
+{
+ "hypotheses": {
+  "avoid_SIDEWAYS": {
+   "statement": "Sitting out SIDEWAYS-regime days improves a strategy (real fees, in-sample PF and out-of-sample return both beat baseline), replicated across strategies.",
+   "history": [
+    {
+     "t": 1789856637,
+     "verdict": "SUPPORTED",
+     "improved": 8,
+     "placebo_improved": [
+      2,
+      5,
+      7,
+      4,
+      4
+     ],
+     "tested": 10,
+     "data_end": 1789776000
+    },
+    {
+     "t": 1789863862,
+     "verdict": "SUPPORTED",
+     "improved": 8,
+     "placebo_improved": [
+      2,
+      5,
+      7,
+      4,
+      4
+     ],
+     "tested": 10,
+     "data_end": 1789776000
+    },
+    {
+     "t": 1789864517,
+     "verdict": "SUPPORTED",
+     "improved": 8,
+     "placebo_improved": [
+      2,
+      5,
+      7,
+      4,
+      4
+     ],
+     "tested": 10,
+     "data_end": 1789776000
+    },
+    {
+     "t": 1789876404,
+     "verdict": "SUPPORTED",
+     "improved": 8,
+     "placebo_improved": [
+      2,
+      5,
+      7,
+      4,
+      4
+     ],
+     "tested": 10,
+     "data_end": 1789776000
+    },
+    {
+     "t": 1789886117,
+     "verdict": "SUPPORTED",
+     "improved": 8,
+     "placebo_improved": [
+      2,
+      5,
+      7,
+      4,
+      4
+     ],
+     "tested": 10,
+     "data_end": 1789776000
+    },
+    {
+     "t": 1789907717,
+     "verdict": "SUPPORTED",
+     "improved": 8,
+     "placebo_improved": [
+      7,
+      3,
+      3,
+      6,
+      2
+     ],
+     "tested": 10,
+     "data_end": 1789862400
+    },
+    {
+     "t": 1789929317,
+     "verdict": "SUPPORTED",
+     "improved": 8,
+     "placebo_improved": [
+      7,
+      3,
+      3,
+      6,
+      2
+     ],
+     "tested": 10,
+     "data_end": 1789862400
+    },
+    {
+     "t": 1789950917,
+     "verdict": "SUPPORTED",
+     "improved": 8,
+     "placebo_improved": [
+      7,
+      3,
+      3,
+      6,
+      2
+     ],
+     "tested": 10,
+     "data_end": 1789862400
+    },
+    {
+     "t": 1789972517,
+     "verdict": "SUPPORTED",
+     "improved": 8,
+     "placebo_improved": [
+      7,
+      3,
+      3,
+      6,
+      2
+     ],
+     "tested": 10,
+     "data_end": 1789862400
+    },
+    {
+     "t": 1789994117,
+     "verdict": "SUPPORTED",
+     "improved": 8,
+     "placebo_improved": [
+      5,
+      0,
+      2,
+      0,
+      5
+     ],
+     "tested": 10,
+     "data_end": 1789948800
+    },
+    {
+     "t": 1790015718,
+     "verdict": "SUPPORTED",
+     "improved": 8,
+     "placebo_improved": [
+      5,
+      0,
+      2,
+      0,
+      5
+     ],
+     "tested": 10,
+     "data_end": 1789948800
+    },
+    {
+     "t": 1790037317,
+     "verdict": "SUPPORTED",
+     "improved": 8,
+     "placebo_improved": [
+      5,
+      0,
+      2,
+      0,
+      5
+     ],
+     "tested": 10,
+     "data_end": 1789948800
+    },
+    {
+     "t": 1790058917,
+     "verdict": "SUPPORTED",
+     "improved": 8,
+     "placebo_improved": [
+      5,
+      0,
+      2,
+      0,
+      5
+     ],
+     "tested": 10,
+     "data_end": 1789948800
+    },
+    {
+     "t": 1790080517,
+     "verdict": "SUPPORTED",
+     "improved": 8,
+     "placebo_improved": [
+      7,
+      0,
+      1,
+      3,
+      3
+     ],
+     "tested": 10,
+     "data_end": 1790035200
+    },
+    {
+     "t": 1790102117,
+     "verdict": "SUPPORTED",
+     "improved": 8,
+     "placebo_improved": [
+      7,
+      0,
+      1,
+      3,
+      3
+     ],
+     "tested": 10,
+     "data_end": 1790035200
+    },
+    {
+     "t": 1790123717,
+     "verdict": "SUPPORTED",
+     "improved": 8,
+     "placebo_improved": [
+      7,
+      0,
+      1,
+      3,
+      3
+     ],
+     "tested": 10,
+     "data_end": 1790035200
+    }
+   ],
+   "status": "SUPPORTED",
+   "last_tested": "2026-09-23 00:35",
+   "latest": {
+    "realpaper": {
+     "testable": true,
+     "base_pf_in": 3.46,
+     "var_pf_in": 8.53,
+     "base_out_ret_pct": -1.9,
+     "var_out_ret_pct": 3.0,
+     "var_trades_in": 88,
+     "base_trades_in": 155,
+     "improves_both": true,
+     "var_passes_gates": true,
+     "var_why": ""
+    },
+    "krakenmulti": {
+     "testable": true,
+     "base_pf_in": 3.52,
+     "var_pf_in": 4.41,
+     "base_out_ret_pct": -0.2,
+     "var_out_ret_pct": 1.0,
+     "var_trades_in": 149,
+     "base_trades_in": 179,
+     "improves_both": true,
+     "var_passes_gates": true,
+     "var_why": ""
+    },
+    "krakenfast": {
+     "testable": true,
+     "base_pf_in": 3.35,
+     "var_pf_in": 5.66,
+     "base_out_ret_pct": -9.5,
+     "var_out_ret_pct": -2.9,
+     "var_trades_in": 150,
+     "base_trades_in": 241,
+     "improves_both": true,
+     "var_passes_gates": true,
+     "var_why": ""
+    },
+    "krakenslow": {
+     "testable": true,
+     "base_pf_in": 6.6,
+     "var_pf_in": 8.11,
+     "base_out_ret_pct": 1.8,
+     "var_out_ret_pct": 5.6,
+     "var_trades_in": 51,
+     "base_trades_in": 59,
+     "improves_both": true,
+     "var_passes_gates": true,
+     "var_why": ""
+    },
+    "krakenrsi": {
+     "testable": true,
+     "base_pf_in": 1.15,
+     "var_pf_in": 2.48,
+     "base_out_ret_pct": -9.4,
+     "var_out_ret_pct": -1.4,
+     "var_trades_in": 55,
+     "base_trades_in": 79,
+     "improves_both": true,
+     "var_passes_gates": true,
+     "var_why": ""
+    },
+    "krakenbbreak": {
+     "testable": true,
+     "base_pf_in": 2.9,
+     "var_pf_in": 3.94,
+     "base_out_ret_pct": 0.5,
+     "var_out_ret_pct": -7.0,
+     "var_trades_in": 225,
+     "base_trades_in": 280,
+     "improves_both": false,
+     "var_passes_gates": true,
+     "var_why": ""
+    },
+    "krakenturtle": {
+     "testable": true,
+     "base_pf_in": 4.76,
+     "var_pf_in": 6.34,
+     "base_out_ret_pct": -10.5,
+     "var_out_ret_pct": -5.6,
+     "var_trades_in": 117,
+     "base_trades_in": 136,
+     "improves_both": true,
+     "var_passes_gates": true,
+     "var_why": ""
+    },
+    "krakencci": {
+     "testable": true,
+     "base_pf_in": 2.48,
+     "var_pf_in": 3.11,
+     "base_out_ret_pct": -7.2,
+     "var_out_ret_pct": -6.8,
+     "var_trades_in": 229,
+     "base_trades_in": 295,
+     "improves_both": true,
+     "var_passes_gates": true,
+     "var_why": ""
+    },
+    "krakenkeltner": {
+     "testable": true,
+     "base_pf_in": 3.97,
+     "var_pf_in": 6.02,
+     "base_out_ret_pct": -1.5,
+     "var_out_ret_pct": -3.6,
+     "var_trades_in": 102,
+     "base_trades_in": 129,
+     "improves_both": false,
+     "var_passes_gates": true,
+     "var_why": ""
+    },
+    "krakenichimoku": {
+     "testable": true,
+     "base_pf_in": 2.82,
+     "var_pf_in": 3.8,
+     "base_out_ret_pct": -4.9,
+     "var_out_ret_pct": -0.1,
+     "var_trades_in": 187,
+     "base_trades_in": 262,
+     "improves_both": true,
+     "var_passes_gates": true,
+     "var_why": ""
+    }
+   }
+  },
+  "avoid_HIGH_VOLATILITY": {
+   "statement": "Sitting out HIGH_VOLATILITY days improves a strategy (real fees, in-sample PF and out-of-sample return both beat baseline), replicated across strategies and beating a random-day control.",
+   "history": [
+    {
+     "t": 1789863878,
+     "verdict": "REFUTED",
+     "improved": 3,
+     "placebo_improved": [
+      1,
+      5,
+      6,
+      1,
+      5
+     ],
+     "tested": 10,
+     "data_end": 1789776000
+    },
+    {
+     "t": 1789864533,
+     "verdict": "REFUTED",
+     "improved": 3,
+     "placebo_improved": [
+      1,
+      5,
+      6,
+      1,
+      5
+     ],
+     "tested": 10,
+     "data_end": 1789776000
+    },
+    {
+     "t": 1789876420,
+     "verdict": "REFUTED",
+     "improved": 3,
+     "placebo_improved": [
+      1,
+      5,
+      6,
+      1,
+      5
+     ],
+     "tested": 10,
+     "data_end": 1789776000
+    },
+    {
+     "t": 1789886132,
+     "verdict": "REFUTED",
+     "improved": 3,
+     "placebo_improved": [
+      1,
+      5,
+      6,
+      1,
+      5
+     ],
+     "tested": 10,
+     "data_end": 1789776000
+    },
+    {
+     "t": 1789907733,
+     "verdict": "REFUTED",
+     "improved": 3,
+     "placebo_improved": [
+      1,
+      7,
+      6,
+      5,
+      3
+     ],
+     "tested": 10,
+     "data_end": 1789862400
+    },
+    {
+     "t": 1789929333,
+     "verdict": "REFUTED",
+     "improved": 3,
+     "placebo_improved": [
+      1,
+      7,
+      6,
+      5,
+      3
+     ],
+     "tested": 10,
+     "data_end": 1789862400
+    },
+    {
+     "t": 1789950933,
+     "verdict": "REFUTED",
+     "improved": 3,
+     "placebo_improved": [
+      1,
+      7,
+      6,
+      5,
+      3
+     ],
+     "tested": 10,
+     "data_end": 1789862400
+    },
+    {
+     "t": 1789972533,
+     "verdict": "REFUTED",
+     "improved": 3,
+     "placebo_improved": [
+      1,
+      7,
+      6,
+      5,
+      3
+     ],
+     "tested": 10,
+     "data_end": 1789862400
+    },
+    {
+     "t": 1789994133,
+     "verdict": "REFUTED",
+     "improved": 3,
+     "placebo_improved": [
+      3,
+      2,
+      2,
+      1,
+      3
+     ],
+     "tested": 10,
+     "data_end": 1789948800
+    },
+    {
+     "t": 1790015733,
+     "verdict": "REFUTED",
+     "improved": 3,
+     "placebo_improved": [
+      3,
+      2,
+      2,
+      1,
+      3
+     ],
+     "tested": 10,
+     "data_end": 1789948800
+    },
+    {
+     "t": 1790037333,
+     "verdict": "REFUTED",
+     "improved": 3,
+     "placebo_improved": [
+      3,
+      2,
+      2,
+      1,
+      3
+     ],
+     "tested": 10,
+     "data_end": 1789948800
+    },
+    {
+     "t": 1790058933,
+     "verdict": "REFUTED",
+     "improved": 3,
+     "placebo_improved": [
+      3,
+      2,
+      2,
+      1,
+      3
+     ],
+     "tested": 10,
+     "data_end": 1789948800
+    },
+    {
+     "t": 1790080533,
+     "verdict": "REFUTED",
+     "improved": 3,
+     "placebo_improved": [
+      3,
+      2,
+      1,
+      2,
+      0
+     ],
+     "tested": 10,
+     "data_end": 1790035200
+    },
+    {
+     "t": 1790102133,
+     "verdict": "REFUTED",
+     "improved": 3,
+     "placebo_improved": [
+      3,
+      2,
+      1,
+      2,
+      0
+     ],
+     "tested": 10,
+     "data_end": 1790035200
+    },
+    {
+     "t": 1790123733,
+     "verdict": "REFUTED",
+     "improved": 3,
+     "placebo_improved": [
+      3,
+      2,
+      1,
+      2,
+      0
+     ],
+     "tested": 10,
+     "data_end": 1790035200
+    }
+   ],
+   "status": "REFUTED",
+   "last_tested": "2026-09-23 00:35",
+   "latest": {
+    "realpaper": {
+     "testable": true,
+     "base_pf_in": 3.46,
+     "var_pf_in": 2.92,
+     "base_out_ret_pct": -1.9,
+     "var_out_ret_pct": -10.2,
+     "var_trades_in": 140,
+     "base_trades_in": 155,
+     "improves_both": false,
+     "var_passes_gates": true,
+     "var_why": ""
+    },
+    "krakenmulti": {
+     "testable": true,
+     "base_pf_in": 3.52,
+     "var_pf_in": 3.74,
+     "base_out_ret_pct": -0.2,
+     "var_out_ret_pct": 0.2,
+     "var_trades_in": 167,
+     "base_trades_in": 179,
+     "improves_both": true,
+     "var_passes_gates": true,
+     "var_why": ""
+    },
+    "krakenfast": {
+     "testable": true,
+     "base_pf_in": 3.35,
+     "var_pf_in": 3.89,
+     "base_out_ret_pct": -9.5,
+     "var_out_ret_pct": -13.1,
+     "var_trades_in": 194,
+     "base_trades_in": 241,
+     "improves_both": false,
+     "var_passes_gates": true,
+     "var_why": ""
+    },
+    "krakenslow": {
+     "testable": true,
+     "base_pf_in": 6.6,
+     "var_pf_in": 6.39,
+     "base_out_ret_pct": 1.8,
+     "var_out_ret_pct": -2.6,
+     "var_trades_in": 56,
+     "base_trades_in": 59,
+     "improves_both": false,
+     "var_passes_gates": true,
+     "var_why": ""
+    },
+    "krakenrsi": {
+     "testable": true,
+     "base_pf_in": 1.15,
+     "var_pf_in": 1.15,
+     "base_out_ret_pct": -9.4,
+     "var_out_ret_pct": -9.4,
+     "var_trades_in": 79,
+     "base_trades_in": 79,
+     "improves_both": false,
+     "var_passes_gates": false,
+     "var_why": "fee gate"
+    },
+    "krakenbbreak": {
+     "testable": true,
+     "base_pf_in": 2.9,
+     "var_pf_in": 3.42,
+     "base_out_ret_pct": 0.5,
+     "var_out_ret_pct": 0.2,
+     "var_trades_in": 241,
+     "base_trades_in": 280,
+     "improves_both": false,
+     "var_passes_gates": true,
+     "var_why": ""
+    },
+    "krakenturtle": {
+     "testable": true,
+     "base_pf_in": 4.76,
+     "var_pf_in": 5.3,
+     "base_out_ret_pct": -10.5,
+     "var_out_ret_pct": -10.0,
+     "var_trades_in": 120,
+     "base_trades_in": 136,
+     "improves_both": true,
+     "var_passes_gates": true,
+     "var_why": ""
+    },
+    "krakencci": {
+     "testable": true,
+     "base_pf_in": 2.48,
+     "var_pf_in": 2.94,
+     "base_out_ret_pct": -7.2,
+     "var_out_ret_pct": -6.4,
+     "var_trades_in": 258,
+     "base_trades_in": 295,
+     "improves_both": true,
+     "var_passes_gates": true,
+     "var_why": ""
+    },
+    "krakenkeltner": {
+     "testable": true,
+     "base_pf_in": 3.97,
+     "var_pf_in": 4.8,
+     "base_out_ret_pct": -1.5,
+     "var_out_ret_pct": -1.5,
+     "var_trades_in": 110,
+     "base_trades_in": 129,
+     "improves_both": false,
+     "var_passes_gates": true,
+     "var_why": ""
+    },
+    "krakenichimoku": {
+     "testable": true,
+     "base_pf_in": 2.82,
+     "var_pf_in": 4.37,
+     "base_out_ret_pct": -4.9,
+     "var_out_ret_pct": -6.4,
+     "var_trades_in": 197,
+     "base_trades_in": 262,
+     "improves_both": false,
+     "var_passes_gates": true,
+     "var_why": ""
+    }
+   }
+  },
+  "avoid_SIDEWAYS_and_HIGH_VOLATILITY": {
+   "statement": "Sitting out SIDEWAYS + HIGH_VOLATILITY days improves a strategy (real fees, in-sample PF and out-of-sample return both beat baseline), replicated across strategies and beating a random-day control.",
+   "history": [
+    {
+     "t": 1789863893,
+     "verdict": "SUPPORTED",
+     "improved": 7,
+     "placebo_improved": [
+      4,
+      3,
+      5,
+      2,
+      3
+     ],
+     "tested": 10,
+     "data_end": 1789776000
+    },
+    {
+     "t": 1789864548,
+     "verdict": "SUPPORTED",
+     "improved": 7,
+     "placebo_improved": [
+      4,
+      3,
+      5,
+      2,
+      3
+     ],
+     "tested": 10,
+     "data_end": 1789776000
+    },
+    {
+     "t": 1789876435,
+     "verdict": "SUPPORTED",
+     "improved": 7,
+     "placebo_improved": [
+      4,
+      3,
+      5,
+      2,
+      3
+     ],
+     "tested": 10,
+     "data_end": 1789776000
+    },
+    {
+     "t": 1789886148,
+     "verdict": "SUPPORTED",
+     "improved": 7,
+     "placebo_improved": [
+      4,
+      3,
+      5,
+      2,
+      3
+     ],
+     "tested": 10,
+     "data_end": 1789776000
+    },
+    {
+     "t": 1789907748,
+     "verdict": "SUPPORTED",
+     "improved": 6,
+     "placebo_improved": [
+      4,
+      1,
+      0,
+      3,
+      2
+     ],
+     "tested": 10,
+     "data_end": 1789862400
+    },
+    {
+     "t": 1789929348,
+     "verdict": "SUPPORTED",
+     "improved": 6,
+     "placebo_improved": [
+      4,
+      1,
+      0,
+      3,
+      2
+     ],
+     "tested": 10,
+     "data_end": 1789862400
+    },
+    {
+     "t": 1789950949,
+     "verdict": "SUPPORTED",
+     "improved": 6,
+     "placebo_improved": [
+      4,
+      1,
+      0,
+      3,
+      2
+     ],
+     "tested": 10,
+     "data_end": 1789862400
+    },
+    {
+     "t": 1789972548,
+     "verdict": "SUPPORTED",
+     "improved": 6,
+     "placebo_improved": [
+      4,
+      1,
+      0,
+      3,
+      2
+     ],
+     "tested": 10,
+     "data_end": 1789862400
+    },
+    {
+     "t": 1789994149,
+     "verdict": "REFUTED",
+     "improved": 6,
+     "placebo_improved": [
+      7,
+      0,
+      1,
+      1,
+      4
+     ],
+     "tested": 10,
+     "data_end": 1789948800
+    },
+    {
+     "t": 1790015749,
+     "verdict": "REFUTED",
+     "improved": 6,
+     "placebo_improved": [
+      7,
+      0,
+      1,
+      1,
+      4
+     ],
+     "tested": 10,
+     "data_end": 1789948800
+    },
+    {
+     "t": 1790037348,
+     "verdict": "REFUTED",
+     "improved": 6,
+     "placebo_improved": [
+      7,
+      0,
+      1,
+      1,
+      4
+     ],
+     "tested": 10,
+     "data_end": 1789948800
+    },
+    {
+     "t": 1790058949,
+     "verdict": "REFUTED",
+     "improved": 6,
+     "placebo_improved": [
+      7,
+      0,
+      1,
+      1,
+      4
+     ],
+     "tested": 10,
+     "data_end": 1789948800
+    },
+    {
+     "t": 1790080549,
+     "verdict": "REFUTED",
+     "improved": 5,
+     "placebo_improved": [
+      8,
+      2,
+      0,
+      3,
+      3
+     ],
+     "tested": 10,
+     "data_end": 1790035200
+    },
+    {
+     "t": 1790102149,
+     "verdict": "REFUTED",
+     "improved": 5,
+     "placebo_improved": [
+      8,
+      2,
+      0,
+      3,
+      3
+     ],
+     "tested": 10,
+     "data_end": 1790035200
+    },
+    {
+     "t": 1790123749,
+     "verdict": "REFUTED",
+     "improved": 5,
+     "placebo_improved": [
+      8,
+      2,
+      0,
+      3,
+      3
+     ],
+     "tested": 10,
+     "data_end": 1790035200
+    }
+   ],
+   "status": "REFUTED",
+   "last_tested": "2026-09-23 00:35",
+   "latest": {
+    "realpaper": {
+     "testable": true,
+     "base_pf_in": 3.46,
+     "var_pf_in": 7.84,
+     "base_out_ret_pct": -1.9,
+     "var_out_ret_pct": -6.1,
+     "var_trades_in": 73,
+     "base_trades_in": 155,
+     "improves_both": false,
+     "var_passes_gates": true,
+     "var_why": ""
+    },
+    "krakenmulti": {
+     "testable": true,
+     "base_pf_in": 3.52,
+     "var_pf_in": 5.48,
+     "base_out_ret_pct": -0.2,
+     "var_out_ret_pct": 0.8,
+     "var_trades_in": 130,
+     "base_trades_in": 179,
+     "improves_both": true,
+     "var_passes_gates": true,
+     "var_why": ""
+    },
+    "krakenfast": {
+     "testable": true,
+     "base_pf_in": 3.35,
+     "var_pf_in": 9.18,
+     "base_out_ret_pct": -9.5,
+     "var_out_ret_pct": -7.0,
+     "var_trades_in": 103,
+     "base_trades_in": 241,
+     "improves_both": true,
+     "var_passes_gates": true,
+     "var_why": ""
+    },
+    "krakenslow": {
+     "testable": true,
+     "base_pf_in": 6.6,
+     "var_pf_in": 7.99,
+     "base_out_ret_pct": 1.8,
+     "var_out_ret_pct": 1.2,
+     "var_trades_in": 48,
+     "base_trades_in": 59,
+     "improves_both": false,
+     "var_passes_gates": true,
+     "var_why": ""
+    },
+    "krakenrsi": {
+     "testable": true,
+     "base_pf_in": 1.15,
+     "var_pf_in": 2.48,
+     "base_out_ret_pct": -9.4,
+     "var_out_ret_pct": -1.4,
+     "var_trades_in": 55,
+     "base_trades_in": 79,
+     "improves_both": true,
+     "var_passes_gates": true,
+     "var_why": ""
+    },
+    "krakenbbreak": {
+     "testable": true,
+     "base_pf_in": 2.9,
+     "var_pf_in": 5.51,
+     "base_out_ret_pct": 0.5,
+     "var_out_ret_pct": -6.5,
+     "var_trades_in": 180,
+     "base_trades_in": 280,
+     "improves_both": false,
+     "var_passes_gates": true,
+     "var_why": ""
+    },
+    "krakenturtle": {
+     "testable": true,
+     "base_pf_in": 4.76,
+     "var_pf_in": 7.56,
+     "base_out_ret_pct": -10.5,
+     "var_out_ret_pct": -5.3,
+     "var_trades_in": 100,
+     "base_trades_in": 136,
+     "improves_both": true,
+     "var_passes_gates": true,
+     "var_why": ""
+    },
+    "krakencci": {
+     "testable": true,
+     "base_pf_in": 2.48,
+     "var_pf_in": 4.27,
+     "base_out_ret_pct": -7.2,
+     "var_out_ret_pct": -8.4,
+     "var_trades_in": 182,
+     "base_trades_in": 295,
+     "improves_both": false,
+     "var_passes_gates": true,
+     "var_why": ""
+    },
+    "krakenkeltner": {
+     "testable": true,
+     "base_pf_in": 3.97,
+     "var_pf_in": 9.5,
+     "base_out_ret_pct": -1.5,
+     "var_out_ret_pct": -5.3,
+     "var_trades_in": 80,
+     "base_trades_in": 129,
+     "improves_both": false,
+     "var_passes_gates": true,
+     "var_why": ""
+    },
+    "krakenichimoku": {
+     "testable": true,
+     "base_pf_in": 2.82,
+     "var_pf_in": 8.35,
+     "base_out_ret_pct": -4.9,
+     "var_out_ret_pct": -2.0,
+     "var_trades_in": 122,
+     "base_trades_in": 262,
+     "improves_both": true,
+     "var_passes_gates": true,
+     "var_why": ""
+    }
+   }
+  },
+  "market_filter_F1": {
+   "statement": "Using 'market filter F1' improves a strategy (real fees, in-sample PF and out-of-sample return both beat baseline), replicated across strategies and beating a random-day control.",
+   "history": [
+    {
+     "t": 1789876451,
+     "verdict": "SUPPORTED",
+     "improved": 9,
+     "placebo_improved": [
+      1,
+      5,
+      7,
+      5,
+      3
+     ],
+     "tested": 10,
+     "data_end": 1789776000
+    },
+    {
+     "t": 1789886163,
+     "verdict": "SUPPORTED",
+     "improved": 9,
+     "placebo_improved": [
+      1,
+      5,
+      7,
+      5,
+      3
+     ],
+     "tested": 10,
+     "data_end": 1789776000
+    },
+    {
+     "t": 1789907764,
+     "verdict": "SUPPORTED",
+     "improved": 9,
+     "placebo_improved": [
+      3,
+      4,
+      4,
+      5,
+      2
+     ],
+     "tested": 10,
+     "data_end": 1789862400
+    },
+    {
+     "t": 1789929364,
+     "verdict": "SUPPORTED",
+     "improved": 9,
+     "placebo_improved": [
+      3,
+      4,
+      4,
+      5,
+      2
+     ],
+     "tested": 10,
+     "data_end": 1789862400
+    },
+    {
+     "t": 1789950965,
+     "verdict": "SUPPORTED",
+     "improved": 9,
+     "placebo_improved": [
+      3,
+      4,
+      4,
+      5,
+      2
+     ],
+     "tested": 10,
+     "data_end": 1789862400
+    },
+    {
+     "t": 1789972564,
+     "verdict": "SUPPORTED",
+     "improved": 9,
+     "placebo_improved": [
+      3,
+      4,
+      4,
+      5,
+      2
+     ],
+     "tested": 10,
+     "data_end": 1789862400
+    },
+    {
+     "t": 1789994164,
+     "verdict": "SUPPORTED",
+     "improved": 9,
+     "placebo_improved": [
+      3,
+      2,
+      2,
+      1,
+      4
+     ],
+     "tested": 10,
+     "data_end": 1789948800
+    },
+    {
+     "t": 1790015765,
+     "verdict": "SUPPORTED",
+     "improved": 9,
+     "placebo_improved": [
+      3,
+      2,
+      2,
+      1,
+      4
+     ],
+     "tested": 10,
+     "data_end": 1789948800
+    },
+    {
+     "t": 1790037364,
+     "verdict": "SUPPORTED",
+     "improved": 9,
+     "placebo_improved": [
+      3,
+      2,
+      2,
+      1,
+      4
+     ],
+     "tested": 10,
+     "data_end": 1789948800
+    },
+    {
+     "t": 1790058965,
+     "verdict": "SUPPORTED",
+     "improved": 9,
+     "placebo_improved": [
+      3,
+      2,
+      2,
+      1,
+      4
+     ],
+     "tested": 10,
+     "data_end": 1789948800
+    },
+    {
+     "t": 1790080564,
+     "verdict": "SUPPORTED",
+     "improved": 9,
+     "placebo_improved": [
+      4,
+      0,
+      1,
+      3,
+      5
+     ],
+     "tested": 10,
+     "data_end": 1790035200
+    },
+    {
+     "t": 1790102164,
+     "verdict": "SUPPORTED",
+     "improved": 9,
+     "placebo_improved": [
+      4,
+      0,
+      1,
+      3,
+      5
+     ],
+     "tested": 10,
+     "data_end": 1790035200
+    },
+    {
+     "t": 1790123765,
+     "verdict": "SUPPORTED",
+     "improved": 9,
+     "placebo_improved": [
+      4,
+      0,
+      1,
+      3,
+      5
+     ],
+     "tested": 10,
+     "data_end": 1790035200
+    }
+   ],
+   "status": "SUPPORTED",
+   "last_tested": "2026-09-23 00:36",
+   "latest": {
+    "realpaper": {
+     "testable": true,
+     "base_pf_in": 3.46,
+     "var_pf_in": 6.04,
+     "base_out_ret_pct": -1.9,
+     "var_out_ret_pct": 2.6,
+     "var_trades_in": 118,
+     "base_trades_in": 155,
+     "improves_both": true,
+     "var_passes_gates": true,
+     "var_why": ""
+    },
+    "krakenmulti": {
+     "testable": true,
+     "base_pf_in": 3.52,
+     "var_pf_in": 4.14,
+     "base_out_ret_pct": -0.2,
+     "var_out_ret_pct": 6.3,
+     "var_trades_in": 159,
+     "base_trades_in": 179,
+     "improves_both": true,
+     "var_passes_gates": true,
+     "var_why": ""
+    },
+    "krakenfast": {
+     "testable": true,
+     "base_pf_in": 3.35,
+     "var_pf_in": 6.56,
+     "base_out_ret_pct": -9.5,
+     "var_out_ret_pct": 1.7,
+     "var_trades_in": 169,
+     "base_trades_in": 241,
+     "improves_both": true,
+     "var_passes_gates": true,
+     "var_why": ""
+    },
+    "krakenslow": {
+     "testable": true,
+     "base_pf_in": 6.6,
+     "var_pf_in": 6.99,
+     "base_out_ret_pct": 1.8,
+     "var_out_ret_pct": 3.1,
+     "var_trades_in": 58,
+     "base_trades_in": 59,
+     "improves_both": true,
+     "var_passes_gates": true,
+     "var_why": ""
+    },
+    "krakenrsi": {
+     "testable": true,
+     "base_pf_in": 1.15,
+     "var_pf_in": 0.88,
+     "base_out_ret_pct": -9.4,
+     "var_out_ret_pct": -8.7,
+     "var_trades_in": 55,
+     "base_trades_in": 79,
+     "improves_both": false,
+     "var_passes_gates": false,
+     "var_why": "fee gate"
+    },
+    "krakenbbreak": {
+     "testable": true,
+     "base_pf_in": 2.9,
+     "var_pf_in": 3.57,
+     "base_out_ret_pct": 0.5,
+     "var_out_ret_pct": 10.7,
+     "var_trades_in": 228,
+     "base_trades_in": 280,
+     "improves_both": true,
+     "var_passes_gates": true,
+     "var_why": ""
+    },
+    "krakenturtle": {
+     "testable": true,
+     "base_pf_in": 4.76,
+     "var_pf_in": 4.93,
+     "base_out_ret_pct": -10.5,
+     "var_out_ret_pct": -6.1,
+     "var_trades_in": 130,
+     "base_trades_in": 136,
+     "improves_both": true,
+     "var_passes_gates": true,
+     "var_why": ""
+    },
+    "krakencci": {
+     "testable": true,
+     "base_pf_in": 2.48,
+     "var_pf_in": 3.55,
+     "base_out_ret_pct": -7.2,
+     "var_out_ret_pct": 10.9,
+     "var_trades_in": 219,
+     "base_trades_in": 295,
+     "improves_both": true,
+     "var_passes_gates": true,
+     "var_why": ""
+    },
+    "krakenkeltner": {
+     "testable": true,
+     "base_pf_in": 3.97,
+     "var_pf_in": 5.05,
+     "base_out_ret_pct": -1.5,
+     "var_out_ret_pct": 1.7,
+     "var_trades_in": 110,
+     "base_trades_in": 129,
+     "improves_both": true,
+     "var_passes_gates": true,
+     "var_why": ""
+    },
+    "krakenichimoku": {
+     "testable": true,
+     "base_pf_in": 2.82,
+     "var_pf_in": 4.93,
+     "base_out_ret_pct": -4.9,
+     "var_out_ret_pct": 5.8,
+     "var_trades_in": 169,
+     "base_trades_in": 262,
+     "improves_both": true,
+     "var_passes_gates": true,
+     "var_why": ""
+    }
+   }
+  }
+ },
+ "live": {
+  "arena_ichimoku_cloud": {
+   "TRENDING_UP": {
+    "n": 17,
+    "mean_pct": -0.33,
+    "t": -0.29
+   }
+  },
+  "arena_bollinger_meanrev": {
+   "TRENDING_UP": {
+    "n": 15,
+    "mean_pct": 0.063,
+    "t": 0.21
+   }
+  },
+  "arena_williams_r": {
+   "TRENDING_UP": {
+    "n": 22,
+    "mean_pct": 0.348,
+    "t": 0.49
+   }
+  },
+  "bot_dca_d5_new20": {
+   "TRENDING_UP": {
+    "n": 5,
+    "mean_pct": 2.591,
+    "t": 681.77
+   }
+  },
+  "krakendemo": {
+   "TRENDING_UP": {
+    "n": 28,
+    "mean_pct": -0.394,
+    "t": -0.51
+   }
+  },
+  "arena_stochastic_cross": {
+   "TRENDING_UP": {
+    "n": 67,
+    "mean_pct": -1.273,
+    "t": -5.77
+   }
+  },
+  "arena_keltner_breakout": {
+   "TRENDING_UP": {
+    "n": 4,
+    "mean_pct": -3.138,
+    "t": -68.55
+   }
+  },
+  "arena_smart_swing": {
+   "TRENDING_UP": {
+    "n": 1,
+    "mean_pct": -0.77,
+    "t": 0.0
+   }
+  },
+  "arena_fast_swing": {
+   "TRENDING_UP": {
+    "n": 8,
+    "mean_pct": -0.423,
+    "t": -0.39
+   }
+  },
+  "krakendemo_stoch": {
+   "TRENDING_UP": {
+    "n": 1,
+    "mean_pct": -2.113,
+    "t": 0.0
+   }
+  },
+  "bot_dca_d5_mid12": {
+   "TRENDING_UP": {
+    "n": 4,
+    "mean_pct": 2.577,
+    "t": 234.68
+   }
+  },
+  "arena_multi_signal": {
+   "TRENDING_UP": {
+    "n": 5,
+    "mean_pct": 1.487,
+    "t": 0.25
+   }
+  },
+  "bot_dca_d3_new20": {
+   "TRENDING_UP": {
+    "n": 5,
+    "mean_pct": 2.591,
+    "t": 681.77
+   }
+  },
+  "arena_bollinger_breakout": {
+   "TRENDING_UP": {
+    "n": 19,
+    "mean_pct": 0.552,
+    "t": 0.52
+   }
+  },
+  "bot_dca_SO5_d3_F1": {
+   "TRENDING_UP": {
+    "n": 5,
+    "mean_pct": 2.587,
+    "t": 2801.16
+   }
+  },
+  "bot_dca_SO5_d5_F1": {
+   "TRENDING_UP": {
+    "n": 5,
+    "mean_pct": 2.587,
+    "t": 2801.16
+   }
+  },
+  "arena_rsi_meanrev": {
+   "TRENDING_UP": {
+    "n": 2,
+    "mean_pct": 3.214,
+    "t": 3.51
+   }
+  },
+  "arena_turtle_donchian": {
+   "TRENDING_UP": {
+    "n": 15,
+    "mean_pct": -1.146,
+    "t": -0.64
+   }
+  },
+  "bot_dca_d3_mid12": {
+   "TRENDING_UP": {
+    "n": 4,
+    "mean_pct": 2.577,
+    "t": 234.68
+   }
+  },
+  "arena_macd_cross": {
+   "TRENDING_UP": {
+    "n": 1,
+    "mean_pct": -4.81,
+    "t": 0.0
+   }
+  },
+  "bot_dca_d5_large12": {
+   "TRENDING_UP": {
+    "n": 4,
+    "mean_pct": 2.587,
+    "t": 3061.26
+   }
+  },
+  "arena_cci_momentum": {
+   "TRENDING_UP": {
+    "n": 16,
+    "mean_pct": 0.237,
+    "t": 0.12
+   }
+  },
+  "bot_dca_d3_large12": {
+   "TRENDING_UP": {
+    "n": 4,
+    "mean_pct": 2.587,
+    "t": 3061.26
+   }
+  }
+ },
+ "restrictions": [],
+ "ab": {
+  "chal_realpaper_1": {
+   "parent": "realpaper",
+   "since": 1789856646,
+   "parent_equity_at_start": 50.0,
+   "own_equity_at_start": 50.0,
+   "parent_return_pct": 0.0,
+   "own_return_pct": 0.0,
+   "days": 3.3
+  },
+  "chal_krakenrsi_1": {
+   "parent": "krakenrsi",
+   "since": 1789856654,
+   "parent_equity_at_start": 50.0,
+   "own_equity_at_start": 50.0,
+   "parent_return_pct": 0.0,
+   "own_return_pct": 0.0,
+   "days": 3.3
+  },
+  "chal_krakenfast_1": {
+   "parent": "krakenfast",
+   "since": 1789856662,
+   "parent_equity_at_start": 50.0,
+   "own_equity_at_start": 50.0,
+   "parent_return_pct": 0.44,
+   "own_return_pct": 0.42,
+   "days": 3.3
+  },
+  "chal_krakenichimoku_1": {
+   "parent": "krakenichimoku",
+   "since": 1789856671,
+   "parent_equity_at_start": 50.0,
+   "own_equity_at_start": 50.0,
+   "parent_return_pct": 1.46,
+   "own_return_pct": 0.0,
+   "days": 3.3
+  },
+  "chal_krakenturtle_1": {
+   "parent": "krakenturtle",
+   "since": 1789856680,
+   "parent_equity_at_start": 50.0,
+   "own_equity_at_start": 50.0,
+   "parent_return_pct": 3.04,
+   "own_return_pct": 1.4,
+   "days": 3.3
+  },
+  "chal_krakenmulti_1": {
+   "parent": "krakenmulti",
+   "since": 1789856688,
+   "parent_equity_at_start": 50.0,
+   "own_equity_at_start": 50.0,
+   "parent_return_pct": 4.52,
+   "own_return_pct": 0.84,
+   "days": 3.3
+  },
+  "chal_krakenfast_2": {
+   "hypothesis": "market_filter_F1",
+   "parent": "krakenfast",
+   "since": 1789876459,
+   "parent_equity_at_start": 50.0,
+   "own_equity_at_start": 50.0,
+   "parent_return_pct": 0.44,
+   "own_return_pct": 0.28,
+   "days": 3.1
+  },
+  "chal_krakenichimoku_2": {
+   "hypothesis": "market_filter_F1",
+   "parent": "krakenichimoku",
+   "since": 1789876468,
+   "parent_equity_at_start": 49.94,
+   "own_equity_at_start": 50.0,
+   "parent_return_pct": 1.58,
+   "own_return_pct": -0.54,
+   "days": 3.1
+  },
+  "chal_realpaper_2": {
+   "hypothesis": "market_filter_F1",
+   "parent": "realpaper",
+   "since": 1789876476,
+   "parent_equity_at_start": 50.0,
+   "own_equity_at_start": 50.0,
+   "parent_return_pct": 0.0,
+   "own_return_pct": 0.0,
+   "days": 3.1
+  },
+  "chal_krakencci_1": {
+   "hypothesis": "market_filter_F1",
+   "parent": "krakencci",
+   "since": 1789876485,
+   "parent_equity_at_start": 49.87,
+   "own_equity_at_start": 50.0,
+   "parent_return_pct": 4.23,
+   "own_return_pct": -0.08,
+   "days": 3.1
+  }
+ },
+ "lessons": [
+  "avoid_SIDEWAYS: SUPPORTED (8/10 strategies improved in both halves; needs >= 40% of >= 5 AND more than random-day blocking, which improved [7, 0, 1, 3, 3]).",
+  "avoid_HIGH_VOLATILITY: REFUTED (3/10 strategies improved in both halves; needs >= 40% of >= 5 AND more than random-day blocking, which improved [3, 2, 1, 2, 0]).",
+  "avoid_SIDEWAYS_and_HIGH_VOLATILITY: REFUTED (5/10 strategies improved in both halves; needs >= 40% of >= 5 AND more than random-day blocking, which improved [8, 2, 0, 3, 3]).",
+  "market_filter_F1: SUPPORTED (9/10 strategies improved in both halves; needs >= 40% of >= 5 AND more than random-day blocking, which improved [4, 0, 1, 3, 5]).",
+  "Caution: in the held-out period the champions' average GROSS move per trip was negative in every regime (trending_up -2.9%, sideways -1.9%, high_volatility -3.0%, trending_down -12.6%). Sitting out a regime mostly reduces exposure; it does not by itself create edge.",
+  "Live, all accounts, entries in TRENDING_UP: 257 round trips, mean -0.05% net.",
+  "Live failure: arena_stochastic_cross paused after 56 trips at -0.962% mean net (t=-4.27)."
+ ],
+ "runs": 95,
+ "last_run": "2026-09-23 05:12",
+ "last_events": [],
+ "full_runs": 15,
+ "live_pooled": {
+  "arena_ichimoku_cloud": {
+   "n": 17,
+   "mean_pct": -0.33,
+   "t": -0.29
+  },
+  "arena_bollinger_meanrev": {
+   "n": 15,
+   "mean_pct": 0.063,
+   "t": 0.21
+  },
+  "arena_williams_r": {
+   "n": 22,
+   "mean_pct": 0.348,
+   "t": 0.49
+  },
+  "bot_dca_d5_new20": {
+   "n": 5,
+   "mean_pct": 2.591,
+   "t": 681.77
+  },
+  "krakendemo": {
+   "n": 28,
+   "mean_pct": -0.394,
+   "t": -0.51
+  },
+  "arena_stochastic_cross": {
+   "n": 67,
+   "mean_pct": -1.273,
+   "t": -5.77
+  },
+  "arena_keltner_breakout": {
+   "n": 4,
+   "mean_pct": -3.138,
+   "t": -68.55
+  },
+  "arena_smart_swing": {
+   "n": 1,
+   "mean_pct": -0.77,
+   "t": 0.0
+  },
+  "arena_fast_swing": {
+   "n": 8,
+   "mean_pct": -0.423,
+   "t": -0.39
+  },
+  "krakendemo_stoch": {
+   "n": 1,
+   "mean_pct": -2.113,
+   "t": 0.0
+  },
+  "bot_dca_d5_mid12": {
+   "n": 4,
+   "mean_pct": 2.577,
+   "t": 234.68
+  },
+  "arena_multi_signal": {
+   "n": 5,
+   "mean_pct": 1.487,
+   "t": 0.25
+  },
+  "bot_dca_d3_new20": {
+   "n": 5,
+   "mean_pct": 2.591,
+   "t": 681.77
+  },
+  "arena_bollinger_breakout": {
+   "n": 19,
+   "mean_pct": 0.552,
+   "t": 0.52
+  },
+  "bot_dca_SO5_d3_F1": {
+   "n": 5,
+   "mean_pct": 2.587,
+   "t": 2801.16
+  },
+  "bot_dca_SO5_d5_F1": {
+   "n": 5,
+   "mean_pct": 2.587,
+   "t": 2801.16
+  },
+  "arena_rsi_meanrev": {
+   "n": 2,
+   "mean_pct": 3.214,
+   "t": 3.51
+  },
+  "arena_turtle_donchian": {
+   "n": 15,
+   "mean_pct": -1.146,
+   "t": -0.64
+  },
+  "bot_dca_d3_mid12": {
+   "n": 4,
+   "mean_pct": 2.577,
+   "t": 234.68
+  },
+  "arena_macd_cross": {
+   "n": 1,
+   "mean_pct": -4.81,
+   "t": 0.0
+  },
+  "bot_dca_d5_large12": {
+   "n": 4,
+   "mean_pct": 2.587,
+   "t": 3061.26
+  },
+  "arena_cci_momentum": {
+   "n": 16,
+   "mean_pct": 0.237,
+   "t": 0.12
+  },
+  "bot_dca_d3_large12": {
+   "n": 4,
+   "mean_pct": 2.587,
+   "t": 3061.26
+  }
+ },
+ "killed": [
+  {
+   "t": -4.27,
+   "account": "arena_stochastic_cross",
+   "n": 56,
+   "mean_pct": -0.962
+  }
+ ],
+ "light_runs": 79
+}

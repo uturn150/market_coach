@@ -1,0 +1,135 @@
+
+bot_dca_SO5_d3_F1 (dca, 9 coins)
+  $   100: ideal   +5.43% ( 300 trips) | $10-STEP+RULES  -26.93% (  91 trips), rejected     6 of   263 orders
+  $   250: ideal   +5.43% ( 300 trips) | $10-STEP+RULES   -0.36% ( 122 trips), rejected    10 of   690 orders
+  $   500: ideal   +5.43% ( 300 trips) | $10-STEP+RULES   +5.88% ( 131 trips), rejected     4 of   937 orders
+  $ 1,000: ideal   +5.43% ( 300 trips) | $10-STEP+RULES   -0.42% ( 150 trips), rejected     3 of  1120 orders
+  $ 2,500: ideal   +5.43% ( 300 trips) | $10-STEP+RULES   +3.12% ( 173 trips), rejected     4 of  1428 orders
+  $ 5,000: ideal   +5.43% ( 300 trips) | $10-STEP+RULES   +3.71% ( 133 trips), rejected     6 of  1072 orders
+  $10,000: ideal   +5.43% ( 300 trips) | $10-STEP+RULES   +4.91% ( 177 trips), rejected     5 of  1394 orders
+
+bot_dca_SO5_d5_F1 (dca, 9 coins)
+  $   100: ideal   +3.35% ( 277 trips) | $10-STEP+RULES  -27.77% (  91 trips), rejected     6 of   265 orders
+  $   250: ideal   +3.35% ( 277 trips) | $10-STEP+RULES   -8.08% ( 111 trips), rejected     8 of   661 orders
+  $   500: ideal   +3.35% ( 277 trips) | $10-STEP+RULES   -9.19% ( 145 trips), rejected     8 of  1009 orders
+  $ 1,000: ideal   +3.35% ( 277 trips) | $10-STEP+RULES   -0.09% ( 163 trips), rejected     4 of  1234 orders
+  $ 2,500: ideal   +3.35% ( 277 trips) | $10-STEP+RULES   +3.44% ( 157 trips), rejected     4 of  1168 orders
+  $ 5,000: ideal   +3.35% ( 277 trips) | $10-STEP+RULES   +2.29% ( 176 trips), rejected     5 of  1336 orders
+  $10,000: ideal   +3.35% ( 277 trips) | $10-STEP+RULES   +2.33% ( 203 trips), rejected     4 of  1535 orders
+
+bot_dca_d3_large12 (dca, 12 coins)
+  $   100: ideal   +7.23% ( 435 trips) | $10-STEP+RULES  -16.15% ( 117 trips), rejected    11 of   323 orders
+  $   250: ideal   +7.23% ( 435 trips) | $10-STEP+RULES  -23.16% ( 130 trips), rejected    12 of   574 orders
+  $   500: ideal   +7.23% ( 435 trips) | $10-STEP+RULES  -11.74% ( 205 trips), rejected     8 of  1184 orders
+  $ 1,000: ideal   +7.23% ( 435 trips) | $10-STEP+RULES   -1.14% ( 222 trips), rejected     5 of  1637 orders
+  $ 2,500: ideal   +7.23% ( 435 trips) | $10-STEP+RULES   +5.88% ( 205 trips), rejected     7 of  1615 orders
+  $ 5,000: ideal   +7.23% ( 435 trips) | $10-STEP+RULES   +3.51% ( 179 trips), rejected     8 of  1388 orders
+  $10,000: ideal   +7.23% ( 435 trips) | $10-STEP+RULES   +2.28% ( 161 trips), rejected     8 of  1273 orders
+
+bot_dca_d3_mid12 (dca, 12 coins)
+  $   100: ideal  -19.36% (1591 trips) | $10-STEP+RULES  -78.90% ( 138 trips), rejected    61 of   404 orders
+  $   250: ideal  -19.36% (1591 trips) | $10-STEP+RULES  -84.07% ( 190 trips), rejected   101 of   642 orders
+  $   500: ideal  -19.36% (1591 trips) | $10-STEP+RULES  -21.32% ( 163 trips), rejected    33 of  1018 orders
+  $ 1,000: ideal  -19.36% (1591 trips) | $10-STEP+RULES  -32.77% ( 259 trips), rejected    40 of  1787 orders
+  $ 2,500: ideal  -19.36% (1591 trips) | $10-STEP+RULES   +0.18% ( 298 trips), rejected    19 of  2148 orders
+  $ 5,000: ideal  -19.36% (1591 trips) | $10-STEP+RULES   -3.62% ( 236 trips), rejected    12 of  1703 orders
+  $10,000: ideal  -19.36% (1591 trips) | $10-STEP+RULES   +8.59% ( 279 trips), rejected    11 of  1956 orders
+
+bot_dca_d3_new20 (dca, 20 coins)
+  $   100: ideal  -20.85% ( 746 trips) | $10-STEP+RULES  -36.52% ( 135 trips), rejected    12 of   369 orders
+  $   250: ideal  -20.85% ( 746 trips) | $10-STEP+RULES  -33.51% ( 287 trips), rejected    21 of   953 orders
+  $   500: ideal  -20.85% ( 746 trips) | $10-STEP+RULES   -5.50% ( 329 trips), rejected    14 of  1899 orders
+  $ 1,000: ideal  -20.85% ( 746 trips) | $10-STEP+RULES  -16.72% ( 335 trips), rejected    18 of  2348 orders
+  $ 2,500: ideal  -20.85% ( 746 trips) | $10-STEP+RULES  -14.74% ( 400 trips), rejected     8 of  2901 orders
+  $ 5,000: ideal  -20.85% ( 746 trips) | $10-STEP+RULES  -13.01% ( 405 trips), rejected    11 of  3006 orders
+  $10,000: ideal  -20.85% ( 746 trips) | $10-STEP+RULES  -18.01% ( 416 trips), rejected     6 of  3063 orders
+
+bot_dca_d5_large12 (dca, 12 coins)
+  $   100: ideal   +4.30% ( 410 trips) | $10-STEP+RULES  -18.64% ( 116 trips), rejected    11 of   318 orders
+  $   250: ideal   +4.30% ( 410 trips) | $10-STEP+RULES  -25.63% ( 141 trips), rejected    11 of   571 orders
+  $   500: ideal   +4.30% ( 410 trips) | $10-STEP+RULES   -7.40% ( 182 trips), rejected    15 of  1188 orders
+  $ 1,000: ideal   +4.30% ( 410 trips) | $10-STEP+RULES   +1.66% ( 186 trips), rejected     5 of  1412 orders
+  $ 2,500: ideal   +4.30% ( 410 trips) | $10-STEP+RULES   +2.33% ( 201 trips), rejected     6 of  1485 orders
+  $ 5,000: ideal   +4.30% ( 410 trips) | $10-STEP+RULES   +3.41% ( 277 trips), rejected     3 of  2100 orders
+  $10,000: ideal   +4.30% ( 410 trips) | $10-STEP+RULES   +1.92% ( 163 trips), rejected    10 of  1249 orders
+
+bot_dca_d5_mid12 (dca, 12 coins)
+  $   100: ideal   -6.57% (1432 trips) | $10-STEP+RULES  -87.31% ( 123 trips), rejected    64 of   368 orders
+  $   250: ideal   -6.57% (1432 trips) | $10-STEP+RULES  -85.65% ( 216 trips), rejected    99 of   702 orders
+  $   500: ideal   -6.57% (1432 trips) | $10-STEP+RULES  -29.58% ( 166 trips), rejected    35 of  1076 orders
+  $ 1,000: ideal   -6.57% (1432 trips) | $10-STEP+RULES  -19.44% ( 210 trips), rejected    24 of  1370 orders
+  $ 2,500: ideal   -6.57% (1432 trips) | $10-STEP+RULES   +7.44% ( 173 trips), rejected    11 of  1207 orders
+  $ 5,000: ideal   -6.57% (1432 trips) | $10-STEP+RULES   +2.59% ( 223 trips), rejected    10 of  1595 orders
+  $10,000: ideal   -6.57% (1432 trips) | $10-STEP+RULES   -4.03% ( 337 trips), rejected     9 of  2440 orders
+
+bot_dca_d5_new20 (dca, 20 coins)
+  $   100: ideal  -16.20% ( 723 trips) | $10-STEP+RULES  -38.00% ( 133 trips), rejected     6 of   362 orders
+  $   250: ideal  -16.20% ( 723 trips) | $10-STEP+RULES  -21.92% ( 288 trips), rejected    14 of   938 orders
+  $   500: ideal  -16.20% ( 723 trips) | $10-STEP+RULES  -18.35% ( 327 trips), rejected    21 of  1823 orders
+  $ 1,000: ideal  -16.20% ( 723 trips) | $10-STEP+RULES  -15.20% ( 401 trips), rejected     7 of  2809 orders
+  $ 2,500: ideal  -16.20% ( 723 trips) | $10-STEP+RULES  -15.57% ( 396 trips), rejected     8 of  2912 orders
+  $ 5,000: ideal  -16.20% ( 723 trips) | $10-STEP+RULES  -15.44% ( 346 trips), rejected     8 of  2556 orders
+  $10,000: ideal  -16.20% ( 723 trips) | $10-STEP+RULES  -12.62% ( 363 trips), rejected     8 of  2754 orders
+
+bot_dcaad_large12 (dca_adaptive, 12 coins)
+  $   100: ideal   +4.30% ( 410 trips) | $10-STEP+RULES  -18.64% ( 116 trips), rejected    11 of   318 orders
+  $   250: ideal   +4.30% ( 410 trips) | $10-STEP+RULES  -25.63% ( 141 trips), rejected    11 of   571 orders
+  $   500: ideal   +4.30% ( 410 trips) | $10-STEP+RULES   -7.40% ( 182 trips), rejected    15 of  1188 orders
+  $ 1,000: ideal   +4.30% ( 410 trips) | $10-STEP+RULES   +1.66% ( 186 trips), rejected     5 of  1412 orders
+  $ 2,500: ideal   +4.30% ( 410 trips) | $10-STEP+RULES   +2.33% ( 201 trips), rejected     6 of  1485 orders
+  $ 5,000: ideal   +4.30% ( 410 trips) | $10-STEP+RULES   +3.41% ( 277 trips), rejected     3 of  2100 orders
+  $10,000: ideal   +4.30% ( 410 trips) | $10-STEP+RULES   +1.92% ( 163 trips), rejected    10 of  1249 orders
+
+bot_dcaad_mid12 (dca_adaptive, 12 coins)
+  $   100: ideal   -6.57% (1432 trips) | $10-STEP+RULES  -87.31% ( 123 trips), rejected    64 of   368 orders
+  $   250: ideal   -6.57% (1432 trips) | $10-STEP+RULES  -85.65% ( 216 trips), rejected    99 of   702 orders
+  $   500: ideal   -6.57% (1432 trips) | $10-STEP+RULES  -29.58% ( 166 trips), rejected    35 of  1076 orders
+  $ 1,000: ideal   -6.57% (1432 trips) | $10-STEP+RULES  -19.44% ( 210 trips), rejected    24 of  1370 orders
+  $ 2,500: ideal   -6.57% (1432 trips) | $10-STEP+RULES   +7.44% ( 173 trips), rejected    11 of  1207 orders
+  $ 5,000: ideal   -6.57% (1432 trips) | $10-STEP+RULES   +2.59% ( 223 trips), rejected    10 of  1595 orders
+  $10,000: ideal   -6.57% (1432 trips) | $10-STEP+RULES   -4.03% ( 337 trips), rejected     9 of  2440 orders
+
+bot_grid_L4_s6_F1 (grid, 9 coins)
+  $   100: ideal   +3.92% (  97 trips) | $10-STEP+RULES   -0.82% (  17 trips), rejected     0 of    73 orders
+  $   250: ideal   +3.92% (  97 trips) | $10-STEP+RULES   -0.63% (  47 trips), rejected     0 of   196 orders
+  $   500: ideal   +3.92% (  97 trips) | $10-STEP+RULES   +2.25% (  97 trips), rejected     0 of   358 orders
+  $ 1,000: ideal   +3.92% (  97 trips) | $10-STEP+RULES   +4.05% (  87 trips), rejected     1 of   307 orders
+  $ 2,500: ideal   +3.92% (  97 trips) | $10-STEP+RULES   +4.08% (  82 trips), rejected     2 of   294 orders
+  $ 5,000: ideal   +3.92% (  97 trips) | $10-STEP+RULES   +3.32% (  90 trips), rejected     0 of   327 orders
+  $10,000: ideal   +3.92% (  97 trips) | $10-STEP+RULES   +4.01% (  89 trips), rejected     1 of   321 orders
+
+bot_grid_L8_s6_F1 (grid, 9 coins)
+  $   100: ideal   +3.13% ( 112 trips) | $10-STEP+RULES   -1.58% (   6 trips), rejected     0 of    50 orders
+  $   250: ideal   +3.13% ( 112 trips) | $10-STEP+RULES   -1.70% (  17 trips), rejected     0 of   135 orders
+  $   500: ideal   +3.13% ( 112 trips) | $10-STEP+RULES   +0.22% (  61 trips), rejected     0 of   323 orders
+  $ 1,000: ideal   +3.13% ( 112 trips) | $10-STEP+RULES   +1.96% ( 110 trips), rejected     0 of   496 orders
+  $ 2,500: ideal   +3.13% ( 112 trips) | $10-STEP+RULES   +2.86% ( 104 trips), rejected     1 of   490 orders
+  $ 5,000: ideal   +3.13% ( 112 trips) | $10-STEP+RULES   +2.85% (  93 trips), rejected     2 of   428 orders
+  $10,000: ideal   +3.13% ( 112 trips) | $10-STEP+RULES   +3.23% ( 110 trips), rejected     0 of   495 orders
+
+bot_grid_L8_s6_large12 (grid, 12 coins)
+  $   100: ideal   +1.97% ( 161 trips) | $10-STEP+RULES   -1.71% (   5 trips), rejected     0 of    48 orders
+  $   250: ideal   +1.97% ( 161 trips) | $10-STEP+RULES   +0.85% (  20 trips), rejected     0 of   138 orders
+  $   500: ideal   +1.97% ( 161 trips) | $10-STEP+RULES   +3.07% (  76 trips), rejected     0 of   346 orders
+  $ 1,000: ideal   +1.97% ( 161 trips) | $10-STEP+RULES   +1.11% ( 140 trips), rejected     0 of   634 orders
+  $ 2,500: ideal   +1.97% ( 161 trips) | $10-STEP+RULES   +2.67% ( 154 trips), rejected     0 of   667 orders
+  $ 5,000: ideal   +1.97% ( 161 trips) | $10-STEP+RULES   +2.92% ( 135 trips), rejected     2 of   575 orders
+  $10,000: ideal   +1.97% ( 161 trips) | $10-STEP+RULES   +3.22% ( 128 trips), rejected     3 of   535 orders
+
+bot_quick27_active (dca, 27 coins)
+  $   100: ideal   -3.95% (3799 trips) | $10-STEP+RULES  -64.78% ( 297 trips), rejected    51 of   772 orders
+  $   250: ideal   -3.95% (3799 trips) | $10-STEP+RULES  -71.06% ( 618 trips), rejected   172 of  1834 orders
+  $   500: ideal   -3.95% (3799 trips) | $10-STEP+RULES  -31.52% ( 777 trips), rejected    83 of  4237 orders
+  $ 1,000: ideal   -3.95% (3799 trips) | $10-STEP+RULES   -9.85% ( 635 trips), rejected    57 of  4173 orders
+  $ 2,500: ideal   -3.95% (3799 trips) | $10-STEP+RULES   -9.35% ( 710 trips), rejected    39 of  5385 orders
+  $ 5,000: ideal   -3.95% (3799 trips) | $10-STEP+RULES   -3.57% ( 739 trips), rejected    45 of  5850 orders
+  $10,000: ideal   -3.95% (3799 trips) | $10-STEP+RULES   -1.54% ( 777 trips), rejected    41 of  6248 orders
+
+bot_quick27_f1 (dca, 27 coins)
+  $   100: ideal   +5.77% (1006 trips) | $10-STEP+RULES  -25.09% ( 104 trips), rejected     7 of   292 orders
+  $   250: ideal   +5.77% (1006 trips) | $10-STEP+RULES  -16.49% ( 264 trips), rejected     8 of   751 orders
+  $   500: ideal   +5.77% (1006 trips) | $10-STEP+RULES  -28.88% ( 311 trips), rejected    20 of  1145 orders
+  $ 1,000: ideal   +5.77% (1006 trips) | $10-STEP+RULES  -24.85% ( 343 trips), rejected    19 of  2028 orders
+  $ 2,500: ideal   +5.77% (1006 trips) | $10-STEP+RULES   +1.79% ( 401 trips), rejected    14 of  3205 orders
+  $ 5,000: ideal   +5.77% (1006 trips) | $10-STEP+RULES   +1.29% ( 431 trips), rejected    15 of  3673 orders
+  $10,000: ideal   +5.77% (1006 trips) | $10-STEP+RULES   +2.90% ( 378 trips), rejected    18 of  3356 orders

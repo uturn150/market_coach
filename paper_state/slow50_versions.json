@@ -1,0 +1,38 @@
+{
+ "current": {
+  "genome": {
+   "family": "multi",
+   "entry_n": 30,
+   "exit_n": 30,
+   "kel_n": 10,
+   "kel_mult": 2.5,
+   "fast": 30,
+   "slow": 150,
+   "threshold": 3,
+   "roc_min": 0.05,
+   "vol_x": 1.2,
+   "donch": 15,
+   "trail": 0.2,
+   "stop": null,
+   "filter": "F1",
+   "ncoins": 3,
+   "coins": [
+    "BCH-USD",
+    "BTC-USD",
+    "ETH-USD"
+   ]
+  },
+  "since": 1789972434,
+  "version": 1,
+  "validation": {
+   "val": -68.94,
+   "future_score": -49.42,
+   "unseen_score": -19.52,
+   "future_dd": 34.7,
+   "unseen_worst_dd": 58.5,
+   "future_med": 9.4,
+   "unseen_med": 46.6
+  }
+ },
+ "history": []
+}

@@ -1,0 +1,122 @@
+{
+  "account": "smart",
+  "strategy_path": "strategies/smart_swing.json",
+  "granularity": 86400,
+  "start_cash": 50.0,
+  "sleeves": {
+    "BTC-USD": {
+      "cash": 4.166666666666667,
+      "units": 0.0,
+      "avg_cost": 0.0,
+      "peak": 0.0,
+      "last_bar_ts": 1789430400,
+      "pending": null,
+      "last_px": 75584.17
+    },
+    "ETH-USD": {
+      "cash": 4.166666666666667,
+      "units": 0.0,
+      "avg_cost": 0.0,
+      "peak": 0.0,
+      "last_bar_ts": 1789430400,
+      "pending": null,
+      "last_px": 2396.14
+    },
+    "SOL-USD": {
+      "cash": 4.166666666666667,
+      "units": 0.0,
+      "avg_cost": 0.0,
+      "peak": 0.0,
+      "last_bar_ts": 1789430400,
+      "pending": null,
+      "last_px": 96.82
+    },
+    "ADA-USD": {
+      "cash": 4.166666666666667,
+      "units": 0.0,
+      "avg_cost": 0.0,
+      "peak": 0.0,
+      "last_bar_ts": 1789430400,
+      "pending": null,
+      "last_px": 0.19527
+    },
+    "AVAX-USD": {
+      "cash": 4.166666666666667,
+      "units": 0.0,
+      "avg_cost": 0.0,
+      "peak": 0.0,
+      "last_bar_ts": 1789430400,
+      "pending": null,
+      "last_px": 7.264
+    },
+    "LINK-USD": {
+      "cash": 4.166666666666667,
+      "units": 0.0,
+      "avg_cost": 0.0,
+      "peak": 0.0,
+      "last_bar_ts": 1789430400,
+      "pending": null,
+      "last_px": 10.88
+    },
+    "LTC-USD": {
+      "cash": 4.166666666666667,
+      "units": 0.0,
+      "avg_cost": 0.0,
+      "peak": 0.0,
+      "last_bar_ts": 1789430400,
+      "pending": null,
+      "last_px": 51.24
+    },
+    "XRP-USD": {
+      "cash": 4.166666666666667,
+      "units": 0.0,
+      "avg_cost": 0.0,
+      "peak": 0.0,
+      "last_bar_ts": 1789430400,
+      "pending": null,
+      "last_px": 1.2823
+    },
+    "DOT-USD": {
+      "cash": 4.166666666666667,
+      "units": 0.0,
+      "avg_cost": 0.0,
+      "peak": 0.0,
+      "last_bar_ts": 1789430400,
+      "pending": null,
+      "last_px": 0.9424
+    },
+    "DOGE-USD": {
+      "cash": 4.166666666666667,
+      "units": 0.0,
+      "avg_cost": 0.0,
+      "peak": 0.0,
+      "last_bar_ts": 1789430400,
+      "pending": null,
+      "last_px": 0.08003
+    },
+    "ATOM-USD": {
+      "cash": 4.166666666666667,
+      "units": 0.0,
+      "avg_cost": 0.0,
+      "peak": 0.0,
+      "last_bar_ts": 1789430400,
+      "pending": null,
+      "last_px": 1.5169
+    },
+    "UNI-USD": {
+      "cash": 4.166666666666667,
+      "units": 0.0,
+      "avg_cost": 0.0,
+      "peak": 0.0,
+      "last_bar_ts": 1789430400,
+      "pending": null,
+      "last_px": 6.3635
+    }
+  },
+  "fills": [],
+  "created": 1789537129,
+  "regime_filter": true,
+  "max_drawdown": 0.25,
+  "peak_equity": 50.0,
+  "halted": false
+}

@@ -1,0 +1,317 @@
+{
+  "NO MANAGER (baseline)": {
+    "total_return_pct": 89.6,
+    "sharpe": 0.86,
+    "max_drawdown_pct": -40.2,
+    "first_half": {
+      "return_pct": 120.7,
+      "max_dd_pct": -36.0
+    },
+    "second_half": {
+      "return_pct": -14.2,
+      "max_dd_pct": -27.5
+    },
+    "fees_paid_usd": 187.15,
+    "entries": 2927,
+    "vetoed_by_risk_manager": 0,
+    "exposure": {
+      "avg_invested_pct": 22.2,
+      "max_invested_pct": 99.4,
+      "avg_open_positions": 49.6,
+      "max_open_positions": 211,
+      "days_fully_in_cash_pct": 32.0
+    },
+    "risk_manager": null,
+    "limited_by": null
+  },
+  "moderate (defaults)": {
+    "total_return_pct": 38.7,
+    "sharpe": 0.69,
+    "max_drawdown_pct": -27.3,
+    "first_half": {
+      "return_pct": 47.1,
+      "max_dd_pct": -26.4
+    },
+    "second_half": {
+      "return_pct": -5.8,
+      "max_dd_pct": -16.6
+    },
+    "fees_paid_usd": 95.79,
+    "entries": 2033,
+    "vetoed_by_risk_manager": 1817,
+    "exposure": {
+      "avg_invested_pct": 14.4,
+      "max_invested_pct": 56.6,
+      "avg_open_positions": 31.7,
+      "max_open_positions": 100,
+      "days_fully_in_cash_pct": 37.2
+    },
+    "risk_manager": {
+      "DRAWDOWN_BREAKER": 2,
+      "REARMED": 2,
+      "DAILY_LOSS_BLOCK": 1
+    },
+    "limited_by": {
+      "scaled:correlated_exposure": 86,
+      "correlated_exposure": 443,
+      "max_positions": 1104,
+      "drawdown_halt": 270
+    }
+  },
+  "conservative": {
+    "total_return_pct": 3.8,
+    "sharpe": 0.16,
+    "max_drawdown_pct": -29.4,
+    "first_half": {
+      "return_pct": 17.5,
+      "max_dd_pct": -21.5
+    },
+    "second_half": {
+      "return_pct": -11.7,
+      "max_dd_pct": -19.2
+    },
+    "fees_paid_usd": 64.27,
+    "entries": 1603,
+    "vetoed_by_risk_manager": 2732,
+    "exposure": {
+      "avg_invested_pct": 10.2,
+      "max_invested_pct": 39.6,
+      "avg_open_positions": 21.9,
+      "max_open_positions": 60,
+      "days_fully_in_cash_pct": 37.2
+    },
+    "risk_manager": {
+      "DRAWDOWN_BREAKER": 2,
+      "REARMED": 2,
+      "DAILY_LOSS_BLOCK": 1
+    },
+    "limited_by": {
+      "max_positions": 2290,
+      "correlated_exposure": 26,
+      "scaled:correlated_exposure": 17,
+      "drawdown_halt": 416
+    }
+  },
+  "only: total exposure 50%": {
+    "total_return_pct": 37.9,
+    "sharpe": 0.64,
+    "max_drawdown_pct": -31.9,
+    "first_half": {
+      "return_pct": 48.6,
+      "max_dd_pct": -31.9
+    },
+    "second_half": {
+      "return_pct": -7.3,
+      "max_dd_pct": -19.8
+    },
+    "fees_paid_usd": 109.82,
+    "entries": 2374,
+    "vetoed_by_risk_manager": 1129,
+    "exposure": {
+      "avg_invested_pct": 16.5,
+      "max_invested_pct": 60.4,
+      "avg_open_positions": 38.1,
+      "max_open_positions": 128,
+      "days_fully_in_cash_pct": 32.0
+    },
+    "risk_manager": {},
+    "limited_by": {
+      "scaled:total_exposure": 233,
+      "total_exposure": 1129
+    }
+  },
+  "only: per-coin 8%": {
+    "total_return_pct": 89.6,
+    "sharpe": 0.86,
+    "max_drawdown_pct": -40.2,
+    "first_half": {
+      "return_pct": 120.7,
+      "max_dd_pct": -36.0
+    },
+    "second_half": {
+      "return_pct": -14.2,
+      "max_dd_pct": -27.5
+    },
+    "fees_paid_usd": 187.15,
+    "entries": 2927,
+    "vetoed_by_risk_manager": 0,
+    "exposure": {
+      "avg_invested_pct": 22.2,
+      "max_invested_pct": 99.4,
+      "avg_open_positions": 49.6,
+      "max_open_positions": 211,
+      "days_fully_in_cash_pct": 32.0
+    },
+    "risk_manager": {},
+    "limited_by": {}
+  },
+  "only: per-strategy 15%": {
+    "total_return_pct": 89.6,
+    "sharpe": 0.86,
+    "max_drawdown_pct": -40.2,
+    "first_half": {
+      "return_pct": 120.7,
+      "max_dd_pct": -36.0
+    },
+    "second_half": {
+      "return_pct": -14.2,
+      "max_dd_pct": -27.5
+    },
+    "fees_paid_usd": 187.15,
+    "entries": 2927,
+    "vetoed_by_risk_manager": 0,
+    "exposure": {
+      "avg_invested_pct": 22.2,
+      "max_invested_pct": 99.4,
+      "avg_open_positions": 49.6,
+      "max_open_positions": 211,
+      "days_fully_in_cash_pct": 32.0
+    },
+    "risk_manager": {},
+    "limited_by": {}
+  },
+  "only: correlated cluster 40%": {
+    "total_return_pct": 62.8,
+    "sharpe": 0.8,
+    "max_drawdown_pct": -33.9,
+    "first_half": {
+      "return_pct": 79.3,
+      "max_dd_pct": -33.9
+    },
+    "second_half": {
+      "return_pct": -9.2,
+      "max_dd_pct": -22.0
+    },
+    "fees_paid_usd": 132.98,
+    "entries": 2476,
+    "vetoed_by_risk_manager": 1056,
+    "exposure": {
+      "avg_invested_pct": 18.0,
+      "max_invested_pct": 81.6,
+      "avg_open_positions": 40.4,
+      "max_open_positions": 176,
+      "days_fully_in_cash_pct": 32.0
+    },
+    "risk_manager": {},
+    "limited_by": {
+      "scaled:correlated_exposure": 131,
+      "correlated_exposure": 1056
+    }
+  },
+  "only: max 60 positions": {
+    "total_return_pct": 13.5,
+    "sharpe": 0.38,
+    "max_drawdown_pct": -25.0,
+    "first_half": {
+      "return_pct": 20.1,
+      "max_dd_pct": -22.5
+    },
+    "second_half": {
+      "return_pct": -5.5,
+      "max_dd_pct": -13.5
+    },
+    "fees_paid_usd": 67.16,
+    "entries": 1624,
+    "vetoed_by_risk_manager": 2680,
+    "exposure": {
+      "avg_invested_pct": 11.5,
+      "max_invested_pct": 42.4,
+      "avg_open_positions": 24.4,
+      "max_open_positions": 60,
+      "days_fully_in_cash_pct": 32.0
+    },
+    "risk_manager": {},
+    "limited_by": {
+      "max_positions": 2680
+    }
+  },
+  "only: daily loss 5%": {
+    "total_return_pct": 89.8,
+    "sharpe": 0.86,
+    "max_drawdown_pct": -40.2,
+    "first_half": {
+      "return_pct": 120.8,
+      "max_dd_pct": -36.0
+    },
+    "second_half": {
+      "return_pct": -14.1,
+      "max_dd_pct": -27.4
+    },
+    "fees_paid_usd": 186.99,
+    "entries": 2923,
+    "vetoed_by_risk_manager": 4,
+    "exposure": {
+      "avg_invested_pct": 22.1,
+      "max_invested_pct": 99.4,
+      "avg_open_positions": 49.6,
+      "max_open_positions": 211,
+      "days_fully_in_cash_pct": 32.1
+    },
+    "risk_manager": {
+      "DAILY_LOSS_BLOCK": 4
+    },
+    "limited_by": {
+      "daily_loss_block": 4
+    }
+  },
+  "only: drawdown breaker 25%": {
+    "total_return_pct": 103.9,
+    "sharpe": 0.94,
+    "max_drawdown_pct": -38.2,
+    "first_half": {
+      "return_pct": 129.7,
+      "max_dd_pct": -33.4
+    },
+    "second_half": {
+      "return_pct": -11.3,
+      "max_dd_pct": -27.3
+    },
+    "fees_paid_usd": 187.5,
+    "entries": 2818,
+    "vetoed_by_risk_manager": 120,
+    "exposure": {
+      "avg_invested_pct": 21.6,
+      "max_invested_pct": 99.4,
+      "avg_open_positions": 48.2,
+      "max_open_positions": 211,
+      "days_fully_in_cash_pct": 38.5
+    },
+    "risk_manager": {
+      "DRAWDOWN_BREAKER": 3,
+      "REARMED": 3
+    },
+    "limited_by": {
+      "drawdown_halt": 120
+    }
+  },
+  "only: drawdown breaker 20%": {
+    "total_return_pct": 120.2,
+    "sharpe": 1.03,
+    "max_drawdown_pct": -33.7,
+    "first_half": {
+      "return_pct": 134.4,
+      "max_dd_pct": -33.7
+    },
+    "second_half": {
+      "return_pct": -6.1,
+      "max_dd_pct": -22.5
+    },
+    "fees_paid_usd": 188.9,
+    "entries": 2795,
+    "vetoed_by_risk_manager": 148,
+    "exposure": {
+      "avg_invested_pct": 21.4,
+      "max_invested_pct": 99.4,
+      "avg_open_positions": 47.7,
+      "max_open_positions": 211,
+      "days_fully_in_cash_pct": 40.5
+    },
+    "risk_manager": {
+      "DRAWDOWN_BREAKER": 3,
+      "REARMED": 3
+    },
+    "limited_by": {
+      "drawdown_halt": 148
+    }
+  }
+}

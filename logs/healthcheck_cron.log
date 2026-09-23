@@ -1,0 +1,432 @@
+[2026-09-19 12:47:01] healthcheck OK: 39 accounts, 106 fills total
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note new trades since last check: arena_stochastic_cross +6
+[2026-09-19 14:47:01] healthcheck OK: 39 accounts, 119 fills total
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note new trades since last check: arena_bollinger_breakout +1, arena_bollinger_meanrev +1, arena_cci_momentum +1, arena_stochastic_cross +6, krakendemo +4
+[2026-09-19 16:47:02] healthcheck OK: 39 accounts, 144 fills total
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (11d)
+[2026-09-19 18:47:02] healthcheck OK: 39 accounts, 159 fills total
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (11d)
+  note new trades since last check: arena_bollinger_breakout +1, arena_macd_cross +1, arena_multi_signal +1, arena_stochastic_cross +12
+[2026-09-19 20:47:02] healthcheck OK: 39 accounts, 185 fills total
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (11d)
+  note new trades since last check: arena_bollinger_meanrev +1, arena_cci_momentum +1, arena_ichimoku_cloud +3, arena_stochastic_cross +10, arena_turtle_donchian +1, c4h_cci +3, c4h_ichimoku +4, c4h_multi +3
+[2026-09-19 22:47:01] healthcheck PROBLEMS: 45 accounts, 200 fills total
+  PROBLEM chal_krakenfast_1: no tick ever logged
+  PROBLEM chal_krakenichimoku_1: no tick ever logged
+  PROBLEM chal_krakenturtle_1: no tick ever logged
+  PROBLEM chal_realpaper_1: no tick ever logged
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (11d)
+[2026-09-20 00:47:01] healthcheck OK: 45 accounts, 283 fills total
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (12d)
+[2026-09-20 02:47:01] healthcheck OK: 45 accounts, 293 fills total
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (12d)
+  note new trades since last check: arena_cci_momentum +1, arena_ichimoku_cloud +1, arena_stochastic_cross +6, arena_williams_r +1, krakendemo +1
+[2026-09-20 04:47:01] healthcheck OK: 49 accounts, 336 fills total
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (12d)
+  note new trades since last check: arena_bollinger_meanrev +8, arena_cci_momentum +3, arena_ichimoku_cloud +3, arena_keltner_breakout +4, arena_rsi_meanrev +2, arena_stochastic_cross +1, arena_turtle_donchian +6, c4h_keltner +1, c4h_multi +1, c4h_turtle +1, krakendemo +3
+[2026-09-20 06:47:02] healthcheck OK: 53 accounts, 341 fills total
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (12d)
+  note new trades since last check: arena_multi_signal +1
+[2026-09-20 08:47:01] healthcheck PROBLEMS: 69 accounts, 348 fills total
+  PROBLEM chal_fxe_willr_pullback_large: no tick ever logged
+  PROBLEM chal_fxe_willr_pullback_mid: no tick ever logged
+  PROBLEM chal_gr_cci_dip_large: no tick ever logged
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (12d)
+[2026-09-20 10:47:01] healthcheck OK: 73 accounts, 351 fills total
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (12d)
+  note new trades since last check: krakendemo +1
+[2026-09-20 12:47:02] healthcheck OK: 73 accounts, 372 fills total
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (12d)
+  note new trades since last check: arena_bollinger_breakout +1, arena_ichimoku_cloud +1, arena_multi_signal +1, c4h_fxe_ema_trend_mid +12, c4h_fxe_rsi_trend_mid +2, c4h_keltner +1, c4h_keltner_f1 +1, c4h_multi_f1 +1, c4h_turtle +1
+[2026-09-20 14:47:01] healthcheck OK: 73 accounts, 374 fills total
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (12d)
+  note new trades since last check: arena_multi_signal +1, krakendemo +1
+[2026-09-20 16:47:02] healthcheck OK: 73 accounts, 399 fills total
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (12d)
+  note new trades since last check: arena_bollinger_meanrev +8, arena_williams_r +1, c4h_bbreak +1, c4h_cci +1, c4h_cci_f1 +1, c4h_keltner_f1 +1, c4h_multi +1, c4h_multi_f1 +3, c4h_turtle +1, krakendemo +7
+[2026-09-20 18:47:01] healthcheck OK: 80 accounts, 437 fills total
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (12d)
+  note new trades since last check: arena_turtle_donchian +1, arena_williams_r +8, krakendemo +1
+[2026-09-20 20:47:01] healthcheck OK: 80 accounts, 464 fills total
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (12d)
+  note new trades since last check: arena_cci_momentum +2, arena_fast_swing +2, arena_ichimoku_cloud +4, arena_multi_signal +1, c4h_cci +3, c4h_cci_f1 +4, c4h_keltner +1, c4h_keltner_f1 +1, c4h_multi_f1 +3, krakendemo +1
+[2026-09-20 22:47:01] healthcheck OK: 80 accounts, 471 fills total
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (12d)
+  note new trades since last check: arena_fast_swing +3, arena_ichimoku_cloud +2, krakendemo +2
+[2026-09-21 00:47:01] healthcheck OK: 82 accounts, 531 fills total
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (13d)
+  note new trades since last check: chal_krakenichimoku_1 +3, chal_krakenmulti_1 +10
+[2026-09-21 02:47:01] healthcheck OK: 82 accounts, 544 fills total
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (13d)
+  note new trades since last check: arena_bollinger_breakout +4, arena_fast_swing +1, arena_keltner_breakout +2, arena_rsi_meanrev +1, arena_smart_swing +1, arena_turtle_donchian +3, krakendemo +1
+[2026-09-21 04:47:01] healthcheck OK: 82 accounts, 552 fills total
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (13d)
+  note new trades since last check: arena_smart_swing +1, c4h_cci +1, c4h_cci_f1 +1, c4h_multi +2, c4h_multi_f1 +3
+[2026-09-21 06:47:01] healthcheck OK: 85 accounts, 557 fills total
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (13d)
+[2026-09-21 08:47:01] healthcheck OK: 85 accounts, 573 fills total
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (13d)
+[2026-09-21 10:47:01] healthcheck OK: 85 accounts, 591 fills total
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (13d)
+  note new trades since last check: arena_bollinger_breakout +1, arena_cci_momentum +1, arena_fast_swing +1, arena_keltner_breakout +2, arena_multi_signal +5, arena_rsi_meanrev +1, arena_turtle_donchian +4, arena_williams_r +1, krakendemo +2
+[2026-09-21 12:47:01] healthcheck OK: 85 accounts, 626 fills total
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (13d)
+  note new trades since last check: arena_smart_swing +1, c4h_bbreak +2, c4h_cci +3, c4h_cci_f1 +3, c4h_keltner +3, c4h_keltner_f1 +3, c4h_multi +6, c4h_multi_f1 +8, c4h_turtle +6
+[2026-09-21 14:47:01] healthcheck OK: 85 accounts, 627 fills total
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (13d)
+  note new trades since last check: arena_williams_r +1
+[2026-09-21 16:47:01] healthcheck OK: 85 accounts, 641 fills total
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (13d)
+  note new trades since last check: arena_multi_signal +1, c4h_bbreak +4, c4h_keltner +3, c4h_keltner_f1 +3, c4h_turtle +2, krakendemo +1
+[2026-09-21 18:47:01] healthcheck OK: 85 accounts, 646 fills total
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (13d)
+  note new trades since last check: arena_bollinger_breakout +1, arena_bollinger_meanrev +1, arena_cci_momentum +1, arena_ichimoku_cloud +1, arena_turtle_donchian +1
+[2026-09-21 20:47:01] healthcheck OK: 85 accounts, 650 fills total
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (13d)
+  note new trades since last check: arena_ichimoku_cloud +1, c4h_multi +1, c4h_multi_f1 +1, krakendemo +1
+[2026-09-21 22:47:01] healthcheck OK: 85 accounts, 653 fills total
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (13d)
+  note new trades since last check: arena_bollinger_meanrev +1, arena_ichimoku_cloud +1, krakendemo +1
+[2026-09-22 00:47:01] healthcheck OK: 85 accounts, 737 fills total
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (14d)
+  note new trades since last check: arena_ichimoku_cloud +1, bot_dca_SO5_d3_F1 +5, bot_dca_SO5_d5_F1 +5, bot_dca_d3_large12 +5, bot_dca_d3_mid12 +4, bot_dca_d3_new20 +5, bot_dca_d5_large12 +5, bot_dca_d5_mid12 +4, bot_dca_d5_new20 +5, c4h_keltner +1, c4h_keltner_f1 +1, c4h_turtle +1, chal_krakencci_1 +4, chal_krakenfast_1 +3, chal_krakenfast_2 +3, chal_krakenichimoku_1 +1, chal_krakenichimoku_2 +1, chal_krakenmulti_1 +3, chal_krakenturtle_1 +4, krakenbbreak +3, krakencci +2, krakendemo_stoch +3, krakenfast +3, krakenichimoku +1, krakenkeltner +4, krakenmulti +2, krakenslow +2, krakenturtle +3
+[2026-09-22 02:47:02] healthcheck OK: 85 accounts, 745 fills total
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (14d)
+  note new trades since last check: arena_bollinger_breakout +2, arena_ichimoku_cloud +1, arena_turtle_donchian +1, krakendemo +1, slow50_v1 +3
+[2026-09-22 04:47:02] healthcheck OK: 86 accounts, 755 fills total
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (14d)
+  note new trades since last check: arena_bollinger_breakout +4, arena_williams_r +1, c4h_ichimoku +1, c4h_turtle +1, krakendemo +3
+[2026-09-22 06:47:01] healthcheck OK: 87 accounts, 768 fills total
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (14d)
+  note new trades since last check: arena_bollinger_breakout +3, arena_bollinger_meanrev +2, arena_cci_momentum +2, arena_williams_r +2, krakendemo +4
+[2026-09-22 08:47:01] healthcheck OK: 87 accounts, 773 fills total
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (14d)
+  note new trades since last check: arena_cci_momentum +2, arena_turtle_donchian +3
+[2026-09-22 10:47:01] healthcheck OK: 87 accounts, 779 fills total
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (14d)
+  note new trades since last check: arena_bollinger_breakout +1, arena_ichimoku_cloud +2, arena_turtle_donchian +1, arena_williams_r +1, krakendemo +1
+[2026-09-22 12:47:02] healthcheck OK: 87 accounts, 794 fills total
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (14d)
+  note new trades since last check: arena_bollinger_breakout +1, arena_cci_momentum +2, arena_fast_swing +4, arena_ichimoku_cloud +5, arena_multi_signal +1, arena_turtle_donchian +1, krakendemo +1
+[2026-09-22 14:47:01] healthcheck OK: 87 accounts, 808 fills total
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (14d)
+  note new trades since last check: arena_bollinger_breakout +2, arena_bollinger_meanrev +1, arena_cci_momentum +1, arena_fast_swing +2, arena_ichimoku_cloud +2, arena_multi_signal +1, arena_turtle_donchian +1, arena_williams_r +1, krakendemo +3
+[2026-09-22 16:47:01] healthcheck OK: 87 accounts, 820 fills total
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (14d)
+  note new trades since last check: arena_ichimoku_cloud +1, arena_williams_r +1, c4h_bbreak +1, c4h_cci +1, c4h_cci_f1 +1, c4h_fxe_rsi_trend_mid +2, c4h_keltner +1, c4h_keltner_f1 +2, c4h_sma +1, c4h_sma_f1 +1
+[2026-09-22 18:47:01] healthcheck OK: 87 accounts, 824 fills total
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (14d)
+  note new trades since last check: arena_bollinger_meanrev +1, arena_ichimoku_cloud +2, arena_williams_r +1
+[2026-09-22 20:47:01] healthcheck OK: 87 accounts, 831 fills total
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (14d)
+  note new trades since last check: arena_cci_momentum +1, arena_ichimoku_cloud +1, arena_multi_signal +1, arena_smart_swing +1, arena_williams_r +2, c4h_bbreak +1
+[2026-09-22 22:47:01] healthcheck OK: 87 accounts, 835 fills total
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (14d)
+[2026-09-23 00:47:01] healthcheck OK: 87 accounts, 907 fills total
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (15d)
+  note new trades since last check: arena_bollinger_breakout +1, arena_fast_swing +1, arena_turtle_donchian +1, bot_dca_SO5_d3_F1 +5, bot_dca_SO5_d5_F1 +5, bot_dca_d3_large12 +4, bot_dca_d3_mid12 +4, bot_dca_d3_new20 +5, bot_dca_d5_large12 +4, bot_dca_d5_mid12 +4, bot_dca_d5_new20 +5, bot_dcaad_large12 +5, bot_dcaad_mid12 +4, bot_quick27_active +4, bot_quick27_f1 +5, c4h_cci_f1 +1, c4h_fxe_rsi_trend_mid +2, c4h_multi_f1 +1, chal_fxe_macd_zero_mid +1, chal_krakenfast_1 +1, chal_krakenfast_2 +1, chal_krakenichimoku_1 +1, chal_krakenichimoku_2 +1, krakendemo +1, krakendemo_stoch +2, krakenfast +1, krakenichimoku +1, krakenslow +1
+[2026-09-23 02:47:02] healthcheck OK: 87 accounts, 914 fills total
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (15d)
+  note new trades since last check: krakendemo +1, slow50_challenger_a +3, slow50_challenger_b +3
+[2026-09-23 04:47:01] healthcheck OK: 87 accounts, 917 fills total
+  note arena_macd_cross: needs_revalidation (RETIRED by user: macd_cross retired: fails at real fees (user decision 2026-09-19))
+  note arena_stochastic_cross: needs_revalidation (LIVE FAILURE: 56 paper trips, mean -0.962% net, t=-4.27)
+  note c4h_macd: needs_revalidation (OVERFIT: only 1/16 candidates survived — a lone survivor is not a robust family)
+  note c4h_rsi: needs_revalidation (OVERFIT: only 1/9 candidates survived — a lone survivor is not a robust family)
+  note krakenmacd: needs_revalidation (RETIRED by user: fails HISTORICAL at real 80bps fee tier; Monte Carlo fragile (user decision 2026-09-19))
+  note krakenrsi: needs_revalidation (fails fee gate at real 80bps fee tier (PF_in=1.15, was borderline at old 26bps assumption))
+  note fees: taker 80.0bps / maker 40.0bps (live)
+  note regime: TRENDING_UP (15d)
+  note new trades since last check: arena_multi_signal +1, arena_smart_swing +1, krakendemo +1

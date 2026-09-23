@@ -1,0 +1,36 @@
+{
+  "name": "Swing trend (daily, fee-survivable) [BTC-USD] {'fast': 30, 'slow': 80, 'stop': 0.15}",
+  "costs": {
+    "order_type": "taker",
+    "taker_fee_bps": 60,
+    "half_spread_bps": 5,
+    "slippage_bps": 3
+  },
+  "risk": {
+    "stop_loss_pct": 0.15
+  },
+  "rules": [
+    {
+      "when": {
+        "left": "sma:30",
+        "op": "cross_above",
+        "right": "sma:80"
+      },
+      "then": {
+        "action": "buy",
+        "size": "100%"
+      }
+    },
+    {
+      "when": {
+        "left": "sma:30",
+        "op": "cross_below",
+        "right": "sma:80"
+      },
+      "then": {
+        "action": "sell",
+        "size": "all"
+      }
+    }
+  ]
+}

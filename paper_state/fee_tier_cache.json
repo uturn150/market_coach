@@ -1,0 +1,9 @@
+{
+  "XXBTZUSD": {
+    "taker_bps": 80.0,
+    "maker_bps": 40.0,
+    "tier_volume_usd": 0.0,
+    "fetched_at": 1790123702,
+    "source": "live"
+  }
+}

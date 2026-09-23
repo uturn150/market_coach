@@ -1,0 +1,56 @@
+{
+  "generated": "2026-09-19 20:04:44",
+  "note": "REPORT ONLY. Nothing here enables real trading; a human decides.",
+  "not_gradable": {
+    "krakenmoon": "funnel architecture has no backtest harness in this framework"
+  },
+  "excluded_by_design": "arena_* and krakendemo* (experimental / known fee-failing)",
+  "accounts": {
+    "realpaper": {
+      "kind": "champion",
+      "stages": {
+        "HISTORICAL": {
+          "status": "PASS",
+          "detail": "net +45.8% after real costs, 229 trips, PF 1.91"
+        },
+        "OUT_OF_SAMPLE": {
+          "status": "FAIL",
+          "detail": "held-out return -5.1%, 65 trips (need >0% and >=15)"
+        },
+        "FEE_GATE": {
+          "status": "PASS",
+          "detail": "avg net trade > 0 at 80.0bps taker, 155 in-sample trips (sample_ok=True)"
+        },
+        "EDGE_GATE": {
+          "status": "PASS",
+          "detail": "held-out excess +48.9% vs hold, +29.6% vs regime-timed hold"
+        },
+        "WALK_FORWARD": {
+          "status": "PASS",
+          "detail": "beats hold 3/6 windows (median +5.4%), beats regime-hold 3/4 decided windows"
+        },
+        "MONTE_CARLO": {
+          "status": "PASS",
+          "detail": "p5 +9.1%, P(loss) 2%, stress 6/6"
+        },
+        "LIVE_PAPER_EXECUTION": {
+          "status": "PENDING",
+          "detail": "0/10 fills with real order-book execution records"
+        },
+        "LIVE_PAPER_SAMPLE": {
+          "status": "PENDING",
+          "detail": "0/30 live paper round trips"
+        },
+        "PORTFOLIO_CHECK": {
+          "status": "NOT_EVALUATED",
+          "detail": "evaluated only once every earlier stage passes"
+        }
+      },
+      "granularity": 86400,
+      "status": "NOT_ELIGIBLE",
+      "blocking": [
+        "OUT_OF_SAMPLE"
+      ]
+    }
+  }
+}

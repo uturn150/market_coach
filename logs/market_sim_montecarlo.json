@@ -1,0 +1,298 @@
+{
+ "BUY&HOLD": {
+  "green_pct": 59.3,
+  "median": 21.3,
+  "p5": -62.0,
+  "p95": 374.8,
+  "worst": -80.9,
+  "avg_dd": null
+ },
+ "krakenkeltner F0": {
+  "green_pct": 52.3,
+  "median": 1.9,
+  "p5": -28.9,
+  "p95": 120.7,
+  "worst": -41.0,
+  "avg_dd": -24.2
+ },
+ "krakenkeltner F1": {
+  "green_pct": 52.0,
+  "median": 0.6,
+  "p5": -27.5,
+  "p95": 100.2,
+  "worst": -43.3,
+  "avg_dd": -22.5
+ },
+ "krakenturtle F0": {
+  "green_pct": 50.0,
+  "median": 0.2,
+  "p5": -31.4,
+  "p95": 134.1,
+  "worst": -44.1,
+  "avg_dd": -24.6
+ },
+ "krakenbbreak F0": {
+  "green_pct": 48.7,
+  "median": -0.1,
+  "p5": -32.1,
+  "p95": 108.6,
+  "worst": -45.3,
+  "avg_dd": -25.0
+ },
+ "krakenturtle F1": {
+  "green_pct": 48.7,
+  "median": -0.2,
+  "p5": -31.2,
+  "p95": 111.5,
+  "worst": -41.8,
+  "avg_dd": -23.9
+ },
+ "krakenmulti F0": {
+  "green_pct": 48.3,
+  "median": -0.5,
+  "p5": -35.6,
+  "p95": 141.4,
+  "worst": -47.7,
+  "avg_dd": -29.0
+ },
+ "krakencci F0": {
+  "green_pct": 48.0,
+  "median": -0.8,
+  "p5": -38.6,
+  "p95": 148.7,
+  "worst": -49.6,
+  "avg_dd": -30.6
+ },
+ "krakenmulti F1": {
+  "green_pct": 46.7,
+  "median": -1.4,
+  "p5": -34.1,
+  "p95": 138.8,
+  "worst": -45.5,
+  "avg_dd": -27.1
+ },
+ "krakenbbreak F1": {
+  "green_pct": 44.7,
+  "median": -2.1,
+  "p5": -28.5,
+  "p95": 88.9,
+  "worst": -39.9,
+  "avg_dd": -22.5
+ },
+ "krakencci F1": {
+  "green_pct": 44.3,
+  "median": -3.8,
+  "p5": -36.5,
+  "p95": 113.9,
+  "worst": -48.7,
+  "avg_dd": -27.7
+ },
+ "krakenichimoku F0": {
+  "green_pct": 44.3,
+  "median": -1.9,
+  "p5": -34.6,
+  "p95": 113.4,
+  "worst": -48.5,
+  "avg_dd": -26.4
+ },
+ "ALL F1 champions": {
+  "green_pct": 44.3,
+  "median": -2.4,
+  "p5": -23.8,
+  "p95": 81.1,
+  "worst": -31.6,
+  "avg_dd": -19.3
+ },
+ "krakenfast F0": {
+  "green_pct": 44.0,
+  "median": -2.8,
+  "p5": -36.6,
+  "p95": 118.2,
+  "worst": -44.8,
+  "avg_dd": -27.0
+ },
+ "realpaper F0": {
+  "green_pct": 43.7,
+  "median": -1.9,
+  "p5": -29.4,
+  "p95": 94.5,
+  "worst": -44.6,
+  "avg_dd": -21.7
+ },
+ "krakenrsi F0": {
+  "green_pct": 43.7,
+  "median": 0.0,
+  "p5": -17.8,
+  "p95": 29.8,
+  "worst": -30.9,
+  "avg_dd": -11.1
+ },
+ "krakenichimoku F1": {
+  "green_pct": 43.7,
+  "median": -2.8,
+  "p5": -29.7,
+  "p95": 92.6,
+  "worst": -43.0,
+  "avg_dd": -22.0
+ },
+ "chal_fxe_macd_zero_mid": {
+  "green_pct": 43.7,
+  "median": -4.2,
+  "p5": -42.3,
+  "p95": 145.3,
+  "worst": -53.4,
+  "avg_dd": -31.8
+ },
+ "krakenmacd F0": {
+  "green_pct": 42.7,
+  "median": -2.8,
+  "p5": -42.0,
+  "p95": 111.5,
+  "worst": -62.2,
+  "avg_dd": -30.5
+ },
+ "krakenslow F0": {
+  "green_pct": 42.3,
+  "median": -1.7,
+  "p5": -15.8,
+  "p95": 37.5,
+  "worst": -21.6,
+  "avg_dd": -11.9
+ },
+ "krakenrsi F1": {
+  "green_pct": 42.0,
+  "median": 0.0,
+  "p5": -16.9,
+  "p95": 25.9,
+  "worst": -27.0,
+  "avg_dd": -9.3
+ },
+ "realpaper F1": {
+  "green_pct": 41.0,
+  "median": -2.2,
+  "p5": -26.0,
+  "p95": 72.9,
+  "worst": -42.5,
+  "avg_dd": -18.1
+ },
+ "krakenfast F1": {
+  "green_pct": 41.0,
+  "median": -4.0,
+  "p5": -30.7,
+  "p95": 84.8,
+  "worst": -41.0,
+  "avg_dd": -22.4
+ },
+ "krakenmacd F1": {
+  "green_pct": 41.0,
+  "median": -4.3,
+  "p5": -34.1,
+  "p95": 99.1,
+  "worst": -50.0,
+  "avg_dd": -25.8
+ },
+ "krakenslow F1": {
+  "green_pct": 40.7,
+  "median": -1.8,
+  "p5": -14.2,
+  "p95": 37.5,
+  "worst": -21.6,
+  "avg_dd": -11.2
+ },
+ "chal_fxe_bb_dip_large": {
+  "green_pct": 39.0,
+  "median": -0.6,
+  "p5": -12.3,
+  "p95": 11.3,
+  "worst": -29.6,
+  "avg_dd": -7.2
+ },
+ "chal_fxe_willr_pullback_mid": {
+  "green_pct": 36.7,
+  "median": -1.6,
+  "p5": -17.8,
+  "p95": 19.9,
+  "worst": -33.7,
+  "avg_dd": -10.5
+ },
+ "chal_fxe_willr_pullback_large": {
+  "green_pct": 36.3,
+  "median": -0.7,
+  "p5": -10.4,
+  "p95": 8.9,
+  "worst": -18.1,
+  "avg_dd": -5.1
+ },
+ "chal_gr_willr_dip_large": {
+  "green_pct": 34.3,
+  "median": -2.0,
+  "p5": -14.9,
+  "p95": 11.3,
+  "worst": -29.2,
+  "avg_dd": -8.0
+ },
+ "chal_gr_willr_dip_mid": {
+  "green_pct": 34.3,
+  "median": -2.0,
+  "p5": -14.9,
+  "p95": 11.3,
+  "worst": -29.2,
+  "avg_dd": -8.0
+ },
+ "chal_gr_cci_dip_large": {
+  "green_pct": 34.0,
+  "median": -2.8,
+  "p5": -15.4,
+  "p95": 10.5,
+  "worst": -42.3,
+  "avg_dd": -8.7
+ },
+ "chal_gr_cci_dip_mid": {
+  "green_pct": 34.0,
+  "median": -2.8,
+  "p5": -15.4,
+  "p95": 10.5,
+  "worst": -42.3,
+  "avg_dd": -8.7
+ },
+ "DIP4 (gr, large)": {
+  "green_pct": 32.0,
+  "median": -2.6,
+  "p5": -15.6,
+  "p95": 9.6,
+  "worst": -34.8,
+  "avg_dd": -8.5
+ },
+ "chal_gr_stoch_dip_large": {
+  "green_pct": 30.0,
+  "median": -3.5,
+  "p5": -18.7,
+  "p95": 11.8,
+  "worst": -30.6,
+  "avg_dd": -10.1
+ },
+ "chal_gr_stoch_dip_mid": {
+  "green_pct": 30.0,
+  "median": -3.5,
+  "p5": -18.7,
+  "p95": 11.8,
+  "worst": -30.6,
+  "avg_dd": -10.1
+ },
+ "chal_gr_bb_dip_large": {
+  "green_pct": 27.7,
+  "median": -3.9,
+  "p5": -18.1,
+  "p95": 8.3,
+  "worst": -36.9,
+  "avg_dd": -9.3
+ },
+ "chal_gr_bb_dip_mid": {
+  "green_pct": 27.7,
+  "median": -3.9,
+  "p5": -18.1,
+  "p95": 8.3,
+  "worst": -36.9,
+  "avg_dd": -9.3
+ }
+}

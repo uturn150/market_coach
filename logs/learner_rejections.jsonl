@@ -1,0 +1,35 @@
+{"t": 1789816912, "iso": "2026-09-19 11:21:52", "champion": "krakenrsi", "candidate": "period -3", "stage": "gates", "why": "fee gate", "pf_in": 1.0, "n_in": 178}
+{"t": 1789816912, "iso": "2026-09-19 11:21:52", "champion": "krakenrsi", "candidate": "period -2", "stage": "gates", "why": "fee gate", "pf_in": 1.07, "n_in": 134}
+{"t": 1789816912, "iso": "2026-09-19 11:21:52", "champion": "krakenrsi", "candidate": "period -1", "stage": "gates", "why": "fee gate", "pf_in": 1.1, "n_in": 100}
+{"t": 1789816913, "iso": "2026-09-19 11:21:53", "champion": "krakenrsi", "candidate": "period +1", "stage": "gates", "why": "fee gate", "pf_in": 0.89, "n_in": 58}
+{"t": 1789816913, "iso": "2026-09-19 11:21:53", "champion": "krakenrsi", "candidate": "period +2", "stage": "gates", "why": "fee gate", "pf_in": 1.0, "n_in": 47}
+{"t": 1789816913, "iso": "2026-09-19 11:21:53", "champion": "krakenrsi", "candidate": "period +3", "stage": "gates", "why": "fee gate", "pf_in": 1.04, "n_in": 38}
+{"t": 1789816913, "iso": "2026-09-19 11:21:53", "champion": "krakenrsi", "candidate": "thresholds x0.8", "stage": "gates", "why": "sample size", "pf_in": 3.3, "n_in": 28}
+{"t": 1789816913, "iso": "2026-09-19 11:21:53", "champion": "krakenrsi", "candidate": "thresholds x1.1", "stage": "gates", "why": "fee gate", "pf_in": 1.09, "n_in": 107}
+{"t": 1789816914, "iso": "2026-09-19 11:21:54", "champion": "krakenrsi", "candidate": "trailing_stop_pct 0.2->0.24", "stage": "gates", "why": "fee gate", "pf_in": 1.06, "n_in": 78}
+{"t": 1789816914, "iso": "2026-09-19 11:21:54", "champion": "krakenrsi", "candidate": "stop_loss_pct 0.15->0.18", "stage": "gates", "why": "fee gate", "pf_in": 1.17, "n_in": 77}
+{"t": 1789816914, "iso": "2026-09-19 11:21:54", "champion": "krakenrsi", "candidate": "thresholds x0.9", "stage": "monte_carlo", "why": "fragile bootstrap distribution", "p5": -8.1, "p_loss": 0.339}
+{"t": 1789820583, "iso": "2026-09-19 12:23:03", "champion": "krakenrsi", "candidate": "period -3", "stage": "gates", "why": "fee gate", "pf_in": 1.0, "n_in": 178}
+{"t": 1789820583, "iso": "2026-09-19 12:23:03", "champion": "krakenrsi", "candidate": "period -2", "stage": "gates", "why": "fee gate", "pf_in": 1.07, "n_in": 134}
+{"t": 1789820583, "iso": "2026-09-19 12:23:03", "champion": "krakenrsi", "candidate": "period -1", "stage": "gates", "why": "fee gate", "pf_in": 1.1, "n_in": 100}
+{"t": 1789820583, "iso": "2026-09-19 12:23:03", "champion": "krakenrsi", "candidate": "period +1", "stage": "gates", "why": "fee gate", "pf_in": 0.89, "n_in": 58}
+{"t": 1789820583, "iso": "2026-09-19 12:23:03", "champion": "krakenrsi", "candidate": "period +2", "stage": "gates", "why": "fee gate", "pf_in": 1.0, "n_in": 47}
+{"t": 1789820584, "iso": "2026-09-19 12:23:04", "champion": "krakenrsi", "candidate": "period +3", "stage": "gates", "why": "fee gate", "pf_in": 1.04, "n_in": 38}
+{"t": 1789820584, "iso": "2026-09-19 12:23:04", "champion": "krakenrsi", "candidate": "thresholds x0.8", "stage": "gates", "why": "sample size", "pf_in": 3.3, "n_in": 28}
+{"t": 1789820584, "iso": "2026-09-19 12:23:04", "champion": "krakenrsi", "candidate": "thresholds x1.1", "stage": "gates", "why": "fee gate", "pf_in": 1.09, "n_in": 107}
+{"t": 1789820585, "iso": "2026-09-19 12:23:05", "champion": "krakenrsi", "candidate": "trailing_stop_pct 0.2->0.24", "stage": "gates", "why": "fee gate", "pf_in": 1.06, "n_in": 78}
+{"t": 1789820585, "iso": "2026-09-19 12:23:05", "champion": "krakenrsi", "candidate": "stop_loss_pct 0.15->0.18", "stage": "gates", "why": "fee gate", "pf_in": 1.17, "n_in": 77}
+{"t": 1789820585, "iso": "2026-09-19 12:23:05", "champion": "krakenrsi", "candidate": "thresholds x0.9", "stage": "monte_carlo", "why": "fragile bootstrap distribution", "p5": -8.1, "p_loss": 0.339}
+{"t": 1789842182, "iso": "2026-09-19 18:23:02", "champion": "krakenrsi", "candidate": "period -3", "stage": "gates", "why": "fee gate", "pf_in": 1.0, "n_in": 178}
+{"t": 1789842182, "iso": "2026-09-19 18:23:02", "champion": "krakenrsi", "candidate": "period -2", "stage": "gates", "why": "fee gate", "pf_in": 1.07, "n_in": 134}
+{"t": 1789842183, "iso": "2026-09-19 18:23:03", "champion": "krakenrsi", "candidate": "period -1", "stage": "gates", "why": "fee gate", "pf_in": 1.1, "n_in": 100}
+{"t": 1789842183, "iso": "2026-09-19 18:23:03", "champion": "krakenrsi", "candidate": "period +1", "stage": "gates", "why": "fee gate", "pf_in": 0.89, "n_in": 58}
+{"t": 1789842183, "iso": "2026-09-19 18:23:03", "champion": "krakenrsi", "candidate": "period +2", "stage": "gates", "why": "fee gate", "pf_in": 1.0, "n_in": 47}
+{"t": 1789842183, "iso": "2026-09-19 18:23:03", "champion": "krakenrsi", "candidate": "period +3", "stage": "gates", "why": "fee gate", "pf_in": 1.04, "n_in": 38}
+{"t": 1789842183, "iso": "2026-09-19 18:23:03", "champion": "krakenrsi", "candidate": "thresholds x0.8", "stage": "gates", "why": "sample size", "pf_in": 3.3, "n_in": 28}
+{"t": 1789842184, "iso": "2026-09-19 18:23:04", "champion": "krakenrsi", "candidate": "thresholds x1.1", "stage": "gates", "why": "fee gate", "pf_in": 1.09, "n_in": 107}
+{"t": 1789842184, "iso": "2026-09-19 18:23:04", "champion": "krakenrsi", "candidate": "trailing_stop_pct 0.2->0.24", "stage": "gates", "why": "fee gate", "pf_in": 1.06, "n_in": 78}
+{"t": 1789842184, "iso": "2026-09-19 18:23:04", "champion": "krakenrsi", "candidate": "stop_loss_pct 0.15->0.18", "stage": "gates", "why": "fee gate", "pf_in": 1.17, "n_in": 77}
+{"t": 1789842185, "iso": "2026-09-19 18:23:05", "champion": "krakenrsi", "candidate": "thresholds x0.9", "stage": "monte_carlo", "why": "fragile bootstrap distribution", "p5": -8.1, "p_loss": 0.339}
+{"t": 1789881852, "iso": "2026-09-20 05:24:12", "champion": "c4h_ichimoku", "candidate": "4h F1", "stage": "monte_carlo", "why": "fragile bootstrap distribution", "p5": -2.34, "p_loss": 0.063}
+{"t": 1789881925, "iso": "2026-09-20 05:25:25", "champion": "c4h_ichimoku", "candidate": "4h F1", "stage": "monte_carlo", "why": "fragile bootstrap distribution", "p5": -2.34, "p_loss": 0.063}

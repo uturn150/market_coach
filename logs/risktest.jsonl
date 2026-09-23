@@ -1,0 +1,1 @@
+{"t": 1789765274, "iso": "2026-09-18 21:01:14", "event": "kraken_fill", "coin": "BTC-USD", "side": "sell", "price": 80000.0, "units": 0.0004, "proceeds": 31.78, "pnl_pct": -20.54, "live": true, "source": "risk_monitor", "reason": "trailing_stop"}

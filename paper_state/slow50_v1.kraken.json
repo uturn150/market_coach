@@ -1,0 +1,120 @@
+{
+  "account": "slow50_v1",
+  "strategy_path": "strategies/slow50_v1.json",
+  "granularity": 86400,
+  "start_cash": 50.0,
+  "sleeves": {
+    "BCH-USD": {
+      "cash": -0.0033333400000046254,
+      "units": 0.06185167235150403,
+      "last_px": 344.66,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 344.66,
+      "in_position": true,
+      "entry_px": 269.51629125343516,
+      "pending_why": null,
+      "pending_px": 267.15
+    },
+    "BTC-USD": {
+      "cash": -0.0033333400000046254,
+      "units": 0.00019243125424125334,
+      "last_px": 86196.7,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 86628.51263808002,
+      "in_position": true,
+      "entry_px": 86628.51263808002,
+      "pending_why": null,
+      "pending_px": 86593.8
+    },
+    "ETH-USD": {
+      "cash": -0.0033333400000046254,
+      "units": 0.0059948242292484025,
+      "last_px": 2753.25,
+      "last_bar_ts": 1790035200,
+      "pending": null,
+      "peak": 2780.737633418486,
+      "in_position": true,
+      "entry_px": 2780.737633418486,
+      "pending_why": null,
+      "pending_px": 2775.84
+    }
+  },
+  "created": 1789971953,
+  "regime_filter": true,
+  "max_drawdown": 0.3,
+  "halted": false,
+  "fills": [
+    {
+      "ts": 1789948800,
+      "coin": "BCH-USD",
+      "side": "buy",
+      "price": 267.37727306888405,
+      "notional": 16.670033340000003,
+      "units": 0.06185167235150403,
+      "reason": "trend, breakout, momentum, volume, not_overbought",
+      "exec": {
+        "source": "book",
+        "signal_price": 267.15,
+        "mid": 267.095,
+        "expected_fill": 267.31,
+        "sim_fill": 267.37727307,
+        "filled_fraction": 1.0,
+        "spread_cost_usd": 0.01329811,
+        "slippage_cost_usd": 0.00416095,
+        "fee_usd": 0.13230185,
+        "total_exec_cost_usd": 0.14976091
+      }
+    },
+    {
+      "ts": 1789948800,
+      "coin": "BTC-USD",
+      "side": "buy",
+      "price": 85940.98476,
+      "notional": 16.670033340000003,
+      "units": 0.00019243125424125334,
+      "reason": "trend, breakout, momentum, volume, not_overbought",
+      "exec": {
+        "source": "book",
+        "signal_price": 86593.8,
+        "mid": 85923.75,
+        "expected_fill": 85923.8,
+        "sim_fill": 85940.98476,
+        "filled_fraction": 1.0,
+        "spread_cost_usd": 9.62e-06,
+        "slippage_cost_usd": 0.00330688,
+        "fee_usd": 0.13230185,
+        "total_exec_cost_usd": 0.13561836
+      }
+    },
+    {
+      "ts": 1789948800,
+      "coin": "ETH-USD",
+      "side": "buy",
+      "price": 2758.668287121514,
+      "notional": 16.670033340000003,
+      "units": 0.0059948242292484025,
+      "reason": "trend, breakout, momentum, volume, not_overbought",
+      "exec": {
+        "source": "book",
+        "signal_price": 2775.84,
+        "mid": 2757.8,
+        "expected_fill": 2758.11,
+        "sim_fill": 2758.66828712,
+        "filled_fraction": 1.0,
+        "spread_cost_usd": 0.0018584,
+        "slippage_cost_usd": 0.00334683,
+        "fee_usd": 0.13230185,
+        "total_exec_cost_usd": 0.13750708
+      }
+    }
+  ],
+  "paper": true,
+  "peak_equity": 54.39998627430457,
+  "avoid_regimes": [],
+  "market_filter": "F1",
+  "fixed_sizing": true,
+  "min_order": 10.0,
+  "order_step": 10.0
+}
